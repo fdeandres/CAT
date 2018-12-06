@@ -16,3 +16,4 @@ The attack phases are distributed trough this seven steps. The scope of some of 
   7. Target Impact Execution
 
 
+![alt text](https://github.com/fdeandres/CAT---Cyber-Attack-Taxonomy/blob/master/CAT%20English%20V1.jpg)
