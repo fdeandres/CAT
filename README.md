@@ -1,6 +1,6 @@
 # CAT---Cyber-Attack-Taxonomy
 Cyber Attack Taxonomy, CAT
-#Taxonomy development driven by Mildrey Carbonell Castro and supported by Francisco Luis de Andres Perez, from S21Sec, Spain.
+#Taxonomy development by Mildrey Carbonell Castro and supported by Francisco Luis de Andres Perez, from S21Sec, Spain.
 
 This taxonomy was developed by analizybg other mature taxonomies like the Cyber Kill Chain (Lockheed Marting), or the Mitre Att@ck models, but CAT is more adapted to our own Red Team attack methodologies, where the CAT model is the core of the strategy.
 
