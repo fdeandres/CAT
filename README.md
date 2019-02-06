@@ -14,4 +14,4 @@ The attack phases are distributed trough this seven steps.
   6. Lateral Movements
   7. Target Impact Execution
 
-![alt text](https://github.com/fdeandres/CAT---Cyber-Attack-Taxonomy/blob/master/CAT V1.0 EN.jpg )
+![alt text](https://github.com/fdeandres/CAT---Cyber-Attack-Taxonomy/blob/master/CAT%20V1.0%20EN.jpg)
