@@ -1,1 +1,0 @@
-<a rel="nofollow" class="external text" name="scite-3" href="https://www.engadget.com/2013/10/23/applescript-and-automator-gain-new-features-in-os-x-mavericks/" target="_blank">Steven Sande. (2013, December 23). AppleScript and Automator gain new features in OS X Mavericks. Retrieved September 21, 2018.</a>
