@@ -1,3 +1,24 @@
+<div class="col-md-4">
+                  <div class="card">
+                     <div class="card-body">
+                        <div class="card-data"><span class="h5 card-title">ID</span>: T1191<br></div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title">Tactic</span>: Defense Evasion, Execution<br></div>
+                        <div class="card-data"><span class="h5 card-title">Platform:&nbsp;</span> Windows<br></div>
+                        <div class="card-data"><span class="h5 card-title">Permissions Required:&nbsp;</span> User<br></div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title">Data Sources:&nbsp;</span> Process monitoring, Process command-line parameters, Process use of network, Windows event logs<br></div>
+                        <div class="card-data"><span class="h5 card-title">Supports Remote:&nbsp;</span> No<br></div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title">Defense Bypassed:&nbsp;</span> Application whitelisting, Anti-virus<br></div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title">Contributors:&nbsp;</span> Ye Yint Min Thu Htut, Offensive Security Team, DBS Bank, Nik Seetharaman, Palantir<br></div>
+                        <div class="card-data"><span class="h5 card-title">Version</span>: 1.0</div>
+                      </div>
+                  </div>
+               </div>
+
 <h2>Examples</h2><table class="table table-bordered table-light mt-2"><thead><tr> <th scope="col">Name</th><th scope="col">Description</th></tr></thead><tbody class="bg-white"><tr><td><a href="https://attack.mitre.org/groups/G0080">Cobalt Group</a></td><td><p><a href="https://attack.mitre.org/groups/G0080">Cobalt Group</a> has used the command <code>cmstp.exe /s /ns C:\Users\ADMINI~W\AppData\Local\Temp\XKNqbpzl.txt</code> to bypass AppLocker and launch a malicious script.<span onclick="scrollToRef(&#39;scite-7&#39;)" id="scite-ref-7-a" class="scite-citeref-number" data-reference="Talos Cobalt Group July 2018"><sup><a href="https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html" target="_blank" data-hasqtip="6" aria-describedby="qtip-6">[7]</a></sup></span></p></td></tr><tr><td><a href="https://attack.mitre.org/groups/G0069">MuddyWater</a></td><td><p><a href="https://attack.mitre.org/groups/G0069">MuddyWater</a> has used CMSTP.exe and a malicious INF to execute its <a href="https://attack.mitre.org/software/S0223">POWERSTATS</a> payload.<span onclick="scrollToRef(&#39;scite-8&#39;)" id="scite-ref-8-a" class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018"><sup><a href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank" data-hasqtip="7" aria-describedby="qtip-7">[8]</a></sup></span></p></td>
 <h2>Mitigation</h2>
             <p>CMSTP.exe may not be necessary within a given environment (unless using it for VPN connection installation). Consider using application whitelisting configured to block execution of CMSTP.exe if it is not required for a given system or network to prevent potential misuse by adversaries. <span id="scite-ref-3-a" class="scite-citeref-number" data-reference="MSitPros CMSTP Aug 2017"><sup><a href="https://msitpros.com/?p=3960" target="_blank" data-hasqtip="2" aria-describedby="qtip-2">[3]</a></sup></span></p>
