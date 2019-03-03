@@ -1,0 +1,1 @@
+Target selection consists of an iterative process in which an adversary determines a target by first beginning at the strategic level and then narrowing down operationally and tactically until a specific target is chosen.  A target may be defined as an entity or object that performs a function considered for possible engagement or other action.
