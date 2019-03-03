@@ -1,0 +1,1 @@
+Technical information gathering consists of the process of identifying critical technical elements of intelligence an adversary will need about a target in order to best attack.  Technical intelligence gathering includes, but is not limited to, understanding the target's network architecture, IP space, network services, email format, and security procedures.
