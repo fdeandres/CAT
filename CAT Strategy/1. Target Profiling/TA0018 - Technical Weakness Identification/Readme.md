@@ -1,0 +1,1 @@
+Technical weakness identification consists of identifying and analyzing weaknesses and vulnerabilities collected during the intelligence gathering phases to determine best approach based on technical complexity and adversary priorities (e.g., expediency, stealthiness).
