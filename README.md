@@ -10,7 +10,7 @@ The attack phases are distributed trough this seven steps.
   2. Compromise
   3. Infiltration
   4. Persistence
-  5. Internal Recognizing
+  5. Internal Reconnaissance
   6. Lateral Movements
   7. Target Impact Execution
 
