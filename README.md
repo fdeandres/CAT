@@ -2,8 +2,8 @@
 Cyber Attack Taxonomy, CAT
 #Team:
 
-  Mildrey Carbonell Castro
-  Francisco Luis de Andres Perez
+  Mildrey Carbonell Castro;
+  Francisco Luis de Andres Perez;
   Francisco Jimenez del Castillo
 
 This taxonomy was developed by the strong study of many other mature taxonomies and cyber attack analisis like the Cyber Kill Chain (Lockheed Marting), Diamond model, or the Mitre Att@ck. 
