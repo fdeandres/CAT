@@ -1393,19 +1393,6 @@
                </p>
               </td>
              </tr>
-            </tbody>
-           </table>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </body>
-</html>
 <tr>
  <td>
   <a href="/groups/G0050">
