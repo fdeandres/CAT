@@ -1,6 +1,10 @@
 # CAT---Cyber-Attack-Taxonomy
 Cyber Attack Taxonomy, CAT
-#Taxonomy development by Mildrey Carbonell Castro and Francisco Luis de Andres Perez.
+#Team:
+
+  Mildrey Carbonell Castro
+  Francisco Luis de Andres Perez
+  Francisco Jimenez del Castillo
 
 This taxonomy was developed by the strong study of many other mature taxonomies and cyber attack analisis like the Cyber Kill Chain (Lockheed Marting), Diamond model, or the Mitre Att@ck. 
 CAT is defined as the main strategy where Tactics, Technics and procedures are allocated.
