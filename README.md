@@ -1,10 +1,14 @@
-# CAT---Cyber-Attack-Taxonomy
-Cyber Attack Taxonomy, CAT
+# CAT---Itelligence-Led CyberAttack Methodology
+
 #Team:
 
   Mildrey Carbonell Castro;
   Francisco Luis de Andres Perez;
-  Francisco Jimenez del Castillo
+  Francisco Jimenez del Castillo;
+  Aaron Flecha Menéndez
+
+# CAT---Cyber-Attack-Taxonomy
+Cyber Attack Taxonomy, CAT
 
 This taxonomy was developed by the strong study of many other mature taxonomies and cyber attack analisis like the Cyber Kill Chain (Lockheed Marting), Diamond model, or the Mitre Att@ck. 
 CAT is defined as the main strategy where Tactics, Technics and procedures are allocated.
