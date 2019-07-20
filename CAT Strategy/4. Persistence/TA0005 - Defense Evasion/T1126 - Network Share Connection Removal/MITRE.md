@@ -63,6 +63,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Established network share connection to a remote system. Level of access depends on permissions of the account used.
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, User
@@ -96,6 +104,10 @@
       Host forensic analysis
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
