@@ -116,6 +116,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -150,9 +154,13 @@
       <span class="h5 card-title">
        Defense Bypassed:
       </span>
-      Application whitelisting
+      Application whitelisting, Digital Certificate Validation
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -174,7 +182,7 @@
       <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
@@ -195,6 +203,35 @@
    </tr>
   </thead>
   <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      has used mshta.exe for code execution.
+      <span class="scite-citeref-number" data-reference="Cybereason Oceanlotus May 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
    <tr>
     <td>
      <a href="https://attack.mitre.org/groups/G0046">
@@ -229,10 +266,10 @@
        Koadic
       </a>
       can use MSHTA to serve additional payloads.
-      <span class="scite-citeref-number" data-reference="Github Koadic" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Github Koadic" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://github.com/zerosum0x0/koadic" target="_blank">
-         [9]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://github.com/zerosum0x0/koadic" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -250,15 +287,22 @@
       <a href="https://attack.mitre.org/groups/G0069">
        MuddyWater
       </a>
-      has used Mshta.exe to execute its
+      has used mshta.exe to execute its
       <a href="https://attack.mitre.org/software/S0223">
        POWERSTATS
       </a>
-      payload.
-      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      payload and to pass a PowerShell one-liner for execution.
+      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Securelist MuddyWater Oct 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://securelist.com/muddywater/88059/" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -277,10 +321,10 @@
        NanHaiShu
       </a>
       uses mshta.exe to load its program and files.
-      <span class="scite-citeref-number" data-reference="fsecure NanHaiShu July 2016" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="fsecure NanHaiShu July 2016" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf" target="_blank">
-         [11]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -299,10 +343,32 @@
        POWERSTATS
       </a>
       can use Mshta.exe to execute additional payloads on compromised hosts.
-      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0341">
+      Xbash
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0341">
+       Xbash
+      </a>
+      can use mshta for executing scripts.
+      <span class="scite-citeref-number" data-reference="Unit42 Xbash Sept 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+       <sup>
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -315,7 +381,7 @@
   Mitigation
  </h2>
  <p>
-  Mshta.exe may not be necessary within a given environment since its functionality is tied to older versions of Internet Explorer which have reached end of life. Use application whitelisting configured to block execution of mshta.exe if it is not required for a given system or network to prevent potential misuse by adversaries.
+  Mshta.exe may not be necessary within a given environment since its functionality is tied to older versions of Internet Explorer that have reached end of life. Use application whitelisting configured to block execution of mshta.exe if it is not required for a given system or network to prevent potential misuse by adversaries.
  </p>
  <h2 class="pt-3" id="detection">
   Detection
@@ -384,10 +450,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="7.5">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
@@ -400,15 +462,19 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       [ Smith, C. (2017, July 14). TheList.txt. Retrieved October 27, 2017.
+       Smith, C. (2017, July 14). TheList.txt. Retrieved October 27, 2017.
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="9.5">
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/zerosum0x0/koadic" name="scite-9" rel="nofollow" target="_blank">
-        Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.
+       <a class="external text" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" name="scite-9" rel="nofollow" target="_blank">
+        Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -416,8 +482,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-10" rel="nofollow" target="_blank">
-        Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-10" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -425,8 +491,44 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf" name="scite-11" rel="nofollow" target="_blank">
+       <a class="external text" href="https://github.com/zerosum0x0/koadic" name="scite-11" rel="nofollow" target="_blank">
+        Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-12" rel="nofollow" target="_blank">
+        Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-13">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securelist.com/muddywater/88059/" name="scite-13" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-14">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf" name="scite-14" rel="nofollow" target="_blank">
         F-Secure Labs. (2016, July). NANHAISHU RATing the South China Sea. Retrieved July 6, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-15">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" name="scite-15" rel="nofollow" target="_blank">
+        Xiao, C. (2018, September 17). Xbash Combines Botnet, Ransomware, Coinmining in Worm that Targets Linux and Windows. Retrieved November 14, 2018.
        </a>
       </span>
      </span>
