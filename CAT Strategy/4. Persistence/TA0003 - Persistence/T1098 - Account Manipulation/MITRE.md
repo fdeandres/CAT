@@ -41,6 +41,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator
@@ -58,6 +62,10 @@
       Authentication logs, API monitoring, Windows event logs, Packet capture
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -266,7 +274,7 @@
       is used to patch an enterprise domain controller authentication process with a backdoor password. It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.
       <span class="scite-citeref-number" data-reference="Dell Skeleton" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://www.secureworks.com/cyber-threat-intelligence/threats/skeleton-key-malware-analysis/" target="_blank">
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.secureworks.com/research/skeleton-key-malware-analysis" target="_blank">
          [9]
         </a>
        </sup>
@@ -406,8 +414,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.secureworks.com/cyber-threat-intelligence/threats/skeleton-key-malware-analysis/" name="scite-9" rel="nofollow" target="_blank">
-        Dell SecureWorks. (2015, January 12). Skeleton Key Malware Analysis. Retrieved February 2, 2015.
+       <a class="external text" href="https://www.secureworks.com/research/skeleton-key-malware-analysis" name="scite-9" rel="nofollow" target="_blank">
+        Dell SecureWorks. (2015, January 12). Skeleton Key Malware Analysis. Retrieved April 8, 2019.
        </a>
       </span>
      </span>
