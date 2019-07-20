@@ -115,6 +115,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator
@@ -132,6 +136,10 @@
       File monitoring, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -210,6 +218,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0369">
+      CoinTicker
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0369">
+       CoinTicker
+      </a>
+      creates user launch agents named .espl.plist and com.apple.[random string].plist to establish persistence.
+      <span class="scite-citeref-number" data-reference="CoinTicker 2019" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-cryptocurrency-ticker-app-installs-backdoors/" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0235">
       CrossRAT
      </a>
@@ -235,10 +265,10 @@
        Dok
       </a>
       persists via a Launch Agent.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -257,10 +287,10 @@
        FruitFly
       </a>
       persists via a Launch Agent.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -279,10 +309,10 @@
        Keydnap
       </a>
       uses a Launch Agent to persist.
-      <span class="scite-citeref-number" data-reference="synack 2016 review" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="synack 2016 review" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.synack.com/2017/01/01/mac-malware-2016/" target="_blank">
-         [11]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.synack.com/2017/01/01/mac-malware-2016/" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -332,10 +362,36 @@
        MacSpy
       </a>
       persists via a Launch Agent.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0352">
+      OSX_OCEANLOTUS.D
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0352">
+       OSX_OCEANLOTUS.D
+      </a>
+      can create a persistence file in the folder
+      <code>
+       /Library/LaunchAgents
+      </code>
+      .
+      <span class="scite-citeref-number" data-reference="TrendMicro MacOS April 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -354,10 +410,10 @@
        Proton
       </a>
       persists via a Launch Agent.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -438,10 +494,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="7.5">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
@@ -451,6 +503,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="8.5">
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
@@ -472,8 +528,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://objective-see.com/blog/blog_0x25.html" name="scite-10" rel="nofollow" target="_blank">
-        Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.
+       <a class="external text" href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-cryptocurrency-ticker-app-installs-backdoors/" name="scite-10" rel="nofollow" target="_blank">
+        Thomas Reed. (2018, October 29). Mac cryptocurrency ticker app installs backdoors. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -481,8 +537,26 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.synack.com/2017/01/01/mac-malware-2016/" name="scite-11" rel="nofollow" target="_blank">
+       <a class="external text" href="https://objective-see.com/blog/blog_0x25.html" name="scite-11" rel="nofollow" target="_blank">
+        Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.synack.com/2017/01/01/mac-malware-2016/" name="scite-12" rel="nofollow" target="_blank">
         Patrick Wardle. (2017, January 1). Mac Malware of 2016. Retrieved September 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-13">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" name="scite-13" rel="nofollow" target="_blank">
+        Horejsi, J. (2018, April 04). New MacOS Backdoor Linked to OceanLotus Found. Retrieved November 13, 2018.
        </a>
       </span>
      </span>
