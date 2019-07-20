@@ -86,6 +86,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator
@@ -134,6 +138,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Version
       </span>
       : 1.0
@@ -142,6 +150,49 @@
    </div>
   </div>
  </div>
+ <h2 class="pt-3" id="examples">
+  Examples
+ </h2>
+ <table class="table table-bordered table-light mt-2">
+  <thead>
+   <tr>
+    <th scope="col">
+     Name
+    </th>
+    <th scope="col">
+     Description
+    </th>
+   </tr>
+  </thead>
+  <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0352">
+      OSX_OCEANLOTUS.D
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0352">
+       OSX_OCEANLOTUS.D
+      </a>
+      can create a persistence file in the folder
+      <code>
+       /Library/LaunchDaemons
+      </code>
+      .
+      <span class="scite-citeref-number" data-reference="TrendMicro MacOS April 2018" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
  <h2 class="pt-3" id="mitigation">
   Mitigation
  </h2>
@@ -178,10 +229,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="3.0">
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
@@ -191,11 +238,24 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="4.5">
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
        <a class="external text" href="https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/unit42-wirelurker.pdf" name="scite-4" rel="nofollow" target="_blank">
         Claud Xiao. (n.d.). WireLurker: A New Era in iOS and OS X Malware. Retrieved July 10, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-5">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" name="scite-5" rel="nofollow" target="_blank">
+        Horejsi, J. (2018, April 04). New MacOS Backdoor Linked to OceanLotus Found. Retrieved November 13, 2018.
        </a>
       </span>
      </span>
