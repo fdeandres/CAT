@@ -91,6 +91,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -108,6 +112,10 @@
       File monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -164,6 +172,76 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0377">
+      Ebury
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0377">
+       Ebury
+      </a>
+      has intercepted unencrypted private keys as well as private key pass-phrases.
+      <span class="scite-citeref-number" data-reference="ESET Ebury Feb 2014" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      can use modules like
+      <code>
+       Invoke-SessionGopher
+      </code>
+      to extract private key and session information.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0283">
+      jRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0283">
+       jRAT
+      </a>
+      can steal keys for VPNs and cryptocurrency wallets.
+      <span class="scite-citeref-number" data-reference="Kaspersky Adwind Feb 2016" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0002">
       Mimikatz
      </a>
@@ -178,10 +256,10 @@
        CRYPTO::Extract
       </code>
       module can extract keys by interacting with Windows cryptographic application programming interface (API) functions.
-      <span class="scite-citeref-number" data-reference="Adsecurity Mimikatz Guide" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Adsecurity Mimikatz Guide" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://adsecurity.org/?page_id=1821" target="_blank">
-         [4]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://adsecurity.org/?page_id=1821" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -230,10 +308,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="3.0">
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
@@ -246,7 +320,38 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://adsecurity.org/?page_id=1821" name="scite-4" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/" name="scite-4" rel="nofollow" target="_blank">
+        M.Léveillé, M.. (2014, February 21). An In-depth Analysis of Linux/Ebury. Retrieved April 19, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="5.5">
+    <li>
+     <span class="scite-citation" id="scite-5">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-5" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-6">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" name="scite-6" rel="nofollow" target="_blank">
+        Kamluk, V. &amp; Gostev, A. (2016, February). Adwind - A Cross-Platform RAT. Retrieved April 23, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-7">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://adsecurity.org/?page_id=1821" name="scite-7" rel="nofollow" target="_blank">
         Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz &amp; Command Reference. Retrieved December 23, 2015.
        </a>
       </span>
