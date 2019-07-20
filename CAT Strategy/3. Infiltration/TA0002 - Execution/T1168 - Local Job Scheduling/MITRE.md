@@ -155,6 +155,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, User, root
@@ -172,6 +176,10 @@
       File monitoring, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -228,6 +236,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0343">
+      Exaramel
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0343">
+       Exaramel
+      </a>
+      uses crontab for persistence.
+      <span class="scite-citeref-number" data-reference="ESET TeleBots Oct 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.welivesecurity.com/2018/10/11/new-telebots-backdoor-linking-industroyer-notpetya/" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0163">
       Janicab
      </a>
@@ -242,6 +272,50 @@
        <sup>
         <a aria-describedby="qtip-3" data-hasqtip="3" href="http://www.thesafemac.com/new-signed-malware-called-janicab/" target="_blank">
          [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0374">
+      SpeakUp
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0374">
+       SpeakUp
+      </a>
+      uses cron tasks to ensure persistence.
+      <span class="scite-citeref-number" data-reference="CheckPoint SpeakUp Feb 2019" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://research.checkpoint.com/speakup-a-new-undetected-backdoor-linux-trojan/" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0341">
+      Xbash
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0341">
+       Xbash
+      </a>
+      can create a cronjob for persistence if it determines it is on a Linux system.
+      <span class="scite-citeref-number" data-reference="Unit42 Xbash Sept 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -304,10 +378,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="5.5">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
@@ -317,6 +387,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -331,6 +405,33 @@
       <span class="scite-citation-text">
        <a class="external text" href="https://blog.avast.com/2015/01/06/linux-ddos-trojan-hiding-itself-with-an-embedded-rootkit/" name="scite-7" rel="nofollow" target="_blank">
         Threat Intelligence Team. (2015, January 6). Linux DDoS Trojan hiding itself with an embedded rootkit. Retrieved January 8, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-8">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/2018/10/11/new-telebots-backdoor-linking-industroyer-notpetya/" name="scite-8" rel="nofollow" target="_blank">
+        Cherepanov, A., Lipovsky, R. (2018, October 11). New TeleBots backdoor: First evidence linking Industroyer to NotPetya. Retrieved November 27, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-9">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://research.checkpoint.com/speakup-a-new-undetected-backdoor-linux-trojan/" name="scite-9" rel="nofollow" target="_blank">
+        Check Point Research. (2019, February 4). SpeakUp: A New Undetected Backdoor Linux Trojan. Retrieved April 17, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" name="scite-10" rel="nofollow" target="_blank">
+        Xiao, C. (2018, September 17). Xbash Combines Botnet, Ransomware, Coinmining in Worm that Targets Linux and Windows. Retrieved November 14, 2018.
        </a>
       </span>
      </span>
