@@ -47,6 +47,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM
@@ -72,6 +76,10 @@
       Yes
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -174,7 +182,7 @@
  <p>
   Grant access to application deployment systems only to a limited number of authorized administrators. Ensure proper system and access isolation for critical network systems through use of firewalls, account privilege separation, group policy, and multifactor authentication. Verify that account credentials that may be used to access deployment systems are unique and not used throughout the enterprise network. Patch deployment systems regularly to prevent potential remote access through
   <a href="https://attack.mitre.org/techniques/T1068">
-   Exploitation of Vulnerability
+   Exploitation for Privilege Escalation
   </a>
   .
  </p>
