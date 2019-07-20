@@ -71,6 +71,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Smart card Proxy: Use of smart cards for single or multifactor authentication to access to network resources. Attached smart card reader with card inserted; Out-of-band one-time code: Access to the device, service, or communications to intercept the one-time code; Hardware token: Access to the seed and algorithm of generating one-time codes.
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -88,6 +96,10 @@
       API monitoring, Process monitoring, Kernel drivers
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
