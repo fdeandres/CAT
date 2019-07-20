@@ -92,6 +92,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator
@@ -136,6 +140,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Version
       </span>
       : 1.0
@@ -144,6 +152,45 @@
    </div>
   </div>
  </div>
+ <h2 class="pt-3" id="examples">
+  Examples
+ </h2>
+ <table class="table table-bordered table-light mt-2">
+  <thead>
+   <tr>
+    <th scope="col">
+     Name
+    </th>
+    <th scope="col">
+     Description
+    </th>
+   </tr>
+  </thead>
+  <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0369">
+      CoinTicker
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0369">
+       CoinTicker
+      </a>
+      downloads the EggShell mach-o binary using curl, which does not set the quarantine flag.
+      <span class="scite-citeref-number" data-reference="CoinTicker 2019" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-cryptocurrency-ticker-app-installs-backdoors/" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
  <h2 class="pt-3" id="mitigation">
   Mitigation
  </h2>
@@ -184,10 +231,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="3.0">
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
@@ -197,11 +240,24 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="4.5">
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
        <a class="external text" href="https://blog.malwarebytes.com/cybercrime/2015/10/bypassing-apples-gatekeeper/" name="scite-4" rel="nofollow" target="_blank">
         Thomas Reed. (2016, March 31). Bypassing Apple's Gatekeeper. Retrieved July 5, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-5">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-cryptocurrency-ticker-app-installs-backdoors/" name="scite-5" rel="nofollow" target="_blank">
+        Thomas Reed. (2018, October 29). Mac cryptocurrency ticker app installs backdoors. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
