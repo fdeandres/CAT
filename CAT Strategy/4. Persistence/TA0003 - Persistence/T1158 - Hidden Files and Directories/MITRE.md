@@ -101,6 +101,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -149,6 +153,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Version
       </span>
       : 1.0
@@ -180,15 +188,43 @@
     </td>
     <td>
      <p>
-      An
       <a href="https://attack.mitre.org/groups/G0007">
        APT28
       </a>
-      loader Trojan saves its payload with hidden file attributes.
-      <span class="scite-citeref-number" data-reference="Unit 42 Playbook Dec 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      has saved files with hidden file attributes.
+      <span class="scite-citeref-number" data-reference="Talos Seduploader Oct 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://pan-unit42.github.io/playbook_viewer/" target="_blank">
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" target="_blank">
          [4]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Talos Seduploader Oct 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      's macOS backdoor hides the clientID file via a chflags function.
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus macOS April 2019" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
@@ -207,17 +243,39 @@
        Calisto
       </a>
       uses a hidden directory named .calisto to store data from the victim’s machine before exfiltration.
-      <span class="scite-citeref-number" data-reference="Securelist Calisto July 2018" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="Securelist Calisto July 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://securelist.com/calisto-trojan-for-macos/86543/" target="_blank">
-         [5]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://securelist.com/calisto-trojan-for-macos/86543/" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Symantec Calisto July 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Symantec Calisto July 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.symantec.com/security-center/writeup/2018-073014-2512-99?om_rssid=sr-latestthreats30days" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.symantec.com/security-center/writeup/2018-073014-2512-99?om_rssid=sr-latestthreats30days" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0369">
+      CoinTicker
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0369">
+       CoinTicker
+      </a>
+      downloads the following hidden files to evade detection and maintain persistence: /private/tmp/.info.enc, /private/tmp/.info.py, /private/tmp/.server.sh, ~/Library/LaunchAgents/.espl.plist, ~/Library/Containers/.[random string]/[random string].
+      <span class="scite-citeref-number" data-reference="CoinTicker 2019" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-cryptocurrency-ticker-app-installs-backdoors/" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -236,10 +294,10 @@
        FruitFly
       </a>
       saves itself with a leading "." to make it a hidden file.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -258,10 +316,10 @@
        iKitten
       </a>
       saves itself with a leading "." so that it's hidden from users by default.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -308,10 +366,10 @@
        Lazarus Group
       </a>
       VBA Macro sets its file attributes to System and Hidden.
-      <span class="scite-citeref-number" data-reference="McAfee Lazarus Resurfaces Feb 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="McAfee Lazarus Resurfaces Feb 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -333,10 +391,106 @@
       <code>
        ~/Library/.DS_Stores/
       </code>
-      <span class="scite-citeref-number" data-reference="alientvault macspy" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="alientvault macspy" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service" target="_blank">
-         [9]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0339">
+      Micropsia
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0339">
+       Micropsia
+      </a>
+      creates a new hidden directory to store all components' outputs in a dedicated sub-folder for each.
+      <span class="scite-citeref-number" data-reference="Radware Micropsia July 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+       <sup>
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://blog.radware.com/security/2018/07/micropsia-malware/" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0352">
+      OSX_OCEANLOTUS.D
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0352">
+       OSX_OCEANLOTUS.D
+      </a>
+      sets the main loader file’s attributes to hidden.
+      <span class="scite-citeref-number" data-reference="TrendMicro MacOS April 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" target="_blank">
+         [13]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0081">
+      Tropic Trooper
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0081">
+       Tropic Trooper
+      </a>
+      has created a hidden directory under
+      <code>
+       C:\ProgramData\Apple\Updates\
+      </code>
+      .
+      <span class="scite-citeref-number" data-reference="TrendMicro Tropic Trooper Mar 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+       <sup>
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/" target="_blank">
+         [14]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      uses
+      <code>
+       attrib +h
+      </code>
+      to make some of its files hidden.
+      <span class="scite-citeref-number" data-reference="LogRhythm WannaCry" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+       <sup>
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -393,8 +547,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://pan-unit42.github.io/playbook_viewer/" name="scite-4" rel="nofollow" target="_blank">
-        Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.
+       <a class="external text" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" name="scite-4" rel="nofollow" target="_blank">
+        Mercer, W., et al. (2017, October 22). "Cyber Conflict" Decoy Document Used in Real Cyber Conflict. Retrieved November 2, 2018.
        </a>
       </span>
      </span>
@@ -402,21 +556,17 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/calisto-trojan-for-macos/86543/" name="scite-5" rel="nofollow" target="_blank">
-        Kuzin, M., Zelensky S. (2018, July 20). Calisto Trojan for macOS. Retrieved September 7, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" name="scite-5" rel="nofollow" target="_blank">
+        Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="6.5">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security-center/writeup/2018-073014-2512-99?om_rssid=sr-latestthreats30days" name="scite-6" rel="nofollow" target="_blank">
-        Pantig, J. (2018, July 30). OSX.Calisto. Retrieved September 7, 2018.
+       <a class="external text" href="https://securelist.com/calisto-trojan-for-macos/86543/" name="scite-6" rel="nofollow" target="_blank">
+        Kuzin, M., Zelensky S. (2018, July 20). Calisto Trojan for macOS. Retrieved September 7, 2018.
        </a>
       </span>
      </span>
@@ -424,8 +574,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://objective-see.com/blog/blog_0x25.html" name="scite-7" rel="nofollow" target="_blank">
-        Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.
+       <a class="external text" href="https://www.symantec.com/security-center/writeup/2018-073014-2512-99?om_rssid=sr-latestthreats30days" name="scite-7" rel="nofollow" target="_blank">
+        Pantig, J. (2018, July 30). OSX.Calisto. Retrieved September 7, 2018.
        </a>
       </span>
      </span>
@@ -433,17 +583,75 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" name="scite-8" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-cryptocurrency-ticker-app-installs-backdoors/" name="scite-8" rel="nofollow" target="_blank">
+        Thomas Reed. (2018, October 29). Mac cryptocurrency ticker app installs backdoors. Retrieved April 23, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="9.5">
+    <li>
+     <span class="scite-citation" id="scite-9">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://objective-see.com/blog/blog_0x25.html" name="scite-9" rel="nofollow" target="_blank">
+        Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" name="scite-10" rel="nofollow" target="_blank">
         Sherstobitoff, R. (2018, February 12). Lazarus Resurfaces, Targets Global Banks and Bitcoin Users. Retrieved February 19, 2018.
        </a>
       </span>
      </span>
     </li>
     <li>
-     <span class="scite-citation" id="scite-9">
+     <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service" name="scite-9" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.alienvault.com/blogs/labs-research/macspy-os-x-rat-as-a-service" name="scite-11" rel="nofollow" target="_blank">
         PETER EWANE. (2017, June 9). MacSpy: OS X RAT as a Service. Retrieved September 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.radware.com/security/2018/07/micropsia-malware/" name="scite-12" rel="nofollow" target="_blank">
+        Tsarfaty, Y. (2018, July 25). Micropsia Malware. Retrieved November 13, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-13">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" name="scite-13" rel="nofollow" target="_blank">
+        Horejsi, J. (2018, April 04). New MacOS Backdoor Linked to OceanLotus Found. Retrieved November 13, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-14">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/" name="scite-14" rel="nofollow" target="_blank">
+        Horejsi, J., et al. (2018, March 14). Tropic Trooper’s New Strategy. Retrieved November 9, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-15">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/" name="scite-15" rel="nofollow" target="_blank">
+        Noerenberg, E., Costis, A., and Quist, N. (2017, May 16). A Technical Analysis of WannaCry Ransomware. Retrieved March 25, 2019.
        </a>
       </span>
      </span>
