@@ -5,7 +5,7 @@
  <div class="row">
   <div class="col-md-8 description-body">
    <p>
-    A drive-by compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is targeted for exploitation. This can happen in several ways, but there are a few main components:
+    A drive-by compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is targeted for exploitation.
    </p>
    <p>
     Multiple ways of delivering exploit code to a browser exist, including:
@@ -99,6 +99,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -116,6 +120,10 @@
       Packet capture, Network device logs, Process use of network, Web proxy, Network intrusion detection system, SSL/TLS inspection
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -241,6 +249,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0082">
+      APT38
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0082">
+       APT38
+      </a>
+      has conducted watering holes schemes to gain initial access to victims.
+      <span class="scite-citeref-number" data-reference="FireEye APT38 Oct 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://content.fireeye.com/apt/rpt-apt38" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0060">
       BRONZE BUTLER
      </a>
@@ -251,10 +281,10 @@
        BRONZE BUTLER
       </a>
       compromised three Japanese websites using a Flash exploit to perform watering hole attacks.
-      <span class="scite-citeref-number" data-reference="Symantec Tick Apr 2016" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Symantec Tick Apr 2016" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -273,10 +303,32 @@
        Dark Caracal
       </a>
       leveraged a watering hole to serve up malicious code.
-      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0012">
+      Darkhotel
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0012">
+       Darkhotel
+      </a>
+      used embedded iframes on hotel login portals to redirect selected victims to download malware.
+      <span class="scite-citeref-number" data-reference="Kaspersky Darkhotel" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -295,10 +347,10 @@
        Dragonfly 2.0
       </a>
       compromised legitimate organizations' websites to create watering holes to compromise victims.
-      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -317,24 +369,24 @@
        Elderwood
       </a>
       has delivered zero-day exploits and malware to victims by injecting malicious code into specific public Web pages visited by targets within a particular sector.
-      <span class="scite-citeref-number" data-reference="Symantec Elderwood Sept 2012" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Symantec Elderwood Sept 2012" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" target="_blank">
-         [9]
-        </a>
-       </sup>
-      </span>
-      <span class="scite-citeref-number" data-reference="CSM Elderwood Sept 2012" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
-       <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China" target="_blank">
-         [10]
-        </a>
-       </sup>
-      </span>
-      <span class="scite-citeref-number" data-reference="Security Affairs Elderwood Sept 2012" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
-       <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html" target="_blank">
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" target="_blank">
          [11]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="CSM Elderwood Sept 2012" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+       <sup>
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Security Affairs Elderwood Sept 2012" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -379,11 +431,9 @@
        RATANKBA
       </a>
       to victims via a compromised legitimate website.
-      <span class="scite-citeref-number" data-reference="RATANKBA" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="RATANKBA" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/" target="_blank">
-         [12]
-        </a>
+        [14]
        </sup>
       </span>
      </p>
@@ -401,10 +451,10 @@
        Leafminer
       </a>
       has infected victims using watering holes.
-      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -423,17 +473,17 @@
        Patchwork
       </a>
       has used watering holes to deliver files with exploits to initial victims.
-      <span class="scite-citeref-number" data-reference="Symantec Patchwork" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="Symantec Patchwork" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries" target="_blank">
-         [14]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Volexity Patchwork June 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="Volexity Patchwork June 2018" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" target="_blank">
-         [15]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -452,13 +502,6 @@
        PLATINUM
       </a>
       has sometimes used drive-by attacks against vulnerable browser plugins.
-      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
-       <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
-         [16]
-        </a>
-       </sup>
-      </span>
      </p>
     </td>
    </tr>
@@ -496,17 +539,17 @@
        Threat Group-3390
       </a>
       has has extensively used strategic Web compromises to target victims.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [17]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Securelist LuckyMouse June 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Securelist LuckyMouse June 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" target="_blank">
-         [18]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -526,45 +569,45 @@
  </p>
  <p>
   Browser sandboxes can be used to mitigate some of the impact of exploitation, but sandbox escapes may still exist.
-  <span class="scite-citeref-number" data-reference="Windows Blogs Microsoft Edge Sandbox" id="scite-ref-19-a">
+  <span class="scite-citeref-number" data-reference="Windows Blogs Microsoft Edge Sandbox" id="scite-ref-20-a">
    <sup>
-    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://blogs.windows.com/msedgedev/2017/03/23/strengthening-microsoft-edge-sandbox/" target="_blank">
-     [19]
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://blogs.windows.com/msedgedev/2017/03/23/strengthening-microsoft-edge-sandbox/" target="_blank">
+     [20]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Ars Technica Pwn2Own 2017 VM Escape" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="Ars Technica Pwn2Own 2017 VM Escape" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://arstechnica.com/information-technology/2017/03/hack-that-escapes-vm-by-exploiting-edge-browser-fetches-105000-at-pwn2own/" target="_blank">
-     [20]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://arstechnica.com/information-technology/2017/03/hack-that-escapes-vm-by-exploiting-edge-browser-fetches-105000-at-pwn2own/" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
  </p>
  <p>
   Other types of virtualization and application microsegmentation may also mitigate the impact of client-side exploitation. The risks of additional exploits and weaknesses in implementation may still exist.
-  <span class="scite-citeref-number" data-reference="Ars Technica Pwn2Own 2017 VM Escape" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="Ars Technica Pwn2Own 2017 VM Escape" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://arstechnica.com/information-technology/2017/03/hack-that-escapes-vm-by-exploiting-edge-browser-fetches-105000-at-pwn2own/" target="_blank">
-     [20]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://arstechnica.com/information-technology/2017/03/hack-that-escapes-vm-by-exploiting-edge-browser-fetches-105000-at-pwn2own/" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
  </p>
  <p>
   Security applications that look for behavior used during exploitation such as Windows Defender Exploit Guard (WDEG) and the Enhanced Mitigation Experience Toolkit (EMET) can be used to mitigate some exploitation behavior.
-  <span class="scite-citeref-number" data-reference="TechNet Moving Beyond EMET" id="scite-ref-21-a">
+  <span class="scite-citeref-number" data-reference="TechNet Moving Beyond EMET" id="scite-ref-22-a">
    <sup>
-    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://blogs.technet.microsoft.com/srd/2017/08/09/moving-beyond-emet-ii-windows-defender-exploit-guard/" target="_blank">
-     [21]
+    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://blogs.technet.microsoft.com/srd/2017/08/09/moving-beyond-emet-ii-windows-defender-exploit-guard/" target="_blank">
+     [22]
     </a>
    </sup>
   </span>
   Control flow integrity checking is another way to potentially identify and stop a software exploit from occurring.
-  <span class="scite-citeref-number" data-reference="Wikipedia Control Flow Integrity" id="scite-ref-22-a">
+  <span class="scite-citeref-number" data-reference="Wikipedia Control Flow Integrity" id="scite-ref-23-a">
    <sup>
-    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://en.wikipedia.org/wiki/Control-flow_integrity" target="_blank">
-     [22]
+    <a aria-describedby="qtip-22" data-hasqtip="22" href="https://en.wikipedia.org/wiki/Control-flow_integrity" target="_blank">
+     [23]
     </a>
    </sup>
   </span>
@@ -640,8 +683,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" name="scite-6" rel="nofollow" target="_blank">
-        DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.
+       <a class="external text" href="https://content.fireeye.com/apt/rpt-apt38" name="scite-6" rel="nofollow" target="_blank">
+        FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 6, 2018.
        </a>
       </span>
      </span>
@@ -649,8 +692,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-7" rel="nofollow" target="_blank">
-        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
+       <a class="external text" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" name="scite-7" rel="nofollow" target="_blank">
+        DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.
        </a>
       </span>
      </span>
@@ -658,8 +701,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-8" rel="nofollow" target="_blank">
-        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
+       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-8" rel="nofollow" target="_blank">
+        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -667,8 +710,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" name="scite-9" rel="nofollow" target="_blank">
-        O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf" name="scite-9" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, November). The Darkhotel APT A Story of Unusual Hospitality. Retrieved November 12, 2014.
        </a>
       </span>
      </span>
@@ -676,8 +719,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China" name="scite-10" rel="nofollow" target="_blank">
-        Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-10" rel="nofollow" target="_blank">
+        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -685,8 +728,17 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html" name="scite-11" rel="nofollow" target="_blank">
-        Paganini, P. (2012, September 9). Elderwood project, who is behind Op. Aurora and ongoing attacks?. Retrieved February 13, 2018.
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" name="scite-11" rel="nofollow" target="_blank">
+        O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.csmonitor.com/USA/2012/0914/Stealing-US-business-secrets-Experts-ID-two-huge-cyber-gangs-in-China" name="scite-12" rel="nofollow" target="_blank">
+        Clayton, M.. (2012, September 14). Stealing US business secrets: Experts ID two huge cyber 'gangs' in China. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -694,21 +746,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="12.0">
-    <li>
-     <span class="scite-citation" id="scite-12">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/" name="scite-12" rel="nofollow" target="_blank">
-        Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="13.5">
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-13" rel="nofollow" target="_blank">
-        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
+       <a class="external text" href="http://securityaffairs.co/wordpress/8528/hacking/elderwood-project-who-is-behind-op-aurora-and-ongoing-attacks.html" name="scite-13" rel="nofollow" target="_blank">
+        Paganini, P. (2012, September 9). Elderwood project, who is behind Op. Aurora and ongoing attacks?. Retrieved February 13, 2018.
        </a>
       </span>
      </span>
@@ -716,17 +759,15 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries" name="scite-14" rel="nofollow" target="_blank">
-        Hamada, J.. (2016, July 25). Patchwork cyberespionage group expands targets from governments to wide range of industries. Retrieved August 17, 2016.
-       </a>
+       Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.
       </span>
      </span>
     </li>
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" name="scite-15" rel="nofollow" target="_blank">
-        Meltzer, M, et al. (2018, June 07). Patchwork APT Group Targets US Think Tanks. Retrieved July 16, 2018.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-15" rel="nofollow" target="_blank">
+        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
        </a>
       </span>
      </span>
@@ -734,8 +775,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-16" rel="nofollow" target="_blank">
-        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       <a class="external text" href="http://www.symantec.com/connect/blogs/patchwork-cyberespionage-group-expands-targets-governments-wide-range-industries" name="scite-16" rel="nofollow" target="_blank">
+        Hamada, J.. (2016, July 25). Patchwork cyberespionage group expands targets from governments to wide range of industries. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -743,8 +784,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-17" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
+       <a class="external text" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" name="scite-17" rel="nofollow" target="_blank">
+        Meltzer, M, et al. (2018, June 07). Patchwork APT Group Targets US Think Tanks. Retrieved July 16, 2018.
        </a>
       </span>
      </span>
@@ -752,8 +793,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" name="scite-18" rel="nofollow" target="_blank">
-        Legezo, D. (2018, June 13). LuckyMouse hits national data center to organize country-level waterholing campaign. Retrieved August 18, 2018.
+       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-18" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
        </a>
       </span>
      </span>
@@ -761,8 +802,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blogs.windows.com/msedgedev/2017/03/23/strengthening-microsoft-edge-sandbox/" name="scite-19" rel="nofollow" target="_blank">
-        Cowan, C. (2017, March 23). Strengthening the Microsoft Edge Sandbox. Retrieved March 12, 2018.
+       <a class="external text" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" name="scite-19" rel="nofollow" target="_blank">
+        Legezo, D. (2018, June 13). LuckyMouse hits national data center to organize country-level waterholing campaign. Retrieved August 18, 2018.
        </a>
       </span>
      </span>
@@ -770,8 +811,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://arstechnica.com/information-technology/2017/03/hack-that-escapes-vm-by-exploiting-edge-browser-fetches-105000-at-pwn2own/" name="scite-20" rel="nofollow" target="_blank">
-        Goodin, D. (2017, March 17). Virtual machine escape fetches $105,000 at Pwn2Own hacking contest - updated. Retrieved March 12, 2018.
+       <a class="external text" href="https://blogs.windows.com/msedgedev/2017/03/23/strengthening-microsoft-edge-sandbox/" name="scite-20" rel="nofollow" target="_blank">
+        Cowan, C. (2017, March 23). Strengthening the Microsoft Edge Sandbox. Retrieved March 12, 2018.
        </a>
       </span>
      </span>
@@ -779,8 +820,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blogs.technet.microsoft.com/srd/2017/08/09/moving-beyond-emet-ii-windows-defender-exploit-guard/" name="scite-21" rel="nofollow" target="_blank">
-        Nunez, N. (2017, August 9). Moving Beyond EMET II – Windows Defender Exploit Guard. Retrieved March 12, 2018.
+       <a class="external text" href="https://arstechnica.com/information-technology/2017/03/hack-that-escapes-vm-by-exploiting-edge-browser-fetches-105000-at-pwn2own/" name="scite-21" rel="nofollow" target="_blank">
+        Goodin, D. (2017, March 17). Virtual machine escape fetches $105,000 at Pwn2Own hacking contest - updated. Retrieved March 12, 2018.
        </a>
       </span>
      </span>
@@ -788,7 +829,16 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://en.wikipedia.org/wiki/Control-flow_integrity" name="scite-22" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blogs.technet.microsoft.com/srd/2017/08/09/moving-beyond-emet-ii-windows-defender-exploit-guard/" name="scite-22" rel="nofollow" target="_blank">
+        Nunez, N. (2017, August 9). Moving Beyond EMET II – Windows Defender Exploit Guard. Retrieved March 12, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-23">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://en.wikipedia.org/wiki/Control-flow_integrity" name="scite-23" rel="nofollow" target="_blank">
         Wikipedia. (2018, January 11). Control-flow integrity. Retrieved March 12, 2018.
        </a>
       </span>
