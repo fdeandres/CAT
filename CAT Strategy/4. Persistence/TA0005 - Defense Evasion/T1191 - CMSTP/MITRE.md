@@ -122,6 +122,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -159,6 +163,10 @@
       Application whitelisting, Anti-virus
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -224,6 +232,20 @@
         </a>
        </sup>
       </span>
+      <span class="scite-citeref-number" data-reference="Morphisec Cobalt Gang Oct 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://blog.morphisec.com/cobalt-gang-2.0" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Unit 42 Cobalt Gang Oct 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
      </p>
     </td>
    </tr>
@@ -243,10 +265,10 @@
        POWERSTATS
       </a>
       payload.
-      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -338,10 +360,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="5.0">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
@@ -351,6 +369,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -372,7 +394,25 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-8" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.morphisec.com/cobalt-gang-2.0" name="scite-8" rel="nofollow" target="_blank">
+        Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-9">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/" name="scite-9" rel="nofollow" target="_blank">
+        Unit 42. (2018, October 25). New Techniques to Uncover and Attribute Financial actors Commodity Builders and Infrastructure Revealed. Retrieved December 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-10" rel="nofollow" target="_blank">
         Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
        </a>
       </span>
