@@ -64,6 +64,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -81,6 +85,10 @@
       WMI Objects
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -199,6 +207,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0378">
+      PoshC2
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0378">
+       PoshC2
+      </a>
+      has the ability to persist on a system using WMI events.
+      <span class="scite-citeref-number" data-reference="GitHub PoshC2" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://github.com/nettitude/PoshC2" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0150">
       POSHSPY
      </a>
@@ -209,10 +239,32 @@
        POSHSPY
       </a>
       uses a WMI event subscription to establish persistence.
-      <span class="scite-citeref-number" data-reference="FireEye POSHSPY April 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="FireEye POSHSPY April 2017" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html" target="_blank">
-         [7]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0371">
+      POWERTON
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0371">
+       POWERTON
+      </a>
+      can use WMI for persistence.
+      <span class="scite-citeref-number" data-reference="FireEye APT33 Guardrail" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -231,10 +283,10 @@
        SeaDuke
       </a>
       uses an event filter in WMI code to execute a previously dropped executable shortly after system startup.
-      <span class="scite-citeref-number" data-reference="FireEye WMI 2015" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="FireEye WMI 2015" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -248,10 +300,10 @@
  </h2>
  <p>
   Disabling WMI services may cause system instability and should be evaluated to assess the impact to a network. By default, only administrators are allowed to connect remotely using WMI; restrict other users that are allowed to connect, or disallow all users from connecting remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts.
-  <span class="scite-citeref-number" data-reference="FireEye WMI 2015" id="scite-ref-8-a">
+  <span class="scite-citeref-number" data-reference="FireEye WMI 2015" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf" target="_blank">
-     [8]
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf" target="_blank">
+     [10]
     </a>
    </sup>
   </span>
@@ -261,10 +313,10 @@
  </h2>
  <p>
   Monitor WMI event subscription entries, comparing current WMI event subscriptions to known good subscriptions for each host. Tools such as Sysinternals Autoruns may also be used to detect WMI changes that could be attempts at persistence.
-  <span class="scite-citeref-number" data-reference="TechNet Autoruns" id="scite-ref-9-a">
+  <span class="scite-citeref-number" data-reference="TechNet Autoruns" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" target="_blank">
-     [9]
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" target="_blank">
+     [11]
     </a>
    </sup>
   </span>
@@ -320,10 +372,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="6.5">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -333,11 +381,15 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="7.5">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html" name="scite-7" rel="nofollow" target="_blank">
-        Dunwoody, M.. (2017, April 3). Dissecting One of APT29’s Fileless WMI and PowerShell Backdoors (POSHSPY). Retrieved April 5, 2017.
+       <a class="external text" href="https://github.com/nettitude/PoshC2" name="scite-7" rel="nofollow" target="_blank">
+        Nettitude. (2016, June 8). PoshC2: Powershell C2 Server and Implants. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -345,8 +397,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf" name="scite-8" rel="nofollow" target="_blank">
-        Ballenthin, W., et al. (2015). Windows Management Instrumentation (WMI) Offense, Defense, and Forensics. Retrieved March 30, 2016.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html" name="scite-8" rel="nofollow" target="_blank">
+        Dunwoody, M.. (2017, April 3). Dissecting One of APT29’s Fileless WMI and PowerShell Backdoors (POSHSPY). Retrieved April 5, 2017.
        </a>
       </span>
      </span>
@@ -354,7 +406,25 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" name="scite-9" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html" name="scite-9" rel="nofollow" target="_blank">
+        Ackerman, G., et al. (2018, December 21). OVERRULED: Containing a Potentially Destructive Adversary. Retrieved January 17, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-windows-management-instrumentation.pdf" name="scite-10" rel="nofollow" target="_blank">
+        Ballenthin, W., et al. (2015). Windows Management Instrumentation (WMI) Offense, Defense, and Forensics. Retrieved March 30, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-11">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" name="scite-11" rel="nofollow" target="_blank">
         Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.
        </a>
       </span>
