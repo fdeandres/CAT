@@ -134,6 +134,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM
@@ -167,6 +171,10 @@
       Firewall, Host forensic analysis
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -280,6 +288,50 @@
      </p>
     </td>
    </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0081">
+      Tropic Trooper
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0081">
+       Tropic Trooper
+      </a>
+      has leveraged the BITSadmin command-line tool to create a job and launch a malicious process.
+      <span class="scite-citeref-number" data-reference="TrendMicro Tropic Trooper Mar 2018" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0333">
+      UBoatRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0333">
+       UBoatRAT
+      </a>
+      takes advantage of the /SetNotifyCmdLine option in Bitsadmin.exe to ensure it stays running on a system to maintain persistence.
+      <span class="scite-citeref-number" data-reference="PaloAlto UBoatRAT Nov 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-uboatrat-navigates-east-asia/" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
   </tbody>
  </table>
  <h2 class="pt-3" id="mitigation">
@@ -339,10 +391,10 @@
    sc query bits
   </code>
   ).
-  <span class="scite-citeref-number" data-reference="Microsoft Issues with BITS July 2011" id="scite-ref-11-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Issues with BITS July 2011" id="scite-ref-12-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://technet.microsoft.com/library/dd939934.aspx" target="_blank">
-     [11]
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://technet.microsoft.com/library/dd939934.aspx" target="_blank">
+     [12]
     </a>
    </sup>
   </span>
@@ -458,7 +510,7 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="7.5">
+   <ol start="7.0">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
@@ -498,7 +550,16 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/library/dd939934.aspx" name="scite-11" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/" name="scite-11" rel="nofollow" target="_blank">
+        Horejsi, J., et al. (2018, March 14). Tropic Trooper’s New Strategy. Retrieved November 9, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/library/dd939934.aspx" name="scite-12" rel="nofollow" target="_blank">
         Microsoft. (2011, July 19). Issues with BITS. Retrieved January 12, 2018.
        </a>
       </span>
