@@ -9,7 +9,7 @@
     <code>
      HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager
     </code>
-    are loaded into every process that calls the ubiquitously used application programming interface (API) functions:
+    are loaded into every process that calls the ubiquitously used application programming interface (API) functions CreateProcess, CreateProcessAsUser, CreateProcessWithLoginW, CreateProcessWithTokenW, or WinExec.
     <span class="scite-citeref-number" data-reference="Endgame Process Injection July 2017" id="scite-ref-1-a">
      <sup>
       <a aria-describedby="qtip-0" data-hasqtip="0" href="https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process" target="_blank">
@@ -18,23 +18,6 @@
      </sup>
     </span>
    </p>
-   <ul>
-    <li>
-     CreateProcess
-    </li>
-    <li>
-     CreateProcessAsUser
-    </li>
-    <li>
-     CreateProcessWithLoginW
-    </li>
-    <li>
-     CreateProcessWithTokenW
-    </li>
-    <li>
-     WinExec
-    </li>
-   </ul>
    <p>
     Similar to
     <a href="https://attack.mitre.org/techniques/T1055">
@@ -76,6 +59,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -97,6 +84,10 @@
       Loaded DLLs, Process monitoring, Windows Registry
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
