@@ -85,6 +85,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -119,9 +123,13 @@
       <span class="h5 card-title">
        Defense Bypassed:
       </span>
-      Application whitelisting
+      Application whitelisting, Digital Certificate Validation
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -143,7 +151,7 @@
       <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
@@ -166,6 +174,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0373">
+      Astaroth
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0373">
+       Astaroth
+      </a>
+      uses ActiveX objects for file execution and manipulation.
+      <span class="scite-citeref-number" data-reference="Cofense Astaroth Sept 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://cofense.com/seeing-resurgence-demonic-astaroth-wmic-trojan/" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0070">
       Dark Caracal
      </a>
@@ -176,10 +206,10 @@
        Dark Caracal
       </a>
       leveraged a compiled HTML file that contained a command to download and run an executable.
-      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -198,10 +228,10 @@
        Lazarus Group
       </a>
       has used CHM files to move concealed payloads as part of.
-      <span class="scite-citeref-number" data-reference="Kaspersky Lazarus Under The Hood APR 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Lazarus Under The Hood APR 2017" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -220,10 +250,10 @@
        OilRig
       </a>
       has used a CHM payload to load and execute another malicious file once delivered to a victim.
-      <span class="scite-citeref-number" data-reference="Palo Alto OilRig May 2016" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Palo Alto OilRig May 2016" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -237,10 +267,10 @@
  </h2>
  <p>
   Consider blocking download/transfer and execution of potentially uncommon file types known to be used in adversary campaigns, such as CHM files.
-  <span class="scite-citeref-number" data-reference="PaloAlto Preventing Opportunistic Attacks Apr 2016" id="scite-ref-9-a">
+  <span class="scite-citeref-number" data-reference="PaloAlto Preventing Opportunistic Attacks Apr 2016" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://live.paloaltonetworks.com/t5/Ignite-2016-Blog/Breakout-Recap-Cybersecurity-Best-Practices-Part-1-Preventing/ba-p/75913" target="_blank">
-     [9]
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://live.paloaltonetworks.com/t5/Ignite-2016-Blog/Breakout-Recap-Cybersecurity-Best-Practices-Part-1-Preventing/ba-p/75913" target="_blank">
+     [10]
     </a>
    </sup>
   </span>
@@ -317,12 +347,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="6.5">
+   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-6" rel="nofollow" target="_blank">
-        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
+       <a class="external text" href="https://cofense.com/seeing-resurgence-demonic-astaroth-wmic-trojan/" name="scite-6" rel="nofollow" target="_blank">
+        Doaty, J., Garrett, P.. (2018, September 10). We’re Seeing a Resurgence of the Demonic Astaroth WMIC Trojan. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -330,8 +360,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf" name="scite-7" rel="nofollow" target="_blank">
-        GReAT. (2017, April 3). Lazarus Under the Hood. Retrieved October 3, 2018.
+       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-7" rel="nofollow" target="_blank">
+        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -339,8 +369,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" name="scite-8" rel="nofollow" target="_blank">
-        Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf" name="scite-8" rel="nofollow" target="_blank">
+        GReAT. (2017, April 3). Lazarus Under the Hood. Retrieved October 3, 2018.
        </a>
       </span>
      </span>
@@ -348,7 +378,16 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://live.paloaltonetworks.com/t5/Ignite-2016-Blog/Breakout-Recap-Cybersecurity-Best-Practices-Part-1-Preventing/ba-p/75913" name="scite-9" rel="nofollow" target="_blank">
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" name="scite-9" rel="nofollow" target="_blank">
+        Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://live.paloaltonetworks.com/t5/Ignite-2016-Blog/Breakout-Recap-Cybersecurity-Best-Practices-Part-1-Preventing/ba-p/75913" name="scite-10" rel="nofollow" target="_blank">
         Kiwi. (2016, April 6). Breakout Recap: Cybersecurity Best Practices Part 1 - Preventing Opportunistic Attacks. Retrieved October 3, 2018.
        </a>
       </span>
