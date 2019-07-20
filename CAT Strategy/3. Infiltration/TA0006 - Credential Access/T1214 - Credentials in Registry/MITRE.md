@@ -65,6 +65,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Ability to query some Registry locations depends on the adversary's level of access. User permissions are usually limited to access of user-related Registry keys.
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator
@@ -82,6 +90,10 @@
       Windows Registry, Process command-line parameters, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -204,6 +216,32 @@
      </p>
     </td>
    </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0266">
+      TrickBot
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0266">
+       TrickBot
+      </a>
+      has retrieved PuTTY credentials by querying the
+      <code>
+       Software\SimonTatham\Putty\Sessions
+      </code>
+      registry key
+      <span class="scite-citeref-number" data-reference="TrendMicro Trickbot Feb 2019" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+       <sup>
+        <a aria-describedby="qtip-1" data-hasqtip="1" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-adds-remote-application-credential-grabbing-capabilities-to-its-repertoire/" target="_blank">
+         [2]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
   </tbody>
  </table>
  <h2 class="pt-3" id="mitigation">
@@ -240,6 +278,17 @@
    </ol>
   </div>
   <div class="col">
+   <ol start="2.0">
+    <li>
+     <span class="scite-citation" id="scite-2">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-adds-remote-application-credential-grabbing-capabilities-to-its-repertoire/" name="scite-2" rel="nofollow" target="_blank">
+        Llimos, N., Pascual, C.. (2019, February 12). Trickbot Adds Remote Application Credential-Grabbing Capabilities to Its Repertoire. Retrieved March 12, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+   </ol>
   </div>
  </div>
 </div>
