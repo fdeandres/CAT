@@ -37,16 +37,25 @@
     <code>
      HKLM\SYSTEM\CurrentControlSet\Control\Print\Monitors
     </code>
-    . The Registry key contains entries for the following:
-    <em>
-     Local Port
-    </em>
-    Standard TCP/IP Port
-    <em>
-     USB Monitor
-    </em>
-    WSD Port
+    .
    </p>
+   <p>
+    The Registry key contains entries for the following:
+   </p>
+   <ul>
+    <li>
+     Local Port
+    </li>
+    <li>
+     Standard TCP/IP Port
+    </li>
+    <li>
+     USB Monitor
+    </li>
+    <li>
+     WSD Port
+    </li>
+   </ul>
    <p>
     Adversaries can use this technique to load malicious code at startup that will persist on system reboot and execute as SYSTEM.
    </p>
@@ -81,6 +90,10 @@
       Windows
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -128,6 +141,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Stefan Kanthak; Travis Smith, Tripwire
@@ -144,15 +161,54 @@
    </div>
   </div>
  </div>
+ <h2 class="pt-3" id="examples">
+  Examples
+ </h2>
+ <table class="table table-bordered table-light mt-2">
+  <thead>
+   <tr>
+    <th scope="col">
+     Name
+    </th>
+    <th scope="col">
+     Description
+    </th>
+   </tr>
+  </thead>
+  <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0082">
+      APT38
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0082">
+       APT38
+      </a>
+      installed a port monitoring tool, MAPMAKER, to print the active TCP connections on the local system.
+      <span class="scite-citeref-number" data-reference="FireEye APT38 Oct 2018" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+       <sup>
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://content.fireeye.com/apt/rpt-apt38" target="_blank">
+         [3]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
  <h2 class="pt-3" id="mitigation">
   Mitigation
  </h2>
  <p>
   Identify and block potentially malicious software that may persist in this manner by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-3-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-4-a">
    <sup>
-    <a aria-describedby="qtip-2" data-hasqtip="2" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [3]
+    <a aria-describedby="qtip-3" data-hasqtip="3" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [4]
     </a>
    </sup>
   </span>
@@ -188,10 +244,10 @@
   </li>
   <li>
    Run the Autoruns utility, which checks for this Registry key as a persistence mechanism
-   <span class="scite-citeref-number" data-reference="TechNet Autoruns" id="scite-ref-4-a">
+   <span class="scite-citeref-number" data-reference="TechNet Autoruns" id="scite-ref-5-a">
     <sup>
-     <a aria-describedby="qtip-3" data-hasqtip="3" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" target="_blank">
-      [4]
+     <a aria-describedby="qtip-4" data-hasqtip="4" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" target="_blank">
+      [5]
      </a>
     </sup>
    </span>
@@ -221,23 +277,32 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="3.0">
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-3" rel="nofollow" target="_blank">
+       <a class="external text" href="https://content.fireeye.com/apt/rpt-apt38" name="scite-3" rel="nofollow" target="_blank">
+        FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 6, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="4.5">
+    <li>
+     <span class="scite-citation" id="scite-4">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-4" rel="nofollow" target="_blank">
         Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
     </li>
     <li>
-     <span class="scite-citation" id="scite-4">
+     <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" name="scite-4" rel="nofollow" target="_blank">
+       <a class="external text" href="https://technet.microsoft.com/en-us/sysinternals/bb963902" name="scite-5" rel="nofollow" target="_blank">
         Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.
        </a>
       </span>
