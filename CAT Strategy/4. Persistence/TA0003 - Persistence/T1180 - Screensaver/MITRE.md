@@ -13,11 +13,18 @@
       </a>
      </sup>
     </span>
-    The Windows screensaver application scrnsave.exe is located in
+    The Windows screensaver application scrnsave.scr is located in
     <code>
      C:\Windows\System32\
     </code>
-    along with screensavers included with base Windows installations. The following screensaver settings are stored in the Registry (
+    , and
+    <code>
+     C:\Windows\sysWOW64\
+    </code>
+    on 64-bit Windows systems, along with screensavers included with base Windows installations.
+   </p>
+   <p>
+    The following screensaver settings are stored in the Registry (
     <code>
      HKCU\Control Panel\Desktop\
     </code>
@@ -93,6 +100,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -133,6 +144,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Bartosz Jerzman
@@ -143,7 +158,7 @@
       <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
