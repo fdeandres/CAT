@@ -37,8 +37,7 @@
      <p>
       via
       <code>
-       <file loadfrom="fully-qualified or relative pathname" name="filename.extension">
-       </file>
+       &lt;file name="filename.extension" loadFrom="fully-qualified or relative pathname"&gt;
       </code>
       in an embedded or external "application manifest". The file name refers to an entry in the IMPORT directory or a forwarded EXPORT.
      </p>
@@ -81,6 +80,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -98,6 +101,10 @@
       API monitoring, DLL monitoring, File monitoring, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -154,6 +161,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0373">
+      Astaroth
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0373">
+       Astaroth
+      </a>
+      uses the LoadLibraryExW() function to load additional modules.
+      <span class="scite-citeref-number" data-reference="Cybereason Astaroth Feb 2019" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+       <sup>
+        <a aria-describedby="qtip-1" data-hasqtip="1" href="https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research" target="_blank">
+         [2]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0203">
       Hydraq
      </a>
@@ -164,17 +193,17 @@
        Hydraq
       </a>
       creates a backdoor through which remote attackers can load and call DLL functions.
-      <span class="scite-citeref-number" data-reference="Symantec Trojan.Hydraq Jan 2010" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+      <span class="scite-citeref-number" data-reference="Symantec Trojan.Hydraq Jan 2010" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
        <sup>
-        <a aria-describedby="qtip-1" data-hasqtip="1" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" target="_blank">
-         [2]
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" target="_blank">
+         [3]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Symantec Hydraq Jan 2010" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+      <span class="scite-citeref-number" data-reference="Symantec Hydraq Jan 2010" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
        <sup>
-        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" target="_blank">
-         [3]
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" target="_blank">
+         [4]
         </a>
        </sup>
       </span>
@@ -193,10 +222,10 @@
        PUNCHBUGGY
       </a>
       can load a DLL using the LoadLibrary API.
-      <span class="scite-citeref-number" data-reference="FireEye Know Your Enemy FIN8 Aug 2016" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="FireEye Know Your Enemy FIN8 Aug 2016" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" target="_blank">
-         [4]
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
@@ -246,7 +275,16 @@
     <li>
      <span class="scite-citation" id="scite-2">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" name="scite-2" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research" name="scite-2" rel="nofollow" target="_blank">
+        Salem, E. (2019, February 13). ASTAROTH MALWARE USES LEGITIMATE OS AND ANTIVIRUS PROCESSES TO STEAL PASSWORDS AND PERSONAL DATA. Retrieved April 17, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-3">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" name="scite-3" rel="nofollow" target="_blank">
         Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.
        </a>
       </span>
@@ -255,20 +293,20 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="3.0">
+   <ol start="4.5">
     <li>
-     <span class="scite-citation" id="scite-3">
+     <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" name="scite-3" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" name="scite-4" rel="nofollow" target="_blank">
         Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.
        </a>
       </span>
      </span>
     </li>
     <li>
-     <span class="scite-citation" id="scite-4">
+     <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" name="scite-4" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" name="scite-5" rel="nofollow" target="_blank">
         Elovitz, S. &amp; Ahl, I. (2016, August 18). Know Your Enemy:  New Financially-Motivated &amp; Spear-Phishing Group. Retrieved February 26, 2018.
        </a>
       </span>
