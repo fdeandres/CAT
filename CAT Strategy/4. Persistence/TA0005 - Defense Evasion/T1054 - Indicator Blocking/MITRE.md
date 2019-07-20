@@ -59,6 +59,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Sensor health and status, Process command-line parameters, Process monitoring
@@ -80,6 +84,10 @@
       Anti-virus, Log analysis, Host intrusion prevention systems
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
