@@ -17,7 +17,10 @@
     <a href="https://attack.mitre.org/techniques/T1179">
      Hooking
     </a>
-    to redirect the code as necessary in order to communicate with the OS. A list of all shims currently installed by the default Windows installer (sdbinst.exe) is kept in:
+    to redirect the code as necessary in order to communicate with the OS.
+   </p>
+   <p>
+    A list of all shims currently installed by the default Windows installer (sdbinst.exe) is kept in:
    </p>
    <ul>
     <li>
@@ -91,6 +94,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator
@@ -108,6 +115,10 @@
       Loaded DLLs, System calls, Windows Registry, Process monitoring, Process command-line parameters
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
