@@ -92,6 +92,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Binary file metadata
@@ -113,6 +117,10 @@
       Windows User Account Control
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -243,13 +251,6 @@
        CopyKittens
       </a>
       digitally signed an executable with a stolen certificate from legitimate company AI Squared.
-      <span class="scite-citeref-number" data-reference="ClearSky Wilted Tulip July 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
-       <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf" target="_blank">
-         [10]
-        </a>
-       </sup>
-      </span>
      </p>
     </td>
    </tr>
@@ -265,9 +266,20 @@
        Darkhotel
       </a>
       has used code-signing certificates on its malware that are either forged due to weak keys or stolen.
-      <span class="scite-citeref-number" data-reference="Kaspersky Darkhotel" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <a href="https://attack.mitre.org/groups/G0012">
+       Darkhotel
+      </a>
+      has also stolen certificates and signed backdoors and downloaders with them.
+      <span class="scite-citeref-number" data-reference="Kaspersky Darkhotel" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://securelist.com/files/2014/11/darkhotel_kl_07.11.pdf" target="_blank">
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Securelist Darkhotel Aug 2015" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://securelist.com/darkhotels-attacks-in-2015/71713/" target="_blank">
          [11]
         </a>
        </sup>
@@ -300,6 +312,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0377">
+      Ebury
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0377">
+       Ebury
+      </a>
+      has installed a self-signed RPM package mimicking the original system package on RPM based systems.
+      <span class="scite-citeref-number" data-reference="ESET Ebury Feb 2014" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/" target="_blank">
+         [13]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0091">
       Epic
      </a>
@@ -314,10 +348,10 @@
        Epic
       </a>
       dropper.
-      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
-         [13]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -344,17 +378,17 @@
        FIN7
       </a>
       has also digitally signed their phishing documents, backdoors and other staging tools to bypass security controls.
-      <span class="scite-citeref-number" data-reference="FireEye CARBANAK June 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="FireEye CARBANAK June 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" target="_blank">
-         [14]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="FireEye FIN7 Aug 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="FireEye FIN7 Aug 2018" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" target="_blank">
-         [15]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -373,17 +407,39 @@
        Gazer
       </a>
       versions are signed with various valid certificates; one was likely faked and issued by Comodo for "Solid Loop Ltd," and another was issued for "Ultimate Computer Support Ltd."
-      <span class="scite-citeref-number" data-reference="ESET Gazer Aug 2017" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="ESET Gazer Aug 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" target="_blank">
-         [16]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Securelist WhiteBear Aug 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Securelist WhiteBear Aug 2017" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://securelist.com/introducing-whitebear/81638/" target="_blank">
-         [17]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://securelist.com/introducing-whitebear/81638/" target="_blank">
+         [18]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0342">
+      GreyEnergy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0342">
+       GreyEnergy
+      </a>
+      digitally signs the malware with a code-signing certificate.
+      <span class="scite-citeref-number" data-reference="ESET GreyEnergy Oct 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+       <sup>
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -402,10 +458,10 @@
        Helminth
       </a>
       samples have been signed with legitimate, compromised code signing certificates owned by software company AI Squared.
-      <span class="scite-citeref-number" data-reference="ClearSky OilRig Jan 2017" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="ClearSky OilRig Jan 2017" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="http://www.clearskysec.com/oilrig/" target="_blank">
-         [18]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="http://www.clearskysec.com/oilrig/" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -424,10 +480,10 @@
        Honeybee
       </a>
       uses a dropper called MaoCheng that harvests a stolen digital signature from Adobe Systems.
-      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -467,11 +523,18 @@
       <a href="https://attack.mitre.org/groups/G0065">
        Leviathan
       </a>
-      has used stolen code signing certificates used to sign malware.
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      has used stolen code signing certificates to sign malware.
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [20]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [22]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="FireEye APT40 March 2019" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+       <sup>
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -490,10 +553,10 @@
        Molerats
       </a>
       has used forged Microsoft code-signing certificates on malware.
-      <span class="scite-citeref-number" data-reference="FireEye Operation Molerats" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="FireEye Operation Molerats" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html" target="_blank">
-         [21]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -512,10 +575,10 @@
        Nerex
       </a>
       drops a signed Microsoft DLL to disk.
-      <span class="scite-citeref-number" data-reference="Symantec Nerex May 2012" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="Symantec Nerex May 2012" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3445-99" target="_blank">
-         [22]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3445-99" target="_blank">
+         [25]
         </a>
        </sup>
       </span>
@@ -535,10 +598,10 @@
        NETWIRE
       </a>
       client has been signed by fake and invalid digital certificates.
-      <span class="scite-citeref-number" data-reference="McAfee Netwire Mar 2015" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="McAfee Netwire Mar 2015" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/" target="_blank">
-         [23]
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -558,10 +621,10 @@
        QuasarRAT
       </a>
       .dll file is digitally signed by a certificate from AirVPN.
-      <span class="scite-citeref-number" data-reference="Volexity Patchwork June 2018" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="Volexity Patchwork June 2018" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" target="_blank">
-         [24]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -580,10 +643,10 @@
        Regin
       </a>
       stage 1 modules for 64-bit systems have been found to be signed with fake certificates masquerading as originating from Microsoft Corporation and Broadcom Corporation.
-      <span class="scite-citeref-number" data-reference="Kaspersky Regin" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Regin" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" target="_blank">
-         [25]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" target="_blank">
+         [28]
         </a>
        </sup>
       </span>
@@ -602,10 +665,10 @@
        RTM
       </a>
       samples have been signed with a code-signing certificates.
-      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
-         [26]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -624,10 +687,10 @@
        SDelete
       </a>
       is digitally signed by Microsoft.
-      <span class="scite-citeref-number" data-reference="Microsoft SDelete July 2016" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+      <span class="scite-citeref-number" data-reference="Microsoft SDelete July 2016" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete" target="_blank">
-         [27]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -646,10 +709,10 @@
        Suckfly
       </a>
       has used stolen certificates to sign its malware.
-      <span class="scite-citeref-number" data-reference="Symantec Suckfly March 2016" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+      <span class="scite-citeref-number" data-reference="Symantec Suckfly March 2016" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-27" data-hasqtip="27" href="http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates" target="_blank">
-         [28]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
@@ -668,10 +731,10 @@
        Winnti Group
       </a>
       used stolen certificates to sign its malware.
-      <span class="scite-citeref-number" data-reference="Kaspersky Winnti April 2013" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Winnti April 2013" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
        <sup>
-        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://securelist.com/winnti-more-than-just-a-game/37029/" target="_blank">
-         [29]
+        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://securelist.com/winnti-more-than-just-a-game/37029/" target="_blank">
+         [32]
         </a>
        </sup>
       </span>
@@ -685,17 +748,17 @@
  </h2>
  <p>
   Process whitelisting and trusted publishers to verify authenticity of software can help prevent signed malicious or untrusted code from executing on a system.
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-30-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-33-a">
    <sup>
-    <a aria-describedby="qtip-29" data-hasqtip="29" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [30]
+    <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [33]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="TechNet Trusted Publishers" id="scite-ref-31-a">
+  <span class="scite-citeref-number" data-reference="TechNet Trusted Publishers" id="scite-ref-34-a">
    <sup>
-    <a aria-describedby="qtip-30" data-hasqtip="30" href="https://technet.microsoft.com/en-us/library/cc733026.aspx" target="_blank">
-     [31]
+    <a aria-describedby="qtip-33" data-hasqtip="33" href="https://technet.microsoft.com/en-us/library/cc733026.aspx" target="_blank">
+     [34]
     </a>
    </sup>
   </span>
@@ -803,8 +866,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf" name="scite-10" rel="nofollow" target="_blank">
-        ClearSky Cyber Security and Trend Micro. (2017, July). Operation Wilted Tulip: Exposing a cyber espionage apparatus. Retrieved August 21, 2017.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf" name="scite-10" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, November). The Darkhotel APT A Story of Unusual Hospitality. Retrieved November 12, 2014.
        </a>
       </span>
      </span>
@@ -812,8 +875,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2014/11/darkhotel_kl_07.11.pdf" name="scite-11" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, November). The Darkhotel APT A Story of Unusual Hospitality. Retrieved November 12, 2014.
+       <a class="external text" href="https://securelist.com/darkhotels-attacks-in-2015/71713/" name="scite-11" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2015, August 10). Darkhotel's attacks in 2015. Retrieved November 2, 2018.
        </a>
       </span>
      </span>
@@ -830,8 +893,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-13" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
+       <a class="external text" href="https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/" name="scite-13" rel="nofollow" target="_blank">
+        M.Léveillé, M.. (2014, February 21). An In-depth Analysis of Linux/Ebury. Retrieved April 19, 2019.
        </a>
       </span>
      </span>
@@ -839,8 +902,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" name="scite-14" rel="nofollow" target="_blank">
-        Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.
+       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-14" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
        </a>
       </span>
      </span>
@@ -848,8 +911,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" name="scite-15" rel="nofollow" target="_blank">
-        Carr, N., et al. (2018, August 01). On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation. Retrieved August 23, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" name="scite-15" rel="nofollow" target="_blank">
+        Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.
        </a>
       </span>
      </span>
@@ -857,7 +920,16 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" name="scite-16" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" name="scite-16" rel="nofollow" target="_blank">
+        Carr, N., et al. (2018, August 01). On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation. Retrieved August 23, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-17">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" name="scite-17" rel="nofollow" target="_blank">
         ESET. (2017, August). Gazing at Gazer: Turla’s new second stage backdoor. Retrieved September 14, 2017.
        </a>
       </span>
@@ -866,21 +938,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="17.5">
-    <li>
-     <span class="scite-citation" id="scite-17">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/introducing-whitebear/81638/" name="scite-17" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="18.0">
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.clearskysec.com/oilrig/" name="scite-18" rel="nofollow" target="_blank">
-        ClearSky Cybersecurity. (2017, January 5). Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford. Retrieved May 3, 2017.
+       <a class="external text" href="https://securelist.com/introducing-whitebear/81638/" name="scite-18" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2017, August 30). Introducing WhiteBear. Retrieved September 21, 2017.
        </a>
       </span>
      </span>
@@ -888,8 +951,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-19" rel="nofollow" target="_blank">
-        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" name="scite-19" rel="nofollow" target="_blank">
+        Cherepanov, A. (2018, October). GREYENERGY A successor to BlackEnergy. Retrieved November 15, 2018.
        </a>
       </span>
      </span>
@@ -897,8 +960,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-20" rel="nofollow" target="_blank">
-        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
+       <a class="external text" href="http://www.clearskysec.com/oilrig/" name="scite-20" rel="nofollow" target="_blank">
+        ClearSky Cybersecurity. (2017, January 5). Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford. Retrieved May 3, 2017.
        </a>
       </span>
      </span>
@@ -906,8 +969,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html" name="scite-21" rel="nofollow" target="_blank">
-        Villeneuve, N., Haq, H., Moran, N. (2013, August 23). OPERATION MOLERATS: MIDDLE EAST CYBER ATTACKS USING POISON IVY. Retrieved April 1, 2016.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-21" rel="nofollow" target="_blank">
+        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
        </a>
       </span>
      </span>
@@ -915,8 +978,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3445-99" name="scite-22" rel="nofollow" target="_blank">
-        Ladley, F. (2012, May 15). Backdoor.Nerex. Retrieved February 23, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-22" rel="nofollow" target="_blank">
+        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -924,8 +987,8 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/" name="scite-23" rel="nofollow" target="_blank">
-        McAfee. (2015, March 2). Netwire RAT Behind Recent Targeted Attacks. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html" name="scite-23" rel="nofollow" target="_blank">
+        Plan, F., et all. (2019, March 4). APT40: Examining a China-Nexus Espionage Actor. Retrieved March 18, 2019.
        </a>
       </span>
      </span>
@@ -933,8 +996,8 @@
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" name="scite-24" rel="nofollow" target="_blank">
-        Meltzer, M, et al. (2018, June 07). Patchwork APT Group Targets US Think Tanks. Retrieved July 16, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2013/08/operation-molerats-middle-east-cyber-attacks-using-poison-ivy.html" name="scite-24" rel="nofollow" target="_blank">
+        Villeneuve, N., Haq, H., Moran, N. (2013, August 23). OPERATION MOLERATS: MIDDLE EAST CYBER ATTACKS USING POISON IVY. Retrieved April 1, 2016.
        </a>
       </span>
      </span>
@@ -942,8 +1005,8 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" name="scite-25" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, November 24). THE REGIN PLATFORM NATION-STATE OWNAGE OF GSM NETWORKS. Retrieved December 1, 2014.
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3445-99" name="scite-25" rel="nofollow" target="_blank">
+        Ladley, F. (2012, May 15). Backdoor.Nerex. Retrieved February 23, 2018.
        </a>
       </span>
      </span>
@@ -951,8 +1014,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-26" rel="nofollow" target="_blank">
-        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/netwire-rat-behind-recent-targeted-attacks/" name="scite-26" rel="nofollow" target="_blank">
+        McAfee. (2015, March 2). Netwire RAT Behind Recent Targeted Attacks. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -960,8 +1023,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete" name="scite-27" rel="nofollow" target="_blank">
-        Russinovich, M. (2016, July 4). SDelete v2.0. Retrieved February 8, 2018.
+       <a class="external text" href="https://www.volexity.com/blog/2018/06/07/patchwork-apt-group-targets-us-think-tanks/" name="scite-27" rel="nofollow" target="_blank">
+        Meltzer, M, et al. (2018, June 07). Patchwork APT Group Targets US Think Tanks. Retrieved July 16, 2018.
        </a>
       </span>
      </span>
@@ -969,8 +1032,8 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates" name="scite-28" rel="nofollow" target="_blank">
-        DiMaggio, J.. (2016, March 15). Suckfly: Revealing the secret life of your code signing certificates. Retrieved August 3, 2016.
+       <a class="external text" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" name="scite-28" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, November 24). THE REGIN PLATFORM NATION-STATE OWNAGE OF GSM NETWORKS. Retrieved December 1, 2014.
        </a>
       </span>
      </span>
@@ -978,8 +1041,8 @@
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/winnti-more-than-just-a-game/37029/" name="scite-29" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-29" rel="nofollow" target="_blank">
+        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
        </a>
       </span>
      </span>
@@ -987,8 +1050,8 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-30" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete" name="scite-30" rel="nofollow" target="_blank">
+        Russinovich, M. (2016, July 4). SDelete v2.0. Retrieved February 8, 2018.
        </a>
       </span>
      </span>
@@ -996,7 +1059,34 @@
     <li>
      <span class="scite-citation" id="scite-31">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc733026.aspx" name="scite-31" rel="nofollow" target="_blank">
+       <a class="external text" href="http://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates" name="scite-31" rel="nofollow" target="_blank">
+        DiMaggio, J.. (2016, March 15). Suckfly: Revealing the secret life of your code signing certificates. Retrieved August 3, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-32">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securelist.com/winnti-more-than-just-a-game/37029/" name="scite-32" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2013, April 11). Winnti. More than just a game. Retrieved February 8, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-33">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-33" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-34">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc733026.aspx" name="scite-34" rel="nofollow" target="_blank">
         Microsoft. (n.d.). Manage Trusted Publishers. Retrieved March 31, 2016.
        </a>
       </span>
