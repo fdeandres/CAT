@@ -80,6 +80,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -97,6 +101,10 @@
       API monitoring, Authentication logs, Windows event logs
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -153,6 +161,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      can add a SID-History to a user if on a domain controller.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0002">
       Mimikatz
      </a>
@@ -175,17 +205,17 @@
        SID-History Injection
       </a>
       to expand the scope of other components such as generated Kerberos Golden Tickets and DCSync beyond a single domain.
-      <span class="scite-citeref-number" data-reference="Adsecurity Mimikatz Guide" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Adsecurity Mimikatz Guide" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://adsecurity.org/?page_id=1821" target="_blank">
-         [4]
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://adsecurity.org/?page_id=1821" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="AdSecurity Kerberos GT Aug 2015" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="AdSecurity Kerberos GT Aug 2015" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://adsecurity.org/?p=1640" target="_blank">
-         [5]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://adsecurity.org/?p=1640" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
@@ -205,17 +235,17 @@
  </p>
  <p>
   SID Filtering of forest trusts is enabled by default, but may have been disabled in some cases to allow a child domain to transitively access forest trusts. SID Filtering of external trusts is automatically enabled on all created external trusts using Server 2003 or later domain controllers.
-  <span class="scite-citeref-number" data-reference="Microsoft Trust Considerations Nov 2014" id="scite-ref-6-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Trust Considerations Nov 2014" id="scite-ref-7-a">
    <sup>
-    <a aria-describedby="qtip-5" data-hasqtip="5" href="https://technet.microsoft.com/library/cc755321.aspx" target="_blank">
-     [6]
+    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://technet.microsoft.com/library/cc755321.aspx" target="_blank">
+     [7]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Microsoft SID Filtering Quarantining Jan 2009" id="scite-ref-7-a">
+  <span class="scite-citeref-number" data-reference="Microsoft SID Filtering Quarantining Jan 2009" id="scite-ref-8-a">
    <sup>
-    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://technet.microsoft.com/library/cc794757.aspx" target="_blank">
-     [7]
+    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://technet.microsoft.com/library/cc794757.aspx" target="_blank">
+     [8]
     </a>
    </sup>
   </span>
@@ -223,10 +253,10 @@
  </p>
  <p>
   SID Filtering can be applied by:
-  <span class="scite-citeref-number" data-reference="Microsoft Netdom Trust Sept 2012" id="scite-ref-8-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Netdom Trust Sept 2012" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://technet.microsoft.com/library/cc835085.aspx" target="_blank">
-     [8]
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://technet.microsoft.com/library/cc835085.aspx" target="_blank">
+     [9]
     </a>
    </sup>
   </span>
@@ -257,17 +287,17 @@
     </trustingdomainname>
    </code>
    on the domain controller)Applying SID Filtering to domain trusts within a single forest is not recommended as it is an unsupported configuration and can cause breaking changes.
-   <span class="scite-citeref-number" data-reference="Microsoft Netdom Trust Sept 2012" id="scite-ref-8-a">
+   <span class="scite-citeref-number" data-reference="Microsoft Netdom Trust Sept 2012" id="scite-ref-9-a">
     <sup>
-     <a aria-describedby="qtip-7" data-hasqtip="7" href="https://technet.microsoft.com/library/cc835085.aspx" target="_blank">
-      [8]
+     <a aria-describedby="qtip-8" data-hasqtip="8" href="https://technet.microsoft.com/library/cc835085.aspx" target="_blank">
+      [9]
      </a>
     </sup>
    </span>
-   <span class="scite-citeref-number" data-reference="AdSecurity Kerberos GT Aug 2015" id="scite-ref-5-a">
+   <span class="scite-citeref-number" data-reference="AdSecurity Kerberos GT Aug 2015" id="scite-ref-6-a">
     <sup>
-     <a aria-describedby="qtip-4" data-hasqtip="4" href="https://adsecurity.org/?p=1640" target="_blank">
-      [5]
+     <a aria-describedby="qtip-5" data-hasqtip="5" href="https://adsecurity.org/?p=1640" target="_blank">
+      [6]
      </a>
     </sup>
    </span>
@@ -279,35 +309,35 @@
  </h2>
  <p>
   Examine data in user’s SID-History attributes using the PowerShell Get-ADUser Cmdlet
-  <span class="scite-citeref-number" data-reference="Microsoft Get-ADUser" id="scite-ref-9-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Get-ADUser" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://technet.microsoft.com/library/ee617241.aspx" target="_blank">
-     [9]
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://technet.microsoft.com/library/ee617241.aspx" target="_blank">
+     [10]
     </a>
    </sup>
   </span>
   , especially users who have SID-History values from the same domain.
-  <span class="scite-citeref-number" data-reference="AdSecurity SID History Sept 2015" id="scite-ref-10-a">
+  <span class="scite-citeref-number" data-reference="AdSecurity SID History Sept 2015" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://adsecurity.org/?p=1772" target="_blank">
-     [10]
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://adsecurity.org/?p=1772" target="_blank">
+     [11]
     </a>
    </sup>
   </span>
  </p>
  <p>
   Monitor Account Management events on Domain Controllers for successful and failed changes to SID-History.
-  <span class="scite-citeref-number" data-reference="AdSecurity SID History Sept 2015" id="scite-ref-10-a">
+  <span class="scite-citeref-number" data-reference="AdSecurity SID History Sept 2015" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://adsecurity.org/?p=1772" target="_blank">
-     [10]
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://adsecurity.org/?p=1772" target="_blank">
+     [11]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Microsoft DsAddSidHistory" id="scite-ref-11-a">
+  <span class="scite-citeref-number" data-reference="Microsoft DsAddSidHistory" id="scite-ref-12-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://msdn.microsoft.com/library/ms677982.aspx" target="_blank">
-     [11]
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://msdn.microsoft.com/library/ms677982.aspx" target="_blank">
+     [12]
     </a>
    </sup>
   </span>
@@ -318,10 +348,10 @@
    DsAddSidHistory
   </code>
   function.
-  <span class="scite-citeref-number" data-reference="Microsoft DsAddSidHistory" id="scite-ref-11-a">
+  <span class="scite-citeref-number" data-reference="Microsoft DsAddSidHistory" id="scite-ref-12-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://msdn.microsoft.com/library/ms677982.aspx" target="_blank">
-     [11]
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://msdn.microsoft.com/library/ms677982.aspx" target="_blank">
+     [12]
     </a>
    </sup>
   </span>
@@ -362,8 +392,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://adsecurity.org/?page_id=1821" name="scite-4" rel="nofollow" target="_blank">
-        Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz &amp; Command Reference. Retrieved December 23, 2015.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-4" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -371,8 +401,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://adsecurity.org/?p=1640" name="scite-5" rel="nofollow" target="_blank">
-        Metcalf, S. (2015, August 7). Kerberos Golden Tickets are Now More Golden. Retrieved December 1, 2017.
+       <a class="external text" href="https://adsecurity.org/?page_id=1821" name="scite-5" rel="nofollow" target="_blank">
+        Metcalf, S. (2015, November 13). Unofficial Guide to Mimikatz &amp; Command Reference. Retrieved December 23, 2015.
        </a>
       </span>
      </span>
@@ -380,8 +410,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/library/cc755321.aspx" name="scite-6" rel="nofollow" target="_blank">
-        Microsoft. (2014, November 19). Security Considerations for Trusts. Retrieved November 30, 2017.
+       <a class="external text" href="https://adsecurity.org/?p=1640" name="scite-6" rel="nofollow" target="_blank">
+        Metcalf, S. (2015, August 7). Kerberos Golden Tickets are Now More Golden. Retrieved December 1, 2017.
        </a>
       </span>
      </span>
@@ -389,12 +419,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="7.5">
+   <ol start="7.0">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/library/cc794757.aspx" name="scite-7" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Configuring SID Filter Quarantining on External Trusts. Retrieved November 30, 2017.
+       <a class="external text" href="https://technet.microsoft.com/library/cc755321.aspx" name="scite-7" rel="nofollow" target="_blank">
+        Microsoft. (2014, November 19). Security Considerations for Trusts. Retrieved November 30, 2017.
        </a>
       </span>
      </span>
@@ -402,8 +432,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/library/cc835085.aspx" name="scite-8" rel="nofollow" target="_blank">
-        Microsoft. (2012, September 11). Command-Line Reference - Netdom Trust. Retrieved November 30, 2017.
+       <a class="external text" href="https://technet.microsoft.com/library/cc794757.aspx" name="scite-8" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Configuring SID Filter Quarantining on External Trusts. Retrieved November 30, 2017.
        </a>
       </span>
      </span>
@@ -411,8 +441,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/library/ee617241.aspx" name="scite-9" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Active Directory Cmdlets - Get-ADUser. Retrieved November 30, 2017.
+       <a class="external text" href="https://technet.microsoft.com/library/cc835085.aspx" name="scite-9" rel="nofollow" target="_blank">
+        Microsoft. (2012, September 11). Command-Line Reference - Netdom Trust. Retrieved November 30, 2017.
        </a>
       </span>
      </span>
@@ -420,8 +450,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://adsecurity.org/?p=1772" name="scite-10" rel="nofollow" target="_blank">
-        Metcalf, S. (2015, September 19). Sneaky Active Directory Persistence #14: SID History. Retrieved November 30, 2017.
+       <a class="external text" href="https://technet.microsoft.com/library/ee617241.aspx" name="scite-10" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Active Directory Cmdlets - Get-ADUser. Retrieved November 30, 2017.
        </a>
       </span>
      </span>
@@ -429,7 +459,16 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://msdn.microsoft.com/library/ms677982.aspx" name="scite-11" rel="nofollow" target="_blank">
+       <a class="external text" href="https://adsecurity.org/?p=1772" name="scite-11" rel="nofollow" target="_blank">
+        Metcalf, S. (2015, September 19). Sneaky Active Directory Persistence #14: SID History. Retrieved November 30, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://msdn.microsoft.com/library/ms677982.aspx" name="scite-12" rel="nofollow" target="_blank">
         Microsoft. (n.d.). Using DsAddSidHistory. Retrieved November 30, 2017.
        </a>
       </span>
