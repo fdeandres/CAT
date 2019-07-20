@@ -144,6 +144,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator
@@ -165,6 +169,10 @@
       Windows Registry, File monitoring, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -324,6 +332,28 @@
      </p>
     </td>
    </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      can leverage WMI debugging to remotely replace binaries like sethc.exe, Utilman.exe, and Magnify.exe with cmd.exe.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
   </tbody>
  </table>
  <h2 class="pt-3" id="mitigation">
@@ -331,61 +361,61 @@
  </h2>
  <p>
   To use this technique remotely, an adversary must use it in conjunction with RDP. Ensure that Network Level Authentication is enabled to force the remote desktop session to authenticate before the session is created and the login screen displayed. It is enabled by default on Windows Vista and later.
-  <span class="scite-citeref-number" data-reference="TechNet RDP NLA" id="scite-ref-9-a">
+  <span class="scite-citeref-number" data-reference="TechNet RDP NLA" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://technet.microsoft.com/en-us/library/cc732713.aspx" target="_blank">
-     [9]
-    </a>
-   </sup>
-  </span>
- </p>
- <p>
-  If possible, use a Remote Desktop Gateway to manage connections and security configuration of RDP within a network.
-  <span class="scite-citeref-number" data-reference="TechNet RDP Gateway" id="scite-ref-10-a">
-   <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://technet.microsoft.com/en-us/library/cc731150.aspx" target="_blank">
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://technet.microsoft.com/en-us/library/cc732713.aspx" target="_blank">
      [10]
     </a>
    </sup>
   </span>
  </p>
  <p>
-  Identify and block potentially malicious software that may be executed by an adversary with this technique by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-11-a">
+  If possible, use a Remote Desktop Gateway to manage connections and security configuration of RDP within a network.
+  <span class="scite-citeref-number" data-reference="TechNet RDP Gateway" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://technet.microsoft.com/en-us/library/cc731150.aspx" target="_blank">
      [11]
     </a>
    </sup>
   </span>
-  tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-12-a">
+ </p>
+ <p>
+  Identify and block potentially malicious software that may be executed by an adversary with this technique by using whitelisting
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-12-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [12]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-13-a">
+  tools, like AppLocker,
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-13-a">
    <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-12" data-hasqtip="12" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [13]
     </a>
    </sup>
   </span>
-  or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-14-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
      [14]
     </a>
    </sup>
   </span>
-  where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-15-a">
+  or Software Restriction Policies
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-15-a">
    <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
      [15]
+    </a>
+   </sup>
+  </span>
+  where appropriate.
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-16-a">
+   <sup>
+    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [16]
     </a>
    </sup>
   </span>
@@ -481,12 +511,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="9.5">
+   <ol start="9.0">
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc732713.aspx" name="scite-9" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Configure Network Level Authentication for Remote Desktop Services Connections. Retrieved June 6, 2016.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-9" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -494,8 +524,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc731150.aspx" name="scite-10" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Overview of Remote Desktop Gateway. Retrieved June 6, 2016.
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc732713.aspx" name="scite-10" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Configure Network Level Authentication for Remote Desktop Services Connections. Retrieved June 6, 2016.
        </a>
       </span>
      </span>
@@ -503,8 +533,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-11" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc731150.aspx" name="scite-11" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Overview of Remote Desktop Gateway. Retrieved June 6, 2016.
        </a>
       </span>
      </span>
@@ -512,8 +542,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-12" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-12" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -521,8 +551,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-13" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-13" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
        </a>
       </span>
      </span>
@@ -530,8 +560,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-14" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-14" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
        </a>
       </span>
      </span>
@@ -539,7 +569,16 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-15" rel="nofollow" target="_blank">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-15" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-16">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-16" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
