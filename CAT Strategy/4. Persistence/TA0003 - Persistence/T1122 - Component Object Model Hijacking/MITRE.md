@@ -5,15 +5,7 @@
  <div class="row">
   <div class="col-md-8 description-body">
    <p>
-    The
-    <span class="scite-citeref-number" data-reference="Microsoft Component Object Model" id="scite-ref-1-a">
-     <sup>
-      <a aria-describedby="qtip-0" data-hasqtip="0" href="https://msdn.microsoft.com/library/ms694363.aspx" target="_blank">
-       [1]
-      </a>
-     </sup>
-    </span>
-    (COM) is a system within Windows to enable interaction between software components through the operating system.
+    The Component Object Model (COM) is a system within Windows to enable interaction between software components through the operating system.
     <span class="scite-citeref-number" data-reference="Microsoft Component Object Model" id="scite-ref-1-a">
      <sup>
       <a aria-describedby="qtip-0" data-hasqtip="0" href="https://msdn.microsoft.com/library/ms694363.aspx" target="_blank">
@@ -65,6 +57,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -98,6 +94,10 @@
       Autoruns Analysis
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -264,6 +264,13 @@
         </a>
        </sup>
       </span>
+      <span class="scite-citeref-number" data-reference="Talos Seduploader Oct 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
      </p>
     </td>
    </tr>
@@ -279,10 +286,10 @@
        Mosquito
       </a>
       uses COM hijacking as a method of persistence.
-      <span class="scite-citeref-number" data-reference="ESET Turla Mosquito Jan 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="ESET Turla Mosquito Jan 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -299,41 +306,41 @@
  </p>
  <p>
   Instead, identify and block potentially malicious software that may execute, or be executed by, this technique using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-8-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [8]
-    </a>
-   </sup>
-  </span>
-  tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-9-a">
-   <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [9]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-10-a">
+  tools, like AppLocker,
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [10]
     </a>
    </sup>
   </span>
-  or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-11-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
      [11]
     </a>
    </sup>
   </span>
-  where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-12-a">
+  or Software Restriction Policies
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-12-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
      [12]
+    </a>
+   </sup>
+  </span>
+  where appropriate.
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-13-a">
+   <sup>
+    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [13]
     </a>
    </sup>
   </span>
@@ -351,10 +358,10 @@
    HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\
   </code>
   .
-  <span class="scite-citeref-number" data-reference="Endgame COM Hijacking" id="scite-ref-13-a">
+  <span class="scite-citeref-number" data-reference="Endgame COM Hijacking" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.endgame.com/blog/how-hunt-detecting-persistence-evasion-com" target="_blank">
-     [13]
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.endgame.com/blog/how-hunt-detecting-persistence-evasion-com" target="_blank">
+     [14]
     </a>
    </sup>
   </span>
@@ -423,8 +430,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" name="scite-7" rel="nofollow" target="_blank">
-        ESET, et al. (2018, January). Diplomats in Eastern Europe bitten by a Turla mosquito. Retrieved July 3, 2018.
+       <a class="external text" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" name="scite-7" rel="nofollow" target="_blank">
+        Mercer, W., et al. (2017, October 22). "Cyber Conflict" Decoy Document Used in Real Cyber Conflict. Retrieved November 2, 2018.
        </a>
       </span>
      </span>
@@ -432,12 +439,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="8.5">
+   <ol start="8.0">
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-8" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" name="scite-8" rel="nofollow" target="_blank">
+        ESET, et al. (2018, January). Diplomats in Eastern Europe bitten by a Turla mosquito. Retrieved July 3, 2018.
        </a>
       </span>
      </span>
@@ -445,8 +452,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-9" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-9" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -454,8 +461,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-10" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-10" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
        </a>
       </span>
      </span>
@@ -463,8 +470,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-11" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-11" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
        </a>
       </span>
      </span>
@@ -472,8 +479,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-12" rel="nofollow" target="_blank">
-        Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-12" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -481,7 +488,16 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.endgame.com/blog/how-hunt-detecting-persistence-evasion-com" name="scite-13" rel="nofollow" target="_blank">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-13" rel="nofollow" target="_blank">
+        Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-14">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.endgame.com/blog/how-hunt-detecting-persistence-evasion-com" name="scite-14" rel="nofollow" target="_blank">
         Ewing, P. Strom, B. (2016, September 15). How to Hunt: Detecting Persistence &amp; Evasion with the COM. Retrieved September 15, 2016.
        </a>
       </span>
