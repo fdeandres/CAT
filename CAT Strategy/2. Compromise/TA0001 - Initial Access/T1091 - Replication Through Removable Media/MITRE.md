@@ -41,6 +41,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Removable media allowed, Autorun enabled or vulnerability present that allows for code execution
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -58,6 +66,10 @@
       File monitoring, Data loss prevention
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -200,7 +212,7 @@
       's selective infector modifies executables stored on removable media as a method of spreading across computers.
       <span class="scite-citeref-number" data-reference="Kaspersky Darkhotel" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://securelist.com/files/2014/11/darkhotel_kl_07.11.pdf" target="_blank">
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf" target="_blank">
          [4]
         </a>
        </sup>
@@ -454,7 +466,7 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2014/11/darkhotel_kl_07.11.pdf" name="scite-4" rel="nofollow" target="_blank">
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070903/darkhotel_kl_07.11.pdf" name="scite-4" rel="nofollow" target="_blank">
         Kaspersky Lab's Global Research and Analysis Team. (2014, November). The Darkhotel APT A Story of Unusual Hospitality. Retrieved November 12, 2014.
        </a>
       </span>
