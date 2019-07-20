@@ -12,7 +12,7 @@
     can also be used externally.
    </p>
    <p>
-    Adversaries may use remote services to access and persist within a network.
+    Adversaries may use remote services to initially access and/or persist within a network.
     <span class="scite-citeref-number" data-reference="Volexity Virtual Private Keylogging" id="scite-ref-1-a">
      <sup>
       <a aria-describedby="qtip-0" data-hasqtip="0" href="https://www.volexity.com/blog/2015/10/07/virtual-private-keylogging-cisco-web-vpns-leveraged-for-access-and-persistence/" target="_blank">
@@ -50,7 +50,7 @@
       <span class="h5 card-title">
        Tactic
       </span>
-      : Persistence
+      : Persistence, Initial Access
       <br/>
       <br/>
      </div>
@@ -61,6 +61,10 @@
       Windows
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -104,6 +108,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Daniel Oakley; Travis Smith, Tripwire
@@ -114,7 +122,7 @@
       <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 2.0
      </div>
     </div>
    </div>
@@ -197,7 +205,7 @@
       <a href="https://attack.mitre.org/groups/G0053">
        FIN5
       </a>
-      has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.
+      has used legitimate VPN, Citrix, or VNC credentials to maintain access to a victim environment.
       <span class="scite-citeref-number" data-reference="FireEye Respond Webinar July 2017" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
         <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www2.fireeye.com/WBNR-Are-you-ready-to-respond.html" target="_blank">
@@ -246,6 +254,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0014">
+      Night Dragon
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0014">
+       Night Dragon
+      </a>
+      has used compromised VPN accounts to gain access to victim systems.
+      <span class="scite-citeref-number" data-reference="McAfee Night Dragon" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0049">
       OilRig
      </a>
@@ -256,10 +286,32 @@
        OilRig
       </a>
       uses remote services such as VPN, Citrix, or OWA to persist in an environment.
-      <span class="scite-citeref-number" data-reference="FireEye APT34 Webinar Dec 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="FireEye APT34 Webinar Dec 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" target="_blank">
-         [9]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0088">
+      TEMP.Veles
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0088">
+       TEMP.Veles
+      </a>
+      has used a VPN to persist in the victim environment.
+      <span class="scite-citeref-number" data-reference="FireEye TRITON 2019" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -278,10 +330,10 @@
        Threat Group-3390
       </a>
       actors look for and use VPN profiles during an operation to access the network using external VPN services.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [10]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -365,10 +417,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -378,6 +426,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="7.0">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
@@ -399,8 +451,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" name="scite-9" rel="nofollow" target="_blank">
-        Davis, S. and Caban, D. (2017, December 19). APT34 - New Targeted Attack in the Middle East. Retrieved December 20, 2017.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" name="scite-9" rel="nofollow" target="_blank">
+        McAfee® Foundstone® Professional Services and McAfee Labs™. (2011, February 10). Global Energy Cyberattacks: “Night Dragon”. Retrieved February 19, 2018.
        </a>
       </span>
      </span>
@@ -408,7 +460,25 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-10" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" name="scite-10" rel="nofollow" target="_blank">
+        Davis, S. and Caban, D. (2017, December 19). APT34 - New Targeted Attack in the Middle East. Retrieved December 20, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-11">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html" name="scite-11" rel="nofollow" target="_blank">
+        Miller, S, et al. (2019, April 10). TRITON Actor TTP Profile, Custom Attack Tools, Detections, and ATT&amp;CK Mapping. Retrieved April 16, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-12" rel="nofollow" target="_blank">
         Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
        </a>
       </span>
