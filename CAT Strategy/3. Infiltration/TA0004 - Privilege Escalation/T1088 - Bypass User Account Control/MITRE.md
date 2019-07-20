@@ -117,6 +117,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator
@@ -154,6 +158,10 @@
       Windows User Account Control
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -352,6 +360,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      includes various modules to attempt to bypass UAC for escalation of privileges.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [16]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0182">
       FinFisher
      </a>
@@ -362,17 +392,17 @@
        FinFisher
       </a>
       performs UAC bypass.
-      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
-         [16]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
-         [17]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -391,10 +421,10 @@
        H1N1
       </a>
       bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer (wusa.exe).
-      <span class="scite-citeref-number" data-reference="Cisco H1N1 Part 2" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Cisco H1N1 Part 2" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2" target="_blank">
-         [18]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -413,10 +443,10 @@
        Honeybee
       </a>
       uses a combination of NTWDBLIB.dll and cliconfg.exe to bypass UAC protections using DLL hijacking.
-      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -435,10 +465,10 @@
        InvisiMole
       </a>
       can bypass UAC and create an elevated COM object to escalate privileges.
-      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
-         [20]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -457,10 +487,32 @@
        Koadic
       </a>
       has 2 methods for elevating integrity. It can bypass UAC through eventvwr.exe and sdclt.exe.
-      <span class="scite-citeref-number" data-reference="Github Koadic" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="Github Koadic" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://github.com/zerosum0x0/koadic" target="_blank">
-         [21]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://github.com/zerosum0x0/koadic" target="_blank">
+         [22]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0069">
+      MuddyWater
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0069">
+       MuddyWater
+      </a>
+      uses various techniques to bypass UAC.
+      <span class="scite-citeref-number" data-reference="ClearSky MuddyWater Nov 2018" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+       <sup>
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -479,10 +531,10 @@
        Patchwork
       </a>
       bypassed User Access Control (UAC).
-      <span class="scite-citeref-number" data-reference="Cymmetria Patchwork" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="Cymmetria Patchwork" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" target="_blank">
-         [22]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -502,10 +554,32 @@
        PLAINTEE
       </a>
       performs UAC bypass.
-      <span class="scite-citeref-number" data-reference="Rancor Unit42 June 2018" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="Rancor Unit42 June 2018" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" target="_blank">
-         [23]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" target="_blank">
+         [25]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0378">
+      PoshC2
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0378">
+       PoshC2
+      </a>
+      can utilize multiple methods to bypass UAC.
+      <span class="scite-citeref-number" data-reference="GitHub PoshC2" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+       <sup>
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://github.com/nettitude/PoshC2" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -524,10 +598,32 @@
        Pupy
       </a>
       can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.
-      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://github.com/n1nj4sec/pupy" target="_blank">
-         [24]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://github.com/n1nj4sec/pupy" target="_blank">
+         [27]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0332">
+      Remcos
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0332">
+       Remcos
+      </a>
+      has a command for UAC bypassing.
+      <span class="scite-citeref-number" data-reference="Fortinet Remcos Feb 2017" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+       <sup>
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.fortinet.com/blog/threat-research/remcos-a-new-rat-in-the-wild-2.html" target="_blank">
+         [28]
         </a>
        </sup>
       </span>
@@ -546,10 +642,10 @@
        RTM
       </a>
       can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges.
-      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
-         [25]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -568,10 +664,10 @@
        Sakula
       </a>
       contains UAC bypass code for both 32- and 64-bit systems.
-      <span class="scite-citeref-number" data-reference="Dell Sakula" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+      <span class="scite-citeref-number" data-reference="Dell Sakula" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-25" data-hasqtip="25" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" target="_blank">
-         [26]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -590,10 +686,10 @@
        Shamoon
       </a>
       attempts to disable UAC remote restrictions by modifying the Registry.
-      <span class="scite-citeref-number" data-reference="Palo Alto Shamoon Nov 2016" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Shamoon Nov 2016" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-26" data-hasqtip="26" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" target="_blank">
-         [27]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
@@ -613,10 +709,10 @@
        Threat Group-3390
       </a>
       tool can use a public UAC bypass method to elevate privileges.
-      <span class="scite-citeref-number" data-reference="Nccgroup Emissary Panda May 2018" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+      <span class="scite-citeref-number" data-reference="Nccgroup Emissary Panda May 2018" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
        <sup>
-        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" target="_blank">
-         [28]
+        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" target="_blank">
+         [32]
         </a>
        </sup>
       </span>
@@ -658,10 +754,10 @@
        ZeroT
       </a>
       samples can perform UAC bypass by using eventvwr.exe to execute a malicious file.
-      <span class="scite-citeref-number" data-reference="Proofpoint ZeroT Feb 2017" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+      <span class="scite-citeref-number" data-reference="Proofpoint ZeroT Feb 2017" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
        <sup>
-        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" target="_blank">
-         [29]
+        <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" target="_blank">
+         [33]
         </a>
        </sup>
       </span>
@@ -740,17 +836,17 @@
     [HKEY_CURRENT_USER]\Software\Classes\exefile\shell\runas\command\isolatedCommand
    </code>
    Registry keys.
-   <span class="scite-citeref-number" data-reference="enigma0x3 sdclt app paths" id="scite-ref-30-a">
+   <span class="scite-citeref-number" data-reference="enigma0x3 sdclt app paths" id="scite-ref-34-a">
     <sup>
-     <a aria-describedby="qtip-29" data-hasqtip="29" href="https://enigma0x3.net/2017/03/14/bypassing-uac-using-app-paths/" target="_blank">
-      [30]
+     <a aria-describedby="qtip-33" data-hasqtip="33" href="https://enigma0x3.net/2017/03/14/bypassing-uac-using-app-paths/" target="_blank">
+      [34]
      </a>
     </sup>
    </span>
-   <span class="scite-citeref-number" data-reference="enigma0x3 sdclt bypass" id="scite-ref-31-a">
+   <span class="scite-citeref-number" data-reference="enigma0x3 sdclt bypass" id="scite-ref-35-a">
     <sup>
-     <a aria-describedby="qtip-30" data-hasqtip="30" href="https://enigma0x3.net/2017/03/17/fileless-uac-bypass-using-sdclt-exe/" target="_blank">
-      [31]
+     <a aria-describedby="qtip-34" data-hasqtip="34" href="https://enigma0x3.net/2017/03/17/fileless-uac-bypass-using-sdclt-exe/" target="_blank">
+      [35]
      </a>
     </sup>
    </span>
@@ -903,21 +999,17 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-16" rel="nofollow" target="_blank">
-        FinFisher. (n.d.). Retrieved December 20, 2017.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-16" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="17.5">
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-17" rel="nofollow" target="_blank">
-        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
+       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-17" rel="nofollow" target="_blank">
+        FinFisher. (n.d.). Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -925,17 +1017,21 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2" name="scite-18" rel="nofollow" target="_blank">
-        Reynolds, J.. (2016, September 14). H1N1: Technical analysis reveals new capabilities – part 2. Retrieved September 26, 2016.
+       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-18" rel="nofollow" target="_blank">
+        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="19.5">
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-19" rel="nofollow" target="_blank">
-        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
+       <a class="external text" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities-part-2" name="scite-19" rel="nofollow" target="_blank">
+        Reynolds, J.. (2016, September 14). H1N1: Technical analysis reveals new capabilities – part 2. Retrieved September 26, 2016.
        </a>
       </span>
      </span>
@@ -943,8 +1039,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-20" rel="nofollow" target="_blank">
-        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-20" rel="nofollow" target="_blank">
+        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
        </a>
       </span>
      </span>
@@ -952,8 +1048,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/zerosum0x0/koadic" name="scite-21" rel="nofollow" target="_blank">
-        Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-21" rel="nofollow" target="_blank">
+        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
        </a>
       </span>
      </span>
@@ -961,8 +1057,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" name="scite-22" rel="nofollow" target="_blank">
-        Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.
+       <a class="external text" href="https://github.com/zerosum0x0/koadic" name="scite-22" rel="nofollow" target="_blank">
+        Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.
        </a>
       </span>
      </span>
@@ -970,8 +1066,8 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" name="scite-23" rel="nofollow" target="_blank">
-        Ash, B., et al. (2018, June 26). RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families. Retrieved July 2, 2018.
+       <a class="external text" href="https://www.clearskysec.com/wp-content/uploads/2018/11/MuddyWater-Operations-in-Lebanon-and-Oman.pdf" name="scite-23" rel="nofollow" target="_blank">
+        ClearSky Cyber Security. (2018, November). MuddyWater Operations in Lebanon and Oman: Using an Israeli compromised domain for a two-stage campaign. Retrieved November 29, 2018.
        </a>
       </span>
      </span>
@@ -979,8 +1075,8 @@
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-24" rel="nofollow" target="_blank">
-        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
+       <a class="external text" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" name="scite-24" rel="nofollow" target="_blank">
+        Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.
        </a>
       </span>
      </span>
@@ -988,8 +1084,8 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-25" rel="nofollow" target="_blank">
-        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" name="scite-25" rel="nofollow" target="_blank">
+        Ash, B., et al. (2018, June 26). RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families. Retrieved July 2, 2018.
        </a>
       </span>
      </span>
@@ -997,8 +1093,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" name="scite-26" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, July 30). Sakula Malware Family. Retrieved January 26, 2016.
+       <a class="external text" href="https://github.com/nettitude/PoshC2" name="scite-26" rel="nofollow" target="_blank">
+        Nettitude. (2016, June 8). PoshC2: Powershell C2 Server and Implants. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -1006,8 +1102,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" name="scite-27" rel="nofollow" target="_blank">
-        Falcone, R.. (2016, November 30). Shamoon 2: Return of the Disttrack Wiper. Retrieved January 11, 2017.
+       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-27" rel="nofollow" target="_blank">
+        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
        </a>
       </span>
      </span>
@@ -1015,8 +1111,8 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" name="scite-28" rel="nofollow" target="_blank">
-        Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda – A potential new malicious tool. Retrieved June 25, 2018.
+       <a class="external text" href="https://www.fortinet.com/blog/threat-research/remcos-a-new-rat-in-the-wild-2.html" name="scite-28" rel="nofollow" target="_blank">
+        Bacurio, F., Salvio, J. (2017, February 14). REMCOS: A New RAT In The Wild. Retrieved November 6, 2018.
        </a>
       </span>
      </span>
@@ -1024,8 +1120,8 @@
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" name="scite-29" rel="nofollow" target="_blank">
-        Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-29" rel="nofollow" target="_blank">
+        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
        </a>
       </span>
      </span>
@@ -1033,8 +1129,8 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://enigma0x3.net/2017/03/14/bypassing-uac-using-app-paths/" name="scite-30" rel="nofollow" target="_blank">
-        Nelson, M. (2017, March 14). Bypassing UAC using App Paths. Retrieved May 25, 2017.
+       <a class="external text" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" name="scite-30" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, July 30). Sakula Malware Family. Retrieved January 26, 2016.
        </a>
       </span>
      </span>
@@ -1042,7 +1138,43 @@
     <li>
      <span class="scite-citation" id="scite-31">
       <span class="scite-citation-text">
-       <a class="external text" href="https://enigma0x3.net/2017/03/17/fileless-uac-bypass-using-sdclt-exe/" name="scite-31" rel="nofollow" target="_blank">
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" name="scite-31" rel="nofollow" target="_blank">
+        Falcone, R.. (2016, November 30). Shamoon 2: Return of the Disttrack Wiper. Retrieved January 11, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-32">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" name="scite-32" rel="nofollow" target="_blank">
+        Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda – A potential new malicious tool. Retrieved June 25, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-33">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" name="scite-33" rel="nofollow" target="_blank">
+        Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-34">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://enigma0x3.net/2017/03/14/bypassing-uac-using-app-paths/" name="scite-34" rel="nofollow" target="_blank">
+        Nelson, M. (2017, March 14). Bypassing UAC using App Paths. Retrieved May 25, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-35">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://enigma0x3.net/2017/03/17/fileless-uac-bypass-using-sdclt-exe/" name="scite-35" rel="nofollow" target="_blank">
         Nelson, M. (2017, March 17). "Fileless" UAC Bypass Using sdclt.exe. Retrieved May 25, 2017.
        </a>
       </span>
