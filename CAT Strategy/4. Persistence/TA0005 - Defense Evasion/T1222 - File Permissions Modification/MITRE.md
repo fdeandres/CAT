@@ -88,6 +88,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM, root
@@ -132,6 +136,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Jan Miller, CrowdStrike
@@ -165,6 +173,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      's macOS backdoor changes the permission of the file it wants to execute to 755.
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus macOS April 2019" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0201">
       JPIN
      </a>
@@ -175,10 +205,40 @@
        JPIN
       </a>
       can use the command-line utility cacls.exe to change file permissions.
-      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      uses
+      <code>
+       attrib +h
+      </code>
+      and
+      <code>
+       icacls . /grant Everyone:F /T /C /Q
+      </code>
+      to make some of its files hidden and grant all users full access controls.
+      <span class="scite-citeref-number" data-reference="LogRhythm WannaCry" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -198,26 +258,26 @@
  </h2>
  <p>
   Monitor and investigate attempts to modify DACLs and file ownership, such as use of icacls
-  <span class="scite-citeref-number" data-reference="Microsoft icacls OCT 2017" id="scite-ref-7-a">
+  <span class="scite-citeref-number" data-reference="Microsoft icacls OCT 2017" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://docs.microsoft.com/windows-server/administration/windows-commands/icacls" target="_blank">
-     [7]
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://docs.microsoft.com/windows-server/administration/windows-commands/icacls" target="_blank">
+     [9]
     </a>
    </sup>
   </span>
   , takeown
-  <span class="scite-citeref-number" data-reference="Microsoft takeown OCT 2017" id="scite-ref-8-a">
+  <span class="scite-citeref-number" data-reference="Microsoft takeown OCT 2017" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://docs.microsoft.com/windows-server/administration/windows-commands/takeown" target="_blank">
-     [8]
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://docs.microsoft.com/windows-server/administration/windows-commands/takeown" target="_blank">
+     [10]
     </a>
    </sup>
   </span>
   , attrib
-  <span class="scite-citeref-number" data-reference="Microsoft attrib OCT 2017" id="scite-ref-9-a">
+  <span class="scite-citeref-number" data-reference="Microsoft attrib OCT 2017" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib" target="_blank">
-     [9]
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib" target="_blank">
+     [11]
     </a>
    </sup>
   </span>
@@ -226,26 +286,26 @@
    PowerShell
   </a>
   Set-Acl
-  <span class="scite-citeref-number" data-reference="Microsoft SetAcl" id="scite-ref-10-a">
+  <span class="scite-citeref-number" data-reference="Microsoft SetAcl" id="scite-ref-12-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-acl" target="_blank">
-     [10]
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-acl" target="_blank">
+     [12]
     </a>
    </sup>
   </span>
   in Windows and chmod
-  <span class="scite-citeref-number" data-reference="Linux chmod" id="scite-ref-11-a">
+  <span class="scite-citeref-number" data-reference="Linux chmod" id="scite-ref-13-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://linux.die.net/man/1/chmod" target="_blank">
-     [11]
+    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://linux.die.net/man/1/chmod" target="_blank">
+     [13]
     </a>
    </sup>
   </span>
   /chown
-  <span class="scite-citeref-number" data-reference="Linux chown" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="Linux chown" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://linux.die.net/man/1/chown" target="_blank">
-     [12]
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://linux.die.net/man/1/chown" target="_blank">
+     [14]
     </a>
    </sup>
   </span>
@@ -253,10 +313,10 @@
  </p>
  <p>
   Consider enabling file permission change auditing on folders containing key binary/configuration files. Windows Security Log events (Event ID 4670) are used when DACLs are modified.
-  <span class="scite-citeref-number" data-reference="EventTracker File Permissions Feb 2014" id="scite-ref-13-a">
+  <span class="scite-citeref-number" data-reference="EventTracker File Permissions Feb 2014" id="scite-ref-15-a">
    <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.eventtracker.com/tech-articles/monitoring-file-permission-changes-windows-security-log/" target="_blank">
-     [13]
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.eventtracker.com/tech-articles/monitoring-file-permission-changes-windows-security-log/" target="_blank">
+     [15]
     </a>
    </sup>
   </span>
@@ -315,8 +375,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-6" rel="nofollow" target="_blank">
-        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" name="scite-6" rel="nofollow" target="_blank">
+        Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.
        </a>
       </span>
      </span>
@@ -324,8 +384,17 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/windows-server/administration/windows-commands/icacls" name="scite-7" rel="nofollow" target="_blank">
-        Plett, C. et al.. (2017, October 17). icacls. Retrieved August 19, 2018.
+       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-7" rel="nofollow" target="_blank">
+        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-8">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/" name="scite-8" rel="nofollow" target="_blank">
+        Noerenberg, E., Costis, A., and Quist, N. (2017, May 16). A Technical Analysis of WannaCry Ransomware. Retrieved March 25, 2019.
        </a>
       </span>
      </span>
@@ -333,21 +402,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="8.5">
-    <li>
-     <span class="scite-citation" id="scite-8">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/windows-server/administration/windows-commands/takeown" name="scite-8" rel="nofollow" target="_blank">
-        Plett, C. et al.. (2017, October 15). takeown. Retrieved August 19, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="9.5">
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib" name="scite-9" rel="nofollow" target="_blank">
-        Plett, C. et al.. (2017, October 15). attrib. Retrieved August 19, 2018.
+       <a class="external text" href="https://docs.microsoft.com/windows-server/administration/windows-commands/icacls" name="scite-9" rel="nofollow" target="_blank">
+        Plett, C. et al.. (2017, October 17). icacls. Retrieved August 19, 2018.
        </a>
       </span>
      </span>
@@ -355,8 +415,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-acl" name="scite-10" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Set-Acl. Retrieved August 19, 2018.
+       <a class="external text" href="https://docs.microsoft.com/windows-server/administration/windows-commands/takeown" name="scite-10" rel="nofollow" target="_blank">
+        Plett, C. et al.. (2017, October 15). takeown. Retrieved August 19, 2018.
        </a>
       </span>
      </span>
@@ -364,8 +424,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://linux.die.net/man/1/chmod" name="scite-11" rel="nofollow" target="_blank">
-        MacKenzie, D. &amp; Meyering, J. (n.d.). chmod(1) - Linux man page. Retrieved August 19, 2018.
+       <a class="external text" href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib" name="scite-11" rel="nofollow" target="_blank">
+        Plett, C. et al.. (2017, October 15). attrib. Retrieved August 19, 2018.
        </a>
       </span>
      </span>
@@ -373,8 +433,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://linux.die.net/man/1/chown" name="scite-12" rel="nofollow" target="_blank">
-        MacKenzie, D. &amp; Meyering, J. (n.d.). chown(1) - Linux man page. Retrieved August 19, 2018.
+       <a class="external text" href="https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-acl" name="scite-12" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Set-Acl. Retrieved August 19, 2018.
        </a>
       </span>
      </span>
@@ -382,7 +442,25 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.eventtracker.com/tech-articles/monitoring-file-permission-changes-windows-security-log/" name="scite-13" rel="nofollow" target="_blank">
+       <a class="external text" href="https://linux.die.net/man/1/chmod" name="scite-13" rel="nofollow" target="_blank">
+        MacKenzie, D. &amp; Meyering, J. (n.d.). chmod(1) - Linux man page. Retrieved August 19, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-14">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://linux.die.net/man/1/chown" name="scite-14" rel="nofollow" target="_blank">
+        MacKenzie, D. &amp; Meyering, J. (n.d.). chown(1) - Linux man page. Retrieved August 19, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-15">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.eventtracker.com/tech-articles/monitoring-file-permission-changes-windows-security-log/" name="scite-15" rel="nofollow" target="_blank">
         Netsurion. (2014, February 19). Monitoring File Permission Changes with the Windows Security Log. Retrieved August 19, 2018.
        </a>
       </span>
