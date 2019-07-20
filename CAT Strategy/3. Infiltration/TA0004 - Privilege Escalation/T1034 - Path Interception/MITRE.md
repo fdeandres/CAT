@@ -189,6 +189,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM
@@ -210,6 +214,10 @@
       File monitoring, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -272,6 +280,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      contains modules that can discover and exploit various path interception opportunities.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0194">
       PowerSploit
      </a>
@@ -282,17 +312,17 @@
        PowerSploit
       </a>
       contains a collection of Privesc-PowerUp modules that can discover and exploit various path interception opportunities in services, processes, and variables.
-      <span class="scite-citeref-number" data-reference="GitHub PowerSploit May 2012" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="GitHub PowerSploit May 2012" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://github.com/PowerShellMafia/PowerSploit" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://github.com/PowerShellMafia/PowerSploit" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="PowerSploit Documentation" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="PowerSploit Documentation" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://powersploit.readthedocs.io" target="_blank">
-         [11]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://powersploit.readthedocs.io" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -314,10 +344,10 @@
    </sup>
   </span>
   . Be aware of the search order Windows uses for executing or loading binaries and use fully qualified paths wherever appropriate
-  <span class="scite-citeref-number" data-reference="MSDN DLL Security" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="MSDN DLL Security" id="scite-ref-13-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://msdn.microsoft.com/en-us/library/ff919712.aspx" target="_blank">
-     [12]
+    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://msdn.microsoft.com/en-us/library/ff919712.aspx" target="_blank">
+     [13]
     </a>
    </sup>
   </span>
@@ -325,10 +355,10 @@
  </p>
  <p>
   Periodically search for and correct or report path interception weaknesses on systems that may have been introduced using custom or available tools that report software using insecure path configurations
-  <span class="scite-citeref-number" data-reference="Kanthak Sentinel" id="scite-ref-13-a">
+  <span class="scite-citeref-number" data-reference="Kanthak Sentinel" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://skanthak.homepage.t-online.de/sentinel.html" target="_blank">
-     [13]
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://skanthak.homepage.t-online.de/sentinel.html" target="_blank">
+     [14]
     </a>
    </sup>
   </span>
@@ -347,33 +377,33 @@
  </p>
  <p>
   Identify and block potentially malicious software that may be executed through the path interception by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-14-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-15-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [14]
-    </a>
-   </sup>
-  </span>
-  tools, like AppLocker
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-15-a">
-   <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [15]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-16-a">
+  tools, like AppLocker
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-16-a">
    <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-15" data-hasqtip="15" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [16]
     </a>
    </sup>
   </span>
-  or Software Restriction Policies,
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-17-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-17-a">
    <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
      [17]
+    </a>
+   </sup>
+  </span>
+  or Software Restriction Policies,
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-18-a">
+   <sup>
+    <a aria-describedby="qtip-17" data-hasqtip="17" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [18]
     </a>
    </sup>
   </span>
@@ -478,12 +508,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="10.5">
+   <ol start="10.0">
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/PowerShellMafia/PowerSploit" name="scite-10" rel="nofollow" target="_blank">
-        PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-10" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -491,8 +521,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="http://powersploit.readthedocs.io" name="scite-11" rel="nofollow" target="_blank">
-        PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.
+       <a class="external text" href="https://github.com/PowerShellMafia/PowerSploit" name="scite-11" rel="nofollow" target="_blank">
+        PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018.
        </a>
       </span>
      </span>
@@ -500,8 +530,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://msdn.microsoft.com/en-us/library/ff919712.aspx" name="scite-12" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Dynamic-Link Library Security. Retrieved July 25, 2016.
+       <a class="external text" href="http://powersploit.readthedocs.io" name="scite-12" rel="nofollow" target="_blank">
+        PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.
        </a>
       </span>
      </span>
@@ -509,8 +539,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://skanthak.homepage.t-online.de/sentinel.html" name="scite-13" rel="nofollow" target="_blank">
-        Kanthak, S. (2016, July 20). Vulnerability and Exploit Detector. Retrieved February 3, 2017.
+       <a class="external text" href="https://msdn.microsoft.com/en-us/library/ff919712.aspx" name="scite-13" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Dynamic-Link Library Security. Retrieved July 25, 2016.
        </a>
       </span>
      </span>
@@ -518,8 +548,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-14" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://skanthak.homepage.t-online.de/sentinel.html" name="scite-14" rel="nofollow" target="_blank">
+        Kanthak, S. (2016, July 20). Vulnerability and Exploit Detector. Retrieved February 3, 2017.
        </a>
       </span>
      </span>
@@ -527,8 +557,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-15" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-15" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -536,8 +566,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-16" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-16" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
        </a>
       </span>
      </span>
@@ -545,7 +575,16 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-17" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-17" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-18">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-18" rel="nofollow" target="_blank">
         Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
        </a>
       </span>
