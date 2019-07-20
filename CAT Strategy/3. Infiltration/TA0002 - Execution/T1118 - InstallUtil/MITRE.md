@@ -75,6 +75,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -109,9 +113,13 @@
       <span class="h5 card-title">
        Defense Bypassed:
       </span>
-      Process whitelisting
+      Process whitelisting, Digital Certificate Validation
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -133,7 +141,7 @@
       <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
@@ -173,7 +181,7 @@
     <li>
      <span class="scite-citation" id="scite-2">
       <span class="scite-citation-text">
-       [ Smith, C. (2016, August 17). Includes 5 Known Application Whitelisting/ Application Control Bypass Techniques in One File. Retrieved June 30, 2017.
+       Smith, C. (2016, August 17). Includes 5 Known Application Whitelisting/ Application Control Bypass Techniques in One File. Retrieved June 30, 2017.
       </span>
      </span>
     </li>
