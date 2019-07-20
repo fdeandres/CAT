@@ -112,6 +112,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -152,6 +156,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Justin Warner, ICEBRG
@@ -168,6 +176,45 @@
    </div>
   </div>
  </div>
+ <h2 class="pt-3" id="examples">
+  Examples
+ </h2>
+ <table class="table table-bordered table-light mt-2">
+  <thead>
+   <tr>
+    <th scope="col">
+     Name
+    </th>
+    <th scope="col">
+     Description
+    </th>
+   </tr>
+  </thead>
+  <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0086">
+      Stolen Pencil
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0086">
+       Stolen Pencil
+      </a>
+      victims are prompted to install malicious Google Chrome extensions which gave the threat actor the ability to read data from any website accessed.
+      <span class="scite-citeref-number" data-reference="Netscout Stolen Pencil Dec 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
  <h2 class="pt-3" id="mitigation">
   Mitigation
  </h2>
@@ -176,10 +223,10 @@
  </p>
  <p>
   Browser extensions for some browsers can be controlled through Group Policy. Set a browser extension white or black list as appropriate for your security policy.
-  <span class="scite-citeref-number" data-reference="Technospot Chrome Extensions GP" id="scite-ref-10-a">
+  <span class="scite-citeref-number" data-reference="Technospot Chrome Extensions GP" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="http://www.technospot.net/blogs/block-chrome-extensions-using-google-chrome-group-policy-settings/" target="_blank">
-     [10]
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="http://www.technospot.net/blogs/block-chrome-extensions-using-google-chrome-group-policy-settings/" target="_blank">
+     [11]
     </a>
    </sup>
   </span>
@@ -250,10 +297,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -263,6 +306,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="7.5">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
@@ -293,7 +340,16 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.technospot.net/blogs/block-chrome-extensions-using-google-chrome-group-policy-settings/" name="scite-10" rel="nofollow" target="_blank">
+       <a class="external text" href="https://asert.arbornetworks.com/stolen-pencil-campaign-targets-academia/" name="scite-10" rel="nofollow" target="_blank">
+        ASERT team. (2018, December 5). STOLEN PENCIL Campaign Targets Academia. Retrieved February 5, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-11">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.technospot.net/blogs/block-chrome-extensions-using-google-chrome-group-policy-settings/" name="scite-11" rel="nofollow" target="_blank">
         Mohta, A. (n.d.). Block Chrome Extensions using Google Chrome Group Policy Settings. Retrieved January 10, 2018.
        </a>
       </span>
