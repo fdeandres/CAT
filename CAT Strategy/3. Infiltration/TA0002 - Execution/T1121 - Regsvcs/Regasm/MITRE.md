@@ -71,6 +71,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator
@@ -105,9 +109,13 @@
       <span class="h5 card-title">
        Defense Bypassed:
       </span>
-      Process whitelisting
+      Process whitelisting, Digital Certificate Validation
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -129,7 +137,7 @@
       <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
@@ -139,7 +147,7 @@
   Mitigation
  </h2>
  <p>
-  Regsvcs and Regasm may not be necessary within a given environment. Block execution of Regsvcs.exe and Regasm.exe if they are not required for a given system or network to prevent potential misuess by adversaries.
+  Regsvcs and Regasm may not be necessary within a given environment. Block execution of Regsvcs.exe and Regasm.exe if they are not required for a given system or network to prevent potential misuse by adversaries.
  </p>
  <h2 class="pt-3" id="detection">
   Detection
@@ -178,7 +186,7 @@
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
-       [ Smith, C. (2016, August 17). Includes 5 Known Application Whitelisting/ Application Control Bypass Techniques in One File. Retrieved June 30, 2017.
+       Smith, C. (2016, August 17). Includes 5 Known Application Whitelisting/ Application Control Bypass Techniques in One File. Retrieved June 30, 2017.
       </span>
      </span>
     </li>
