@@ -69,6 +69,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Write access to system or domain logon scripts
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
       </span>
      </div>
      <div class="card-data">
@@ -82,6 +90,10 @@
       File monitoring, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -167,6 +179,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0080">
+      Cobalt Group
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0080">
+       Cobalt Group
+      </a>
+      has added persistence by registering the file name for the next stage malware under UserInitMprLogonScript.
+      <span class="scite-citeref-number" data-reference="Morphisec Cobalt Gang Oct 2018" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://blog.morphisec.com/cobalt-gang-2.0" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0044">
       JHUHUGIT
      </a>
@@ -177,10 +211,39 @@
        JHUHUGIT
       </a>
       has registered a Windows shell script under the Registry key HKCU\Environment\UserInitMprLogonScript to establish persistence.
-      <span class="scite-citeref-number" data-reference="ESET Sednit Part 1" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="ESET Sednit Part 1" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf" target="_blank">
-         [4]
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Talos Seduploader Oct 2017" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0251">
+      Zebrocy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0251">
+       Zebrocy
+      </a>
+      performs persistence via adding a Registry key with a logon script.
+      <span class="scite-citeref-number" data-reference="ESET Zebrocy Nov 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.welivesecurity.com/2018/11/20/sednit-whats-going-zebrocy/" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -201,25 +264,25 @@
  </p>
  <p>
   Identify and block potentially malicious software that may be executed through logon script modification by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-5-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-8-a">
    <sup>
-    <a aria-describedby="qtip-4" data-hasqtip="4" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [5]
+    <a aria-describedby="qtip-7" data-hasqtip="7" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [8]
     </a>
    </sup>
   </span>
   tools like AppLocker
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-6-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-5" data-hasqtip="5" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [6]
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [9]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-7-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [7]
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [10]
     </a>
    </sup>
   </span>
@@ -267,7 +330,16 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf" name="scite-4" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.morphisec.com/cobalt-gang-2.0" name="scite-4" rel="nofollow" target="_blank">
+        Gorelik, M. (2018, October 08). Cobalt Group 2.0. Retrieved November 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-5">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf" name="scite-5" rel="nofollow" target="_blank">
         ESET. (2016, October). En Route with Sednit - Part 1: Approaching the Target. Retrieved November 8, 2016.
        </a>
       </span>
@@ -276,21 +348,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="5.5">
-    <li>
-     <span class="scite-citation" id="scite-5">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-5" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-6" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html" name="scite-6" rel="nofollow" target="_blank">
+        Mercer, W., et al. (2017, October 22). "Cyber Conflict" Decoy Document Used in Real Cyber Conflict. Retrieved November 2, 2018.
        </a>
       </span>
      </span>
@@ -298,7 +361,34 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-7" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.welivesecurity.com/2018/11/20/sednit-whats-going-zebrocy/" name="scite-7" rel="nofollow" target="_blank">
+        ESET. (2018, November 20). Sednit: What’s going on with Zebrocy?. Retrieved February 12, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-8">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-8" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-9">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-9" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-10" rel="nofollow" target="_blank">
         NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
        </a>
       </span>
