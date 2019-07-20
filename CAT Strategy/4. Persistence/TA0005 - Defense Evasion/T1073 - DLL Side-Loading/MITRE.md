@@ -67,6 +67,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Process use of network, Process monitoring, Loaded DLLs
@@ -88,6 +92,10 @@
       Process whitelisting, Anti-virus
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -188,11 +196,25 @@
       <a href="https://attack.mitre.org/groups/G0050">
        APT32
       </a>
-      ran genuinely-signed executables from Symantec and McAfee which loaded a malicious DLL called rastls.dll.
-      <span class="scite-citeref-number" data-reference="ESET OceanLotus" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      ran legitimately-signed executables from Symantec and McAfee which load a malicious DLL. The group also side-loads its backdoor by dropping a library and a legitimate, signed executable (AcroTranscoder).
+      <span class="scite-citeref-number" data-reference="Cybereason Oceanlotus May 2017" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/" target="_blank">
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" target="_blank">
          [6]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus Mar 2019" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -211,17 +233,17 @@
        BADNEWS
       </a>
       typically loads its DLL file into a legitimate signed Java or VMware executable.
-      <span class="scite-citeref-number" data-reference="Forcepoint Monsoon" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Forcepoint Monsoon" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="PaloAlto Patchwork Mar 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="PaloAlto Patchwork Mar 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -240,15 +262,37 @@
       <a href="https://attack.mitre.org/software/S0127">
        BBSRAT
       </a>
-      through a legitimate Citrix executable ssonsvr.exe which is vulnerable to the technique. The Citrix executable was dropped along with
+      through a legitimate Citrix executable, ssonsvr.exe. The Citrix executable was dropped along with
       <a href="https://attack.mitre.org/software/S0127">
        BBSRAT
       </a>
       by the dropper.
-      <span class="scite-citeref-number" data-reference="Palo Alto Networks BBSRAT" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Networks BBSRAT" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" target="_blank">
-         [9]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0354">
+      Denis
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0354">
+       Denis
+      </a>
+      exploits a security vulnerability to load a fake DLL and execute its code.
+      <span class="scite-citeref-number" data-reference="Cybereason Oceanlotus May 2017" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
@@ -267,17 +311,17 @@
        FinFisher
       </a>
       uses DLL side-loading to load malicious programs.
-      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
-         [11]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -287,20 +331,20 @@
    <tr>
     <td>
      <a href="https://attack.mitre.org/software/S0032">
-      gh0st
+      gh0st RAT
      </a>
     </td>
     <td>
      <p>
       A
       <a href="https://attack.mitre.org/software/S0032">
-       gh0st
+       gh0st RAT
       </a>
       variant has used DLL side-loading.
-      <span class="scite-citeref-number" data-reference="Arbor Musical Chairs Feb 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="Arbor Musical Chairs Feb 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.arbornetworks.com/blog/asert/musical-chairs-playing-tetris/" target="_blank">
-         [12]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.arbornetworks.com/blog/asert/musical-chairs-playing-tetris/" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -319,10 +363,10 @@
        HTTPBrowser
       </a>
       has used DLL side-loading.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -345,17 +389,17 @@
        UPPERCUT
       </a>
       .
-      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
-         [14]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="FireEye APT10 Sept 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="FireEye APT10 Sept 2018" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" target="_blank">
-         [15]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -374,10 +418,10 @@
        OwaAuth
       </a>
       has been loaded onto Exchange servers and disguised as an ISAPI filter (DLL file). The IIS w3wp.exe process then loads the malicious DLL.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -401,10 +445,10 @@
        BADNEWS
       </a>
       is loaded and executed using DLL side-loading.
-      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
-         [16]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -422,7 +466,7 @@
       <a href="https://attack.mitre.org/software/S0013">
        PlugX
       </a>
-      has used to use DLL side-loading to evade anti-virus and to maintain persistence on a victim.
+      has used DLL side-loading to evade anti-virus.
       <span class="scite-citeref-number" data-reference="FireEye Clandestine Fox Part 2" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
         <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.fireeye.com/blog/threat-research/2014/06/clandestine-fox-part-deux.html" target="_blank">
@@ -430,10 +474,10 @@
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -444,17 +488,17 @@
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
-         [14]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Palo Alto PlugX June 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Palo Alto PlugX June 2017" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" target="_blank">
-         [17]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -473,10 +517,10 @@
        Sakula
       </a>
       uses DLL side-loading, typically using a digitally signed sample of Kaspersky Anti-Virus (AV) 6.0 for Windows Workstations or McAfee's Outlook Scan About Box to load malicious DLL files.
-      <span class="scite-citeref-number" data-reference="Dell Sakula" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Dell Sakula" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" target="_blank">
-         [18]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -496,10 +540,10 @@
        T9000
       </a>
       installation process, it drops a copy of the legitimate Microsoft binary igfxtray.exe. The executable contains a side-loading weakness which is used to load a portion of the malware.
-      <span class="scite-citeref-number" data-reference="Palo Alto T9000 Feb 2016" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="Palo Alto T9000 Feb 2016" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -518,24 +562,24 @@
        Threat Group-3390
       </a>
       actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="SecureWorks BRONZE UNION June 2017" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="SecureWorks BRONZE UNION June 2017" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.secureworks.com/research/bronze-union" target="_blank">
-         [20]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.secureworks.com/research/bronze-union" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Securelist LuckyMouse June 2018" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="Securelist LuckyMouse June 2018" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" target="_blank">
-         [21]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -554,17 +598,17 @@
        Wingbird
       </a>
       side loads a malicious file, sspisrv.dll, in part of a spoofed lssas.exe service.
-      <span class="scite-citeref-number" data-reference="Microsoft SIR Vol 21" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="Microsoft SIR Vol 21" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf" target="_blank">
-         [22]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Microsoft Wingbird Nov 2017" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="Microsoft Wingbird Nov 2017" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Wingbird.A!dha" target="_blank">
-         [23]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Wingbird.A!dha" target="_blank">
+         [25]
         </a>
        </sup>
       </span>
@@ -583,17 +627,17 @@
        ZeroT
       </a>
       has used DLL side-loading to load malicious payloads.
-      <span class="scite-citeref-number" data-reference="Proofpoint TA459 April 2017" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="Proofpoint TA459 April 2017" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts" target="_blank">
-         [24]
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Proofpoint ZeroT Feb 2017" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="Proofpoint ZeroT Feb 2017" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" target="_blank">
-         [25]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -668,8 +712,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/2018/03/13/oceanlotus-ships-new-backdoor/" name="scite-6" rel="nofollow" target="_blank">
-        Foltýn, T. (2018, March 13). OceanLotus ships new backdoor using old tricks. Retrieved May 22, 2018.
+       <a class="external text" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" name="scite-6" rel="nofollow" target="_blank">
+        Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -677,8 +721,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" name="scite-7" rel="nofollow" target="_blank">
-        Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-7" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -686,8 +730,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/" name="scite-8" rel="nofollow" target="_blank">
-        Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" name="scite-8" rel="nofollow" target="_blank">
+        Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.
        </a>
       </span>
      </span>
@@ -695,8 +739,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" name="scite-9" rel="nofollow" target="_blank">
-        Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.
+       <a class="external text" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" name="scite-9" rel="nofollow" target="_blank">
+        Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.
        </a>
       </span>
      </span>
@@ -704,8 +748,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-10" rel="nofollow" target="_blank">
-        FinFisher. (n.d.). Retrieved December 20, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/03/unit42-patchwork-continues-deliver-badnews-indian-subcontinent/" name="scite-10" rel="nofollow" target="_blank">
+        Levene, B. et al.. (2018, March 7). Patchwork Continues to Deliver BADNEWS to the Indian Subcontinent. Retrieved March 31, 2018.
        </a>
       </span>
      </span>
@@ -713,8 +757,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-11" rel="nofollow" target="_blank">
-        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" name="scite-11" rel="nofollow" target="_blank">
+        Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.
        </a>
       </span>
      </span>
@@ -722,8 +766,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.arbornetworks.com/blog/asert/musical-chairs-playing-tetris/" name="scite-12" rel="nofollow" target="_blank">
-        Sabo, S. (2018, February 15). Musical Chairs Playing Tetris. Retrieved February 19, 2018.
+       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-12" rel="nofollow" target="_blank">
+        FinFisher. (n.d.). Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -731,8 +775,17 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-13" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
+       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-13" rel="nofollow" target="_blank">
+        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-14">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.arbornetworks.com/blog/asert/musical-chairs-playing-tetris/" name="scite-14" rel="nofollow" target="_blank">
+        Sabo, S. (2018, February 15). Musical Chairs Playing Tetris. Retrieved February 19, 2018.
        </a>
       </span>
      </span>
@@ -740,21 +793,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="14.5">
-    <li>
-     <span class="scite-citation" id="scite-14">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-14" rel="nofollow" target="_blank">
-        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="15.5">
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" name="scite-15" rel="nofollow" target="_blank">
-        Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.
+       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-15" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
        </a>
       </span>
      </span>
@@ -762,8 +806,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-16" rel="nofollow" target="_blank">
-        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
+       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-16" rel="nofollow" target="_blank">
+        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
        </a>
       </span>
      </span>
@@ -771,8 +815,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" name="scite-17" rel="nofollow" target="_blank">
-        Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" name="scite-17" rel="nofollow" target="_blank">
+        Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.
        </a>
       </span>
      </span>
@@ -780,8 +824,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" name="scite-18" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, July 30). Sakula Malware Family. Retrieved January 26, 2016.
+       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-18" rel="nofollow" target="_blank">
+        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
        </a>
       </span>
      </span>
@@ -789,8 +833,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" name="scite-19" rel="nofollow" target="_blank">
-        Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" name="scite-19" rel="nofollow" target="_blank">
+        Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.
        </a>
       </span>
      </span>
@@ -798,8 +842,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/bronze-union" name="scite-20" rel="nofollow" target="_blank">
-        Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.
+       <a class="external text" href="http://www.secureworks.com/cyber-threat-intelligence/threats/sakula-malware-family/" name="scite-20" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, July 30). Sakula Malware Family. Retrieved January 26, 2016.
        </a>
       </span>
      </span>
@@ -807,8 +851,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" name="scite-21" rel="nofollow" target="_blank">
-        Legezo, D. (2018, June 13). LuckyMouse hits national data center to organize country-level waterholing campaign. Retrieved August 18, 2018.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" name="scite-21" rel="nofollow" target="_blank">
+        Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.
        </a>
       </span>
      </span>
@@ -816,8 +860,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf" name="scite-22" rel="nofollow" target="_blank">
-        Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017.
+       <a class="external text" href="https://www.secureworks.com/research/bronze-union" name="scite-22" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.
        </a>
       </span>
      </span>
@@ -825,8 +869,8 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Wingbird.A!dha" name="scite-23" rel="nofollow" target="_blank">
-        Microsoft. (2017, November 9). Backdoor:Win32/Wingbird.A!dha. Retrieved November 27, 2017.
+       <a class="external text" href="https://securelist.com/luckymouse-hits-national-data-center/86083/" name="scite-23" rel="nofollow" target="_blank">
+        Legezo, D. (2018, June 13). LuckyMouse hits national data center to organize country-level waterholing campaign. Retrieved August 18, 2018.
        </a>
       </span>
      </span>
@@ -834,8 +878,8 @@
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts" name="scite-24" rel="nofollow" target="_blank">
-        Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018.
+       <a class="external text" href="http://download.microsoft.com/download/E/B/0/EB0F50CC-989C-4B66-B7F6-68CD3DC90DE3/Microsoft_Security_Intelligence_Report_Volume_21_English.pdf" name="scite-24" rel="nofollow" target="_blank">
+        Anthe, C. et al. (2016, December 14). Microsoft Security Intelligence Report Volume 21. Retrieved November 27, 2017.
        </a>
       </span>
      </span>
@@ -843,7 +887,25 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" name="scite-25" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?Name=Backdoor:Win32/Wingbird.A!dha" name="scite-25" rel="nofollow" target="_blank">
+        Microsoft. (2017, November 9). Backdoor:Win32/Wingbird.A!dha. Retrieved November 27, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-26">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/apt-targets-financial-analysts" name="scite-26" rel="nofollow" target="_blank">
+        Axel F. (2017, April 27). APT Targets Financial Analysts with CVE-2017-0199. Retrieved February 15, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-27">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" name="scite-27" rel="nofollow" target="_blank">
         Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.
        </a>
       </span>
