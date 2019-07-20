@@ -5,7 +5,10 @@
  <div class="row">
   <div class="col-md-8 description-body">
    <p>
-    Windows processes often leverage application programming interface (API) functions to perform tasks that require reusable system resources. Windows API functions are typically stored in dynamic-link libraries (DLLs) as exported functions. Hooking involves redirecting calls to these functions and can be implemented via:
+    Windows processes often leverage application programming interface (API) functions to perform tasks that require reusable system resources. Windows API functions are typically stored in dynamic-link libraries (DLLs) as exported functions.
+   </p>
+   <p>
+    Hooking involves redirecting calls to these functions and can be implemented via:
    </p>
    <ul>
     <li>
@@ -146,6 +149,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -163,6 +170,10 @@
       API monitoring, Binary file metadata, DLL monitoring, Loaded DLLs, Process monitoring, Windows event logs
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -215,6 +226,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      contains some modules that leverage API hooking to carry out tasks, such as netripper.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0182">
       FinFisher
      </a>
@@ -225,10 +258,10 @@
        FinFisher
       </a>
       hooks processes by modifying IAT pointers to CreateWindowEx.
-      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
-         [8]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -236,6 +269,28 @@
        <sup>
         <a aria-describedby="qtip-1" data-hasqtip="1" href="https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process" target="_blank">
          [2]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0353">
+      NOKKI
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0353">
+       NOKKI
+      </a>
+      uses the Windows call SetWindowsHookEx and begins injecting it into every GUI process running on the victim's machine.
+      <span class="scite-citeref-number" data-reference="Unit 42 NOKKI Sept 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-new-konni-malware-attacking-eurasia-southeast-asia/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -254,10 +309,73 @@
        PLATINUM
       </a>
       is capable of using Windows hook interfaces for information gathering such as credential access.
-      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0266">
+      TrickBot
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0266">
+       TrickBot
+      </a>
+      has the ability to capture RDP credentials by capturing the
+      <code>
+       CredEnumerateA
+      </code>
+      API
+      <span class="scite-citeref-number" data-reference="TrendMicro Trickbot Feb 2019" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
-         [9]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-adds-remote-application-credential-grabbing-capabilities-to-its-repertoire/" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0251">
+      Zebrocy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0251">
+       Zebrocy
+      </a>
+      installs an application-defined Windows hook to get notified when a network drive has been attached, so it can then use the hook to call its RecordToFile file stealing method.
+      <span class="scite-citeref-number" data-reference="Securelist Sofacy Feb 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+       <sup>
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://securelist.com/a-slice-of-2017-sofacy-activity/83930/" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0330">
+      Zeus Panda
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0330">
+       Zeus Panda
+      </a>
+      hooks processes by leveraging its own IAT hooked functions.
+      <span class="scite-citeref-number" data-reference="GDATA Zeus Panda June 2017" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -284,57 +402,57 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Volatility Detecting Hooks Sept 2012" id="scite-ref-10-a">
+  <span class="scite-citeref-number" data-reference="Volatility Detecting Hooks Sept 2012" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://volatility-labs.blogspot.com/2012/09/movp-31-detecting-malware-hooks-in.html" target="_blank">
-     [10]
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://volatility-labs.blogspot.com/2012/09/movp-31-detecting-malware-hooks-in.html" target="_blank">
+     [14]
     </a>
    </sup>
   </span>
   Also consider analyzing hook chains (which hold pointers to hook procedures for each type of hook) using tools
-  <span class="scite-citeref-number" data-reference="Volatility Detecting Hooks Sept 2012" id="scite-ref-10-a">
+  <span class="scite-citeref-number" data-reference="Volatility Detecting Hooks Sept 2012" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="https://volatility-labs.blogspot.com/2012/09/movp-31-detecting-malware-hooks-in.html" target="_blank">
-     [10]
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://volatility-labs.blogspot.com/2012/09/movp-31-detecting-malware-hooks-in.html" target="_blank">
+     [14]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="PreKageo Winhook Jul 2011" id="scite-ref-11-a">
+  <span class="scite-citeref-number" data-reference="PreKageo Winhook Jul 2011" id="scite-ref-15-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://github.com/prekageo/winhook" target="_blank">
-     [11]
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="https://github.com/prekageo/winhook" target="_blank">
+     [15]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Jay GetHooks Sept 2011" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="Jay GetHooks Sept 2011" id="scite-ref-16-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://github.com/jay/gethooks" target="_blank">
-     [12]
+    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://github.com/jay/gethooks" target="_blank">
+     [16]
     </a>
    </sup>
   </span>
   or by programmatically examining internal kernel structures.
-  <span class="scite-citeref-number" data-reference="Zairon Hooking Dec 2006" id="scite-ref-13-a">
+  <span class="scite-citeref-number" data-reference="Zairon Hooking Dec 2006" id="scite-ref-17-a">
    <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://zairon.wordpress.com/2006/12/06/any-application-defined-hook-procedure-on-my-machine/" target="_blank">
-     [13]
+    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://zairon.wordpress.com/2006/12/06/any-application-defined-hook-procedure-on-my-machine/" target="_blank">
+     [17]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="EyeofRa Detecting Hooking June 2017" id="scite-ref-14-a">
+  <span class="scite-citeref-number" data-reference="EyeofRa Detecting Hooking June 2017" id="scite-ref-18-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://eyeofrablog.wordpress.com/2017/06/27/windows-keylogger-part-2-defense-against-user-land/" target="_blank">
-     [14]
+    <a aria-describedby="qtip-17" data-hasqtip="17" href="https://eyeofrablog.wordpress.com/2017/06/27/windows-keylogger-part-2-defense-against-user-land/" target="_blank">
+     [18]
     </a>
    </sup>
   </span>
  </p>
  <p>
   Rootkits detectors
-  <span class="scite-citeref-number" data-reference="GMER Rootkits" id="scite-ref-15-a">
+  <span class="scite-citeref-number" data-reference="GMER Rootkits" id="scite-ref-19-a">
    <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://www.gmer.net/" target="_blank">
-     [15]
+    <a aria-describedby="qtip-18" data-hasqtip="18" href="http://www.gmer.net/" target="_blank">
+     [19]
     </a>
    </sup>
   </span>
@@ -342,18 +460,18 @@
  </p>
  <p>
   Verify integrity of live processes by comparing code in memory to that of corresponding static binaries, specifically checking for jumps and other instructions that redirect code flow. Also consider taking snapshots of newly started processes
-  <span class="scite-citeref-number" data-reference="Microsoft Process Snapshot" id="scite-ref-16-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Process Snapshot" id="scite-ref-20-a">
    <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://msdn.microsoft.com/library/windows/desktop/ms686701.aspx" target="_blank">
-     [16]
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://msdn.microsoft.com/library/windows/desktop/ms686701.aspx" target="_blank">
+     [20]
     </a>
    </sup>
   </span>
   to compare the in-memory IAT to the real addresses of the referenced functions.
-  <span class="scite-citeref-number" data-reference="StackExchange Hooks Jul 2012" id="scite-ref-17-a">
+  <span class="scite-citeref-number" data-reference="StackExchange Hooks Jul 2012" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://security.stackexchange.com/questions/17904/what-are-the-methods-to-find-hooked-functions-and-apis" target="_blank">
-     [17]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://security.stackexchange.com/questions/17904/what-are-the-methods-to-find-hooked-functions-and-apis" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
@@ -438,8 +556,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-8" rel="nofollow" target="_blank">
-        FinFisher. (n.d.). Retrieved December 20, 2017.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-8" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -447,21 +565,17 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-9" rel="nofollow" target="_blank">
-        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-9" rel="nofollow" target="_blank">
+        FinFisher. (n.d.). Retrieved December 20, 2017.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="10.5">
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://volatility-labs.blogspot.com/2012/09/movp-31-detecting-malware-hooks-in.html" name="scite-10" rel="nofollow" target="_blank">
-        Volatility Labs. (2012, September 24). MoVP 3.1 Detecting Malware Hooks in the Windows GUI Subsystem. Retrieved December 12, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-new-konni-malware-attacking-eurasia-southeast-asia/" name="scite-10" rel="nofollow" target="_blank">
+        Grunzweig, J., Lee, B. (2018, September 27). New KONNI Malware attacking Eurasia and Southeast Asia. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -469,17 +583,21 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/prekageo/winhook" name="scite-11" rel="nofollow" target="_blank">
-        Prekas, G. (2011, July 11). Winhook. Retrieved December 12, 2017.
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-adds-remote-application-credential-grabbing-capabilities-to-its-repertoire/" name="scite-11" rel="nofollow" target="_blank">
+        Llimos, N., Pascual, C.. (2019, February 12). Trickbot Adds Remote Application Credential-Grabbing Capabilities to Its Repertoire. Retrieved March 12, 2019.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="12.5">
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/jay/gethooks" name="scite-12" rel="nofollow" target="_blank">
-        Satiro, J. (2011, September 14). GetHooks. Retrieved December 12, 2017.
+       <a class="external text" href="https://securelist.com/a-slice-of-2017-sofacy-activity/83930/" name="scite-12" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, February 20). A Slice of 2017 Sofacy Activity. Retrieved November 27, 2018.
        </a>
       </span>
      </span>
@@ -487,8 +605,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://zairon.wordpress.com/2006/12/06/any-application-defined-hook-procedure-on-my-machine/" name="scite-13" rel="nofollow" target="_blank">
-        Felici, M. (2006, December 6). Any application-defined hook procedure on my machine?. Retrieved December 12, 2017.
+       <a class="external text" href="https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf" name="scite-13" rel="nofollow" target="_blank">
+        Ebach, L. (2017, June 22). Analysis Results of Zeus.Variant.Panda. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -496,8 +614,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://eyeofrablog.wordpress.com/2017/06/27/windows-keylogger-part-2-defense-against-user-land/" name="scite-14" rel="nofollow" target="_blank">
-        Eye of Ra. (2017, June 27). Windows Keylogger Part 2: Defense against user-land. Retrieved December 12, 2017.
+       <a class="external text" href="https://volatility-labs.blogspot.com/2012/09/movp-31-detecting-malware-hooks-in.html" name="scite-14" rel="nofollow" target="_blank">
+        Volatility Labs. (2012, September 24). MoVP 3.1 Detecting Malware Hooks in the Windows GUI Subsystem. Retrieved December 12, 2017.
        </a>
       </span>
      </span>
@@ -505,8 +623,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.gmer.net/" name="scite-15" rel="nofollow" target="_blank">
-        GMER. (n.d.). GMER. Retrieved December 12, 2017.
+       <a class="external text" href="https://github.com/prekageo/winhook" name="scite-15" rel="nofollow" target="_blank">
+        Prekas, G. (2011, July 11). Winhook. Retrieved December 12, 2017.
        </a>
       </span>
      </span>
@@ -514,8 +632,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://msdn.microsoft.com/library/windows/desktop/ms686701.aspx" name="scite-16" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Taking a Snapshot and Viewing Processes. Retrieved December 12, 2017.
+       <a class="external text" href="https://github.com/jay/gethooks" name="scite-16" rel="nofollow" target="_blank">
+        Satiro, J. (2011, September 14). GetHooks. Retrieved December 12, 2017.
        </a>
       </span>
      </span>
@@ -523,7 +641,43 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://security.stackexchange.com/questions/17904/what-are-the-methods-to-find-hooked-functions-and-apis" name="scite-17" rel="nofollow" target="_blank">
+       <a class="external text" href="https://zairon.wordpress.com/2006/12/06/any-application-defined-hook-procedure-on-my-machine/" name="scite-17" rel="nofollow" target="_blank">
+        Felici, M. (2006, December 6). Any application-defined hook procedure on my machine?. Retrieved December 12, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-18">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://eyeofrablog.wordpress.com/2017/06/27/windows-keylogger-part-2-defense-against-user-land/" name="scite-18" rel="nofollow" target="_blank">
+        Eye of Ra. (2017, June 27). Windows Keylogger Part 2: Defense against user-land. Retrieved December 12, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-19">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.gmer.net/" name="scite-19" rel="nofollow" target="_blank">
+        GMER. (n.d.). GMER. Retrieved December 12, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-20">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://msdn.microsoft.com/library/windows/desktop/ms686701.aspx" name="scite-20" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Taking a Snapshot and Viewing Processes. Retrieved December 12, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://security.stackexchange.com/questions/17904/what-are-the-methods-to-find-hooked-functions-and-apis" name="scite-21" rel="nofollow" target="_blank">
         Stack Exchange - Security. (2012, July 31). What are the methods to find hooked functions and APIs?. Retrieved December 12, 2017.
        </a>
       </span>
