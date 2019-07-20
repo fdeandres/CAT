@@ -34,11 +34,15 @@
     </span>
    </p>
    <p>
-    Adversaries may abuse these utilities for Defense Evasion, specifically to perform arbitrary execution while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent the usage of
+    Adversaries may abuse these features for
+    <a href="https://attack.mitre.org/tactics/TA0005">
+     Defense Evasion
+    </a>
+    , specifically to perform arbitrary execution while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent the usage of
     <a href="https://attack.mitre.org/software/S0106">
      cmd
     </a>
-    .
+    or file extensions more commonly associated with malicious payloads.
    </p>
   </div>
   <div class="col-md-4">
@@ -74,6 +78,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -88,7 +96,7 @@
       <span class="h5 card-title">
        Data Sources:
       </span>
-      Process monitoring, Process command-line parameters, Windows event logs
+      File monitoring, Process monitoring, Process command-line parameters, Windows event logs
       <br/>
       <br/>
      </div>
@@ -104,9 +112,13 @@
       <span class="h5 card-title">
        Defense Bypassed:
       </span>
-      Application whitelisting, Process whitelisting, Whitelisting by file name or path
+      Static File Analysis, Application whitelisting, Process whitelisting, Whitelisting by file name or path
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -227,17 +239,24 @@
     </a>
    </sup>
   </span>
-  . These mechanisms can also be used to disable and/or limit user access to Windows utilities used to invoke execution.
+  . These mechanisms can also be used to disable and/or limit user access to Windows utilities and file types/locations used to invoke malicious execution.
+  <span class="scite-citeref-number" data-reference="SpectorOPs SettingContent-ms Jun 2018" id="scite-ref-8-a">
+   <sup>
+    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://posts.specterops.io/the-tale-of-settingcontent-ms-files-f1ea253e4d39" target="_blank">
+     [8]
+    </a>
+   </sup>
+  </span>
  </p>
  <h2 class="pt-3" id="detection">
   Detection
  </h2>
  <p>
-  Monitor and analyze logs from host-based detection mechanisms, such as Sysmon, for events such as process creations that include or are resulting from parameters associated with invoking programs/commands and/or spawning child processes.
-  <span class="scite-citeref-number" data-reference="RSA Forfiles Aug 2017" id="scite-ref-8-a">
+  Monitor and analyze logs from host-based detection mechanisms, such as Sysmon, for events such as process creations that include or are resulting from parameters associated with invoking programs/commands/files and/or spawning child processes/network connections.
+  <span class="scite-citeref-number" data-reference="RSA Forfiles Aug 2017" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://community.rsa.com/community/products/netwitness/blog/2017/08/14/are-you-looking-out-for-forfilesexe-if-you-are-watching-for-cmdexe" target="_blank">
-     [8]
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://community.rsa.com/community/products/netwitness/blog/2017/08/14/are-you-looking-out-for-forfilesexe-if-you-are-watching-for-cmdexe" target="_blank">
+     [9]
     </a>
    </sup>
   </span>
@@ -284,10 +303,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="5.0">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
@@ -297,6 +312,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="6.5">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -318,7 +337,16 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://community.rsa.com/community/products/netwitness/blog/2017/08/14/are-you-looking-out-for-forfilesexe-if-you-are-watching-for-cmdexe" name="scite-8" rel="nofollow" target="_blank">
+       <a class="external text" href="https://posts.specterops.io/the-tale-of-settingcontent-ms-files-f1ea253e4d39" name="scite-8" rel="nofollow" target="_blank">
+        Nelson, M. (2018, June 11). The Tale of SettingContent-ms Files. Retrieved April 18, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-9">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://community.rsa.com/community/products/netwitness/blog/2017/08/14/are-you-looking-out-for-forfilesexe-if-you-are-watching-for-cmdexe" name="scite-9" rel="nofollow" target="_blank">
         Partington, E. (2017, August 14). Are you looking out for forfiles.exe (if you are watching for cmd.exe). Retrieved January 22, 2018.
        </a>
       </span>
