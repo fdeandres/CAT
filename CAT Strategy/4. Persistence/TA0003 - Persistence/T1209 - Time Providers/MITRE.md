@@ -88,6 +88,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -105,6 +109,10 @@
       API monitoring, Binary file metadata, DLL monitoring, File monitoring, Loaded DLLs, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
