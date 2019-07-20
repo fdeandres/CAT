@@ -68,6 +68,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator
@@ -116,6 +120,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Version
       </span>
       : 1.0
@@ -124,6 +132,45 @@
    </div>
   </div>
  </div>
+ <h2 class="pt-3" id="examples">
+  Examples
+ </h2>
+ <table class="table table-bordered table-light mt-2">
+  <thead>
+   <tr>
+    <th scope="col">
+     Name
+    </th>
+    <th scope="col">
+     Description
+    </th>
+   </tr>
+  </thead>
+  <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0283">
+      jRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0283">
+       jRAT
+      </a>
+      can list and manage startup entries.
+      <span class="scite-citeref-number" data-reference="Kaspersky Adwind Feb 2016" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+       <sup>
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" target="_blank">
+         [3]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
  <h2 class="pt-3" id="mitigation">
   Mitigation
  </h2>
@@ -159,15 +206,24 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="2.0">
     <li>
      <span class="scite-citation" id="scite-2">
       <span class="scite-citation-text">
        <a class="external text" href="https://www.virusbulletin.com/uploads/pdf/conference/vb2014/VB2014-Wardle.pdf" name="scite-2" rel="nofollow" target="_blank">
         Patrick Wardle. (2014, September). Methods of Malware Persistence on Mac OS X. Retrieved July 5, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="3.5">
+    <li>
+     <span class="scite-citation" id="scite-3">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" name="scite-3" rel="nofollow" target="_blank">
+        Kamluk, V. &amp; Gostev, A. (2016, February). Adwind - A Cross-Platform RAT. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
