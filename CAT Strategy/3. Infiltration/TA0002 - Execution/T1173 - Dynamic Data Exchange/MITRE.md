@@ -99,6 +99,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -147,9 +151,13 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
@@ -282,6 +290,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0084">
+      Gallmaker
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0084">
+       Gallmaker
+      </a>
+      attempted to exploit Microsoft’s DDE protocol in order to gain access to victim machines and for execution.
+      <span class="scite-citeref-number" data-reference="Symantec Gallmaker Oct 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+       <sup>
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.symantec.com/blogs/threat-intelligence/gallmaker-attack-group" target="_blank">
+         [14]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0237">
       GravityRAT
      </a>
@@ -292,10 +322,32 @@
        GravityRAT
       </a>
       has been delivered via Word documents using DDE for execution.
-      <span class="scite-citeref-number" data-reference="Talos GravityRAT" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="Talos GravityRAT" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" target="_blank">
-         [14]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" target="_blank">
+         [15]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0069">
+      MuddyWater
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0069">
+       MuddyWater
+      </a>
+      has used malware that can execute PowerShell scripts via DDE.
+      <span class="scite-citeref-number" data-reference="Securelist MuddyWater Oct 2018" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://securelist.com/muddywater/88059/" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -314,10 +366,10 @@
        Patchwork
       </a>
       leveraged the DDE protocol to deliver their malware.
-      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
-         [15]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -336,10 +388,10 @@
        POWERSTATS
       </a>
       can use DDE to execute additional payloads on compromised hosts.
-      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
-         [16]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -367,14 +419,14 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="GitHub Disable DDEAUTO Oct 2017" id="scite-ref-17-a">
+  <span class="scite-citeref-number" data-reference="GitHub Disable DDEAUTO Oct 2017" id="scite-ref-19-a">
    <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b" target="_blank">
-     [17]
+    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b" target="_blank">
+     [19]
     </a>
    </sup>
   </span>
-  Microsoft also created Registry keys to completely disable DDE execution in Word and Excel.
+  Microsoft also created, and enabled by default, Registry keys to completely disable DDE execution in Word and Excel.
   <span class="scite-citeref-number" data-reference="Microsoft ADV170021 Dec 2017" id="scite-ref-2-a">
    <sup>
     <a aria-describedby="qtip-1" data-hasqtip="1" href="https://portal.msrc.microsoft.com/security-guidance/advisory/ADV170021" target="_blank">
@@ -385,10 +437,10 @@
  </p>
  <p>
   Ensure Protected View is enabled
-  <span class="scite-citeref-number" data-reference="Microsoft Protected View" id="scite-ref-18-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Protected View" id="scite-ref-20-a">
    <sup>
-    <a aria-describedby="qtip-17" data-hasqtip="17" href="https://support.office.com/en-us/article/What-is-Protected-View-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653" target="_blank">
-     [18]
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://support.office.com/en-us/article/What-is-Protected-View-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653" target="_blank">
+     [20]
     </a>
    </sup>
   </span>
@@ -400,20 +452,20 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="GitHub Disable DDEAUTO Oct 2017" id="scite-ref-17-a">
+  <span class="scite-citeref-number" data-reference="GitHub Disable DDEAUTO Oct 2017" id="scite-ref-19-a">
    <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b" target="_blank">
-     [17]
+    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b" target="_blank">
+     [19]
     </a>
    </sup>
   </span>
  </p>
  <p>
   On Windows 10, enable Attack Surface Reduction (ASR) rules to prevent DDE attacks and spawning of child processes from Office programs.
-  <span class="scite-citeref-number" data-reference="Microsoft ASR Nov 2017" id="scite-ref-19-a">
+  <span class="scite-citeref-number" data-reference="Microsoft ASR Nov 2017" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction" target="_blank">
-     [19]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
@@ -430,10 +482,10 @@
  </h2>
  <p>
   OLE and Office Open XML files can be scanned for ‘DDEAUTO', ‘DDE’, and other strings indicative of DDE execution.
-  <span class="scite-citeref-number" data-reference="NVisio Labs DDE Detection Oct 2017" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="NVisio Labs DDE Detection Oct 2017" id="scite-ref-22-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://blog.nviso.be/2017/10/11/detecting-dde-in-ms-office-documents/" target="_blank">
-     [20]
+    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://blog.nviso.be/2017/10/11/detecting-dde-in-ms-office-documents/" target="_blank">
+     [22]
     </a>
    </sup>
   </span>
@@ -540,10 +592,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="11.0">
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
@@ -553,6 +601,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="12.0">
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
@@ -574,8 +626,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" name="scite-14" rel="nofollow" target="_blank">
-        Mercer, W., Rascagneres, P. (2018, April 26). GravityRAT - The Two-Year Evolution Of An APT Targeting India. Retrieved May 16, 2018.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/gallmaker-attack-group" name="scite-14" rel="nofollow" target="_blank">
+        Symantec Security Response. (2018, October 10). Gallmaker: New Attack Group Eschews Malware to Live off the Land. Retrieved November 27, 2018.
        </a>
       </span>
      </span>
@@ -583,8 +635,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-15" rel="nofollow" target="_blank">
-        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
+       <a class="external text" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" name="scite-15" rel="nofollow" target="_blank">
+        Mercer, W., Rascagneres, P. (2018, April 26). GravityRAT - The Two-Year Evolution Of An APT Targeting India. Retrieved May 16, 2018.
        </a>
       </span>
      </span>
@@ -592,8 +644,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-16" rel="nofollow" target="_blank">
-        Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
+       <a class="external text" href="https://securelist.com/muddywater/88059/" name="scite-16" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.
        </a>
       </span>
      </span>
@@ -601,8 +653,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b" name="scite-17" rel="nofollow" target="_blank">
-        Dormann, W. (2017, October 20). Disable DDEAUTO for Outlook, Word, OneNote, and Excel versions 2010, 2013, 2016. Retrieved February 3, 2018.
+       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-17" rel="nofollow" target="_blank">
+        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
        </a>
       </span>
      </span>
@@ -610,8 +662,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://support.office.com/en-us/article/What-is-Protected-View-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653" name="scite-18" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). What is Protected View?. Retrieved November 22, 2017.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-18" rel="nofollow" target="_blank">
+        Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -619,8 +671,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction" name="scite-19" rel="nofollow" target="_blank">
-        Brower, N. &amp; D'Souza-Wiltshire, I. (2017, November 9). Enable Attack surface reduction. Retrieved February 3, 2018.
+       <a class="external text" href="https://gist.github.com/wdormann/732bb88d9b5dd5a66c9f1e1498f31a1b" name="scite-19" rel="nofollow" target="_blank">
+        Dormann, W. (2017, October 20). Disable DDEAUTO for Outlook, Word, OneNote, and Excel versions 2010, 2013, 2016. Retrieved February 3, 2018.
        </a>
       </span>
      </span>
@@ -628,7 +680,25 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.nviso.be/2017/10/11/detecting-dde-in-ms-office-documents/" name="scite-20" rel="nofollow" target="_blank">
+       <a class="external text" href="https://support.office.com/en-us/article/What-is-Protected-View-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653" name="scite-20" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). What is Protected View?. Retrieved November 22, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction" name="scite-21" rel="nofollow" target="_blank">
+        Brower, N. &amp; D'Souza-Wiltshire, I. (2017, November 9). Enable Attack surface reduction. Retrieved February 3, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-22">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.nviso.be/2017/10/11/detecting-dde-in-ms-office-documents/" name="scite-22" rel="nofollow" target="_blank">
         NVISO Labs. (2017, October 11). Detecting DDE in MS Office documents. Retrieved November 21, 2017.
        </a>
       </span>
