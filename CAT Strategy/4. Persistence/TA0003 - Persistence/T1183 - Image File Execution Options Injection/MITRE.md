@@ -176,6 +176,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -220,6 +224,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Oddvar Moe, @oddvarmoe
@@ -236,15 +244,60 @@
    </div>
   </div>
  </div>
+ <h2 class="pt-3" id="examples">
+  Examples
+ </h2>
+ <table class="table table-bordered table-light mt-2">
+  <thead>
+   <tr>
+    <th scope="col">
+     Name
+    </th>
+    <th scope="col">
+     Description
+    </th>
+   </tr>
+  </thead>
+  <tbody class="bg-white">
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0088">
+      TEMP.Veles
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0088">
+       TEMP.Veles
+      </a>
+      has modified and added entries within
+      <code>
+       HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
+      </code>
+      to maintain persistence.
+      <br/>
+      <br/>
+      <span class="scite-citeref-number" data-reference="FireEye TRITON 2019" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
  <h2 class="pt-3" id="mitigation">
   Mitigation
  </h2>
  <p>
   This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating all IFEO will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly.
-  <span class="scite-citeref-number" data-reference="Microsoft IFEOorMalware July 2015" id="scite-ref-8-a">
+  <span class="scite-citeref-number" data-reference="Microsoft IFEOorMalware July 2015" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://answers.microsoft.com/windows/forum/windows_10-security/part-of-windows-10-or-really-malware/af715663-a34a-423c-850d-2a46f369a54c" target="_blank">
-     [8]
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://answers.microsoft.com/windows/forum/windows_10-security/part-of-windows-10-or-really-malware/af715663-a34a-423c-850d-2a46f369a54c" target="_blank">
+     [9]
     </a>
    </sup>
   </span>
@@ -252,25 +305,25 @@
  </p>
  <p>
   Identify and block potentially malicious software that may be executed through IFEO by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-9-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-10-a">
    <sup>
-    <a aria-describedby="qtip-8" data-hasqtip="8" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [9]
-    </a>
-   </sup>
-  </span>
-  tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-10-a">
-   <sup>
-    <a aria-describedby="qtip-9" data-hasqtip="9" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+    <a aria-describedby="qtip-9" data-hasqtip="9" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [10]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-11-a">
+  tools, like AppLocker,
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-11-a">
    <sup>
-    <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-10" data-hasqtip="10" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [11]
+    </a>
+   </sup>
+  </span>
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-12-a">
+   <sup>
+    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [12]
     </a>
    </sup>
   </span>
@@ -370,7 +423,7 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="7.5">
+   <ol start="7.0">
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
@@ -383,8 +436,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://answers.microsoft.com/windows/forum/windows_10-security/part-of-windows-10-or-really-malware/af715663-a34a-423c-850d-2a46f369a54c" name="scite-8" rel="nofollow" target="_blank">
-        Microsoft. (2015, July 30). Part of Windows 10 or really Malware?. Retrieved December 18, 2017.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/04/triton-actor-ttp-profile-custom-attack-tools-detections.html" name="scite-8" rel="nofollow" target="_blank">
+        Miller, S, et al. (2019, April 10). TRITON Actor TTP Profile, Custom Attack Tools, Detections, and ATT&amp;CK Mapping. Retrieved April 16, 2019.
        </a>
       </span>
      </span>
@@ -392,8 +445,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-9" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://answers.microsoft.com/windows/forum/windows_10-security/part-of-windows-10-or-really-malware/af715663-a34a-423c-850d-2a46f369a54c" name="scite-9" rel="nofollow" target="_blank">
+        Microsoft. (2015, July 30). Part of Windows 10 or really Malware?. Retrieved December 18, 2017.
        </a>
       </span>
      </span>
@@ -401,8 +454,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-10" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-10" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -410,7 +463,16 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-11" rel="nofollow" target="_blank">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-11" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-12">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-12" rel="nofollow" target="_blank">
         NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
        </a>
       </span>
