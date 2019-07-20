@@ -102,6 +102,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      NTFS partitioned hard drive
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
       </span>
      </div>
      <div class="card-data">
@@ -131,6 +139,10 @@
       Signature-based detection, Host forensic analysis, Anti-virus
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -175,6 +187,50 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      used NTFS alternate data stream to hide their payloads.
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0361">
+      Expand
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0361">
+       Expand
+      </a>
+      can be used to download or copy a file into an alternate data stream.
+      <span class="scite-citeref-number" data-reference="LOLBAS Expand" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://lolbas-project.github.io/lolbas/Binaries/Expand/" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0168">
       Gazer
      </a>
@@ -185,10 +241,10 @@
        Gazer
       </a>
       stores configuration items in alternate data streams (ADSs) if the Registry is not accessible.
-      <span class="scite-citeref-number" data-reference="ESET Gazer Aug 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="ESET Gazer Aug 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -207,10 +263,10 @@
        PowerDuke
       </a>
       hides many of its backdoor payloads in an alternate data stream (ADS).
-      <span class="scite-citeref-number" data-reference="Volexity PowerDuke November 2016" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Volexity PowerDuke November 2016" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -234,10 +290,10 @@
        %PROGRAMDATA%\Windows\
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Cisco DNSMessenger March 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Cisco DNSMessenger March 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" target="_blank">
-         [9]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -257,10 +313,10 @@
        Regin
       </a>
       malware platform uses Extended Attributes to store encrypted executables.
-      <span class="scite-citeref-number" data-reference="Kaspersky Regin" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Regin" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -280,10 +336,10 @@
        Zeroaccess
       </a>
       Trojan have been known to store data in Extended Attributes.
-      <span class="scite-citeref-number" data-reference="Ciubotariu 2014" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="Ciubotariu 2014" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://www.symantec.com/connect/blogs/trojanzeroaccessc-hidden-ntfs-ea" target="_blank">
-         [11]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="http://www.symantec.com/connect/blogs/trojanzeroaccessc-hidden-ntfs-ea" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -304,59 +360,59 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Symantec ADS May 2009" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="Symantec ADS May 2009" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore" target="_blank">
-     [12]
-    </a>
-   </sup>
-  </span>
-  Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to hide information in EA and ADSs by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-13-a">
-   <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [13]
-    </a>
-   </sup>
-  </span>
-  tools like AppLocker
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-14-a">
-   <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore" target="_blank">
      [14]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-15-a">
+  Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to hide information in EA and ADSs by using whitelisting
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-15-a">
    <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [15]
     </a>
    </sup>
   </span>
-  or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-16-a">
+  tools like AppLocker
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-16-a">
    <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-15" data-hasqtip="15" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [16]
     </a>
    </sup>
   </span>
-  where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-17-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-17-a">
    <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
      [17]
+    </a>
+   </sup>
+  </span>
+  or Software Restriction Policies
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-18-a">
+   <sup>
+    <a aria-describedby="qtip-17" data-hasqtip="17" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [18]
+    </a>
+   </sup>
+  </span>
+  where appropriate.
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-19-a">
+   <sup>
+    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [19]
     </a>
    </sup>
   </span>
  </p>
  <p>
   Consider adjusting read and write permissions for NTFS EA, though this should be tested to ensure routine OS operations are not impeded.
-  <span class="scite-citeref-number" data-reference="InsiderThreat NTFS EA Oct 2017" id="scite-ref-18-a">
+  <span class="scite-citeref-number" data-reference="InsiderThreat NTFS EA Oct 2017" id="scite-ref-20-a">
    <sup>
-    <a aria-describedby="qtip-17" data-hasqtip="17" href="https://blog.stealthbits.com/attack-step-3-persistence-ntfs-extended-attributes-file-system-attacks" target="_blank">
-     [18]
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://blog.stealthbits.com/attack-step-3-persistence-ntfs-extended-attributes-file-system-attacks" target="_blank">
+     [20]
     </a>
    </sup>
   </span>
@@ -374,17 +430,17 @@
    </sup>
   </span>
   Monitor calls to the ZwSetEaFile and ZwQueryEaFile Windows API functions as well as binaries used to interact with EA,
-  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS1 Jan 2018" id="scite-ref-19-a">
+  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS1 Jan 2018" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/" target="_blank">
-     [19]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS2 Apr 2018" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS2 Apr 2018" id="scite-ref-22-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/" target="_blank">
-     [20]
+    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/" target="_blank">
+     [22]
     </a>
    </sup>
   </span>
@@ -410,17 +466,17 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS1 Jan 2018" id="scite-ref-19-a">
+  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS1 Jan 2018" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/" target="_blank">
-     [19]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS2 Apr 2018" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="Oddvar Moe ADS2 Apr 2018" id="scite-ref-22-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/" target="_blank">
-     [20]
+    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/" target="_blank">
+     [22]
     </a>
    </sup>
   </span>
@@ -432,10 +488,10 @@
    dir /r
   </code>
   command can also be used to display ADSs.
-  <span class="scite-citeref-number" data-reference="Symantec ADS May 2009" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="Symantec ADS May 2009" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore" target="_blank">
-     [12]
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore" target="_blank">
+     [14]
     </a>
    </sup>
   </span>
@@ -522,8 +578,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" name="scite-7" rel="nofollow" target="_blank">
-        ESET. (2017, August). Gazing at Gazer: Turla’s new second stage backdoor. Retrieved September 14, 2017.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-7" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -531,8 +587,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" name="scite-8" rel="nofollow" target="_blank">
-        Adair, S.. (2016, November 9). PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs. Retrieved January 11, 2017.
+       <a class="external text" href="https://lolbas-project.github.io/lolbas/Binaries/Expand/" name="scite-8" rel="nofollow" target="_blank">
+        LOLBAS. (n.d.). Expand.exe. Retrieved February 19, 2019.
        </a>
       </span>
      </span>
@@ -540,8 +596,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" name="scite-9" rel="nofollow" target="_blank">
-        Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf" name="scite-9" rel="nofollow" target="_blank">
+        ESET. (2017, August). Gazing at Gazer: Turla’s new second stage backdoor. Retrieved September 14, 2017.
        </a>
       </span>
      </span>
@@ -549,8 +605,17 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" name="scite-10" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, November 24). THE REGIN PLATFORM NATION-STATE OWNAGE OF GSM NETWORKS. Retrieved December 1, 2014.
+       <a class="external text" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" name="scite-10" rel="nofollow" target="_blank">
+        Adair, S.. (2016, November 9). PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs. Retrieved January 11, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-11">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" name="scite-11" rel="nofollow" target="_blank">
+        Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017.
        </a>
       </span>
      </span>
@@ -558,21 +623,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="11.0">
-    <li>
-     <span class="scite-citation" id="scite-11">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/connect/blogs/trojanzeroaccessc-hidden-ntfs-ea" name="scite-11" rel="nofollow" target="_blank">
-        Ciubotariu, M. (2014, January 23). Trojan.Zeroaccess.C Hidden in NTFS EA. Retrieved December 2, 2014.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="12.0">
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore" name="scite-12" rel="nofollow" target="_blank">
-        Pravs. (2009, May 25). What you need to know about alternate data streams in windows? Is your Data secure? Can you restore that?. Retrieved March 21, 2018.
+       <a class="external text" href="https://securelist.com/files/2014/11/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf" name="scite-12" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, November 24). THE REGIN PLATFORM NATION-STATE OWNAGE OF GSM NETWORKS. Retrieved December 1, 2014.
        </a>
       </span>
      </span>
@@ -580,8 +636,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-13" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="http://www.symantec.com/connect/blogs/trojanzeroaccessc-hidden-ntfs-ea" name="scite-13" rel="nofollow" target="_blank">
+        Ciubotariu, M. (2014, January 23). Trojan.Zeroaccess.C Hidden in NTFS EA. Retrieved December 2, 2014.
        </a>
       </span>
      </span>
@@ -589,8 +645,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-14" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://www.symantec.com/connect/articles/what-you-need-know-about-alternate-data-streams-windows-your-data-secure-can-you-restore" name="scite-14" rel="nofollow" target="_blank">
+        Pravs. (2009, May 25). What you need to know about alternate data streams in windows? Is your Data secure? Can you restore that?. Retrieved March 21, 2018.
        </a>
       </span>
      </span>
@@ -598,8 +654,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-15" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-15" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -607,8 +663,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-16" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-16" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
        </a>
       </span>
      </span>
@@ -616,8 +672,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-17" rel="nofollow" target="_blank">
-        Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-17" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
        </a>
       </span>
      </span>
@@ -625,8 +681,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.stealthbits.com/attack-step-3-persistence-ntfs-extended-attributes-file-system-attacks" name="scite-18" rel="nofollow" target="_blank">
-        Sander, J. (2017, October 12). Attack Step 3: Persistence with NTFS Extended Attributes – File System Attacks. Retrieved March 21, 2018.
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-18" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -634,8 +690,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/" name="scite-19" rel="nofollow" target="_blank">
-        Moe, O. (2018, January 14). Putting Data in Alternate Data Streams and How to Execute It. Retrieved June 30, 2018.
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-19" rel="nofollow" target="_blank">
+        Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
      </span>
@@ -643,7 +699,25 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/" name="scite-20" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.stealthbits.com/attack-step-3-persistence-ntfs-extended-attributes-file-system-attacks" name="scite-20" rel="nofollow" target="_blank">
+        Sander, J. (2017, October 12). Attack Step 3: Persistence with NTFS Extended Attributes – File System Attacks. Retrieved March 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://oddvar.moe/2018/01/14/putting-data-in-alternate-data-streams-and-how-to-execute-it/" name="scite-21" rel="nofollow" target="_blank">
+        Moe, O. (2018, January 14). Putting Data in Alternate Data Streams and How to Execute It. Retrieved June 30, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-22">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://oddvar.moe/2018/04/11/putting-data-in-alternate-data-streams-and-how-to-execute-it-part-2/" name="scite-22" rel="nofollow" target="_blank">
         Moe, O. (2018, April 11). Putting Data in Alternate Data Streams and How to Execute It - Part 2. Retrieved June 30, 2018.
        </a>
       </span>
