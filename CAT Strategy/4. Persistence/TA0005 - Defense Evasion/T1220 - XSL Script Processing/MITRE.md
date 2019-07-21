@@ -138,6 +138,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Microsoft Core XML Services (MSXML) or access to wmic.exe
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -186,6 +194,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Casey Smith; Praetorian
@@ -219,6 +231,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0373">
+      Astaroth
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0373">
+       Astaroth
+      </a>
+      executes embedded JScript or VBScript in an XSL stylesheet located on a remote domain.
+      <span class="scite-citeref-number" data-reference="Cybereason Astaroth Feb 2019" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0080">
       Cobalt Group
      </a>
@@ -229,10 +263,10 @@
        Cobalt Group
       </a>
       used msxsl.exe to bypass AppLocker and to invoke Jscript code from an XSL file.
-      <span class="scite-citeref-number" data-reference="Talos Cobalt Group July 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Talos Cobalt Group July 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -262,10 +296,10 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="Twitter SquiblyTwo Detection APR 2018" id="scite-ref-7-a">
+  <span class="scite-citeref-number" data-reference="Twitter SquiblyTwo Detection APR 2018" id="scite-ref-8-a">
    <sup>
-    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://twitter.com/dez_/status/986614411711442944" target="_blank">
-     [7]
+    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://twitter.com/dez_/status/986614411711442944" target="_blank">
+     [8]
     </a>
    </sup>
   </span>
@@ -322,7 +356,7 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="5.5">
+   <ol start="5.0">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
@@ -335,8 +369,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html" name="scite-6" rel="nofollow" target="_blank">
-        Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.
+       <a class="external text" href="https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research" name="scite-6" rel="nofollow" target="_blank">
+        Salem, E. (2019, February 13). ASTAROTH MALWARE USES LEGITIMATE OS AND ANTIVIRUS PROCESSES TO STEAL PASSWORDS AND PERSONAL DATA. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -344,7 +378,16 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://twitter.com/dez_/status/986614411711442944" name="scite-7" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.talosintelligence.com/2018/07/multiple-cobalt-personality-disorder.html" name="scite-7" rel="nofollow" target="_blank">
+        Svajcer, V. (2018, July 31). Multiple Cobalt Personality Disorder. Retrieved September 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-8">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://twitter.com/dez_/status/986614411711442944" name="scite-8" rel="nofollow" target="_blank">
         Desimone, J. (2018, April 18). Status Update. Retrieved July 3, 2018.
        </a>
       </span>
