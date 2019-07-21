@@ -50,6 +50,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -87,6 +91,10 @@
       Binary Analysis, Log analysis, Firewall
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -387,6 +395,59 @@
         </a>
        </sup>
       </span>
+      <span class="scite-citeref-number" data-reference="Unit 42 Nokki Oct 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+       <sup>
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://researchcenter.paloaltonetworks.com/2018/10/unit42-nokki-almost-ties-the-knot-with-dogcall-reaper-group-uses-new-malware-to-deploy-rat/" target="_blank">
+         [15]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      can use Dropbox and GitHub for C2.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [16]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0037">
+      FIN6
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0037">
+       FIN6
+      </a>
+      has used Pastebin to host content for the operation.
+      <br/>
+      <br/>
+      <span class="scite-citeref-number" data-reference="FireEye FIN6 Apr 2019" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+       <sup>
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html" target="_blank">
+         [17]
+        </a>
+       </sup>
+      </span>
      </p>
     </td>
    </tr>
@@ -402,10 +463,10 @@
        FIN7
       </a>
       used legitimate services like Google Docs, Google Scripts, and Pastebin for C2.
-      <span class="scite-citeref-number" data-reference="FireEye FIN7 Aug 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="FireEye FIN7 Aug 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" target="_blank">
-         [15]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -431,10 +492,10 @@
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="CyberESI GTALK" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="CyberESI GTALK" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/" target="_blank">
-         [16]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -458,10 +519,10 @@
        HAMMERTOSS
       </a>
       binaries contain an algorithm that generates a different Twitter handle for the malware to check for instructions every day.
-      <span class="scite-citeref-number" data-reference="FireEye APT29" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="FireEye APT29" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf" target="_blank">
-         [17]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -502,10 +563,10 @@
        Kazuar
       </a>
       has used compromised WordPress blogs as C2 servers.
-      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
-         [18]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -546,10 +607,10 @@
        LOWBALL
       </a>
       uses the Dropbox cloud storage service for command and control.
-      <span class="scite-citeref-number" data-reference="FireEye admin@338" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="FireEye admin@338" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html" target="_blank">
-         [19]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
@@ -568,10 +629,10 @@
        Magic Hound
       </a>
       malware can use a SOAP Web service to communicate with its C2 server.
-      <span class="scite-citeref-number" data-reference="Unit 42 Magic Hound Feb 2017" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Magic Hound Feb 2017" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" target="_blank">
-         [20]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -598,10 +659,10 @@
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Securelist MiniDuke Feb 2013" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="Securelist MiniDuke Feb 2013" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf" target="_blank">
-         [21]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -642,10 +703,10 @@
        Orz
       </a>
       has used Technet and Pastebin web pages for command and control.
-      <span class="scite-citeref-number" data-reference="Proofpoint Leviathan Oct 2017" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="Proofpoint Leviathan Oct 2017" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" target="_blank">
-         [22]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" target="_blank">
+         [25]
         </a>
        </sup>
       </span>
@@ -664,10 +725,10 @@
        Patchwork
       </a>
       hides base64-encoded and encrypted C2 server locations in comments on legitimate websites.
-      <span class="scite-citeref-number" data-reference="Securelist Dropping Elephant" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="Securelist Dropping Elephant" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://securelist.com/the-dropping-elephant-actor/75328/" target="_blank">
-         [23]
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://securelist.com/the-dropping-elephant-actor/75328/" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -685,11 +746,11 @@
       <a href="https://attack.mitre.org/software/S0013">
        PlugX
       </a>
-      uses Pastebin to store its real C2 addresses.
-      <span class="scite-citeref-number" data-reference="Palo Alto PlugX June 2017" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      uses Pastebin to store C2 addresses.
+      <span class="scite-citeref-number" data-reference="Palo Alto PlugX June 2017" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" target="_blank">
-         [24]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -720,6 +781,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0270">
+      RogueRobin
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0270">
+       RogueRobin
+      </a>
+      has used Google Drive as a Command and Control channel.
+      <span class="scite-citeref-number" data-reference="Unit42 DarkHydrus Jan 2019" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+       <sup>
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/" target="_blank">
+         [28]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0240">
       ROKRAT
      </a>
@@ -730,10 +813,10 @@
        ROKRAT
       </a>
       leverages legitimate social networking sites and cloud platforms (Twitter, Yandex, and Mediafire) for command and control communications.
-      <span class="scite-citeref-number" data-reference="Talos ROKRAT" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="Talos ROKRAT" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://blog.talosintelligence.com/2017/04/introducing-rokrat.html" target="_blank">
-         [25]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://blog.talosintelligence.com/2017/04/introducing-rokrat.html" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -752,10 +835,10 @@
        RTM
       </a>
       has used an RSS feed on Livejournal to update a list of encrypted C2 server names.
-      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
-         [26]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -797,17 +880,83 @@
        Turla
       </a>
       JavaScript backdoor has used Google Apps Script as its C2 server.
-      <span class="scite-citeref-number" data-reference="ESET Turla Mosquito Jan 2018" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+      <span class="scite-citeref-number" data-reference="ESET Turla Mosquito Jan 2018" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" target="_blank">
-         [27]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="ESET Turla Mosquito May 2018" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+      <span class="scite-citeref-number" data-reference="ESET Turla Mosquito May 2018" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
        <sup>
-        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/" target="_blank">
-         [28]
+        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/" target="_blank">
+         [32]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0302">
+      Twitoor
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0302">
+       Twitoor
+      </a>
+      uses Twitter for command and control.
+      <span class="scite-citeref-number" data-reference="ESET-Twitoor" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
+       <sup>
+        <a aria-describedby="qtip-32" data-hasqtip="32" href="http://www.welivesecurity.com/2016/08/24/first-twitter-controlled-android-botnet-discovered/" target="_blank">
+         [33]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0333">
+      UBoatRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0333">
+       UBoatRAT
+      </a>
+      has used GitHub and a public blog service in Hong Kong for C2 communications.
+      <span class="scite-citeref-number" data-reference="PaloAlto UBoatRAT Nov 2017" id="scite-ref-34-a" onclick="scrollToRef('scite-34')">
+       <sup>
+        <a aria-describedby="qtip-33" data-hasqtip="33" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-uboatrat-navigates-east-asia/" target="_blank">
+         [34]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0341">
+      Xbash
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0341">
+       Xbash
+      </a>
+      can obtain a webpage hosted on Pastebin to update its C2 domain list.
+      <span class="scite-citeref-number" data-reference="Unit42 Xbash Sept 2018" id="scite-ref-35-a" onclick="scrollToRef('scite-35')">
+       <sup>
+        <a aria-describedby="qtip-34" data-hasqtip="34" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" target="_blank">
+         [35]
         </a>
        </sup>
       </span>
@@ -826,10 +975,10 @@
        yty
       </a>
       communicates to the C2 server by retrieving a Google Doc.
-      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-36-a" onclick="scrollToRef('scite-36')">
        <sup>
-        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
-         [29]
+        <a aria-describedby="qtip-35" data-hasqtip="35" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
+         [36]
         </a>
        </sup>
       </span>
@@ -846,10 +995,10 @@
  </p>
  <p>
   Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol or encoded commands used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools.
-  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-30-a">
+  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-37-a">
    <sup>
-    <a aria-describedby="qtip-29" data-hasqtip="29" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
-     [30]
+    <a aria-describedby="qtip-36" data-hasqtip="36" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
+     [37]
     </a>
    </sup>
   </span>
@@ -859,10 +1008,10 @@
  </h2>
  <p>
   Host data that can relate unknown or suspicious process activity using a network connection is important to supplement any existing indicators of compromise based on malware command and control signatures and infrastructure or the presence of strong encryption. Packet capture analysis will require SSL/TLS inspection if data is encrypted. Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). User behavior monitoring may help to detect abnormal patterns of activity. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used.
-  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-30-a">
+  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-37-a">
    <sup>
-    <a aria-describedby="qtip-29" data-hasqtip="29" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
-     [30]
+    <a aria-describedby="qtip-36" data-hasqtip="36" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
+     [37]
     </a>
    </sup>
   </span>
@@ -1002,21 +1151,17 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" name="scite-15" rel="nofollow" target="_blank">
-        Carr, N., et al. (2018, August 01). On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation. Retrieved August 23, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/10/unit42-nokki-almost-ties-the-knot-with-dogcall-reaper-group-uses-new-malware-to-deploy-rat/" name="scite-15" rel="nofollow" target="_blank">
+        Grunzweig, J. (2018, October 01). NOKKI Almost Ties the Knot with DOGCALL: Reaper Group Uses New Malware to Deploy RAT. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="16.0">
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/" name="scite-16" rel="nofollow" target="_blank">
-        CyberESI. (2011). TROJAN.GTALK. Retrieved June 29, 2015.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-16" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -1024,8 +1169,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf" name="scite-17" rel="nofollow" target="_blank">
-        FireEye Labs. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved September 17, 2015.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html" name="scite-17" rel="nofollow" target="_blank">
+        McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -1033,8 +1178,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-18" rel="nofollow" target="_blank">
-        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html" name="scite-18" rel="nofollow" target="_blank">
+        Carr, N., et al. (2018, August 01). On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation. Retrieved August 23, 2018.
        </a>
       </span>
      </span>
@@ -1042,17 +1187,21 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html" name="scite-19" rel="nofollow" target="_blank">
-        FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015.
+       <a class="external text" href="http://www.cyberengineeringservices.com/2011/12/15/trojan-gtalk/" name="scite-19" rel="nofollow" target="_blank">
+        CyberESI. (2011). TROJAN.GTALK. Retrieved June 29, 2015.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="20.5">
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" name="scite-20" rel="nofollow" target="_blank">
-        Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf" name="scite-20" rel="nofollow" target="_blank">
+        FireEye Labs. (2015, July). HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group. Retrieved September 17, 2015.
        </a>
       </span>
      </span>
@@ -1060,8 +1209,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf" name="scite-21" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-21" rel="nofollow" target="_blank">
+        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
        </a>
       </span>
      </span>
@@ -1069,8 +1218,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" name="scite-22" rel="nofollow" target="_blank">
-        Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html" name="scite-22" rel="nofollow" target="_blank">
+        FireEye Threat Intelligence. (2015, December 1). China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets. Retrieved December 4, 2015.
        </a>
       </span>
      </span>
@@ -1078,8 +1227,8 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/the-dropping-elephant-actor/75328/" name="scite-23" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, July 8). The Dropping Elephant – aggressive cyber-espionage in the Asian region. Retrieved August 3, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" name="scite-23" rel="nofollow" target="_blank">
+        Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.
        </a>
       </span>
      </span>
@@ -1087,8 +1236,8 @@
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" name="scite-24" rel="nofollow" target="_blank">
-        Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.
+       <a class="external text" href="https://cdn.securelist.com/files/2014/07/themysteryofthepdf0-dayassemblermicrobackdoor.pdf" name="scite-24" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2013, February 27). The MiniDuke Mystery: PDF 0-day Government Spy Assembler 0x29A Micro Backdoor. Retrieved April 5, 2017.
        </a>
       </span>
      </span>
@@ -1096,8 +1245,8 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2017/04/introducing-rokrat.html" name="scite-25" rel="nofollow" target="_blank">
-        Mercer, W., Rascagneres, P. (2017, April 03). Introducing ROKRAT. Retrieved May 21, 2018.
+       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" name="scite-25" rel="nofollow" target="_blank">
+        Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -1105,8 +1254,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-26" rel="nofollow" target="_blank">
-        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       <a class="external text" href="https://securelist.com/the-dropping-elephant-actor/75328/" name="scite-26" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, July 8). The Dropping Elephant – aggressive cyber-espionage in the Asian region. Retrieved August 3, 2016.
        </a>
       </span>
      </span>
@@ -1114,8 +1263,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" name="scite-27" rel="nofollow" target="_blank">
-        ESET, et al. (2018, January). Diplomats in Eastern Europe bitten by a Turla mosquito. Retrieved July 3, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" name="scite-27" rel="nofollow" target="_blank">
+        Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.
        </a>
       </span>
      </span>
@@ -1123,8 +1272,8 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/" name="scite-28" rel="nofollow" target="_blank">
-        ESET Research. (2018, May 22). Turla Mosquito: A shift towards more generic tools. Retrieved July 3, 2018.
+       <a class="external text" href="https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/" name="scite-28" rel="nofollow" target="_blank">
+        Lee, B., Falcone, R. (2019, January 18). DarkHydrus delivers new Trojan that can use Google Drive for C2 communications. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -1132,8 +1281,8 @@
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-29" rel="nofollow" target="_blank">
-        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       <a class="external text" href="https://blog.talosintelligence.com/2017/04/introducing-rokrat.html" name="scite-29" rel="nofollow" target="_blank">
+        Mercer, W., Rascagneres, P. (2017, April 03). Introducing ROKRAT. Retrieved May 21, 2018.
        </a>
       </span>
      </span>
@@ -1141,7 +1290,70 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" name="scite-30" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-30" rel="nofollow" target="_blank">
+        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-31">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf" name="scite-31" rel="nofollow" target="_blank">
+        ESET, et al. (2018, January). Diplomats in Eastern Europe bitten by a Turla mosquito. Retrieved July 3, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-32">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/" name="scite-32" rel="nofollow" target="_blank">
+        ESET Research. (2018, May 22). Turla Mosquito: A shift towards more generic tools. Retrieved July 3, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-33">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.welivesecurity.com/2016/08/24/first-twitter-controlled-android-botnet-discovered/" name="scite-33" rel="nofollow" target="_blank">
+        ESET. (2016, August 24). First Twitter-controlled Android botnet discovered. Retrieved December 22, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-34">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-uboatrat-navigates-east-asia/" name="scite-34" rel="nofollow" target="_blank">
+        Hayashi, K. (2017, November 28). UBoatRAT Navigates East Asia. Retrieved January 12, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-35">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" name="scite-35" rel="nofollow" target="_blank">
+        Xiao, C. (2018, September 17). Xbash Combines Botnet, Ransomware, Coinmining in Worm that Targets Linux and Windows. Retrieved November 14, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-36">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-36" rel="nofollow" target="_blank">
+        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-37">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" name="scite-37" rel="nofollow" target="_blank">
         Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command &amp; Control Understanding, Denying and Detecting. Retrieved April 20, 2016.
        </a>
       </span>
