@@ -60,6 +60,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Binary file metadata
@@ -81,6 +85,10 @@
       Signature-based detection, Anti-virus, Heuristic detection
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -171,6 +179,120 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      uses UPX to pack their macOS backdoor.
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus macOS April 2019" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0082">
+      APT38
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0082">
+       APT38
+      </a>
+      has used several code packing methods such as Themida, Enigma, VMProtect, and Obsidium, to pack their implants.
+      <span class="scite-citeref-number" data-reference="FireEye APT38 Oct 2018" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://content.fireeye.com/apt/rpt-apt38" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0087">
+      APT39
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0087">
+       APT39
+      </a>
+      has repacked a modified version of
+      <a href="https://attack.mitre.org/software/S0002">
+       Mimikatz
+      </a>
+      to thwart anti-virus detection.
+      <span class="scite-citeref-number" data-reference="FireEye APT39 Jan 2019" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0373">
+      Astaroth
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0373">
+       Astaroth
+      </a>
+      uses a software packer called Pe123\RPolyCryptor.
+      <span class="scite-citeref-number" data-reference="Cybereason Astaroth Feb 2019" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0020">
+      China Chopper
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0020">
+       China Chopper
+      </a>
+      's client component is packed with UPX.
+      <span class="scite-citeref-number" data-reference="Lee 2013" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/blog/threat-research/2013/08/breaking-down-the-china-chopper-web-shell-part-i.html" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0070">
       Dark Caracal
      </a>
@@ -184,10 +306,32 @@
       <a href="https://attack.mitre.org/software/S0234">
        Bandook
       </a>
-      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
-         [4]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0334">
+      DarkComet
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0334">
+       DarkComet
+      </a>
+      has the option to compress its payload using UPX or MPRESS.
+      <span class="scite-citeref-number" data-reference="Malwarebytes DarkComet March 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -207,10 +351,10 @@
        Daserf
       </a>
       uses the MPRESS packer.
-      <span class="scite-citeref-number" data-reference="Trend Micro Daserf Nov 2017" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="Trend Micro Daserf Nov 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/" target="_blank">
-         [5]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -229,10 +373,32 @@
        Elderwood
       </a>
       has packed malware payloads before delivery to victims.
-      <span class="scite-citeref-number" data-reference="Symantec Elderwood Sept 2012" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Symantec Elderwood Sept 2012" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" target="_blank">
-         [6]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0367">
+      Emotet
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0367">
+       Emotet
+      </a>
+      has used custom packers to protect its payloads.
+      <span class="scite-citeref-number" data-reference="Trend Micro Emotet Jan 2019" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://documents.trendmicro.com/assets/white_papers/ExploringEmotetsActivities_Final.pdf" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -252,17 +418,39 @@
        FinFisher
       </a>
       variant uses a custom packer.
-      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
-         [7]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Securelist BlackOasis Oct 2017" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Securelist BlackOasis Oct 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/" target="_blank">
+         [15]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0342">
+      GreyEnergy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0342">
+       GreyEnergy
+      </a>
+      is packed for obfuscation.
+      <span class="scite-citeref-number" data-reference="ESET GreyEnergy Oct 2018" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -281,10 +469,10 @@
        Group5
       </a>
       packed an executable by base64 encoding the PE file and breaking it up into numerous lines.
-      <span class="scite-citeref-number" data-reference="Citizen Lab Group5" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Citizen Lab Group5" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://citizenlab.org/2016/08/group5-syria/" target="_blank">
-         [9]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://citizenlab.org/2016/08/group5-syria/" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -303,10 +491,32 @@
        H1N1
       </a>
       uses a custom packing algorithm.
-      <span class="scite-citeref-number" data-reference="Cisco H1N1 Part 1" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="Cisco H1N1 Part 1" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities" target="_blank">
-         [10]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities" target="_blank">
+         [18]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0283">
+      jRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0283">
+       jRAT
+      </a>
+      payloads have been packed.
+      <span class="scite-citeref-number" data-reference="Kaspersky Adwind Feb 2016" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+       <sup>
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -325,10 +535,10 @@
        Night Dragon
       </a>
       is known to use software packing in its tools.
-      <span class="scite-citeref-number" data-reference="McAfee Night Dragon" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="McAfee Night Dragon" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" target="_blank">
-         [11]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -347,10 +557,10 @@
        OopsIE
       </a>
       uses the SmartAssembly obfuscator to pack an embedded .Net Framework assembly used for C2.
-      <span class="scite-citeref-number" data-reference="Unit 42 OopsIE! Feb 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="Unit 42 OopsIE! Feb 2018" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/" target="_blank">
-         [12]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -370,10 +580,10 @@
        Patchwork
       </a>
       payload was packed with UPX.
-      <span class="scite-citeref-number" data-reference="Securelist Dropping Elephant" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Securelist Dropping Elephant" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://securelist.com/the-dropping-elephant-actor/75328/" target="_blank">
-         [13]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://securelist.com/the-dropping-elephant-actor/75328/" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
@@ -392,10 +602,10 @@
        SeaDuke
       </a>
       has been packed with the UPX packer.
-      <span class="scite-citeref-number" data-reference="Unit 42 SeaDuke 2015" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="Unit 42 SeaDuke 2015" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/" target="_blank">
-         [14]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -414,10 +624,10 @@
        TrickBot
       </a>
       leverages a custom packer to obfuscate its functionality.
-      <span class="scite-citeref-number" data-reference="S2 Grupo TrickBot June 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="S2 Grupo TrickBot June 2017" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" target="_blank">
-         [15]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -436,10 +646,10 @@
        Trojan.Karagany
       </a>
       samples sometimes use common binary packers such as UPX and Aspack on top of a custom Delphi binary packer.
-      <span class="scite-citeref-number" data-reference="Symantec Dragonfly" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="Symantec Dragonfly" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" target="_blank">
-         [16]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" target="_blank">
+         [25]
         </a>
        </sup>
       </span>
@@ -458,10 +668,10 @@
        Uroburos
       </a>
       uses a custom packer.
-      <span class="scite-citeref-number" data-reference="Symantec Waterbug" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Symantec Waterbug" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf" target="_blank">
-         [17]
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -480,10 +690,10 @@
        VERMIN
       </a>
       is initially packed.
-      <span class="scite-citeref-number" data-reference="Unit 42 VERMIN Jan 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Unit 42 VERMIN Jan 2018" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" target="_blank">
-         [18]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -502,10 +712,32 @@
        yty
       </a>
       packs a plugin with UPX.
-      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
+         [28]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0251">
+      Zebrocy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0251">
+       Zebrocy
+      </a>
+      's Delphi variant was packed with UPX.
+      <span class="scite-citeref-number" data-reference="Unit42 Sofacy Dec 2018" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+       <sup>
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://unit42.paloaltonetworks.com/dear-joohn-sofacy-groups-global-campaign/" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -525,10 +757,10 @@
        ZeroT
       </a>
       DLL files have been packed with UPX.
-      <span class="scite-citeref-number" data-reference="Proofpoint ZeroT Feb 2017" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="Proofpoint ZeroT Feb 2017" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" target="_blank">
-         [20]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -545,41 +777,41 @@
  </p>
  <p>
   Identify and prevent execution of potentially malicious software that may have been packed by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-21-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-31-a">
    <sup>
-    <a aria-describedby="qtip-20" data-hasqtip="20" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [21]
+    <a aria-describedby="qtip-30" data-hasqtip="30" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [31]
     </a>
    </sup>
   </span>
   tools like AppLocker
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-22-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-32-a">
    <sup>
-    <a aria-describedby="qtip-21" data-hasqtip="21" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [22]
+    <a aria-describedby="qtip-31" data-hasqtip="31" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [32]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-23-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-33-a">
    <sup>
-    <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [23]
+    <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [33]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-24-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-34-a">
    <sup>
-    <a aria-describedby="qtip-23" data-hasqtip="23" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [24]
+    <a aria-describedby="qtip-33" data-hasqtip="33" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [34]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-25-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-35-a">
    <sup>
-    <a aria-describedby="qtip-24" data-hasqtip="24" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [25]
+    <a aria-describedby="qtip-34" data-hasqtip="34" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [35]
     </a>
    </sup>
   </span>
@@ -626,8 +858,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-4" rel="nofollow" target="_blank">
-        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" name="scite-4" rel="nofollow" target="_blank">
+        Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.
        </a>
       </span>
      </span>
@@ -635,8 +867,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/" name="scite-5" rel="nofollow" target="_blank">
-        Chen, J. and Hsieh, M. (2017, November 7). REDBALDKNIGHT/BRONZE BUTLER’s Daserf Backdoor Now Using Steganography. Retrieved December 27, 2017.
+       <a class="external text" href="https://content.fireeye.com/apt/rpt-apt38" name="scite-5" rel="nofollow" target="_blank">
+        FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 6, 2018.
        </a>
       </span>
      </span>
@@ -644,8 +876,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" name="scite-6" rel="nofollow" target="_blank">
-        O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html" name="scite-6" rel="nofollow" target="_blank">
+        Hawley et al. (2019, January 29). APT39: An Iranian Cyber Espionage Group Focused on Personal Information. Retrieved February 19, 2019.
        </a>
       </span>
      </span>
@@ -653,8 +885,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-7" rel="nofollow" target="_blank">
-        FinFisher. (n.d.). Retrieved December 20, 2017.
+       <a class="external text" href="https://www.cybereason.com/blog/information-stealing-malware-targeting-brazil-full-research" name="scite-7" rel="nofollow" target="_blank">
+        Salem, E. (2019, February 13). ASTAROTH MALWARE USES LEGITIMATE OS AND ANTIVIRUS PROCESSES TO STEAL PASSWORDS AND PERSONAL DATA. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -662,8 +894,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/" name="scite-8" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2017, October 16). BlackOasis APT and new targeted attacks leveraging zero-day exploit. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2013/08/breaking-down-the-china-chopper-web-shell-part-i.html" name="scite-8" rel="nofollow" target="_blank">
+        Lee, T., Hanzlik, D., Ahl, I. (2013, August 7). Breaking Down the China Chopper Web Shell - Part I. Retrieved March 27, 2015.
        </a>
       </span>
      </span>
@@ -671,8 +903,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://citizenlab.org/2016/08/group5-syria/" name="scite-9" rel="nofollow" target="_blank">
-        Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.
+       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-9" rel="nofollow" target="_blank">
+        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -680,8 +912,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities" name="scite-10" rel="nofollow" target="_blank">
-        Reynolds, J.. (2016, September 13). H1N1: Technical analysis reveals new capabilities. Retrieved September 26, 2016.
+       <a class="external text" href="https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/" name="scite-10" rel="nofollow" target="_blank">
+        Kujawa, A. (2018, March 27). You dirty RAT! Part 1: DarkComet. Retrieved November 6, 2018.
        </a>
       </span>
      </span>
@@ -689,8 +921,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" name="scite-11" rel="nofollow" target="_blank">
-        McAfee® Foundstone® Professional Services and McAfee Labs™. (2011, February 10). Global Energy Cyberattacks: “Night Dragon”. Retrieved February 19, 2018.
+       <a class="external text" href="http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/" name="scite-11" rel="nofollow" target="_blank">
+        Chen, J. and Hsieh, M. (2017, November 7). REDBALDKNIGHT/BRONZE BUTLER’s Daserf Backdoor Now Using Steganography. Retrieved December 27, 2017.
        </a>
       </span>
      </span>
@@ -698,8 +930,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/" name="scite-12" rel="nofollow" target="_blank">
-        Lee, B., Falcone, R. (2018, February 23). OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan. Retrieved July 16, 2018.
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf" name="scite-12" rel="nofollow" target="_blank">
+        O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -707,21 +939,17 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/the-dropping-elephant-actor/75328/" name="scite-13" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, July 8). The Dropping Elephant – aggressive cyber-espionage in the Asian region. Retrieved August 3, 2016.
+       <a class="external text" href="https://documents.trendmicro.com/assets/white_papers/ExploringEmotetsActivities_Final.pdf" name="scite-13" rel="nofollow" target="_blank">
+        Trend Micro. (2019, January 16). Exploring Emotet's Activities . Retrieved March 25, 2019.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="14.5">
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/" name="scite-14" rel="nofollow" target="_blank">
-        Grunzweig, J.. (2015, July 14). Unit 42 Technical Analysis: Seaduke. Retrieved August 3, 2016.
+       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-14" rel="nofollow" target="_blank">
+        FinFisher. (n.d.). Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -729,8 +957,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" name="scite-15" rel="nofollow" target="_blank">
-        Salinas, M., Holguin, J. (2017, June). Evolution of Trickbot. Retrieved July 31, 2018.
+       <a class="external text" href="https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/" name="scite-15" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2017, October 16). BlackOasis APT and new targeted attacks leveraging zero-day exploit. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -738,8 +966,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" name="scite-16" rel="nofollow" target="_blank">
-        Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" name="scite-16" rel="nofollow" target="_blank">
+        Cherepanov, A. (2018, October). GREYENERGY A successor to BlackEnergy. Retrieved November 15, 2018.
        </a>
       </span>
      </span>
@@ -747,8 +975,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf" name="scite-17" rel="nofollow" target="_blank">
-        Symantec. (2015, January 26). The Waterbug attack group. Retrieved April 10, 2015.
+       <a class="external text" href="https://citizenlab.org/2016/08/group5-syria/" name="scite-17" rel="nofollow" target="_blank">
+        Scott-Railton, J., et al. (2016, August 2). Group5: Syria and the Iranian Connection. Retrieved September 26, 2016.
        </a>
       </span>
      </span>
@@ -756,17 +984,21 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" name="scite-18" rel="nofollow" target="_blank">
-        Lancaster, T., Cortes, J. (2018, January 29). VERMIN: Quasar RAT and Custom Malware Used In Ukraine. Retrieved July 5, 2018.
+       <a class="external text" href="http://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities" name="scite-18" rel="nofollow" target="_blank">
+        Reynolds, J.. (2016, September 13). H1N1: Technical analysis reveals new capabilities. Retrieved September 26, 2016.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="19.5">
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-19" rel="nofollow" target="_blank">
-        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" name="scite-19" rel="nofollow" target="_blank">
+        Kamluk, V. &amp; Gostev, A. (2016, February). Adwind - A Cross-Platform RAT. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -774,8 +1006,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" name="scite-20" rel="nofollow" target="_blank">
-        Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" name="scite-20" rel="nofollow" target="_blank">
+        McAfee® Foundstone® Professional Services and McAfee Labs™. (2011, February 10). Global Energy Cyberattacks: “Night Dragon”. Retrieved February 19, 2018.
        </a>
       </span>
      </span>
@@ -783,8 +1015,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-21" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/" name="scite-21" rel="nofollow" target="_blank">
+        Lee, B., Falcone, R. (2018, February 23). OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan. Retrieved July 16, 2018.
        </a>
       </span>
      </span>
@@ -792,8 +1024,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-22" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://securelist.com/the-dropping-elephant-actor/75328/" name="scite-22" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, July 8). The Dropping Elephant – aggressive cyber-espionage in the Asian region. Retrieved August 3, 2016.
        </a>
       </span>
      </span>
@@ -801,8 +1033,8 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-23" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/07/unit-42-technical-analysis-seaduke/" name="scite-23" rel="nofollow" target="_blank">
+        Grunzweig, J.. (2015, July 14). Unit 42 Technical Analysis: Seaduke. Retrieved August 3, 2016.
        </a>
       </span>
      </span>
@@ -810,8 +1042,8 @@
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-24" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" name="scite-24" rel="nofollow" target="_blank">
+        Salinas, M., Holguin, J. (2017, June). Evolution of Trickbot. Retrieved July 31, 2018.
        </a>
       </span>
      </span>
@@ -819,7 +1051,97 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-25" rel="nofollow" target="_blank">
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" name="scite-25" rel="nofollow" target="_blank">
+        Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-26">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf" name="scite-26" rel="nofollow" target="_blank">
+        Symantec. (2015, January 26). The Waterbug attack group. Retrieved April 10, 2015.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-27">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" name="scite-27" rel="nofollow" target="_blank">
+        Lancaster, T., Cortes, J. (2018, January 29). VERMIN: Quasar RAT and Custom Malware Used In Ukraine. Retrieved July 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-28">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-28" rel="nofollow" target="_blank">
+        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-29">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://unit42.paloaltonetworks.com/dear-joohn-sofacy-groups-global-campaign/" name="scite-29" rel="nofollow" target="_blank">
+        Lee, B., Falcone, R. (2018, December 12). Dear Joohn: The Sofacy Group’s Global Campaign. Retrieved April 19, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-30">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx" name="scite-30" rel="nofollow" target="_blank">
+        Huss, D., et al. (2017, February 2). Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX. Retrieved April 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-31">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-31" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-32">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-32" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-33">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-33" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-34">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-34" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-35">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-35" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
