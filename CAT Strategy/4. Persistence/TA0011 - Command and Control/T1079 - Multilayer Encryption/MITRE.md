@@ -49,6 +49,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Packet capture, Process use of network, Malware reverse engineering, Process monitoring
@@ -66,6 +70,10 @@
       Yes
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -196,6 +204,36 @@
      </p>
     </td>
    </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      uses
+      <a href="https://attack.mitre.org/software/S0183">
+       Tor
+      </a>
+      for command and control traffic and routes a custom cryptographic protocol over the
+      <a href="https://attack.mitre.org/software/S0183">
+       Tor
+      </a>
+      circuit.
+      <span class="scite-citeref-number" data-reference="SecureWorks WannaCry Analysis" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.secureworks.com/research/wcry-ransomware-analysis" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
   </tbody>
  </table>
  <h2 class="pt-3" id="mitigation">
@@ -203,10 +241,10 @@
  </h2>
  <p>
   Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Use of encryption protocols may make typical network-based C2 detection more difficult due to a reduced ability to signature the traffic. Prior knowledge of adversary C2 infrastructure may be useful for domain and IP address blocking, but will likely not be an effective long-term solution because adversaries can change infrastructure often.
-  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-5-a">
+  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-6-a">
    <sup>
-    <a aria-describedby="qtip-4" data-hasqtip="4" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
-     [5]
+    <a aria-describedby="qtip-5" data-hasqtip="5" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
+     [6]
     </a>
    </sup>
   </span>
@@ -220,18 +258,18 @@
    Standard Cryptographic Protocol
   </a>
   , SSL/TLS inspection can be used to detect command and control traffic within some encrypted communication channels.
-  <span class="scite-citeref-number" data-reference="SANS Decrypting SSL" id="scite-ref-6-a">
+  <span class="scite-citeref-number" data-reference="SANS Decrypting SSL" id="scite-ref-7-a">
    <sup>
-    <a aria-describedby="qtip-5" data-hasqtip="5" href="http://www.sans.org/reading-room/whitepapers/analyst/finding-hidden-threats-decrypting-ssl-34840" target="_blank">
-     [6]
+    <a aria-describedby="qtip-6" data-hasqtip="6" href="http://www.sans.org/reading-room/whitepapers/analyst/finding-hidden-threats-decrypting-ssl-34840" target="_blank">
+     [7]
     </a>
    </sup>
   </span>
   SSL/TLS inspection does come with certain risks that should be considered before implementing to avoid potential security issues such as incomplete certificate validation.
-  <span class="scite-citeref-number" data-reference="SEI SSL Inspection Risks" id="scite-ref-7-a">
+  <span class="scite-citeref-number" data-reference="SEI SSL Inspection Risks" id="scite-ref-8-a">
    <sup>
-    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html" target="_blank">
-     [7]
+    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html" target="_blank">
+     [8]
     </a>
    </sup>
   </span>
@@ -243,20 +281,20 @@
    Custom Cryptographic Protocol
   </a>
   , if malware uses encryption with symmetric keys, it may be possible to obtain the algorithm and key from samples and use them to decode network traffic to detect malware communications signatures.
-  <span class="scite-citeref-number" data-reference="Fidelis DarkComet" id="scite-ref-8-a">
+  <span class="scite-citeref-number" data-reference="Fidelis DarkComet" id="scite-ref-9-a">
    <sup>
-    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fidelissecurity.com/sites/default/files/FTA_1018_looking_at_the_sky_for_a_dark_comet.pdf" target="_blank">
-     [8]
+    <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fidelissecurity.com/sites/default/files/FTA_1018_looking_at_the_sky_for_a_dark_comet.pdf" target="_blank">
+     [9]
     </a>
    </sup>
   </span>
  </p>
  <p>
   In general, analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect communications that do not follow the expected protocol behavior for the port that is being used.
-  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-5-a">
+  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-6-a">
    <sup>
-    <a aria-describedby="qtip-4" data-hasqtip="4" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
-     [5]
+    <a aria-describedby="qtip-5" data-hasqtip="5" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
+     [6]
     </a>
    </sup>
   </span>
@@ -303,24 +341,24 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="5.0">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" name="scite-5" rel="nofollow" target="_blank">
-        Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command &amp; Control Understanding, Denying and Detecting. Retrieved April 20, 2016.
+       <a class="external text" href="https://www.secureworks.com/research/wcry-ransomware-analysis" name="scite-5" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, May 18). WCry Ransomware Analysis. Retrieved March 26, 2019.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="6.5">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/analyst/finding-hidden-threats-decrypting-ssl-34840" name="scite-6" rel="nofollow" target="_blank">
-        Butler, M. (2013, November). Finding Hidden Threats by Decrypting SSL. Retrieved April 5, 2016.
+       <a class="external text" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" name="scite-6" rel="nofollow" target="_blank">
+        Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command &amp; Control Understanding, Denying and Detecting. Retrieved April 20, 2016.
        </a>
       </span>
      </span>
@@ -328,8 +366,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html" name="scite-7" rel="nofollow" target="_blank">
-        Dormann, W. (2015, March 13). The Risks of SSL Inspection. Retrieved April 5, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/analyst/finding-hidden-threats-decrypting-ssl-34840" name="scite-7" rel="nofollow" target="_blank">
+        Butler, M. (2013, November). Finding Hidden Threats by Decrypting SSL. Retrieved April 5, 2016.
        </a>
       </span>
      </span>
@@ -337,7 +375,16 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fidelissecurity.com/sites/default/files/FTA_1018_looking_at_the_sky_for_a_dark_comet.pdf" name="scite-8" rel="nofollow" target="_blank">
+       <a class="external text" href="https://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html" name="scite-8" rel="nofollow" target="_blank">
+        Dormann, W. (2015, March 13). The Risks of SSL Inspection. Retrieved April 5, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-9">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fidelissecurity.com/sites/default/files/FTA_1018_looking_at_the_sky_for_a_dark_comet.pdf" name="scite-9" rel="nofollow" target="_blank">
         Fidelis Cybersecurity. (2015, August 4). Looking at the Sky for a DarkComet. Retrieved April 5, 2016.
        </a>
       </span>
