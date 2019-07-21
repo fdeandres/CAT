@@ -175,6 +175,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      MSBuild: .NET Framework version 4 or higher; DNX: .NET 4.5.2, Powershell 4.0; RCSI: .NET 4.5 or later, Visual Studio 2012
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -223,6 +231,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Contributors:
       </span>
       Casey Smith; Matthew Demaske, Adaptforward
@@ -256,6 +268,28 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      can use built-in modules to abuse trusted utilities like MSBuild.exe.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0013">
       PlugX
      </a>
@@ -267,10 +301,10 @@
        PlugX
       </a>
       loads as shellcode within a .NET Framework project using msbuild.exe, presumably to bypass application whitelisting techniques.
-      <span class="scite-citeref-number" data-reference="Palo Alto PlugX June 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="Palo Alto PlugX June 2017" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" target="_blank">
-         [11]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -287,30 +321,30 @@
  </p>
  <p>
   Use application whitelisting configured to block execution of MSBuild.exe, dnx.exe, rcsi.exe, WinDbg.exe, and cdb.exe if they are not required for a given system or network to prevent potential misuse by adversaries.
-  <span class="scite-citeref-number" data-reference="Microsoft GitHub Device Guard CI Policies" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="Microsoft GitHub Device Guard CI Policies" id="scite-ref-13-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md" target="_blank">
-     [12]
-    </a>
-   </sup>
-  </span>
-  <span class="scite-citeref-number" data-reference="Exploit Monday Mitigate Device Guard Bypases" id="scite-ref-13-a">
-   <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html" target="_blank">
+    <a aria-describedby="qtip-12" data-hasqtip="12" href="https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md" target="_blank">
      [13]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="GitHub mattifestation DeviceGuardBypass" id="scite-ref-14-a">
+  <span class="scite-citeref-number" data-reference="Exploit Monday Mitigate Device Guard Bypases" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://github.com/mattifestation/DeviceGuardBypassMitigationRules" target="_blank">
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html" target="_blank">
      [14]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="SubTee MSBuild" id="scite-ref-15-a">
+  <span class="scite-citeref-number" data-reference="GitHub mattifestation DeviceGuardBypass" id="scite-ref-15-a">
    <sup>
-    [15]
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="https://github.com/mattifestation/DeviceGuardBypassMitigationRules" target="_blank">
+     [15]
+    </a>
+   </sup>
+  </span>
+  <span class="scite-citeref-number" data-reference="SubTee MSBuild" id="scite-ref-16-a">
+   <sup>
+    [16]
    </sup>
   </span>
  </p>
@@ -341,7 +375,7 @@
     <li>
      <span class="scite-citation" id="scite-2">
       <span class="scite-citation-text">
-       [ Smith, C. (2016, August 17). Includes 5 Known Application Whitelisting/ Application Control Bypass Techniques in One File. Retrieved June 30, 2017.
+       Smith, C. (2016, August 17). Includes 5 Known Application Whitelisting/ Application Control Bypass Techniques in One File. Retrieved June 30, 2017.
       </span>
      </span>
     </li>
@@ -402,7 +436,7 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="9.5">
+   <ol start="9.0">
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
@@ -424,8 +458,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" name="scite-11" rel="nofollow" target="_blank">
-        Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-11" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -433,8 +467,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md" name="scite-12" rel="nofollow" target="_blank">
-        Microsoft. (2017, June 16). Deploy code integrity policies: steps. Retrieved June 28, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/06/unit42-paranoid-plugx/" name="scite-12" rel="nofollow" target="_blank">
+        Lancaster, T. and Idrizovic, E.. (2017, June 27). Paranoid PlugX. Retrieved July 13, 2017.
        </a>
       </span>
      </span>
@@ -442,8 +476,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html" name="scite-13" rel="nofollow" target="_blank">
-        Graeber, M. (2016, September 8). Using Device Guard to Mitigate Against Device Guard Bypasses. Retrieved September 13, 2016.
+       <a class="external text" href="https://github.com/Microsoft/windows-itpro-docs/blob/master/windows/device-security/device-guard/deploy-code-integrity-policies-steps.md" name="scite-13" rel="nofollow" target="_blank">
+        Microsoft. (2017, June 16). Deploy code integrity policies: steps. Retrieved June 28, 2017.
        </a>
       </span>
      </span>
@@ -451,8 +485,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/mattifestation/DeviceGuardBypassMitigationRules" name="scite-14" rel="nofollow" target="_blank">
-        Graeber, M. (2016, November 13). DeviceGuardBypassMitigationRules. Retrieved November 30, 2016.
+       <a class="external text" href="http://www.exploit-monday.com/2016/09/using-device-guard-to-mitigate-against.html" name="scite-14" rel="nofollow" target="_blank">
+        Graeber, M. (2016, September 8). Using Device Guard to Mitigate Against Device Guard Bypasses. Retrieved September 13, 2016.
        </a>
       </span>
      </span>
@@ -460,7 +494,16 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       [ Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016.
+       <a class="external text" href="https://github.com/mattifestation/DeviceGuardBypassMitigationRules" name="scite-15" rel="nofollow" target="_blank">
+        Graeber, M. (2016, November 13). DeviceGuardBypassMitigationRules. Retrieved November 30, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-16">
+      <span class="scite-citation-text">
+       Smith, C. (2016, September 13). Bypassing Application Whitelisting using MSBuild.exe - Device Guard Example and Mitigations. Retrieved September 13, 2016.
       </span>
      </span>
     </li>
