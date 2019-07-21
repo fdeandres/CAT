@@ -72,6 +72,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -101,6 +105,10 @@
       Yes
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -149,28 +157,6 @@
   <tbody class="bg-white">
    <tr>
     <td>
-     <a href="https://attack.mitre.org/groups/G0008">
-      Carbanak
-     </a>
-    </td>
-    <td>
-     <p>
-      <a href="https://attack.mitre.org/groups/G0008">
-       Carbanak
-      </a>
-      used legitimate programs such as AmmyAdmin and Team Viewer for remote interactive C2 to target systems.
-      <span class="scite-citeref-number" data-reference="Group-IB Anunak" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
-       <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="http://www.group-ib.com/files/Anunak_APT_against_financial_institutions.pdf" target="_blank">
-         [4]
-        </a>
-       </sup>
-      </span>
-     </p>
-    </td>
-   </tr>
-   <tr>
-    <td>
      <a href="https://attack.mitre.org/software/S0030">
       Carbanak
      </a>
@@ -181,9 +167,31 @@
        Carbanak
       </a>
       has a plugin for VNC and Ammyy Admin Tool.
-      <span class="scite-citeref-number" data-reference="FireEye CARBANAK June 2017" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="FireEye CARBANAK June 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" target="_blank">
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0008">
+      Carbanak
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0008">
+       Carbanak
+      </a>
+      used legitimate programs such as AmmyAdmin and Team Viewer for remote interactive C2 to target systems.
+      <span class="scite-citeref-number" data-reference="Group-IB Anunak" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="http://www.group-ib.com/files/Anunak_APT_against_financial_institutions.pdf" target="_blank">
          [5]
         </a>
        </sup>
@@ -229,6 +237,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0014">
+      Night Dragon
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0014">
+       Night Dragon
+      </a>
+      has used several remote administration tools as persistent infiltration channels.
+      <span class="scite-citeref-number" data-reference="McAfee Night Dragon" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0076">
       Thrip
      </a>
@@ -239,10 +269,10 @@
        Thrip
       </a>
       used a cloud-based remote access software called LogMeIn for their attacks.
-      <span class="scite-citeref-number" data-reference="Symantec Thrip June 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Symantec Thrip June 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets" target="_blank">
-         [9]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -314,8 +344,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.group-ib.com/files/Anunak_APT_against_financial_institutions.pdf" name="scite-4" rel="nofollow" target="_blank">
-        Group-IB and Fox-IT. (2014, December). Anunak: APT against financial institutions. Retrieved April 20, 2016.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" name="scite-4" rel="nofollow" target="_blank">
+        Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.
        </a>
       </span>
      </span>
@@ -323,8 +353,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" name="scite-5" rel="nofollow" target="_blank">
-        Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.
+       <a class="external text" href="http://www.group-ib.com/files/Anunak_APT_against_financial_institutions.pdf" name="scite-5" rel="nofollow" target="_blank">
+        Group-IB and Fox-IT. (2014, December). Anunak: APT against financial institutions. Retrieved April 20, 2016.
        </a>
       </span>
      </span>
@@ -332,7 +362,7 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="6.5">
+   <ol start="6.0">
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
@@ -363,7 +393,16 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets" name="scite-9" rel="nofollow" target="_blank">
+       <a class="external text" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" name="scite-9" rel="nofollow" target="_blank">
+        McAfee® Foundstone® Professional Services and McAfee Labs™. (2011, February 10). Global Energy Cyberattacks: “Night Dragon”. Retrieved February 19, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-10">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets" name="scite-10" rel="nofollow" target="_blank">
         Security Response Attack Investigation Team. (2018, June 19). Thrip: Espionage Group Hits Satellite, Telecoms, and Defense Companies. Retrieved July 10, 2018.
        </a>
       </span>
