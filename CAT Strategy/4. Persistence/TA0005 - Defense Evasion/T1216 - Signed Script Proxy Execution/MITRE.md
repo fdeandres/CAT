@@ -65,6 +65,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -102,6 +106,10 @@
       Application whitelisting, Digital Certificate Validation
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -212,7 +220,7 @@
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
        <a class="external text" href="https://twitter.com/ItsReallyNick/status/944321013084573697" name="scite-3" rel="nofollow" target="_blank">
-        Carr, N. (2017, December 22). ItsReallyNickk Status Update. Retrieved April 9, 2018.
+        Carr, N. (2017, December 22). ItsReallyNick Status Update. Retrieved April 9, 2018.
        </a>
       </span>
      </span>
