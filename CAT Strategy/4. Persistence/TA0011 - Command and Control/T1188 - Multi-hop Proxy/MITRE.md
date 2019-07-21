@@ -49,6 +49,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Network protocol analysis, Netflow/Enclave netflow
@@ -66,6 +70,10 @@
       Yes
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -155,6 +163,50 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0085">
+      FIN4
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0085">
+       FIN4
+      </a>
+      has used Tor to log in to victims' email accounts.
+      <span class="scite-citeref-number" data-reference="FireEye Hacking FIN4 Dec 2014" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+       <sup>
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://www.fireeye.com/current-threats/threat-intelligence-reports/rpt-fin4.html" target="_blank">
+         [3]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0342">
+      GreyEnergy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0342">
+       GreyEnergy
+      </a>
+      has used Tor relays for Command and Control servers.
+      <span class="scite-citeref-number" data-reference="ESET GreyEnergy Oct 2018" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0276">
       Keydnap
      </a>
@@ -165,10 +217,10 @@
        Keydnap
       </a>
       uses a copy of tor2web proxy for HTTPS communications.
-      <span class="scite-citeref-number" data-reference="synack 2016 review" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+      <span class="scite-citeref-number" data-reference="synack 2016 review" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
-        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://www.synack.com/2017/01/01/mac-malware-2016/" target="_blank">
-         [3]
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.synack.com/2017/01/01/mac-malware-2016/" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
@@ -214,10 +266,36 @@
        Tor
       </a>
       network and continuing on to its intended destination.
-      <span class="scite-citeref-number" data-reference="Dingledine Tor The Second-Generation Onion Router" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Dingledine Tor The Second-Generation Onion Router" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf" target="_blank">
-         [4]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      uses
+      <a href="https://attack.mitre.org/software/S0183">
+       Tor
+      </a>
+      for command and control traffic.
+      <span class="scite-citeref-number" data-reference="SecureWorks WannaCry Analysis" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.secureworks.com/research/wcry-ransomware-analysis" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -270,15 +348,11 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="3.0">
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.synack.com/2017/01/01/mac-malware-2016/" name="scite-3" rel="nofollow" target="_blank">
-        Patrick Wardle. (2017, January 1). Mac Malware of 2016. Retrieved September 21, 2018.
+       <a class="external text" href="https://www.fireeye.com/current-threats/threat-intelligence-reports/rpt-fin4.html" name="scite-3" rel="nofollow" target="_blank">
+        Vengerik, B. et al.. (2014, December 5). Hacking the Street? FIN4 Likely Playing the Market. Retrieved December 17, 2018.
        </a>
       </span>
      </span>
@@ -286,8 +360,39 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf" name="scite-4" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" name="scite-4" rel="nofollow" target="_blank">
+        Cherepanov, A. (2018, October). GREYENERGY A successor to BlackEnergy. Retrieved November 15, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="5.5">
+    <li>
+     <span class="scite-citation" id="scite-5">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.synack.com/2017/01/01/mac-malware-2016/" name="scite-5" rel="nofollow" target="_blank">
+        Patrick Wardle. (2017, January 1). Mac Malware of 2016. Retrieved September 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-6">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.dtic.mil/dtic/tr/fulltext/u2/a465464.pdf" name="scite-6" rel="nofollow" target="_blank">
         Roger Dingledine, Nick Mathewson and Paul Syverson. (2004). Tor: The Second-Generation Onion Router. Retrieved December 21, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-7">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.secureworks.com/research/wcry-ransomware-analysis" name="scite-7" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, May 18). WCry Ransomware Analysis. Retrieved March 26, 2019.
        </a>
       </span>
      </span>
