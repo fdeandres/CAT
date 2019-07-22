@@ -87,6 +87,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -104,6 +108,10 @@
       API monitoring, Process monitoring, Process command-line parameters
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -283,6 +291,52 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0091">
+      Epic
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0091">
+       Epic
+      </a>
+      gathers information on local group names.
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla Aug 2014" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08080105/KL_Epic_Turla_Technical_Appendix_20140806.pdf" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0037">
+      FIN6
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0037">
+       FIN6
+      </a>
+      has used tools like Adfind to query users, groups, organizational units, and trusts.
+      <br/>
+      <br/>
+      <span class="scite-citeref-number" data-reference="FireEye FIN6 Apr 2019" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+       <sup>
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html" target="_blank">
+         [7]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0170">
       Helminth
      </a>
@@ -301,10 +355,10 @@
        net group domain admins /domain
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Unit 42 Playbook Dec 2017" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Playbook Dec 2017" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://pan-unit42.github.io/playbook_viewer/" target="_blank">
-         [6]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://pan-unit42.github.io/playbook_viewer/" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -323,10 +377,10 @@
        JPIN
       </a>
       can obtain the victim user name.
-      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -345,10 +399,10 @@
        Kazuar
       </a>
       gathers information about local groups and members.
-      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -371,10 +425,10 @@
        net group /domain
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Villeneuve et al 2014" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Villeneuve et al 2014" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" target="_blank">
-         [9]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -405,10 +459,10 @@
        net localgroup /domain
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Symantec Orangeworm April 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="Symantec Orangeworm April 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" target="_blank">
-         [10]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -423,11 +477,14 @@
     </td>
     <td>
      <p>
+      <a href="https://attack.mitre.org/software/S0233">
+       MURKYTOP
+      </a>
       has the capability to retrieve information about groups.
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [11]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -455,10 +512,10 @@
        Net
       </a>
       to gather information about and manipulate groups.
-      <span class="scite-citeref-number" data-reference="Savill 1999" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="Savill 1999" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://windowsitpro.com/windows/netexe-reference" target="_blank">
-         [12]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="http://windowsitpro.com/windows/netexe-reference" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -493,10 +550,10 @@
        net group "Exchange Trusted Subsystem" /domain
       </code>
       to find group permission settings on a victim.
-      <span class="scite-citeref-number" data-reference="Palo Alto OilRig May 2016" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Palo Alto OilRig May 2016" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -527,6 +584,32 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0378">
+      PoshC2
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0378">
+       PoshC2
+      </a>
+      contains modules, such as
+      <code>
+       Get-LocAdm
+      </code>
+      for enumerating permission groups.
+      <span class="scite-citeref-number" data-reference="GitHub PoshC2" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://github.com/nettitude/PoshC2" target="_blank">
+         [16]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0184">
       POWRUNER
      </a>
@@ -541,10 +624,10 @@
        net group /domain
       </code>
       or a series of other commands on a victim.
-      <span class="scite-citeref-number" data-reference="FireEye APT34 Dec 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="FireEye APT34 Dec 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" target="_blank">
-         [14]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -563,13 +646,6 @@
        Sys10
       </a>
       collects the group name of the logged-in user and sends it to the C2.
-      <span class="scite-citeref-number" data-reference="Baumgartner Naikon 2015" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
-       <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf" target="_blank">
-         [15]
-        </a>
-       </sup>
-      </span>
      </p>
     </td>
    </tr>
@@ -580,41 +656,41 @@
  </h2>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about groups and permissions, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-16-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-18-a">
    <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [16]
-    </a>
-   </sup>
-  </span>
-  tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-17-a">
-   <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [17]
-    </a>
-   </sup>
-  </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-18-a">
-   <sup>
-    <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-17" data-hasqtip="17" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [18]
     </a>
    </sup>
   </span>
-  or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-19-a">
+  tools, like AppLocker,
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-19-a">
    <sup>
-    <a aria-describedby="qtip-18" data-hasqtip="18" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-18" data-hasqtip="18" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [19]
     </a>
    </sup>
   </span>
-  where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-20-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
      [20]
+    </a>
+   </sup>
+  </span>
+  or Software Restriction Policies
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-21-a">
+   <sup>
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [21]
+    </a>
+   </sup>
+  </span>
+  where appropriate.
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-22-a">
+   <sup>
+    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [22]
     </a>
    </sup>
   </span>
@@ -690,8 +766,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://pan-unit42.github.io/playbook_viewer/" name="scite-6" rel="nofollow" target="_blank">
-        Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08080105/KL_Epic_Turla_Technical_Appendix_20140806.pdf" name="scite-6" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2014, August 06). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroboros. Retrieved November 7, 2018.
        </a>
       </span>
      </span>
@@ -699,8 +775,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-7" rel="nofollow" target="_blank">
-        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html" name="scite-7" rel="nofollow" target="_blank">
+        McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -708,8 +784,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-8" rel="nofollow" target="_blank">
-        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
+       <a class="external text" href="https://pan-unit42.github.io/playbook_viewer/" name="scite-8" rel="nofollow" target="_blank">
+        Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -717,8 +793,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" name="scite-9" rel="nofollow" target="_blank">
-        Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., &amp; Geers, K. (2014). OPERATION “KE3CHANG”: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.
+       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-9" rel="nofollow" target="_blank">
+        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -726,8 +802,17 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" name="scite-10" rel="nofollow" target="_blank">
-        Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-10" rel="nofollow" target="_blank">
+        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-11">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" name="scite-11" rel="nofollow" target="_blank">
+        Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., &amp; Geers, K. (2014). OPERATION “KE3CHANG”: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.
        </a>
       </span>
      </span>
@@ -735,21 +820,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="11.0">
-    <li>
-     <span class="scite-citation" id="scite-11">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-11" rel="nofollow" target="_blank">
-        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="12.0">
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="http://windowsitpro.com/windows/netexe-reference" name="scite-12" rel="nofollow" target="_blank">
-        Savill, J. (1999, March 4). Net.exe reference. Retrieved September 22, 2015.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" name="scite-12" rel="nofollow" target="_blank">
+        Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.
        </a>
       </span>
      </span>
@@ -757,8 +833,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" name="scite-13" rel="nofollow" target="_blank">
-        Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-13" rel="nofollow" target="_blank">
+        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -766,8 +842,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" name="scite-14" rel="nofollow" target="_blank">
-        Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.
+       <a class="external text" href="http://windowsitpro.com/windows/netexe-reference" name="scite-14" rel="nofollow" target="_blank">
+        Savill, J. (1999, March 4). Net.exe reference. Retrieved September 22, 2015.
        </a>
       </span>
      </span>
@@ -775,8 +851,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf" name="scite-15" rel="nofollow" target="_blank">
-        Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" name="scite-15" rel="nofollow" target="_blank">
+        Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.
        </a>
       </span>
      </span>
@@ -784,8 +860,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-16" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://github.com/nettitude/PoshC2" name="scite-16" rel="nofollow" target="_blank">
+        Nettitude. (2016, June 8). PoshC2: Powershell C2 Server and Implants. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -793,8 +869,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-17" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" name="scite-17" rel="nofollow" target="_blank">
+        Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -802,8 +878,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-18" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-18" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -811,8 +887,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-19" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-19" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
        </a>
       </span>
      </span>
@@ -820,7 +896,25 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-20" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-20" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-21" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-22">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-22" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
