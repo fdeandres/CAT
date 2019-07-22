@@ -52,6 +52,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Netflow/Enclave netflow, Process use of network, Process monitoring
@@ -69,6 +73,10 @@
       Yes
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -179,6 +187,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0283">
+      jRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0283">
+       jRAT
+      </a>
+      can be configured to reconnect at certain intervals.
+      <span class="scite-citeref-number" data-reference="Kaspersky Adwind Feb 2016" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0265">
       Kazuar
      </a>
@@ -189,10 +219,10 @@
        Kazuar
       </a>
       can sleep for a specific time and be set to communicate at specific intervals.
-      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
-         [4]
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
@@ -211,10 +241,10 @@
        Linfo
       </a>
       creates a backdoor through which remote attackers can change the frequency at which compromised hosts contact remote C2 infrastructure.
-      <span class="scite-citeref-number" data-reference="Symantec Linfo May 2012" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="Symantec Linfo May 2012" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" target="_blank">
-         [5]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
@@ -233,10 +263,10 @@
        POWERSTATS
       </a>
       can sleep for a given number of seconds.
-      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="FireEye MuddyWater Mar 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -250,10 +280,10 @@
  </h2>
  <p>
   Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families and versions. Adversaries will likely change tool command and control signatures over time or construct protocols in such a way to avoid detection by common defensive tools.
-  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-7-a">
+  <span class="scite-citeref-number" data-reference="University of Birmingham C2" id="scite-ref-8-a">
    <sup>
-    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
-     [7]
+    <a aria-describedby="qtip-7" data-hasqtip="7" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" target="_blank">
+     [8]
     </a>
    </sup>
   </span>
@@ -300,8 +330,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-4" rel="nofollow" target="_blank">
-        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" name="scite-4" rel="nofollow" target="_blank">
+        Kamluk, V. &amp; Gostev, A. (2016, February). Adwind - A Cross-Platform RAT. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -309,12 +339,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="5.5">
+   <ol start="5.0">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" name="scite-5" rel="nofollow" target="_blank">
-        Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-5" rel="nofollow" target="_blank">
+        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
        </a>
       </span>
      </span>
@@ -322,8 +352,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-6" rel="nofollow" target="_blank">
-        Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" name="scite-6" rel="nofollow" target="_blank">
+        Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.
        </a>
       </span>
      </span>
@@ -331,7 +361,16 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" name="scite-7" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html" name="scite-7" rel="nofollow" target="_blank">
+        Singh, S. et al.. (2018, March 13). Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign. Retrieved April 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-8">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf" name="scite-8" rel="nofollow" target="_blank">
         Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command &amp; Control Understanding, Denying and Detecting. Retrieved April 20, 2016.
        </a>
       </span>
