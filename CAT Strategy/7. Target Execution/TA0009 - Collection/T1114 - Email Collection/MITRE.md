@@ -58,11 +58,19 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       Authentication logs, File monitoring, Process monitoring, Process use of network
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -269,6 +277,79 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0367">
+      Emotet
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0367">
+       Emotet
+      </a>
+      has been observed leveraging a module that scrapes email data from Outlook.
+      <span class="scite-citeref-number" data-reference="CIS Emotet Dec 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.cisecurity.org/white-papers/ms-isac-security-primer-emotet/" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      has the ability to collect emails on a target system.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0085">
+      FIN4
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0085">
+       FIN4
+      </a>
+      has accessed and hijacked email communications using stolen credentials.
+      <span class="scite-citeref-number" data-reference="FireEye Hacking FIN4 Dec 2014" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/current-threats/threat-intelligence-reports/rpt-fin4.html" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="FireEye Hacking FIN4 Video Dec 2014" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www2.fireeye.com/WBNR-14Q4NAMFIN4.html" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0004">
       Ke3chang
      </a>
@@ -279,10 +360,10 @@
        Ke3chang
       </a>
       used a .NET tool to dump data from Microsoft Exchange mailboxes.
-      <span class="scite-citeref-number" data-reference="NCC Group APT15 Alive and Strong" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="NCC Group APT15 Alive and Strong" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -301,10 +382,10 @@
        Leafminer
       </a>
       used a tool called MailSniper to search through the Exchange server mailboxes for keywords.
-      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
-         [9]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -323,10 +404,10 @@
        Magic Hound
       </a>
       has collected .PST archives.
-      <span class="scite-citeref-number" data-reference="FireEye APT35 2018" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="FireEye APT35 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -345,10 +426,32 @@
        Pupy
       </a>
       can interact with a victim’s Outlook session and look through folders and emails.
-      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://github.com/n1nj4sec/pupy" target="_blank">
-         [11]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://github.com/n1nj4sec/pupy" target="_blank">
+         [15]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0358">
+      Ruler
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0358">
+       Ruler
+      </a>
+      can be used to enumerate Exchange users and dump the GAL.
+      <span class="scite-citeref-number" data-reference="SensePost Ruler GitHub" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://github.com/sensepost/ruler" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -368,10 +471,10 @@
        SeaDuke
       </a>
       samples have a module to extract email from Microsoft Exchange servers using compromised credentials.
-      <span class="scite-citeref-number" data-reference="Symantec Seaduke 2015" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="Symantec Seaduke 2015" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory" target="_blank">
-         [12]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -390,10 +493,32 @@
        Smoke Loader
       </a>
       searches through Outlook files and directories (e.g., inbox, sent, templates, drafts, archives, etc.).
-      <span class="scite-citeref-number" data-reference="Talos Smoke Loader July 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="Talos Smoke Loader July 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" target="_blank">
-         [13]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" target="_blank">
+         [18]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0266">
+      TrickBot
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0266">
+       TrickBot
+      </a>
+      collects email addresses from Outlook.
+      <span class="scite-citeref-number" data-reference="Trend Micro Trickbot Nov 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+       <sup>
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -413,41 +538,41 @@
  </p>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to collect email data files or access the corporate email server, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-14-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-20-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [14]
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [20]
     </a>
    </sup>
   </span>
   tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-15-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-21-a">
    <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [15]
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-16-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-22-a">
    <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [16]
+    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [22]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-17-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-23-a">
    <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [17]
+    <a aria-describedby="qtip-22" data-hasqtip="22" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [23]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-18-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-24-a">
    <sup>
-    <a aria-describedby="qtip-17" data-hasqtip="17" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [18]
+    <a aria-describedby="qtip-23" data-hasqtip="23" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [24]
     </a>
    </sup>
   </span>
@@ -544,8 +669,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" name="scite-8" rel="nofollow" target="_blank">
-        Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.
+       <a class="external text" href="https://www.cisecurity.org/white-papers/ms-isac-security-primer-emotet/" name="scite-8" rel="nofollow" target="_blank">
+        CIS. (2018, December 12). MS-ISAC Security Primer- Emotet. Retrieved March 25, 2019.
        </a>
       </span>
      </span>
@@ -553,21 +678,17 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-9" rel="nofollow" target="_blank">
-        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-9" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="10.0">
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf" name="scite-10" rel="nofollow" target="_blank">
-        Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.
+       <a class="external text" href="https://www.fireeye.com/current-threats/threat-intelligence-reports/rpt-fin4.html" name="scite-10" rel="nofollow" target="_blank">
+        Vengerik, B. et al.. (2014, December 5). Hacking the Street? FIN4 Likely Playing the Market. Retrieved December 17, 2018.
        </a>
       </span>
      </span>
@@ -575,8 +696,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-11" rel="nofollow" target="_blank">
-        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
+       <a class="external text" href="https://www2.fireeye.com/WBNR-14Q4NAMFIN4.html" name="scite-11" rel="nofollow" target="_blank">
+        Vengerik, B. &amp; Dennesen, K.. (2014, December 5). Hacking the Street?  FIN4 Likely Playing the Market. Retrieved January 15, 2019.
        </a>
       </span>
      </span>
@@ -584,17 +705,21 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory" name="scite-12" rel="nofollow" target="_blank">
-        Symantec Security Response. (2015, July 13). “Forkmeiamfamous”: Seaduke, latest weapon in the Duke armory. Retrieved July 22, 2015.
+       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" name="scite-12" rel="nofollow" target="_blank">
+        Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="13.0">
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" name="scite-13" rel="nofollow" target="_blank">
-        Baker, B., Unterbrink H. (2018, July 03). Smoking Guns - Smoke Loader learned new tricks. Retrieved July 5, 2018.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-13" rel="nofollow" target="_blank">
+        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
        </a>
       </span>
      </span>
@@ -602,8 +727,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-14" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf" name="scite-14" rel="nofollow" target="_blank">
+        Mandiant. (2018). Mandiant M-Trends 2018. Retrieved July 9, 2018.
        </a>
       </span>
      </span>
@@ -611,8 +736,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-15" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-15" rel="nofollow" target="_blank">
+        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
        </a>
       </span>
      </span>
@@ -620,8 +745,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-16" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="https://github.com/sensepost/ruler" name="scite-16" rel="nofollow" target="_blank">
+        SensePost. (2016, August 18). Ruler: A tool to abuse Exchange services. Retrieved February 4, 2019.
        </a>
       </span>
      </span>
@@ -629,8 +754,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-17" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-armory" name="scite-17" rel="nofollow" target="_blank">
+        Symantec Security Response. (2015, July 13). “Forkmeiamfamous”: Seaduke, latest weapon in the Duke armory. Retrieved July 22, 2015.
        </a>
       </span>
      </span>
@@ -638,7 +763,61 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-18" rel="nofollow" target="_blank">
+       <a class="external text" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" name="scite-18" rel="nofollow" target="_blank">
+        Baker, B., Unterbrink H. (2018, July 03). Smoking Guns - Smoke Loader learned new tricks. Retrieved July 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-19">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/" name="scite-19" rel="nofollow" target="_blank">
+        Anthony, N., Pascual, C.. (2018, November 1). Trickbot Shows Off New Trick: Password Grabber Module. Retrieved November 16, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-20">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-20" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-21" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-22">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-22" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-23">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-23" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-24">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-24" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
