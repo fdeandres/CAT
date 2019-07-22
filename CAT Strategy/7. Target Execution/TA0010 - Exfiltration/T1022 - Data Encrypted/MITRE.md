@@ -59,6 +59,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Data Sources:
       </span>
       File monitoring, Process monitoring, Process command-line parameters, Binary file metadata
@@ -76,6 +80,10 @@
       No
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -142,6 +150,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0331">
+      Agent Tesla
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0331">
+       Agent Tesla
+      </a>
+      encrypts the data with 3DES before sending it over the C2 server.
+      <span class="scite-citeref-number" data-reference="Talos Agent Tesla Oct 2018" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+       <sup>
+        <a aria-describedby="qtip-1" data-hasqtip="1" href="https://blog.talosintelligence.com/2018/10/old-dog-new-tricks-analysing-new-rtf_15.html" target="_blank">
+         [2]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0092">
       Agent.btz
      </a>
@@ -152,10 +182,39 @@
        Agent.btz
       </a>
       saves system information into an XML file that is then XOR-encoded.
-      <span class="scite-citeref-number" data-reference="ThreatExpert Agent.btz" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+      <span class="scite-citeref-number" data-reference="ThreatExpert Agent.btz" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
        <sup>
-        <a aria-describedby="qtip-1" data-hasqtip="1" href="http://blog.threatexpert.com/2008/11/agentbtz-threat-that-hit-pentagon.html" target="_blank">
-         [2]
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="http://blog.threatexpert.com/2008/11/agentbtz-threat-that-hit-pentagon.html" target="_blank">
+         [3]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      backdoors have encrypted data before exfiltration, including by using RC4 encryption.
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus Mar 2019" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus macOS April 2019" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
@@ -174,10 +233,10 @@
        Backdoor.Oldrea
       </a>
       writes collected data to a temporary file in an encrypted form before exfiltration to a C2 server.
-      <span class="scite-citeref-number" data-reference="Symantec Dragonfly" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+      <span class="scite-citeref-number" data-reference="Symantec Dragonfly" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-2" data-hasqtip="2" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" target="_blank">
-         [3]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
@@ -196,10 +255,10 @@
        BRONZE BUTLER
       </a>
       has compressed and encrypted data into password-protected RAR archives prior to exfiltration.
-      <span class="scite-citeref-number" data-reference="Secureworks BRONZE BUTLER Oct 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Secureworks BRONZE BUTLER Oct 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" target="_blank">
-         [4]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -218,13 +277,6 @@
        CopyKittens
       </a>
       encrypts data with a substitute cipher prior to exfiltration.
-      <span class="scite-citeref-number" data-reference="CopyKittens Nov 2015" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
-       <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://s3-eu-west-1.amazonaws.com/minervaresearchpublic/CopyKittens/CopyKittens.pdf" target="_blank">
-         [5]
-        </a>
-       </sup>
-      </span>
      </p>
     </td>
    </tr>
@@ -240,10 +292,10 @@
        CORALDECK
       </a>
       has created password-protected RAR, WinImage, and zip archives to be exfiltrated.
-      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
-         [6]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -262,10 +314,10 @@
        Daserf
       </a>
       hides collected data in password-protected .rar archives.
-      <span class="scite-citeref-number" data-reference="Symantec Tick Apr 2016" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Symantec Tick Apr 2016" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -285,10 +337,61 @@
        Duqu
       </a>
       that copy data to a staging area, compress it, and XOR encrypt it.
-      <span class="scite-citeref-number" data-reference="Symantec W32.Duqu" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Symantec W32.Duqu" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf" target="_blank">
-         [8]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0367">
+      Emotet
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0367">
+       Emotet
+      </a>
+      has been observed encrypting the data it collects before sending it to the C2 server.
+      <span class="scite-citeref-number" data-reference="Fortinet Emotet May 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.fortinet.com/blog/threat-research/deep-analysis-of-new-emotet-variant-part-1.html" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0091">
+      Epic
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0091">
+       Epic
+      </a>
+      encrypts collected data using a public key framework before sending it over the C2 channel. Some variants encrypt the collected data with AES and encode it with base64 before transmitting it to the C2 server.
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+       <sup>
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla Aug 2014" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08080105/KL_Epic_Turla_Technical_Appendix_20140806.pdf" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -307,10 +410,10 @@
        FELIXROOT
       </a>
       encrypts collected data with AES and Base64 and then sends it to the C2 server.
-      <span class="scite-citeref-number" data-reference="FireEye FELIXROOT July 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="FireEye FELIXROOT July 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" target="_blank">
-         [9]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -330,10 +433,10 @@
        FIN6
       </a>
       encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key.
-      <span class="scite-citeref-number" data-reference="FireEye FIN6 April 2016" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="FireEye FIN6 April 2016" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -356,10 +459,10 @@
        SPACESHIP
       </a>
       for data it stages. Data is compressed with zlib, and bytes are rotated four times before being XOR'ed with 0x23.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [11]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -378,10 +481,10 @@
        Gold Dragon
       </a>
       encrypts data using Base64 before being sent to the command and control server.
-      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
-         [12]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -400,10 +503,10 @@
        Honeybee
       </a>
       adds collected files to a temp.zip file saved in the %temp% folder, then base64 encodes it and uploads it to control server.
-      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
-         [13]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -422,10 +525,10 @@
        InvisiMole
       </a>
       uses a variation of the XOR cipher to encrypt files before exfiltration.
-      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
-         [14]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -444,10 +547,10 @@
        Ke3chang
       </a>
       is known to use RAR with passwords to encrypt data prior to exfiltration.
-      <span class="scite-citeref-number" data-reference="Villeneuve et al 2014" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="Villeneuve et al 2014" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" target="_blank">
-         [15]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -474,31 +577,75 @@
        Lazarus Group
       </a>
       malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.
-      <span class="scite-citeref-number" data-reference="Novetta Blockbuster" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="Novetta Blockbuster" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" target="_blank">
-         [16]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Novetta Blockbuster Loaders" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Novetta Blockbuster Loaders" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" target="_blank">
-         [17]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Novetta Blockbuster RATs" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Novetta Blockbuster RATs" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf" target="_blank">
-         [18]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="McAfee Lazarus Resurfaces Feb 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="McAfee Lazarus Resurfaces Feb 2018" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" target="_blank">
+         [24]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0045">
+      menuPass
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0045">
+       menuPass
+      </a>
+      has encrypted files and information before exfiltration.
+      <span class="scite-citeref-number" data-reference="DOJ APT10 Dec 2018" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+       <sup>
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.justice.gov/opa/press-release/file/1121706/download" target="_blank">
+         [25]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0352">
+      OSX_OCEANLOTUS.D
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0352">
+       OSX_OCEANLOTUS.D
+      </a>
+      scrambles and encrypts data using AES256 before sending it to the C2 server.
+      <span class="scite-citeref-number" data-reference="TrendMicro MacOS April 2018" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+       <sup>
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -517,10 +664,10 @@
        OwaAuth
       </a>
       DES-encrypts captured credentials using the key 12345678 before writing the credentials to a log file.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [20]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -539,10 +686,10 @@
        Patchwork
       </a>
       encrypted the collected files' path with AES and then encoded them with base64.
-      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
-         [21]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
+         [28]
         </a>
        </sup>
       </span>
@@ -562,10 +709,10 @@
        Prikormka
       </a>
       encrypts some collected data with Blowfish.
-      <span class="scite-citeref-number" data-reference="ESET Operation Groundbait" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="ESET Operation Groundbait" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" target="_blank">
-         [22]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -584,24 +731,24 @@
        RawPOS
       </a>
       encodes credit card data it collected from the victim with XOR.
-      <span class="scite-citeref-number" data-reference="TrendMicro RawPOS April 2015" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="TrendMicro RawPOS April 2015" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="http://sjc1-te-ftp.trendmicro.com/images/tex/pdf/RawPOS%20Technical%20Brief.pdf" target="_blank">
-         [23]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="http://sjc1-te-ftp.trendmicro.com/images/tex/pdf/RawPOS%20Technical%20Brief.pdf" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Mandiant FIN5 GrrCON Oct 2016" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="Mandiant FIN5 GrrCON Oct 2016" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www.youtube.com/watch?v=fevGZs0EQu8" target="_blank">
-         [24]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www.youtube.com/watch?v=fevGZs0EQu8" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Visa RawPOS March 2015" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="Visa RawPOS March 2015" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://usa.visa.com/dam/VCOM/download/merchants/alert-rawpos.pdf" target="_blank">
-         [25]
+        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://usa.visa.com/dam/VCOM/download/merchants/alert-rawpos.pdf" target="_blank">
+         [32]
         </a>
        </sup>
       </span>
@@ -620,10 +767,32 @@
        Reaver
       </a>
       encrypts collected data with an incremental XOR key prior to exfiltration.
-      <span class="scite-citeref-number" data-reference="Palo Alto Reaver Nov 2017" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Reaver Nov 2017" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
        <sup>
-        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" target="_blank">
-         [26]
+        <a aria-describedby="qtip-32" data-hasqtip="32" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" target="_blank">
+         [33]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0375">
+      Remexi
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0375">
+       Remexi
+      </a>
+      encrypts and adds all gathered browser data into files for upload to C2.
+      <span class="scite-citeref-number" data-reference="Securelist Remexi Jan 2019" id="scite-ref-34-a" onclick="scrollToRef('scite-34')">
+       <sup>
+        <a aria-describedby="qtip-33" data-hasqtip="33" href="https://securelist.com/chafer-used-remexi-malware/89538/" target="_blank">
+         [34]
         </a>
        </sup>
       </span>
@@ -642,10 +811,10 @@
        RGDoor
       </a>
       encrypts files with XOR before sending them back to the C2 server.
-      <span class="scite-citeref-number" data-reference="Unit 42 RGDoor Jan 2018" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+      <span class="scite-citeref-number" data-reference="Unit 42 RGDoor Jan 2018" id="scite-ref-35-a" onclick="scrollToRef('scite-35')">
        <sup>
-        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/" target="_blank">
-         [27]
+        <a aria-describedby="qtip-34" data-hasqtip="34" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/" target="_blank">
+         [35]
         </a>
        </sup>
       </span>
@@ -665,10 +834,10 @@
        SPACESHIP
       </a>
       copies to the staging area is compressed with zlib. Bytes are rotated by four positions and XOR'ed with 0x23.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [11]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -687,10 +856,10 @@
        T9000
       </a>
       encrypts collected data using a single byte XOR key.
-      <span class="scite-citeref-number" data-reference="Palo Alto T9000 Feb 2016" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+      <span class="scite-citeref-number" data-reference="Palo Alto T9000 Feb 2016" id="scite-ref-36-a" onclick="scrollToRef('scite-36')">
        <sup>
-        <a aria-describedby="qtip-27" data-hasqtip="27" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" target="_blank">
-         [28]
+        <a aria-describedby="qtip-35" data-hasqtip="35" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" target="_blank">
+         [36]
         </a>
        </sup>
       </span>
@@ -709,10 +878,10 @@
        Threat Group-3390
       </a>
       has used RAR to compress, encrypt, and password-protect files prior to exfiltration.
-      <span class="scite-citeref-number" data-reference="SecureWorks BRONZE UNION June 2017" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+      <span class="scite-citeref-number" data-reference="SecureWorks BRONZE UNION June 2017" id="scite-ref-37-a" onclick="scrollToRef('scite-37')">
        <sup>
-        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.secureworks.com/research/bronze-union" target="_blank">
-         [29]
+        <a aria-describedby="qtip-36" data-hasqtip="36" href="https://www.secureworks.com/research/bronze-union" target="_blank">
+         [37]
         </a>
        </sup>
       </span>
@@ -731,10 +900,39 @@
        VERMIN
       </a>
       encrypts the collected files using 3-DES.
-      <span class="scite-citeref-number" data-reference="Unit 42 VERMIN Jan 2018" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
+      <span class="scite-citeref-number" data-reference="Unit 42 VERMIN Jan 2018" id="scite-ref-38-a" onclick="scrollToRef('scite-38')">
        <sup>
-        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" target="_blank">
-         [30]
+        <a aria-describedby="qtip-37" data-hasqtip="37" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" target="_blank">
+         [38]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0251">
+      Zebrocy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0251">
+       Zebrocy
+      </a>
+      uses an encryption method similar to RC4 as well as AES to encrypt data before exfiltration.
+      <span class="scite-citeref-number" data-reference="Securelist Sofacy Feb 2018" id="scite-ref-39-a" onclick="scrollToRef('scite-39')">
+       <sup>
+        <a aria-describedby="qtip-38" data-hasqtip="38" href="https://securelist.com/a-slice-of-2017-sofacy-activity/83930/" target="_blank">
+         [39]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="ESET Zebrocy Nov 2018" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
+       <sup>
+        <a aria-describedby="qtip-39" data-hasqtip="39" href="https://www.welivesecurity.com/2018/11/20/sednit-whats-going-zebrocy/" target="_blank">
+         [40]
         </a>
        </sup>
       </span>
@@ -748,41 +946,41 @@
  </h2>
  <p>
   Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to encrypt files, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-31-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-41-a">
    <sup>
-    <a aria-describedby="qtip-30" data-hasqtip="30" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [31]
+    <a aria-describedby="qtip-40" data-hasqtip="40" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [41]
     </a>
    </sup>
   </span>
   tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-32-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-42-a">
    <sup>
-    <a aria-describedby="qtip-31" data-hasqtip="31" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [32]
+    <a aria-describedby="qtip-41" data-hasqtip="41" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [42]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-33-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-43-a">
    <sup>
-    <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [33]
+    <a aria-describedby="qtip-42" data-hasqtip="42" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [43]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-34-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-44-a">
    <sup>
-    <a aria-describedby="qtip-33" data-hasqtip="33" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [34]
+    <a aria-describedby="qtip-43" data-hasqtip="43" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [44]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-35-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-45-a">
    <sup>
-    <a aria-describedby="qtip-34" data-hasqtip="34" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [35]
+    <a aria-describedby="qtip-44" data-hasqtip="44" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [45]
     </a>
    </sup>
   </span>
@@ -798,18 +996,18 @@
  </p>
  <p>
   Network traffic may also be analyzed for entropy to determine if encrypted data is being transmitted.
-  <span class="scite-citeref-number" data-reference="Zhang 2013" id="scite-ref-36-a">
+  <span class="scite-citeref-number" data-reference="Zhang 2013" id="scite-ref-46-a">
    <sup>
-    <a aria-describedby="qtip-35" data-hasqtip="35" href="http://www.netsec.colostate.edu/~zhang/DetectingEncryptedBotnetTraffic.pdf" target="_blank">
-     [36]
+    <a aria-describedby="qtip-45" data-hasqtip="45" href="http://www.netsec.colostate.edu/~zhang/DetectingEncryptedBotnetTraffic.pdf" target="_blank">
+     [46]
     </a>
    </sup>
   </span>
   If the communications channel is unencrypted, encrypted files of known file types can be detected in transit during exfiltration with a network intrusion detection or data loss prevention system analyzing file headers.
-  <span class="scite-citeref-number" data-reference="Wikipedia File Header Signatures" id="scite-ref-37-a">
+  <span class="scite-citeref-number" data-reference="Wikipedia File Header Signatures" id="scite-ref-47-a">
    <sup>
-    <a aria-describedby="qtip-36" data-hasqtip="36" href="https://en.wikipedia.org/wiki/List_of_file_signatures" target="_blank">
-     [37]
+    <a aria-describedby="qtip-46" data-hasqtip="46" href="https://en.wikipedia.org/wiki/List_of_file_signatures" target="_blank">
+     [47]
     </a>
    </sup>
   </span>
@@ -832,8 +1030,8 @@
     <li>
      <span class="scite-citation" id="scite-2">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.threatexpert.com/2008/11/agentbtz-threat-that-hit-pentagon.html" name="scite-2" rel="nofollow" target="_blank">
-        Shevchenko, S.. (2008, November 30). Agent.btz - A Threat That Hit Pentagon. Retrieved April 8, 2016.
+       <a class="external text" href="https://blog.talosintelligence.com/2018/10/old-dog-new-tricks-analysing-new-rtf_15.html" name="scite-2" rel="nofollow" target="_blank">
+        Brumaghin, E., et al. (2018, October 15). Old dog, new tricks - Analysing new RTF-based campaign distributing Agent Tesla, Loki with PyREbox. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -841,8 +1039,8 @@
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" name="scite-3" rel="nofollow" target="_blank">
-        Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.
+       <a class="external text" href="http://blog.threatexpert.com/2008/11/agentbtz-threat-that-hit-pentagon.html" name="scite-3" rel="nofollow" target="_blank">
+        Shevchenko, S.. (2008, November 30). Agent.btz - A Threat That Hit Pentagon. Retrieved April 8, 2016.
        </a>
       </span>
      </span>
@@ -850,8 +1048,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" name="scite-4" rel="nofollow" target="_blank">
-        Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.
+       <a class="external text" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" name="scite-4" rel="nofollow" target="_blank">
+        Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.
        </a>
       </span>
      </span>
@@ -859,8 +1057,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://s3-eu-west-1.amazonaws.com/minervaresearchpublic/CopyKittens/CopyKittens.pdf" name="scite-5" rel="nofollow" target="_blank">
-        Minerva Labs LTD and ClearSky Cyber Security. (2015, November 23). CopyKittens Attack Group. Retrieved September 11, 2017.
+       <a class="external text" href="https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/" name="scite-5" rel="nofollow" target="_blank">
+        Dumont, R.. (2019, April 9). OceanLotus: macOS malware update. Retrieved April 15, 2019.
        </a>
       </span>
      </span>
@@ -868,8 +1066,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" name="scite-6" rel="nofollow" target="_blank">
-        FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved March 1, 2018.
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" name="scite-6" rel="nofollow" target="_blank">
+        Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.
        </a>
       </span>
      </span>
@@ -877,8 +1075,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" name="scite-7" rel="nofollow" target="_blank">
-        DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.
+       <a class="external text" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" name="scite-7" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.
        </a>
       </span>
      </span>
@@ -886,8 +1084,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf" name="scite-8" rel="nofollow" target="_blank">
-        Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" name="scite-8" rel="nofollow" target="_blank">
+        FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved March 1, 2018.
        </a>
       </span>
      </span>
@@ -895,8 +1093,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" name="scite-9" rel="nofollow" target="_blank">
-        Patil, S. (2018, June 26). Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign. Retrieved July 31, 2018.
+       <a class="external text" href="https://www.symantec.com/connect/blogs/tick-cyberespionage-group-zeros-japan" name="scite-9" rel="nofollow" target="_blank">
+        DiMaggio, J. (2016, April 28). Tick cyberespionage group zeros in on Japan. Retrieved July 16, 2018.
        </a>
       </span>
      </span>
@@ -904,8 +1102,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" name="scite-10" rel="nofollow" target="_blank">
-        FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.
+       <a class="external text" href="https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf" name="scite-10" rel="nofollow" target="_blank">
+        Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.
        </a>
       </span>
      </span>
@@ -913,8 +1111,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" name="scite-11" rel="nofollow" target="_blank">
-        FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.
+       <a class="external text" href="https://www.fortinet.com/blog/threat-research/deep-analysis-of-new-emotet-variant-part-1.html" name="scite-11" rel="nofollow" target="_blank">
+        Xiaopeng Zhang. (2017, May 3). Deep Analysis of New Emotet Variant – Part 1. Retrieved April 1, 2019.
        </a>
       </span>
      </span>
@@ -922,8 +1120,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" name="scite-12" rel="nofollow" target="_blank">
-        Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims’ Systems. Retrieved June 6, 2018.
+       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-12" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
        </a>
       </span>
      </span>
@@ -931,8 +1129,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-13" rel="nofollow" target="_blank">
-        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08080105/KL_Epic_Turla_Technical_Appendix_20140806.pdf" name="scite-13" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2014, August 06). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroboros. Retrieved November 7, 2018.
        </a>
       </span>
      </span>
@@ -940,8 +1138,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-14" rel="nofollow" target="_blank">
-        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" name="scite-14" rel="nofollow" target="_blank">
+        Patil, S. (2018, June 26). Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign. Retrieved July 31, 2018.
        </a>
       </span>
      </span>
@@ -949,8 +1147,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" name="scite-15" rel="nofollow" target="_blank">
-        Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., &amp; Geers, K. (2014). OPERATION “KE3CHANG”: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" name="scite-15" rel="nofollow" target="_blank">
+        FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.
        </a>
       </span>
      </span>
@@ -958,8 +1156,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" name="scite-16" rel="nofollow" target="_blank">
-        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
+       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" name="scite-16" rel="nofollow" target="_blank">
+        FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.
        </a>
       </span>
      </span>
@@ -967,8 +1165,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" name="scite-17" rel="nofollow" target="_blank">
-        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Loaders, Installers and Uninstallers Report. Retrieved March 2, 2016.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" name="scite-17" rel="nofollow" target="_blank">
+        Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims’ Systems. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -976,8 +1174,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf" name="scite-18" rel="nofollow" target="_blank">
-        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Remote Administration Tools &amp; Content Staging Malware Report. Retrieved March 16, 2016.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-18" rel="nofollow" target="_blank">
+        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
        </a>
       </span>
      </span>
@@ -985,7 +1183,52 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" name="scite-19" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-19" rel="nofollow" target="_blank">
+        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-20">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" name="scite-20" rel="nofollow" target="_blank">
+        Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., &amp; Geers, K. (2014). OPERATION “KE3CHANG”: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" name="scite-21" rel="nofollow" target="_blank">
+        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-22">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" name="scite-22" rel="nofollow" target="_blank">
+        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Loaders, Installers and Uninstallers Report. Retrieved March 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-23">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-RAT-and-Staging-Report.pdf" name="scite-23" rel="nofollow" target="_blank">
+        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Remote Administration Tools &amp; Content Staging Malware Report. Retrieved March 16, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-24">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" name="scite-24" rel="nofollow" target="_blank">
         Sherstobitoff, R. (2018, February 12). Lazarus Resurfaces, Targets Global Banks and Bitcoin Users. Retrieved February 19, 2018.
        </a>
       </span>
@@ -994,57 +1237,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="20.5">
-    <li>
-     <span class="scite-citation" id="scite-20">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-20" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-21">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-21" rel="nofollow" target="_blank">
-        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-22">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" name="scite-22" rel="nofollow" target="_blank">
-        Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-23">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://sjc1-te-ftp.trendmicro.com/images/tex/pdf/RawPOS%20Technical%20Brief.pdf" name="scite-23" rel="nofollow" target="_blank">
-        TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-24">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.youtube.com/watch?v=fevGZs0EQu8" name="scite-24" rel="nofollow" target="_blank">
-        Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="25.5">
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://usa.visa.com/dam/VCOM/download/merchants/alert-rawpos.pdf" name="scite-25" rel="nofollow" target="_blank">
-        Visa. (2015, March). Visa Security Alert: "RawPOS" Malware Targeting Lodging Merchants. Retrieved October 6, 2017.
+       <a class="external text" href="https://www.justice.gov/opa/press-release/file/1121706/download" name="scite-25" rel="nofollow" target="_blank">
+        United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -1052,8 +1250,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" name="scite-26" rel="nofollow" target="_blank">
-        Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017.
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/" name="scite-26" rel="nofollow" target="_blank">
+        Horejsi, J. (2018, April 04). New MacOS Backdoor Linked to OceanLotus Found. Retrieved November 13, 2018.
        </a>
       </span>
      </span>
@@ -1061,8 +1259,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/" name="scite-27" rel="nofollow" target="_blank">
-        Falcone, R. (2018, January 25). OilRig uses RGDoor IIS Backdoor on Targets in the Middle East. Retrieved July 6, 2018.
+       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-27" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
        </a>
       </span>
      </span>
@@ -1070,8 +1268,8 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" name="scite-28" rel="nofollow" target="_blank">
-        Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.
+       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-28" rel="nofollow" target="_blank">
+        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
        </a>
       </span>
      </span>
@@ -1079,8 +1277,8 @@
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/bronze-union" name="scite-29" rel="nofollow" target="_blank">
-        Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.
+       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" name="scite-29" rel="nofollow" target="_blank">
+        Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.
        </a>
       </span>
      </span>
@@ -1088,8 +1286,8 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" name="scite-30" rel="nofollow" target="_blank">
-        Lancaster, T., Cortes, J. (2018, January 29). VERMIN: Quasar RAT and Custom Malware Used In Ukraine. Retrieved July 5, 2018.
+       <a class="external text" href="http://sjc1-te-ftp.trendmicro.com/images/tex/pdf/RawPOS%20Technical%20Brief.pdf" name="scite-30" rel="nofollow" target="_blank">
+        TrendLabs Security Intelligence Blog. (2015, April). RawPOS Technical Brief. Retrieved October 4, 2017.
        </a>
       </span>
      </span>
@@ -1097,8 +1295,8 @@
     <li>
      <span class="scite-citation" id="scite-31">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-31" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.youtube.com/watch?v=fevGZs0EQu8" name="scite-31" rel="nofollow" target="_blank">
+        Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.
        </a>
       </span>
      </span>
@@ -1106,8 +1304,8 @@
     <li>
      <span class="scite-citation" id="scite-32">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-32" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://usa.visa.com/dam/VCOM/download/merchants/alert-rawpos.pdf" name="scite-32" rel="nofollow" target="_blank">
+        Visa. (2015, March). Visa Security Alert: "RawPOS" Malware Targeting Lodging Merchants. Retrieved October 6, 2017.
        </a>
       </span>
      </span>
@@ -1115,8 +1313,8 @@
     <li>
      <span class="scite-citation" id="scite-33">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-33" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" name="scite-33" rel="nofollow" target="_blank">
+        Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017.
        </a>
       </span>
      </span>
@@ -1124,8 +1322,8 @@
     <li>
      <span class="scite-citation" id="scite-34">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-34" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://securelist.com/chafer-used-remexi-malware/89538/" name="scite-34" rel="nofollow" target="_blank">
+        Legezo, D. (2019, January 30). Chafer used Remexi malware to spy on Iran-based foreign diplomatic entities. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -1133,8 +1331,8 @@
     <li>
      <span class="scite-citation" id="scite-35">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-35" rel="nofollow" target="_blank">
-        Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/" name="scite-35" rel="nofollow" target="_blank">
+        Falcone, R. (2018, January 25). OilRig uses RGDoor IIS Backdoor on Targets in the Middle East. Retrieved July 6, 2018.
        </a>
       </span>
      </span>
@@ -1142,8 +1340,8 @@
     <li>
      <span class="scite-citation" id="scite-36">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.netsec.colostate.edu/~zhang/DetectingEncryptedBotnetTraffic.pdf" name="scite-36" rel="nofollow" target="_blank">
-        Zhang, H., Papadopoulos, C., &amp; Massey, D. (2013, April). Detecting encrypted botnet traffic. Retrieved August 19, 2015.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" name="scite-36" rel="nofollow" target="_blank">
+        Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.
        </a>
       </span>
      </span>
@@ -1151,7 +1349,97 @@
     <li>
      <span class="scite-citation" id="scite-37">
       <span class="scite-citation-text">
-       <a class="external text" href="https://en.wikipedia.org/wiki/List_of_file_signatures" name="scite-37" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.secureworks.com/research/bronze-union" name="scite-37" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-38">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/01/unit42-vermin-quasar-rat-custom-malware-used-ukraine/" name="scite-38" rel="nofollow" target="_blank">
+        Lancaster, T., Cortes, J. (2018, January 29). VERMIN: Quasar RAT and Custom Malware Used In Ukraine. Retrieved July 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-39">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securelist.com/a-slice-of-2017-sofacy-activity/83930/" name="scite-39" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, February 20). A Slice of 2017 Sofacy Activity. Retrieved November 27, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-40">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/2018/11/20/sednit-whats-going-zebrocy/" name="scite-40" rel="nofollow" target="_blank">
+        ESET. (2018, November 20). Sednit: What’s going on with Zebrocy?. Retrieved February 12, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-41">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-41" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-42">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-42" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-43">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-43" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-44">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-44" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-45">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-45" rel="nofollow" target="_blank">
+        Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-46">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.netsec.colostate.edu/~zhang/DetectingEncryptedBotnetTraffic.pdf" name="scite-46" rel="nofollow" target="_blank">
+        Zhang, H., Papadopoulos, C., &amp; Massey, D. (2013, April). Detecting encrypted botnet traffic. Retrieved August 19, 2015.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-47">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://en.wikipedia.org/wiki/List_of_file_signatures" name="scite-47" rel="nofollow" target="_blank">
         Wikipedia. (2016, March 31). List of file signatures. Retrieved April 22, 2016.
        </a>
       </span>
