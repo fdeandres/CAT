@@ -5,7 +5,7 @@
  <div class="row">
   <div class="col-md-8 description-body">
    <p>
-    Adversaries will likely attempt to get a listing of other systems by IP address, hostname, or other logical identifier on a network that may be used for Lateral Movement from the current system. Functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used.
+    Adversaries will likely attempt to get a listing of other systems by IP address, hostname, or other logical identifier on a network that may be used for Lateral Movement from the current system. Functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used. Adversaries may also use local host files in order to discover the hostname to IP address mappings of remote systems.
    </p>
    <h3>
     Windows
@@ -15,7 +15,11 @@
     <a href="https://attack.mitre.org/software/S0039">
      Net
     </a>
-    .
+    . The contents of the
+    <code>
+     C:\Windows\System32\Drivers\etc\hosts
+    </code>
+    file can be viewed to gain insight into the existing hostname to IP mappings on the system.
    </p>
    <h3>
     Mac
@@ -25,13 +29,21 @@
     <code>
      bonjour
     </code>
-    protocol to discover additional Mac-based systems within the same broadcast domain. Utilities such as "ping" and others can be used to gather information about remote systems.
+    protocol to discover additional Mac-based systems within the same broadcast domain. Utilities such as "ping" and others can be used to gather information about remote systems. The contents of the
+    <code>
+     /etc/hosts
+    </code>
+    file can be viewed to gain insight into existing hostname to IP mappings on the system.
    </p>
    <h3>
     Linux
    </h3>
    <p>
-    Utilities such as "ping" and others can be used to gather information about remote systems.
+    Utilities such as "ping" and others can be used to gather information about remote systems. The contents of the
+    <code>
+     /etc/hosts
+    </code>
+    file can be viewed to gain insight into existing hostname to IP mappings on the system.
    </p>
   </div>
   <div class="col-md-4">
@@ -64,6 +76,10 @@
       Linux, macOS, Windows
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -111,9 +127,17 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       Contributors:
+      </span>
+      RedHuntLabs (@redhuntlabs)
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Version
       </span>
-      : 1.0
+      : 1.1
      </div>
     </div>
    </div>
@@ -165,6 +189,48 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      used the
+      <code>
+       net view
+      </code>
+      command to show all shares available, including the administrative shares such as
+      <code>
+       C$
+      </code>
+      and
+      <code>
+       ADMIN$
+      </code>
+      .
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      also used the
+      <code>
+       ping
+      </code>
+      command.
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+       <sup>
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [3]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0060">
       BRONZE BUTLER
      </a>
@@ -183,10 +249,36 @@
        Net
       </a>
       to enumerate systems.
-      <span class="scite-citeref-number" data-reference="Secureworks BRONZE BUTLER Oct 2017" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+      <span class="scite-citeref-number" data-reference="Secureworks BRONZE BUTLER Oct 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
        <sup>
-        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" target="_blank">
-         [3]
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0335">
+      Carbon
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0335">
+       Carbon
+      </a>
+      uses the
+      <code>
+       net view
+      </code>
+      command.
+      <span class="scite-citeref-number" data-reference="GovCERT Carbon May 2016" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.melani.admin.ch/dam/melani/de/dokumente/2016/technical%20report%20ruag.pdf.download.pdf/Report_Ruag-Espionage-Case.pdf" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
@@ -205,10 +297,10 @@
        Cobalt Strike
       </a>
       uses the native Windows Network Enumeration APIs to interrogate and discover targets in a Windows Active Directory network.
-      <span class="scite-citeref-number" data-reference="cobaltstrike manual" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="cobaltstrike manual" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://cobaltstrike.com/downloads/csmanual38.pdf" target="_blank">
-         [4]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://cobaltstrike.com/downloads/csmanual38.pdf" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
@@ -246,10 +338,10 @@
        Deep Panda
       </a>
       has used ping to identify other machines of interest.
-      <span class="scite-citeref-number" data-reference="Alperovitch 2014" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="Alperovitch 2014" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/" target="_blank">
-         [5]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -268,10 +360,36 @@
        Dragonfly 2.0
       </a>
       likely obtained a list of hosts in the victim environment.
-      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
-         [6]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0091">
+      Epic
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0091">
+       Epic
+      </a>
+      uses the
+      <code>
+       net view
+      </code>
+      command on the victim’s machine.
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -290,10 +408,10 @@
        FIN5
       </a>
       has used the open source tool Essential NetTools to map the network and build a list of targets.
-      <span class="scite-citeref-number" data-reference="Mandiant FIN5 GrrCON Oct 2016" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Mandiant FIN5 GrrCON Oct 2016" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.youtube.com/watch?v=fevGZs0EQu8" target="_blank">
-         [7]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.youtube.com/watch?v=fevGZs0EQu8" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -312,10 +430,10 @@
        FIN6
       </a>
       used publicly available tools (including Microsoft's built-in SQL querying tool, osql.exe) to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers, and NetBIOS.
-      <span class="scite-citeref-number" data-reference="FireEye FIN6 April 2016" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="FireEye FIN6 April 2016" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" target="_blank">
-         [8]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -338,10 +456,10 @@
        dsquery
       </a>
       and other Active Directory utilities to enumerate hosts.
-      <span class="scite-citeref-number" data-reference="FireEye Know Your Enemy FIN8 Aug 2016" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="FireEye Know Your Enemy FIN8 Aug 2016" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" target="_blank">
-         [9]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -364,10 +482,10 @@
        Ping
       </a>
       .
-      <span class="scite-citeref-number" data-reference="NCC Group APT15 Alive and Strong" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="NCC Group APT15 Alive and Strong" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" target="_blank">
-         [10]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -390,10 +508,10 @@
        net view
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Symantec Orangeworm April 2018" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="Symantec Orangeworm April 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" target="_blank">
-         [11]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -412,10 +530,10 @@
        Leafminer
       </a>
       used Microsoft’s Sysinternals tools to gather detailed information about remote systems.
-      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
-         [12]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -446,17 +564,17 @@
        PlugX
       </a>
       implant to gather information about remote systems on the network.
-      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
-         [13]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="FireEye APT10 April 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="FireEye APT10 April 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" target="_blank">
-         [14]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -471,11 +589,14 @@
     </td>
     <td>
      <p>
+      <a href="https://attack.mitre.org/software/S0233">
+       MURKYTOP
+      </a>
       has the capability to identify remote hosts on connected networks.
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [15]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -499,10 +620,66 @@
        Net
       </a>
       to gather information about available remote systems.
-      <span class="scite-citeref-number" data-reference="Savill 1999" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="Savill 1999" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="http://windowsitpro.com/windows/netexe-reference" target="_blank">
-         [16]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="http://windowsitpro.com/windows/netexe-reference" target="_blank">
+         [19]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0359">
+      Nltest
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0359">
+       Nltest
+      </a>
+      may be used to enumerate remote domain controllers using options such as
+      <code>
+       /dclist
+      </code>
+      and
+      <code>
+       /dsgetdc
+      </code>
+      .
+      <span class="scite-citeref-number" data-reference="Nltest Manual" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+       <sup>
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://ss64.com/nt/nltest.html" target="_blank">
+         [20]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0365">
+      Olympic Destroyer
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0365">
+       Olympic Destroyer
+      </a>
+      uses
+      <a href="https://attack.mitre.org/techniques/T1047">
+       Windows Management Instrumentation
+      </a>
+      to enumerate all systems in the network.
+      <span class="scite-citeref-number" data-reference="Talos Olympic Destroyer 2018" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+       <sup>
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://blog.talosintelligence.com/2018/02/olympic-destroyer.html" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -543,10 +720,10 @@
        Ping
       </a>
       can be used to identify remote systems within a network.
-      <span class="scite-citeref-number" data-reference="TechNet Ping" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="TechNet Ping" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://technet.microsoft.com/en-us/library/bb490968.aspx" target="_blank">
-         [17]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://technet.microsoft.com/en-us/library/bb490968.aspx" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
@@ -573,11 +750,9 @@
        net view
       </code>
       commands.
-      <span class="scite-citeref-number" data-reference="RATANKBA" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="RATANKBA" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/" target="_blank">
-         [18]
-        </a>
+        [23]
        </sup>
       </span>
      </p>
@@ -595,10 +770,10 @@
        Remsec
       </a>
       can ping or traceroute a remote host.
-      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Technical Analysis" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Technical Analysis" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" target="_blank">
-         [19]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -617,10 +792,10 @@
        Shamoon
       </a>
       scans the C-class subnet of the IPs on the victim's interfaces.
-      <span class="scite-citeref-number" data-reference="FireEye Shamoon Nov 2016" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="FireEye Shamoon Nov 2016" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html" target="_blank">
-         [20]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html" target="_blank">
+         [25]
         </a>
        </sup>
       </span>
@@ -639,10 +814,10 @@
        SHOTPUT
       </a>
       has a command to list all servers in the domain, as well as one to locate domain controllers on a domain.
-      <span class="scite-citeref-number" data-reference="Palo Alto CVE-2015-3113 July 2015" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="Palo Alto CVE-2015-3113 July 2015" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" target="_blank">
-         [21]
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -665,10 +840,10 @@
        net view /domain
       </code>
       to display hostnames of available systems on a network.
-      <span class="scite-citeref-number" data-reference="AlienVault Sykipot 2011" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="AlienVault Sykipot 2011" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies" target="_blank">
-         [22]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -691,10 +866,10 @@
        net view
       </code>
       command.
-      <span class="scite-citeref-number" data-reference="Nccgroup Emissary Panda May 2018" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="Nccgroup Emissary Panda May 2018" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" target="_blank">
-         [23]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" target="_blank">
+         [28]
         </a>
        </sup>
       </span>
@@ -721,10 +896,32 @@
        net view /DOMAIN
       </code>
       commands.
-      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
-         [24]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      scans its local network segment for remote systems to try to exploit and copy itself to.
+      <span class="scite-citeref-number" data-reference="SecureWorks WannaCry Analysis" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+       <sup>
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.secureworks.com/research/wcry-ransomware-analysis" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -747,10 +944,10 @@
        net view
       </code>
       command for discovery.
-      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
-         [25]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -764,41 +961,41 @@
  </h2>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to acquire information on remotely available systems, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-26-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-31-a">
    <sup>
-    <a aria-describedby="qtip-25" data-hasqtip="25" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [26]
+    <a aria-describedby="qtip-30" data-hasqtip="30" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [31]
     </a>
    </sup>
   </span>
   tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-27-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-32-a">
    <sup>
-    <a aria-describedby="qtip-26" data-hasqtip="26" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [27]
+    <a aria-describedby="qtip-31" data-hasqtip="31" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [32]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-28-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-33-a">
    <sup>
-    <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [28]
+    <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [33]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-29-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-34-a">
    <sup>
-    <a aria-describedby="qtip-28" data-hasqtip="28" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [29]
+    <a aria-describedby="qtip-33" data-hasqtip="33" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [34]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-30-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-35-a">
    <sup>
-    <a aria-describedby="qtip-29" data-hasqtip="29" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [30]
+    <a aria-describedby="qtip-34" data-hasqtip="34" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [35]
     </a>
    </sup>
   </span>
@@ -847,8 +1044,8 @@
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" name="scite-3" rel="nofollow" target="_blank">
-        Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-3" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -856,8 +1053,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cobaltstrike.com/downloads/csmanual38.pdf" name="scite-4" rel="nofollow" target="_blank">
-        Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.
+       <a class="external text" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" name="scite-4" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.
        </a>
       </span>
      </span>
@@ -865,8 +1062,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/" name="scite-5" rel="nofollow" target="_blank">
-        Alperovitch, D. (2014, July 7). Deep in Thought: Chinese Targeting of National Security Think Tanks. Retrieved November 12, 2014.
+       <a class="external text" href="https://www.melani.admin.ch/dam/melani/de/dokumente/2016/technical%20report%20ruag.pdf.download.pdf/Report_Ruag-Espionage-Case.pdf" name="scite-5" rel="nofollow" target="_blank">
+        GovCERT. (2016, May 23). Technical Report about the Espionage Case at RUAG. Retrieved November 7, 2018.
        </a>
       </span>
      </span>
@@ -874,8 +1071,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-6" rel="nofollow" target="_blank">
-        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
+       <a class="external text" href="https://cobaltstrike.com/downloads/csmanual38.pdf" name="scite-6" rel="nofollow" target="_blank">
+        Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.
        </a>
       </span>
      </span>
@@ -883,8 +1080,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.youtube.com/watch?v=fevGZs0EQu8" name="scite-7" rel="nofollow" target="_blank">
-        Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.
+       <a class="external text" href="https://blog.crowdstrike.com/deep-thought-chinese-targeting-national-security-think-tanks/" name="scite-7" rel="nofollow" target="_blank">
+        Alperovitch, D. (2014, July 7). Deep in Thought: Chinese Targeting of National Security Think Tanks. Retrieved November 12, 2014.
        </a>
       </span>
      </span>
@@ -892,8 +1089,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" name="scite-8" rel="nofollow" target="_blank">
-        FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.
+       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-8" rel="nofollow" target="_blank">
+        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -901,8 +1098,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" name="scite-9" rel="nofollow" target="_blank">
-        Elovitz, S. &amp; Ahl, I. (2016, August 18). Know Your Enemy:  New Financially-Motivated &amp; Spear-Phishing Group. Retrieved February 26, 2018.
+       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-9" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
        </a>
       </span>
      </span>
@@ -910,8 +1107,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" name="scite-10" rel="nofollow" target="_blank">
-        Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.
+       <a class="external text" href="https://www.youtube.com/watch?v=fevGZs0EQu8" name="scite-10" rel="nofollow" target="_blank">
+        Bromiley, M. and Lewis, P. (2016, October 7). Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years. Retrieved October 6, 2017.
        </a>
       </span>
      </span>
@@ -919,8 +1116,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" name="scite-11" rel="nofollow" target="_blank">
-        Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" name="scite-11" rel="nofollow" target="_blank">
+        FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.
        </a>
       </span>
      </span>
@@ -928,8 +1125,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-12" rel="nofollow" target="_blank">
-        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
+       <a class="external text" href="https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html" name="scite-12" rel="nofollow" target="_blank">
+        Elovitz, S. &amp; Ahl, I. (2016, August 18). Know Your Enemy:  New Financially-Motivated &amp; Spear-Phishing Group. Retrieved February 26, 2018.
        </a>
       </span>
      </span>
@@ -937,8 +1134,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-13" rel="nofollow" target="_blank">
-        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
+       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/march/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/" name="scite-13" rel="nofollow" target="_blank">
+        Smallridge, R. (2018, March 10). APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS. Retrieved April 4, 2018.
        </a>
       </span>
      </span>
@@ -946,8 +1143,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" name="scite-14" rel="nofollow" target="_blank">
-        FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" name="scite-14" rel="nofollow" target="_blank">
+        Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.
        </a>
       </span>
      </span>
@@ -955,7 +1152,34 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-15" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-15" rel="nofollow" target="_blank">
+        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-16">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-16" rel="nofollow" target="_blank">
+        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-17">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" name="scite-17" rel="nofollow" target="_blank">
+        FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-18">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-18" rel="nofollow" target="_blank">
         FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
        </a>
       </span>
@@ -964,39 +1188,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="16.0">
-    <li>
-     <span class="scite-citation" id="scite-16">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://windowsitpro.com/windows/netexe-reference" name="scite-16" rel="nofollow" target="_blank">
-        Savill, J. (1999, March 4). Net.exe reference. Retrieved September 22, 2015.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-17">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/bb490968.aspx" name="scite-17" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Ping. Retrieved April 8, 2016.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-18">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/" name="scite-18" rel="nofollow" target="_blank">
-        Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="19.5">
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" name="scite-19" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.
+       <a class="external text" href="http://windowsitpro.com/windows/netexe-reference" name="scite-19" rel="nofollow" target="_blank">
+        Savill, J. (1999, March 4). Net.exe reference. Retrieved September 22, 2015.
        </a>
       </span>
      </span>
@@ -1004,8 +1201,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html" name="scite-20" rel="nofollow" target="_blank">
-        FireEye. (2016, November 30). FireEye Responds to Wave of Destructive Cyber Attacks in Gulf Region. Retrieved January 11, 2017.
+       <a class="external text" href="https://ss64.com/nt/nltest.html" name="scite-20" rel="nofollow" target="_blank">
+        ss64. (n.d.). NLTEST.exe - Network Location Test. Retrieved February 14, 2019.
        </a>
       </span>
      </span>
@@ -1013,8 +1210,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" name="scite-21" rel="nofollow" target="_blank">
-        Falcone, R. and Wartell, R.. (2015, July 27). Observations on CVE-2015-3113, Prior Zero-Days and the Pirpi Payload. Retrieved January 22, 2016.
+       <a class="external text" href="https://blog.talosintelligence.com/2018/02/olympic-destroyer.html" name="scite-21" rel="nofollow" target="_blank">
+        Mercer, W. and Rascagneres, P. (2018, February 12). Olympic Destroyer Takes Aim At Winter Olympics. Retrieved March 14, 2019.
        </a>
       </span>
      </span>
@@ -1022,8 +1219,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies" name="scite-22" rel="nofollow" target="_blank">
-        Blasco, J. (2011, December 12). Another Sykipot sample likely targeting US federal agencies. Retrieved March 28, 2016.
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/bb490968.aspx" name="scite-22" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Ping. Retrieved April 8, 2016.
        </a>
       </span>
      </span>
@@ -1031,17 +1228,15 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" name="scite-23" rel="nofollow" target="_blank">
-        Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda – A potential new malicious tool. Retrieved June 25, 2018.
-       </a>
+       Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.
       </span>
      </span>
     </li>
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-24" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
+       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" name="scite-24" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -1049,8 +1244,8 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-25" rel="nofollow" target="_blank">
-        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html" name="scite-25" rel="nofollow" target="_blank">
+        FireEye. (2016, November 30). FireEye Responds to Wave of Destructive Cyber Attacks in Gulf Region. Retrieved January 11, 2017.
        </a>
       </span>
      </span>
@@ -1058,8 +1253,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-26" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" name="scite-26" rel="nofollow" target="_blank">
+        Falcone, R. and Wartell, R.. (2015, July 27). Observations on CVE-2015-3113, Prior Zero-Days and the Pirpi Payload. Retrieved January 22, 2016.
        </a>
       </span>
      </span>
@@ -1067,8 +1262,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-27" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://www.alienvault.com/open-threat-exchange/blog/another-sykipot-sample-likely-targeting-us-federal-agencies" name="scite-27" rel="nofollow" target="_blank">
+        Blasco, J. (2011, December 12). Another Sykipot sample likely targeting US federal agencies. Retrieved March 28, 2016.
        </a>
       </span>
      </span>
@@ -1076,8 +1271,8 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-28" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" name="scite-28" rel="nofollow" target="_blank">
+        Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda – A potential new malicious tool. Retrieved June 25, 2018.
        </a>
       </span>
      </span>
@@ -1085,8 +1280,8 @@
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-29" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.secureworks.com/research/wcry-ransomware-analysis" name="scite-29" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, May 18). WCry Ransomware Analysis. Retrieved March 26, 2019.
        </a>
       </span>
      </span>
@@ -1094,7 +1289,52 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-30" rel="nofollow" target="_blank">
+       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-30" rel="nofollow" target="_blank">
+        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-31">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-31" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-32">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-32" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-33">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-33" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-34">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-34" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-35">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-35" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
