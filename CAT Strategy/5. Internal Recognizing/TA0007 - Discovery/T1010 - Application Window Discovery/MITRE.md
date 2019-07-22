@@ -48,6 +48,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -65,6 +69,10 @@
       API monitoring, Process monitoring, Process command-line parameters
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -290,6 +298,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0375">
+      Remexi
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0375">
+       Remexi
+      </a>
+      has a command to capture active windows on the machine and retrieve window titles.
+      <span class="scite-citeref-number" data-reference="Securelist Remexi Jan 2019" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://securelist.com/chafer-used-remexi-malware/89538/" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0157">
       SOUNDBITE
      </a>
@@ -300,10 +330,10 @@
        SOUNDBITE
       </a>
       is capable of enumerating application windows.
-      <span class="scite-citeref-number" data-reference="FireEye APT32 May 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="FireEye APT32 May 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -322,10 +352,10 @@
        WINERACK
       </a>
       can enumerate active windows.
-      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
-         [11]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -339,41 +369,41 @@
  </h2>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to acquire information, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-12-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-13-a">
    <sup>
-    <a aria-describedby="qtip-11" data-hasqtip="11" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [12]
-    </a>
-   </sup>
-  </span>
-  tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-13-a">
-   <sup>
-    <a aria-describedby="qtip-12" data-hasqtip="12" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+    <a aria-describedby="qtip-12" data-hasqtip="12" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [13]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-14-a">
+  tools, like AppLocker,
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-14-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [14]
     </a>
    </sup>
   </span>
-  or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-15-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-15-a">
    <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
      [15]
     </a>
    </sup>
   </span>
-  where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-16-a">
+  or Software Restriction Policies
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-16-a">
    <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+    <a aria-describedby="qtip-15" data-hasqtip="15" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
      [16]
+    </a>
+   </sup>
+  </span>
+  where appropriate.
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-17-a">
+   <sup>
+    <a aria-describedby="qtip-16" data-hasqtip="16" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [17]
     </a>
    </sup>
   </span>
@@ -473,10 +503,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="9.0">
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
@@ -486,11 +512,15 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="10.5">
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" name="scite-10" rel="nofollow" target="_blank">
-        Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.
+       <a class="external text" href="https://securelist.com/chafer-used-remexi-malware/89538/" name="scite-10" rel="nofollow" target="_blank">
+        Legezo, D. (2019, January 30). Chafer used Remexi malware to spy on Iran-based foreign diplomatic entities. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -498,8 +528,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" name="scite-11" rel="nofollow" target="_blank">
-        FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved March 1, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" name="scite-11" rel="nofollow" target="_blank">
+        Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.
        </a>
       </span>
      </span>
@@ -507,8 +537,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-12" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" name="scite-12" rel="nofollow" target="_blank">
+        FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved March 1, 2018.
        </a>
       </span>
      </span>
@@ -516,8 +546,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-13" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-13" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -525,8 +555,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-14" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-14" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
        </a>
       </span>
      </span>
@@ -534,8 +564,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-15" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-15" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
        </a>
       </span>
      </span>
@@ -543,7 +573,16 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-16" rel="nofollow" target="_blank">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-16" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-17">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-17" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
