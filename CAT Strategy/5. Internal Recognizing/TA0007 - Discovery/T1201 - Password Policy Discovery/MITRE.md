@@ -104,6 +104,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User
@@ -121,6 +125,10 @@
       Process command-line parameters, Process monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -258,6 +266,32 @@
      </p>
     </td>
    </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0378">
+      PoshC2
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0378">
+       PoshC2
+      </a>
+      can use
+      <code>
+       Get-PassPol
+      </code>
+      to enumerate the domain password policy.
+      <span class="scite-citeref-number" data-reference="GitHub PoshC2" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://github.com/nettitude/PoshC2" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
   </tbody>
  </table>
  <h2 class="pt-3" id="mitigation">
@@ -265,10 +299,10 @@
  </h2>
  <p>
   Mitigating discovery of password policies is not advised since the information is required to be known by systems and users of a network. Ensure password policies are such that they mitigate brute force attacks yet will not give an adversary an information advantage because the policies are too light. Active Directory is a common way to set and enforce password policies throughout an enterprise network.
-  <span class="scite-citeref-number" data-reference="Microsoft Password Complexity" id="scite-ref-6-a">
+  <span class="scite-citeref-number" data-reference="Microsoft Password Complexity" id="scite-ref-7-a">
    <sup>
-    <a aria-describedby="qtip-5" data-hasqtip="5" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/password-must-meet-complexity-requirements" target="_blank">
-     [6]
+    <a aria-describedby="qtip-6" data-hasqtip="6" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/password-must-meet-complexity-requirements" target="_blank">
+     [7]
     </a>
    </sup>
   </span>
@@ -312,10 +346,6 @@
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="4.0">
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
@@ -325,6 +355,10 @@
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="5.5">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
@@ -337,7 +371,16 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/password-must-meet-complexity-requirements" name="scite-6" rel="nofollow" target="_blank">
+       <a class="external text" href="https://github.com/nettitude/PoshC2" name="scite-6" rel="nofollow" target="_blank">
+        Nettitude. (2016, June 8). PoshC2: Powershell C2 Server and Implants. Retrieved April 23, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-7">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/password-must-meet-complexity-requirements" name="scite-7" rel="nofollow" target="_blank">
         Hall, J., Lich, B. (2017, September 9). Password must meet complexity requirements. Retrieved April 5, 2018.
        </a>
       </span>
