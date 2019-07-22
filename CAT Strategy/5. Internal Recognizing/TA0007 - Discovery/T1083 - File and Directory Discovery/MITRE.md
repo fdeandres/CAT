@@ -81,6 +81,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Some folders may require Administrator, SYSTEM or specific user depending on permission levels and access controls
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM
@@ -98,6 +106,10 @@
       File monitoring, Process monitoring, Process command-line parameters
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -261,6 +273,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0026">
+      APT18
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0026">
+       APT18
+      </a>
+      can list files information for specific directories.
+      <span class="scite-citeref-number" data-reference="PaloAlto DNS Requests May 2016" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+       <sup>
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/" target="_blank">
+         [6]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/groups/G0007">
       APT28
      </a>
@@ -275,17 +309,17 @@
        Forfiles
       </a>
       to locate PDF, Excel, and Word documents during. The group also searched a compromised DCCC computer for specific terms.
-      <span class="scite-citeref-number" data-reference="Überwachung APT28 Forfiles June 2015" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Überwachung APT28 Forfiles June 2015" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="DOJ GRU Indictment Jul 2018" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="DOJ GRU Indictment Jul 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.justice.gov/file/1080281/download" target="_blank">
-         [7]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.justice.gov/file/1080281/download" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -304,17 +338,63 @@
        APT3
       </a>
       has a tool that looks for files and directories on the local file system.
-      <span class="scite-citeref-number" data-reference="FireEye Clandestine Fox" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="FireEye Clandestine Fox" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html" target="_blank">
-         [8]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="evolution of pirpi" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="evolution of pirpi" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf" target="_blank">
-         [9]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      's backdoor possesses the capability to list files and directories on a machine.
+      <br/>
+      <br/>
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus Mar 2019" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" target="_blank">
+         [11]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0347">
+      AuditCred
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0347">
+       AuditCred
+      </a>
+      can search through folders and files on the system.
+      <span class="scite-citeref-number" data-reference="TrendMicro Lazarus Nov 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+       <sup>
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-continues-heists-mounts-attacks-on-financial-organizations-in-latin-america/" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -333,10 +413,32 @@
        AutoIt backdoor
       </a>
       is capable of identifying documents on the victim with the following extensions: .doc; .pdf, .csv, .ppt, .docx, .pst, .xls, .xlsx, .pptx, and .jpeg.
-      <span class="scite-citeref-number" data-reference="Forcepoint Monsoon" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="Forcepoint Monsoon" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" target="_blank">
+         [13]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0344">
+      Azorult
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0344">
+       Azorult
+      </a>
+      can recursively search for files in folders and collects files from the desktop with certain extensions.
+      <span class="scite-citeref-number" data-reference="Unit42 Azorult Nov 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+       <sup>
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-new-wine-old-bottle-new-azorult-variant-found-findmyname-campaign-using-fallout-exploit-kit/" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -355,10 +457,10 @@
        Backdoor.Oldrea
       </a>
       collects information about available drives, default browser, desktop file list, My Documents, Internet history, program files, and root of available drives. It also searches for ICS-related software files.
-      <span class="scite-citeref-number" data-reference="Symantec Dragonfly" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="Symantec Dragonfly" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" target="_blank">
-         [11]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -377,10 +479,10 @@
        BACKSPACE
       </a>
       allows adversaries to search for files.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [12]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -399,10 +501,32 @@
        BADNEWS
       </a>
       identifies files with certain extensions from USB devices, then copies them to a predefined directory.
-      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
-         [13]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
+         [17]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0337">
+      BadPatch
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0337">
+       BadPatch
+      </a>
+      searches for files with specific file extensions.
+      <span class="scite-citeref-number" data-reference="Unit 42 BadPatch Oct 2017" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+       <sup>
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://researchcenter.paloaltonetworks.com/2017/10/unit42-badpatch/" target="_blank">
+         [18]
         </a>
        </sup>
       </span>
@@ -421,10 +545,10 @@
        Bankshot
       </a>
       searches for files on the victim's machine.
-      <span class="scite-citeref-number" data-reference="US-CERT Bankshot Dec 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="US-CERT Bankshot Dec 2017" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" target="_blank">
-         [14]
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -443,10 +567,10 @@
        BBSRAT
       </a>
       can list file and directory information.
-      <span class="scite-citeref-number" data-reference="Palo Alto Networks BBSRAT" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Networks BBSRAT" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" target="_blank">
-         [15]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -465,10 +589,10 @@
        BLACKCOFFEE
       </a>
       has the capability to enumerate files.
-      <span class="scite-citeref-number" data-reference="FireEye APT17" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="FireEye APT17" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf" target="_blank">
-         [16]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -491,17 +615,17 @@
        BlackEnergy
       </a>
       has searched for given file types.
-      <span class="scite-citeref-number" data-reference="F-Secure BlackEnergy 2014" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="F-Secure BlackEnergy 2014" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.f-secure.com/documents/996508/1030745/blackenergy_whitepaper.pdf" target="_blank">
-         [17]
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.f-secure.com/documents/996508/1030745/blackenergy_whitepaper.pdf" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Securelist BlackEnergy Nov 2014" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Securelist BlackEnergy Nov 2014" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" target="_blank">
-         [18]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -520,10 +644,10 @@
        Brave Prince
       </a>
       gathers file and directory information from the victim’s machine.
-      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -542,10 +666,54 @@
        BRONZE BUTLER
       </a>
       has collected a list of files from the victim and uploaded it to its C2 server, and then created a new list of specific files to steal.
-      <span class="scite-citeref-number" data-reference="Secureworks BRONZE BUTLER Oct 2017" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="Secureworks BRONZE BUTLER Oct 2017" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" target="_blank">
-         [20]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" target="_blank">
+         [25]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0351">
+      Cannon
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0351">
+       Cannon
+      </a>
+      can obtain victim drive information as well as a list of folders in C:\Program Files.
+      <span class="scite-citeref-number" data-reference="Unit42 Cannon Nov 2018" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+       <sup>
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/" target="_blank">
+         [26]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0348">
+      Cardinal RAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0348">
+       Cardinal RAT
+      </a>
+      checks its current working directory upon execution and also contains watchdog functionality that ensures its executable is located in the correct path (else it will rewrite the payload).
+      <span class="scite-citeref-number" data-reference="PaloAlto CardinalRat Apr 2017" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+       <sup>
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://researchcenter.paloaltonetworks.com/2017/04/unit42-cardinal-rat-active-two-years/" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
@@ -564,10 +732,10 @@
        ChChes
       </a>
       collects the victim's %TEMP% directory path and version of Internet Explorer.
-      <span class="scite-citeref-number" data-reference="FireEye APT10 April 2017" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="FireEye APT10 April 2017" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" target="_blank">
-         [21]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" target="_blank">
+         [28]
         </a>
        </sup>
       </span>
@@ -585,11 +753,11 @@
       <a href="https://attack.mitre.org/software/S0020">
        China Chopper
       </a>
-      can list directory contents.
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      's server component can list directory contents.
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [22]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -635,10 +803,10 @@
        dir
       </code>
       commands.
-      <span class="scite-citeref-number" data-reference="TechNet Dir" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="TechNet Dir" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://technet.microsoft.com/en-us/library/cc755121.aspx" target="_blank">
-         [23]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://technet.microsoft.com/en-us/library/cc755121.aspx" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -657,10 +825,10 @@
        CORALDECK
       </a>
       searches for specified files.
-      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
-         [24]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
@@ -679,10 +847,10 @@
        CosmicDuke
       </a>
       searches attached and mounted drives for file extensions and keywords that match a predefined list.
-      <span class="scite-citeref-number" data-reference="F-Secure Cosmicduke" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="F-Secure Cosmicduke" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.f-secure.com/documents/996508/1030745/cosmicduke_whitepaper.pdf" target="_blank">
-         [25]
+        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://www.f-secure.com/documents/996508/1030745/cosmicduke_whitepaper.pdf" target="_blank">
+         [32]
         </a>
        </sup>
       </span>
@@ -701,10 +869,10 @@
        Crimson
       </a>
       contains commands to list files and directories, as well as search for files matching certain extensions from a defined list.
-      <span class="scite-citeref-number" data-reference="Proofpoint Operation Transparent Tribe March 2016" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+      <span class="scite-citeref-number" data-reference="Proofpoint Operation Transparent Tribe March 2016" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
        <sup>
-        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf" target="_blank">
-         [26]
+        <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf" target="_blank">
+         [33]
         </a>
        </sup>
       </span>
@@ -738,10 +906,10 @@
        Dark Caracal
       </a>
       collected file listings of all default Windows directories.
-      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+      <span class="scite-citeref-number" data-reference="Lookout Dark Caracal Jan 2018" id="scite-ref-34-a" onclick="scrollToRef('scite-34')">
        <sup>
-        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
-         [27]
+        <a aria-describedby="qtip-33" data-hasqtip="33" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" target="_blank">
+         [34]
         </a>
        </sup>
       </span>
@@ -760,10 +928,39 @@
        DDKONG
       </a>
       lists files on the victim’s machine.
-      <span class="scite-citeref-number" data-reference="Rancor Unit42 June 2018" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+      <span class="scite-citeref-number" data-reference="Rancor Unit42 June 2018" id="scite-ref-35-a" onclick="scrollToRef('scite-35')">
        <sup>
-        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" target="_blank">
-         [28]
+        <a aria-describedby="qtip-34" data-hasqtip="34" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" target="_blank">
+         [35]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0354">
+      Denis
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0354">
+       Denis
+      </a>
+      has several commands to search directories for files.
+      <span class="scite-citeref-number" data-reference="Cybereason Oceanlotus May 2017" id="scite-ref-36-a" onclick="scrollToRef('scite-36')">
+       <sup>
+        <a aria-describedby="qtip-35" data-hasqtip="35" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" target="_blank">
+         [36]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-37-a" onclick="scrollToRef('scite-37')">
+       <sup>
+        <a aria-describedby="qtip-36" data-hasqtip="36" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [37]
         </a>
        </sup>
       </span>
@@ -782,17 +979,17 @@
        Derusbi
       </a>
       is capable of obtaining directory, file, and drive listings.
-      <span class="scite-citeref-number" data-reference="Fidelis Turbo" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+      <span class="scite-citeref-number" data-reference="Fidelis Turbo" id="scite-ref-38-a" onclick="scrollToRef('scite-38')">
        <sup>
-        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.fidelissecurity.com/sites/default/files/TA_Fidelis_Turbo_1602_0.pdf" target="_blank">
-         [29]
+        <a aria-describedby="qtip-37" data-hasqtip="37" href="https://www.fidelissecurity.com/sites/default/files/TA_Fidelis_Turbo_1602_0.pdf" target="_blank">
+         [38]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [22]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -811,10 +1008,10 @@
        Dragonfly 2.0
       </a>
       used a batch script to gather folder and file names from victim hosts.
-      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
+      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-39-a" onclick="scrollToRef('scite-39')">
        <sup>
-        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
-         [30]
+        <a aria-describedby="qtip-38" data-hasqtip="38" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
+         [39]
         </a>
        </sup>
       </span>
@@ -833,10 +1030,10 @@
        Dust Storm
       </a>
       has used Android backdoors capable of enumerating specific files on the infected devices.
-      <span class="scite-citeref-number" data-reference="Cylance Dust Storm" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
+      <span class="scite-citeref-number" data-reference="Cylance Dust Storm" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
        <sup>
-        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" target="_blank">
-         [31]
+        <a aria-describedby="qtip-39" data-hasqtip="39" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" target="_blank">
+         [40]
         </a>
        </sup>
       </span>
@@ -855,10 +1052,10 @@
        DustySky
       </a>
       scans the victim for files that contain certain keywords from a list that is obtained from the C2 as a text file. It also collects information about installed software.
-      <span class="scite-citeref-number" data-reference="DustySky" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
+      <span class="scite-citeref-number" data-reference="DustySky" id="scite-ref-41-a" onclick="scrollToRef('scite-41')">
        <sup>
-        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf" target="_blank">
-         [32]
+        <a aria-describedby="qtip-40" data-hasqtip="40" href="https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf" target="_blank">
+         [41]
         </a>
        </sup>
       </span>
@@ -882,13 +1079,6 @@
        dir C:\progra~1
       </code>
       when initially run.
-      <span class="scite-citeref-number" data-reference="Lotus Blossom Jun 2015" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
-       <sup>
-        <a aria-describedby="qtip-32" data-hasqtip="32" href="https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html" target="_blank">
-         [33]
-        </a>
-       </sup>
-      </span>
      </p>
     </td>
    </tr>
@@ -904,10 +1094,61 @@
        ELMER
       </a>
       is capable of performing directory listings.
-      <span class="scite-citeref-number" data-reference="FireEye EPS Awakens Part 2" id="scite-ref-34-a" onclick="scrollToRef('scite-34')">
+      <span class="scite-citeref-number" data-reference="FireEye EPS Awakens Part 2" id="scite-ref-42-a" onclick="scrollToRef('scite-42')">
        <sup>
-        <a aria-describedby="qtip-33" data-hasqtip="33" href="https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html" target="_blank">
-         [34]
+        <a aria-describedby="qtip-41" data-hasqtip="41" href="https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html" target="_blank">
+         [42]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      includes various modules for finding files of interest on hosts and network shares.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-43-a" onclick="scrollToRef('scite-43')">
+       <sup>
+        <a aria-describedby="qtip-42" data-hasqtip="42" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [43]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0091">
+      Epic
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0091">
+       Epic
+      </a>
+      recursively searches for all .doc files on the system and collects a directory listing of the Desktop, %TEMP%, and %WINDOWS%\Temp directories.
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-44-a" onclick="scrollToRef('scite-44')">
+       <sup>
+        <a aria-describedby="qtip-43" data-hasqtip="43" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [44]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla Aug 2014" id="scite-ref-45-a" onclick="scrollToRef('scite-45')">
+       <sup>
+        <a aria-describedby="qtip-44" data-hasqtip="44" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08080105/KL_Epic_Turla_Technical_Appendix_20140806.pdf" target="_blank">
+         [45]
         </a>
        </sup>
       </span>
@@ -926,10 +1167,10 @@
        FALLCHILL
       </a>
       can search files on a victim.
-      <span class="scite-citeref-number" data-reference="US-CERT FALLCHILL Nov 2017" id="scite-ref-35-a" onclick="scrollToRef('scite-35')">
+      <span class="scite-citeref-number" data-reference="US-CERT FALLCHILL Nov 2017" id="scite-ref-46-a" onclick="scrollToRef('scite-46')">
        <sup>
-        <a aria-describedby="qtip-34" data-hasqtip="34" href="https://www.us-cert.gov/ncas/alerts/TA17-318A" target="_blank">
-         [35]
+        <a aria-describedby="qtip-45" data-hasqtip="45" href="https://www.us-cert.gov/ncas/alerts/TA17-318A" target="_blank">
+         [46]
         </a>
        </sup>
       </span>
@@ -948,17 +1189,17 @@
        FinFisher
       </a>
       enumerates directories and scans for certain files.
-      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-36-a" onclick="scrollToRef('scite-36')">
+      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-47-a" onclick="scrollToRef('scite-47')">
        <sup>
-        <a aria-describedby="qtip-35" data-hasqtip="35" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
-         [36]
+        <a aria-describedby="qtip-46" data-hasqtip="46" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
+         [47]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-37-a" onclick="scrollToRef('scite-37')">
+      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-48-a" onclick="scrollToRef('scite-48')">
        <sup>
-        <a aria-describedby="qtip-36" data-hasqtip="36" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
-         [37]
+        <a aria-describedby="qtip-47" data-hasqtip="47" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
+         [48]
         </a>
        </sup>
       </span>
@@ -977,10 +1218,10 @@
        FLASHFLOOD
       </a>
       searches for interesting files (either a default or customized set of file extensions) on the local system and removable media.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [12]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -999,10 +1240,10 @@
        Forfiles
       </a>
       can be used to locate certain types of files/directories in a system.(ex: locate all files with a specific extension, name, and/or age)
-      <span class="scite-citeref-number" data-reference="Überwachung APT28 Forfiles June 2015" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="Überwachung APT28 Forfiles June 2015" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/" target="_blank">
-         [6]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -1021,10 +1262,10 @@
        FruitFly
       </a>
       looks for specific files and file types.
-      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-38-a" onclick="scrollToRef('scite-38')">
+      <span class="scite-citeref-number" data-reference="objsee mac malware 2017" id="scite-ref-49-a" onclick="scrollToRef('scite-49')">
        <sup>
-        <a aria-describedby="qtip-37" data-hasqtip="37" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
-         [38]
+        <a aria-describedby="qtip-48" data-hasqtip="48" href="https://objective-see.com/blog/blog_0x25.html" target="_blank">
+         [49]
         </a>
        </sup>
       </span>
@@ -1043,10 +1284,10 @@
        GeminiDuke
       </a>
       collects information from the victim, including installed drivers, programs previously executed by users, programs and services configured to automatically run at startup, files and folders present in any user's home folder, files and folders present in any user's My Documents, programs installed to the Program Files folder, and recently accessed files, folders, and programs.
-      <span class="scite-citeref-number" data-reference="F-Secure The Dukes" id="scite-ref-39-a" onclick="scrollToRef('scite-39')">
+      <span class="scite-citeref-number" data-reference="F-Secure The Dukes" id="scite-ref-50-a" onclick="scrollToRef('scite-50')">
        <sup>
-        <a aria-describedby="qtip-38" data-hasqtip="38" href="https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf" target="_blank">
-         [39]
+        <a aria-describedby="qtip-49" data-hasqtip="49" href="https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf" target="_blank">
+         [50]
         </a>
        </sup>
       </span>
@@ -1065,10 +1306,10 @@
        Gold Dragon
       </a>
       lists the directories for Desktop, program files, and the user’s recently accessed files.
-      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
-         [19]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -1087,10 +1328,10 @@
        GravityRAT
       </a>
       collects the volumes mapped on the system, and also steals files with the following extensions: .docx, .doc, .pptx, .ppt, .xlsx, .xls, .rtf, and .pdf.
-      <span class="scite-citeref-number" data-reference="Talos GravityRAT" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
+      <span class="scite-citeref-number" data-reference="Talos GravityRAT" id="scite-ref-51-a" onclick="scrollToRef('scite-51')">
        <sup>
-        <a aria-describedby="qtip-39" data-hasqtip="39" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" target="_blank">
-         [40]
+        <a aria-describedby="qtip-50" data-hasqtip="50" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" target="_blank">
+         [51]
         </a>
        </sup>
       </span>
@@ -1109,10 +1350,32 @@
        Honeybee
       </a>
       's service-based DLL implant traverses the FTP server’s directories looking for files with keyword matches for computer names or certain keywords.
-      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-41-a" onclick="scrollToRef('scite-41')">
+      <span class="scite-citeref-number" data-reference="McAfee Honeybee" id="scite-ref-52-a" onclick="scrollToRef('scite-52')">
        <sup>
-        <a aria-describedby="qtip-40" data-hasqtip="40" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
-         [41]
+        <a aria-describedby="qtip-51" data-hasqtip="51" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" target="_blank">
+         [52]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0376">
+      HOPLIGHT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0376">
+       HOPLIGHT
+      </a>
+      has been observed enumerating system drives and partitions.
+      <span class="scite-citeref-number" data-reference="US-CERT HOPLIGHT Apr 2019" id="scite-ref-53-a" onclick="scrollToRef('scite-53')">
+       <sup>
+        <a aria-describedby="qtip-52" data-hasqtip="52" href="https://www.us-cert.gov/ncas/analysis-reports/AR19-100A" target="_blank">
+         [53]
         </a>
        </sup>
       </span>
@@ -1131,17 +1394,17 @@
        HTTPBrowser
       </a>
       is capable of listing files, folders, and drives on a victim.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-42-a" onclick="scrollToRef('scite-42')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-54-a" onclick="scrollToRef('scite-54')">
        <sup>
-        <a aria-describedby="qtip-41" data-hasqtip="41" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [42]
+        <a aria-describedby="qtip-53" data-hasqtip="53" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [54]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="ZScaler Hacking Team" id="scite-ref-43-a" onclick="scrollToRef('scite-43')">
+      <span class="scite-citeref-number" data-reference="ZScaler Hacking Team" id="scite-ref-55-a" onclick="scrollToRef('scite-55')">
        <sup>
-        <a aria-describedby="qtip-42" data-hasqtip="42" href="http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html" target="_blank">
-         [43]
+        <a aria-describedby="qtip-54" data-hasqtip="54" href="http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html" target="_blank">
+         [55]
         </a>
        </sup>
       </span>
@@ -1160,17 +1423,17 @@
        Hydraq
       </a>
       creates a backdoor through which remote attackers can check for the existence of files, including its own components, as well as retrieve a list of logical drives.
-      <span class="scite-citeref-number" data-reference="Symantec Trojan.Hydraq Jan 2010" id="scite-ref-44-a" onclick="scrollToRef('scite-44')">
+      <span class="scite-citeref-number" data-reference="Symantec Trojan.Hydraq Jan 2010" id="scite-ref-56-a" onclick="scrollToRef('scite-56')">
        <sup>
-        <a aria-describedby="qtip-43" data-hasqtip="43" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" target="_blank">
-         [44]
+        <a aria-describedby="qtip-55" data-hasqtip="55" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" target="_blank">
+         [56]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Symantec Hydraq Jan 2010" id="scite-ref-45-a" onclick="scrollToRef('scite-45')">
+      <span class="scite-citeref-number" data-reference="Symantec Hydraq Jan 2010" id="scite-ref-57-a" onclick="scrollToRef('scite-57')">
        <sup>
-        <a aria-describedby="qtip-44" data-hasqtip="44" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" target="_blank">
-         [45]
+        <a aria-describedby="qtip-56" data-hasqtip="56" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" target="_blank">
+         [57]
         </a>
        </sup>
       </span>
@@ -1189,10 +1452,10 @@
        InnaputRAT
       </a>
       enumerates directories and obtains file attributes on a system.
-      <span class="scite-citeref-number" data-reference="ASERT InnaputRAT April 2018" id="scite-ref-46-a" onclick="scrollToRef('scite-46')">
+      <span class="scite-citeref-number" data-reference="ASERT InnaputRAT April 2018" id="scite-ref-58-a" onclick="scrollToRef('scite-58')">
        <sup>
-        <a aria-describedby="qtip-45" data-hasqtip="45" href="https://asert.arbornetworks.com/innaput-actors-utilize-remote-access-trojan-since-2016-presumably-targeting-victim-files/" target="_blank">
-         [46]
+        <a aria-describedby="qtip-57" data-hasqtip="57" href="https://asert.arbornetworks.com/innaput-actors-utilize-remote-access-trojan-since-2016-presumably-targeting-victim-files/" target="_blank">
+         [58]
         </a>
        </sup>
       </span>
@@ -1211,10 +1474,10 @@
        InvisiMole
       </a>
       can lists information about files in a directory.
-      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-47-a" onclick="scrollToRef('scite-47')">
+      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-59-a" onclick="scrollToRef('scite-59')">
        <sup>
-        <a aria-describedby="qtip-46" data-hasqtip="46" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
-         [47]
+        <a aria-describedby="qtip-58" data-hasqtip="58" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
+         [59]
         </a>
        </sup>
       </span>
@@ -1233,10 +1496,39 @@
        JPIN
       </a>
       can enumerate drives and their types. It can also change file permissions using cacls.exe.
-      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-48-a" onclick="scrollToRef('scite-48')">
+      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-60-a" onclick="scrollToRef('scite-60')">
        <sup>
-        <a aria-describedby="qtip-47" data-hasqtip="47" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
-         [48]
+        <a aria-describedby="qtip-59" data-hasqtip="59" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
+         [60]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0283">
+      jRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0283">
+       jRAT
+      </a>
+      can browse file systems.
+      <span class="scite-citeref-number" data-reference="Kaspersky Adwind Feb 2016" id="scite-ref-61-a" onclick="scrollToRef('scite-61')">
+       <sup>
+        <a aria-describedby="qtip-60" data-hasqtip="60" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" target="_blank">
+         [61]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Symantec Frutas Feb 2013" id="scite-ref-62-a" onclick="scrollToRef('scite-62')">
+       <sup>
+        <a aria-describedby="qtip-61" data-hasqtip="61" href="https://www.symantec.com/connect/blogs/cross-platform-frutas-rat-builder-and-back-door" target="_blank">
+         [62]
         </a>
        </sup>
       </span>
@@ -1255,10 +1547,10 @@
        Kasidet
       </a>
       has the ability to search for a given filename on a victim.
-      <span class="scite-citeref-number" data-reference="Zscaler Kasidet" id="scite-ref-49-a" onclick="scrollToRef('scite-49')">
+      <span class="scite-citeref-number" data-reference="Zscaler Kasidet" id="scite-ref-63-a" onclick="scrollToRef('scite-63')">
        <sup>
-        <a aria-describedby="qtip-48" data-hasqtip="48" href="http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html" target="_blank">
-         [49]
+        <a aria-describedby="qtip-62" data-hasqtip="62" href="http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html" target="_blank">
+         [63]
         </a>
        </sup>
       </span>
@@ -1277,10 +1569,10 @@
        Kazuar
       </a>
       finds a specified directory, lists the files and metadata about those files.
-      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-50-a" onclick="scrollToRef('scite-50')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Kazuar May 2017" id="scite-ref-64-a" onclick="scrollToRef('scite-64')">
        <sup>
-        <a aria-describedby="qtip-49" data-hasqtip="49" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
-         [50]
+        <a aria-describedby="qtip-63" data-hasqtip="63" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" target="_blank">
+         [64]
         </a>
        </sup>
       </span>
@@ -1299,10 +1591,10 @@
        Ke3chang
       </a>
       uses command-line interaction to search files and directories.
-      <span class="scite-citeref-number" data-reference="Villeneuve et al 2014" id="scite-ref-51-a" onclick="scrollToRef('scite-51')">
+      <span class="scite-citeref-number" data-reference="Villeneuve et al 2014" id="scite-ref-65-a" onclick="scrollToRef('scite-65')">
        <sup>
-        <a aria-describedby="qtip-50" data-hasqtip="50" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" target="_blank">
-         [51]
+        <a aria-describedby="qtip-64" data-hasqtip="64" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" target="_blank">
+         [65]
         </a>
        </sup>
       </span>
@@ -1321,10 +1613,33 @@
        KEYMARBLE
       </a>
       has a command to search for files on the victim’s machine.
-      <span class="scite-citeref-number" data-reference="US-CERT KEYMARBLE Aug 2018" id="scite-ref-52-a" onclick="scrollToRef('scite-52')">
+      <span class="scite-citeref-number" data-reference="US-CERT KEYMARBLE Aug 2018" id="scite-ref-66-a" onclick="scrollToRef('scite-66')">
        <sup>
-        <a aria-describedby="qtip-51" data-hasqtip="51" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-221A" target="_blank">
-         [52]
+        <a aria-describedby="qtip-65" data-hasqtip="65" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-221A" target="_blank">
+         [66]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0356">
+      KONNI
+     </a>
+    </td>
+    <td>
+     <p>
+      A version of
+      <a href="https://attack.mitre.org/software/S0356">
+       KONNI
+      </a>
+      searches for filenames created with a previous version of the malware, suggesting different versions targeted the same victims and the versions may work together.
+      <span class="scite-citeref-number" data-reference="Talos Konni May 2017" id="scite-ref-67-a" onclick="scrollToRef('scite-67')">
+       <sup>
+        <a aria-describedby="qtip-66" data-hasqtip="66" href="https://blog.talosintelligence.com/2017/05/konni-malware-under-radar-for-years.html" target="_blank">
+         [67]
         </a>
        </sup>
       </span>
@@ -1347,10 +1662,10 @@
        dir /s /a c:\ &gt;&gt; "C:\windows\TEMP[RANDOM].tmp"
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Symantec Orangeworm April 2018" id="scite-ref-53-a" onclick="scrollToRef('scite-53')">
+      <span class="scite-citeref-number" data-reference="Symantec Orangeworm April 2018" id="scite-ref-68-a" onclick="scrollToRef('scite-68')">
        <sup>
-        <a aria-describedby="qtip-52" data-hasqtip="52" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" target="_blank">
-         [53]
+        <a aria-describedby="qtip-67" data-hasqtip="67" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" target="_blank">
+         [68]
         </a>
        </sup>
       </span>
@@ -1374,17 +1689,17 @@
        Lazarus Group
       </a>
       malware families can also enumerate files and directories, including a Destover-like variant that lists files and gathers information for all drives.
-      <span class="scite-citeref-number" data-reference="Novetta Blockbuster" id="scite-ref-54-a" onclick="scrollToRef('scite-54')">
+      <span class="scite-citeref-number" data-reference="Novetta Blockbuster" id="scite-ref-69-a" onclick="scrollToRef('scite-69')">
        <sup>
-        <a aria-describedby="qtip-53" data-hasqtip="53" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" target="_blank">
-         [54]
+        <a aria-describedby="qtip-68" data-hasqtip="68" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" target="_blank">
+         [69]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="McAfee GhostSecret" id="scite-ref-55-a" onclick="scrollToRef('scite-55')">
+      <span class="scite-citeref-number" data-reference="McAfee GhostSecret" id="scite-ref-70-a" onclick="scrollToRef('scite-70')">
        <sup>
-        <a aria-describedby="qtip-54" data-hasqtip="54" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" target="_blank">
-         [55]
+        <a aria-describedby="qtip-69" data-hasqtip="69" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" target="_blank">
+         [70]
         </a>
        </sup>
       </span>
@@ -1403,10 +1718,10 @@
        Leafminer
       </a>
       used a tool called MailSniper to search for files on the desktop and another utility called Sobolsoft to extract attachments from EML files.
-      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-56-a" onclick="scrollToRef('scite-56')">
+      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-71-a" onclick="scrollToRef('scite-71')">
        <sup>
-        <a aria-describedby="qtip-55" data-hasqtip="55" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
-         [56]
+        <a aria-describedby="qtip-70" data-hasqtip="70" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
+         [71]
         </a>
        </sup>
       </span>
@@ -1425,10 +1740,10 @@
        Linfo
       </a>
       creates a backdoor through which remote attackers can list contents of drives and search for files.
-      <span class="scite-citeref-number" data-reference="Symantec Linfo May 2012" id="scite-ref-57-a" onclick="scrollToRef('scite-57')">
+      <span class="scite-citeref-number" data-reference="Symantec Linfo May 2012" id="scite-ref-72-a" onclick="scrollToRef('scite-72')">
        <sup>
-        <a aria-describedby="qtip-56" data-hasqtip="56" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" target="_blank">
-         [57]
+        <a aria-describedby="qtip-71" data-hasqtip="71" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" target="_blank">
+         [72]
         </a>
        </sup>
       </span>
@@ -1447,10 +1762,32 @@
        Magic Hound
       </a>
       malware can list a victim's logical drives and the type, as well the total/free space of the fixed devices. Other malware can list a directory's contents.
-      <span class="scite-citeref-number" data-reference="Unit 42 Magic Hound Feb 2017" id="scite-ref-58-a" onclick="scrollToRef('scite-58')">
+      <span class="scite-citeref-number" data-reference="Unit 42 Magic Hound Feb 2017" id="scite-ref-73-a" onclick="scrollToRef('scite-73')">
        <sup>
-        <a aria-describedby="qtip-57" data-hasqtip="57" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" target="_blank">
-         [58]
+        <a aria-describedby="qtip-72" data-hasqtip="72" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" target="_blank">
+         [73]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0339">
+      Micropsia
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0339">
+       Micropsia
+      </a>
+      can perform a recursive directory listing for all volume drives available on the victim's machine and can also fetch specific files by their paths.
+      <span class="scite-citeref-number" data-reference="Radware Micropsia July 2018" id="scite-ref-74-a" onclick="scrollToRef('scite-74')">
+       <sup>
+        <a aria-describedby="qtip-73" data-hasqtip="73" href="https://blog.radware.com/security/2018/07/micropsia-malware/" target="_blank">
+         [74]
         </a>
        </sup>
       </span>
@@ -1469,10 +1806,10 @@
        Misdat
       </a>
       is capable of running commands to obtain a list of files and directories, as well as enumerating logical drives.
-      <span class="scite-citeref-number" data-reference="Cylance Dust Storm" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
+      <span class="scite-citeref-number" data-reference="Cylance Dust Storm" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
        <sup>
-        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" target="_blank">
-         [31]
+        <a aria-describedby="qtip-39" data-hasqtip="39" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" target="_blank">
+         [40]
         </a>
        </sup>
       </span>
@@ -1491,10 +1828,10 @@
        MobileOrder
       </a>
       has a command to upload to its C2 server information about files on the victim mobile device, including SD card size, installed app list, SMS content, contacts, and calling history.
-      <span class="scite-citeref-number" data-reference="Scarlet Mimic Jan 2016" id="scite-ref-59-a" onclick="scrollToRef('scite-59')">
+      <span class="scite-citeref-number" data-reference="Scarlet Mimic Jan 2016" id="scite-ref-75-a" onclick="scrollToRef('scite-75')">
        <sup>
-        <a aria-describedby="qtip-58" data-hasqtip="58" href="http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/" target="_blank">
-         [59]
+        <a aria-describedby="qtip-74" data-hasqtip="74" href="http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/" target="_blank">
+         [75]
         </a>
        </sup>
       </span>
@@ -1513,10 +1850,32 @@
        MoonWind
       </a>
       has a command to return a directory listing for a specified directory.
-      <span class="scite-citeref-number" data-reference="Palo Alto MoonWind March 2017" id="scite-ref-60-a" onclick="scrollToRef('scite-60')">
+      <span class="scite-citeref-number" data-reference="Palo Alto MoonWind March 2017" id="scite-ref-76-a" onclick="scrollToRef('scite-76')">
        <sup>
-        <a aria-describedby="qtip-59" data-hasqtip="59" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" target="_blank">
-         [60]
+        <a aria-describedby="qtip-75" data-hasqtip="75" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" target="_blank">
+         [76]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0069">
+      MuddyWater
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0069">
+       MuddyWater
+      </a>
+      has used malware that checked if the ProgramData folder had folders or files with the keywords "Kasper," "Panda," or "ESET."
+      <span class="scite-citeref-number" data-reference="Securelist MuddyWater Oct 2018" id="scite-ref-77-a" onclick="scrollToRef('scite-77')">
+       <sup>
+        <a aria-describedby="qtip-76" data-hasqtip="76" href="https://securelist.com/muddywater/88059/" target="_blank">
+         [77]
         </a>
        </sup>
       </span>
@@ -1535,10 +1894,10 @@
        NDiskMonitor
       </a>
       can obtain a list of all files and directories as well as logical drives.
-      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
-         [13]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -1557,10 +1916,54 @@
        NETEAGLE
       </a>
       allows adversaries to enumerate and modify the infected host's file system. It supports searching for directories, creating directories, listing directory contents, reading and writing to files, retrieving file attributes, and retrieving volume information.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [12]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [16]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0346">
+      OceanSalt
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0346">
+       OceanSalt
+      </a>
+      can extract drive information from the endpoint and search files on the system.
+      <span class="scite-citeref-number" data-reference="McAfee Oceansalt Oct 2018" id="scite-ref-78-a" onclick="scrollToRef('scite-78')">
+       <sup>
+        <a aria-describedby="qtip-77" data-hasqtip="77" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf" target="_blank">
+         [78]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0340">
+      Octopus
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0340">
+       Octopus
+      </a>
+      collects information on the Windows directory and searches for compressed RAR files on the host.
+      <span class="scite-citeref-number" data-reference="Securelist Octopus Oct 2018" id="scite-ref-79-a" onclick="scrollToRef('scite-79')">
+       <sup>
+        <a aria-describedby="qtip-78" data-hasqtip="78" href="https://securelist.com/octopus-infested-seas-of-central-asia/88200/" target="_blank">
+         [79]
         </a>
        </sup>
       </span>
@@ -1579,10 +1982,10 @@
        Orz
       </a>
       can gather victim drive information.
-      <span class="scite-citeref-number" data-reference="Proofpoint Leviathan Oct 2017" id="scite-ref-61-a" onclick="scrollToRef('scite-61')">
+      <span class="scite-citeref-number" data-reference="Proofpoint Leviathan Oct 2017" id="scite-ref-80-a" onclick="scrollToRef('scite-80')">
        <sup>
-        <a aria-describedby="qtip-60" data-hasqtip="60" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" target="_blank">
-         [61]
+        <a aria-describedby="qtip-79" data-hasqtip="79" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" target="_blank">
+         [80]
         </a>
        </sup>
       </span>
@@ -1601,10 +2004,10 @@
        OwaAuth
       </a>
       has a command to list its directory and logical drives.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-42-a" onclick="scrollToRef('scite-42')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-54-a" onclick="scrollToRef('scite-54')">
        <sup>
-        <a aria-describedby="qtip-41" data-hasqtip="41" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [42]
+        <a aria-describedby="qtip-53" data-hasqtip="53" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [54]
         </a>
        </sup>
       </span>
@@ -1623,10 +2026,10 @@
        Pasam
       </a>
       creates a backdoor through which remote attackers can retrieve lists of files.
-      <span class="scite-citeref-number" data-reference="Symantec Pasam May 2012" id="scite-ref-62-a" onclick="scrollToRef('scite-62')">
+      <span class="scite-citeref-number" data-reference="Symantec Pasam May 2012" id="scite-ref-81-a" onclick="scrollToRef('scite-81')">
        <sup>
-        <a aria-describedby="qtip-61" data-hasqtip="61" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-050412-4128-99" target="_blank">
-         [62]
+        <a aria-describedby="qtip-80" data-hasqtip="80" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-050412-4128-99" target="_blank">
+         [81]
         </a>
        </sup>
       </span>
@@ -1646,17 +2049,17 @@
        Patchwork
       </a>
       payload has searched all fixed drives on the victim for files matching a specified list of extensions.
-      <span class="scite-citeref-number" data-reference="Cymmetria Patchwork" id="scite-ref-63-a" onclick="scrollToRef('scite-63')">
+      <span class="scite-citeref-number" data-reference="Cymmetria Patchwork" id="scite-ref-82-a" onclick="scrollToRef('scite-82')">
        <sup>
-        <a aria-describedby="qtip-62" data-hasqtip="62" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" target="_blank">
-         [63]
+        <a aria-describedby="qtip-81" data-hasqtip="81" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" target="_blank">
+         [82]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="TrendMicro Patchwork Dec 2017" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
-         [13]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -1675,10 +2078,10 @@
        PinchDuke
       </a>
       searches for files created within a certain timeframe and whose file extension matches a predefined list.
-      <span class="scite-citeref-number" data-reference="F-Secure The Dukes" id="scite-ref-39-a" onclick="scrollToRef('scite-39')">
+      <span class="scite-citeref-number" data-reference="F-Secure The Dukes" id="scite-ref-50-a" onclick="scrollToRef('scite-50')">
        <sup>
-        <a aria-describedby="qtip-38" data-hasqtip="38" href="https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf" target="_blank">
-         [39]
+        <a aria-describedby="qtip-49" data-hasqtip="49" href="https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf" target="_blank">
+         [50]
         </a>
        </sup>
       </span>
@@ -1697,10 +2100,32 @@
        Pisloader
       </a>
       has commands to list drives on the victim machine and to list file information for a given directory.
-      <span class="scite-citeref-number" data-reference="Palo Alto DNS Requests" id="scite-ref-64-a" onclick="scrollToRef('scite-64')">
+      <span class="scite-citeref-number" data-reference="Palo Alto DNS Requests" id="scite-ref-83-a" onclick="scrollToRef('scite-83')">
        <sup>
-        <a aria-describedby="qtip-63" data-hasqtip="63" href="http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/" target="_blank">
-         [64]
+        <a aria-describedby="qtip-82" data-hasqtip="82" href="http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/" target="_blank">
+         [83]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0013">
+      PlugX
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0013">
+       PlugX
+      </a>
+      has a module to enumerate drives and find files recursively.
+      <span class="scite-citeref-number" data-reference="CIRCL PlugX March 2013" id="scite-ref-84-a" onclick="scrollToRef('scite-84')">
+       <sup>
+        <a aria-describedby="qtip-83" data-hasqtip="83" href="http://circl.lu/assets/files/tr-12/tr-12-circl-plugx-analysis-v1.pdf" target="_blank">
+         [84]
         </a>
        </sup>
       </span>
@@ -1719,10 +2144,32 @@
        POORAIM
       </a>
       can conduct file browsing.
-      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
-         [24]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
+         [31]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0378">
+      PoshC2
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0378">
+       PoshC2
+      </a>
+      can enumerate files on the local file system and includes a module for enumerating recently accessed files.
+      <span class="scite-citeref-number" data-reference="GitHub PoshC2" id="scite-ref-85-a" onclick="scrollToRef('scite-85')">
+       <sup>
+        <a aria-describedby="qtip-84" data-hasqtip="84" href="https://github.com/nettitude/PoshC2" target="_blank">
+         [85]
         </a>
        </sup>
       </span>
@@ -1741,10 +2188,10 @@
        PowerDuke
       </a>
       has commands to get the current directory name as well as the size of a file. It also has commands to obtain information about logical drives, drive type, and free space.
-      <span class="scite-citeref-number" data-reference="Volexity PowerDuke November 2016" id="scite-ref-65-a" onclick="scrollToRef('scite-65')">
+      <span class="scite-citeref-number" data-reference="Volexity PowerDuke November 2016" id="scite-ref-86-a" onclick="scrollToRef('scite-86')">
        <sup>
-        <a aria-describedby="qtip-64" data-hasqtip="64" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" target="_blank">
-         [65]
+        <a aria-describedby="qtip-85" data-hasqtip="85" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" target="_blank">
+         [86]
         </a>
        </sup>
       </span>
@@ -1763,10 +2210,10 @@
        POWRUNER
       </a>
       may enumerate user directories on a victim.
-      <span class="scite-citeref-number" data-reference="FireEye APT34 Dec 2017" id="scite-ref-66-a" onclick="scrollToRef('scite-66')">
+      <span class="scite-citeref-number" data-reference="FireEye APT34 Dec 2017" id="scite-ref-87-a" onclick="scrollToRef('scite-87')">
        <sup>
-        <a aria-describedby="qtip-65" data-hasqtip="65" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" target="_blank">
-         [66]
+        <a aria-describedby="qtip-86" data-hasqtip="86" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" target="_blank">
+         [87]
         </a>
        </sup>
       </span>
@@ -1786,10 +2233,10 @@
        Prikormka
       </a>
       collects information about the paths, size, and creation time of files with specific file extensions, but not the actual content of the file.
-      <span class="scite-citeref-number" data-reference="ESET Operation Groundbait" id="scite-ref-67-a" onclick="scrollToRef('scite-67')">
+      <span class="scite-citeref-number" data-reference="ESET Operation Groundbait" id="scite-ref-88-a" onclick="scrollToRef('scite-88')">
        <sup>
-        <a aria-describedby="qtip-66" data-hasqtip="66" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" target="_blank">
-         [67]
+        <a aria-describedby="qtip-87" data-hasqtip="87" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" target="_blank">
+         [88]
         </a>
        </sup>
       </span>
@@ -1808,10 +2255,10 @@
        Proxysvc
       </a>
       lists files in directories.
-      <span class="scite-citeref-number" data-reference="McAfee GhostSecret" id="scite-ref-55-a" onclick="scrollToRef('scite-55')">
+      <span class="scite-citeref-number" data-reference="McAfee GhostSecret" id="scite-ref-70-a" onclick="scrollToRef('scite-70')">
        <sup>
-        <a aria-describedby="qtip-54" data-hasqtip="54" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" target="_blank">
-         [55]
+        <a aria-describedby="qtip-69" data-hasqtip="69" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" target="_blank">
+         [70]
         </a>
        </sup>
       </span>
@@ -1830,10 +2277,10 @@
        Psylo
       </a>
       has commands to enumerate all storage devices and to find all files that start with a particular string.
-      <span class="scite-citeref-number" data-reference="Scarlet Mimic Jan 2016" id="scite-ref-59-a" onclick="scrollToRef('scite-59')">
+      <span class="scite-citeref-number" data-reference="Scarlet Mimic Jan 2016" id="scite-ref-75-a" onclick="scrollToRef('scite-75')">
        <sup>
-        <a aria-describedby="qtip-58" data-hasqtip="58" href="http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/" target="_blank">
-         [59]
+        <a aria-describedby="qtip-74" data-hasqtip="74" href="http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/" target="_blank">
+         [75]
         </a>
        </sup>
       </span>
@@ -1852,10 +2299,10 @@
        Pteranodon
       </a>
       identifies files matching certain file extension and copies them to subdirectories it created.
-      <span class="scite-citeref-number" data-reference="Palo Alto Gamaredon Feb 2017" id="scite-ref-68-a" onclick="scrollToRef('scite-68')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Gamaredon Feb 2017" id="scite-ref-89-a" onclick="scrollToRef('scite-89')">
        <sup>
-        <a aria-describedby="qtip-67" data-hasqtip="67" href="https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/" target="_blank">
-         [68]
+        <a aria-describedby="qtip-88" data-hasqtip="88" href="https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/" target="_blank">
+         [89]
         </a>
        </sup>
       </span>
@@ -1874,10 +2321,10 @@
        Pupy
       </a>
       can walk through directories and recursively search for strings in files.
-      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-69-a" onclick="scrollToRef('scite-69')">
+      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-90-a" onclick="scrollToRef('scite-90')">
        <sup>
-        <a aria-describedby="qtip-68" data-hasqtip="68" href="https://github.com/n1nj4sec/pupy" target="_blank">
-         [69]
+        <a aria-describedby="qtip-89" data-hasqtip="89" href="https://github.com/n1nj4sec/pupy" target="_blank">
+         [90]
         </a>
        </sup>
       </span>
@@ -1896,10 +2343,10 @@
        RARSTONE
       </a>
       obtains installer properties from Uninstall Registry Key entries to obtain information about installed applications and how to uninstall certain applications.
-      <span class="scite-citeref-number" data-reference="Camba RARSTONE" id="scite-ref-70-a" onclick="scrollToRef('scite-70')">
+      <span class="scite-citeref-number" data-reference="Camba RARSTONE" id="scite-ref-91-a" onclick="scrollToRef('scite-91')">
        <sup>
-        <a aria-describedby="qtip-69" data-hasqtip="69" href="http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/" target="_blank">
-         [70]
+        <a aria-describedby="qtip-90" data-hasqtip="90" href="http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/" target="_blank">
+         [91]
         </a>
        </sup>
       </span>
@@ -1918,17 +2365,61 @@
        RedLeaves
       </a>
       can enumerate and search for files and directories.
-      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-71-a" onclick="scrollToRef('scite-71')">
+      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-92-a" onclick="scrollToRef('scite-92')">
        <sup>
-        <a aria-describedby="qtip-70" data-hasqtip="70" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
-         [71]
+        <a aria-describedby="qtip-91" data-hasqtip="91" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
+         [92]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="FireEye APT10 April 2017" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="FireEye APT10 April 2017" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" target="_blank">
-         [21]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" target="_blank">
+         [28]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0332">
+      Remcos
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0332">
+       Remcos
+      </a>
+      can search for files on the infected machine.
+      <span class="scite-citeref-number" data-reference="Riskiq Remcos Jan 2018" id="scite-ref-93-a" onclick="scrollToRef('scite-93')">
+       <sup>
+        <a aria-describedby="qtip-92" data-hasqtip="92" href="https://www.riskiq.com/blog/labs/spear-phishing-turkish-defense-contractors/" target="_blank">
+         [93]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0375">
+      Remexi
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0375">
+       Remexi
+      </a>
+      searches for files on the system.
+      <span class="scite-citeref-number" data-reference="Securelist Remexi Jan 2019" id="scite-ref-94-a" onclick="scrollToRef('scite-94')">
+       <sup>
+        <a aria-describedby="qtip-93" data-hasqtip="93" href="https://securelist.com/chafer-used-remexi-malware/89538/" target="_blank">
+         [94]
         </a>
        </sup>
       </span>
@@ -1951,24 +2442,24 @@
        Remsec
       </a>
       also searches for custom network encryption software on victims.
-      <span class="scite-citeref-number" data-reference="Symantec Remsec IOCs" id="scite-ref-72-a" onclick="scrollToRef('scite-72')">
+      <span class="scite-citeref-number" data-reference="Symantec Remsec IOCs" id="scite-ref-95-a" onclick="scrollToRef('scite-95')">
        <sup>
-        <a aria-describedby="qtip-71" data-hasqtip="71" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Symantec_Remsec_IOCs.pdf" target="_blank">
-         [72]
+        <a aria-describedby="qtip-94" data-hasqtip="94" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Symantec_Remsec_IOCs.pdf" target="_blank">
+         [95]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Full Report" id="scite-ref-73-a" onclick="scrollToRef('scite-73')">
+      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Full Report" id="scite-ref-96-a" onclick="scrollToRef('scite-96')">
        <sup>
-        <a aria-describedby="qtip-72" data-hasqtip="72" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_research_KL.pdf" target="_blank">
-         [73]
+        <a aria-describedby="qtip-95" data-hasqtip="95" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_research_KL.pdf" target="_blank">
+         [96]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Technical Analysis" id="scite-ref-74-a" onclick="scrollToRef('scite-74')">
+      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Technical Analysis" id="scite-ref-97-a" onclick="scrollToRef('scite-97')">
        <sup>
-        <a aria-describedby="qtip-73" data-hasqtip="73" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" target="_blank">
-         [74]
+        <a aria-describedby="qtip-96" data-hasqtip="96" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" target="_blank">
+         [97]
         </a>
        </sup>
       </span>
@@ -1987,10 +2478,10 @@
        Rover
       </a>
       automatically searches for files on local drives based on a predefined list of file extensions.
-      <span class="scite-citeref-number" data-reference="Palo Alto Rover" id="scite-ref-75-a" onclick="scrollToRef('scite-75')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Rover" id="scite-ref-98-a" onclick="scrollToRef('scite-98')">
        <sup>
-        <a aria-describedby="qtip-74" data-hasqtip="74" href="http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/" target="_blank">
-         [75]
+        <a aria-describedby="qtip-97" data-hasqtip="97" href="http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/" target="_blank">
+         [98]
         </a>
        </sup>
       </span>
@@ -2009,10 +2500,10 @@
        RTM
       </a>
       can scan victim drives to look for specific banking software on the machine to determine next actions. It also looks at browsing history and open tabs for specific strings.
-      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-76-a" onclick="scrollToRef('scite-76')">
+      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-99-a" onclick="scrollToRef('scite-99')">
        <sup>
-        <a aria-describedby="qtip-75" data-hasqtip="75" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
-         [76]
+        <a aria-describedby="qtip-98" data-hasqtip="98" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
+         [99]
         </a>
        </sup>
       </span>
@@ -2021,36 +2512,20 @@
    </tr>
    <tr>
     <td>
-     <a href="https://attack.mitre.org/software/S0140">
-      Shamoon
+     <a href="https://attack.mitre.org/software/S0345">
+      Seasalt
      </a>
     </td>
     <td>
      <p>
-      <a href="https://attack.mitre.org/software/S0140">
-       Shamoon
+      <a href="https://attack.mitre.org/software/S0345">
+       Seasalt
       </a>
-      attempts to access the
-      <code>
-       ADMIN$
-      </code>
-      ,
-      <code>
-       C$\Windows
-      </code>
-      ,
-      <code>
-       D$\Windows
-      </code>
-      , and
-      <code>
-       E$\Windows
-      </code>
-      shares on the victim with its current privileges.
-      <span class="scite-citeref-number" data-reference="FireEye Shamoon Nov 2016" id="scite-ref-77-a" onclick="scrollToRef('scite-77')">
+      has the capability to identify the drive type on a victim.
+      <span class="scite-citeref-number" data-reference="McAfee Oceansalt Oct 2018" id="scite-ref-78-a" onclick="scrollToRef('scite-78')">
        <sup>
-        <a aria-describedby="qtip-76" data-hasqtip="76" href="https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html" target="_blank">
-         [77]
+        <a aria-describedby="qtip-77" data-hasqtip="77" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf" target="_blank">
+         [78]
         </a>
        </sup>
       </span>
@@ -2069,10 +2544,10 @@
        SHOTPUT
       </a>
       has a command to obtain a directory listing.
-      <span class="scite-citeref-number" data-reference="Palo Alto CVE-2015-3113 July 2015" id="scite-ref-78-a" onclick="scrollToRef('scite-78')">
+      <span class="scite-citeref-number" data-reference="Palo Alto CVE-2015-3113 July 2015" id="scite-ref-100-a" onclick="scrollToRef('scite-100')">
        <sup>
-        <a aria-describedby="qtip-77" data-hasqtip="77" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" target="_blank">
-         [78]
+        <a aria-describedby="qtip-99" data-hasqtip="99" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" target="_blank">
+         [100]
         </a>
        </sup>
       </span>
@@ -2091,10 +2566,10 @@
        Smoke Loader
       </a>
       recursively searches through directories for files.
-      <span class="scite-citeref-number" data-reference="Talos Smoke Loader July 2018" id="scite-ref-79-a" onclick="scrollToRef('scite-79')">
+      <span class="scite-citeref-number" data-reference="Talos Smoke Loader July 2018" id="scite-ref-101-a" onclick="scrollToRef('scite-101')">
        <sup>
-        <a aria-describedby="qtip-78" data-hasqtip="78" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" target="_blank">
-         [79]
+        <a aria-describedby="qtip-100" data-hasqtip="100" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" target="_blank">
+         [101]
         </a>
        </sup>
       </span>
@@ -2113,10 +2588,10 @@
        SOUNDBITE
       </a>
       is capable of enumerating and manipulating files and directories.
-      <span class="scite-citeref-number" data-reference="FireEye APT32 May 2017" id="scite-ref-80-a" onclick="scrollToRef('scite-80')">
+      <span class="scite-citeref-number" data-reference="FireEye APT32 May 2017" id="scite-ref-102-a" onclick="scrollToRef('scite-102')">
        <sup>
-        <a aria-describedby="qtip-79" data-hasqtip="79" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" target="_blank">
-         [80]
+        <a aria-describedby="qtip-101" data-hasqtip="101" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" target="_blank">
+         [102]
         </a>
        </sup>
       </span>
@@ -2135,10 +2610,10 @@
        Sowbug
       </a>
       identified and extracted all Word documents on a server by using a command containing * .doc and *.docx. The actors also searched for documents based on a specific date range and attempted to identify all installed software on a victim.
-      <span class="scite-citeref-number" data-reference="Symantec Sowbug Nov 2017" id="scite-ref-81-a" onclick="scrollToRef('scite-81')">
+      <span class="scite-citeref-number" data-reference="Symantec Sowbug Nov 2017" id="scite-ref-103-a" onclick="scrollToRef('scite-103')">
        <sup>
-        <a aria-describedby="qtip-80" data-hasqtip="80" href="https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments" target="_blank">
-         [81]
+        <a aria-describedby="qtip-102" data-hasqtip="102" href="https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments" target="_blank">
+         [103]
         </a>
        </sup>
       </span>
@@ -2157,10 +2632,10 @@
        SPACESHIP
       </a>
       identifies files and directories for collection by searching for specific file extensions or file modification time.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [12]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -2179,10 +2654,10 @@
        StreamEx
       </a>
       has the ability to enumerate drive types.
-      <span class="scite-citeref-number" data-reference="Cylance Shell Crew Feb 2017" id="scite-ref-82-a" onclick="scrollToRef('scite-82')">
+      <span class="scite-citeref-number" data-reference="Cylance Shell Crew Feb 2017" id="scite-ref-104-a" onclick="scrollToRef('scite-104')">
        <sup>
-        <a aria-describedby="qtip-81" data-hasqtip="81" href="https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar" target="_blank">
-         [82]
+        <a aria-describedby="qtip-103" data-hasqtip="103" href="https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar" target="_blank">
+         [104]
         </a>
        </sup>
       </span>
@@ -2201,17 +2676,17 @@
        SynAck
       </a>
       checks its directory location in an attempt to avoid launching in a sandbox.
-      <span class="scite-citeref-number" data-reference="SecureList SynAck Doppelgänging May 2018" id="scite-ref-83-a" onclick="scrollToRef('scite-83')">
+      <span class="scite-citeref-number" data-reference="SecureList SynAck Doppelgänging May 2018" id="scite-ref-105-a" onclick="scrollToRef('scite-105')">
        <sup>
-        <a aria-describedby="qtip-82" data-hasqtip="82" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" target="_blank">
-         [83]
+        <a aria-describedby="qtip-104" data-hasqtip="104" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" target="_blank">
+         [105]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Kaspersky Lab SynAck May 2018" id="scite-ref-84-a" onclick="scrollToRef('scite-84')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Lab SynAck May 2018" id="scite-ref-106-a" onclick="scrollToRef('scite-106')">
        <sup>
-        <a aria-describedby="qtip-83" data-hasqtip="83" href="https://usa.kaspersky.com/about/press-releases/2018_synack-doppelganging" target="_blank">
-         [84]
+        <a aria-describedby="qtip-105" data-hasqtip="105" href="https://usa.kaspersky.com/about/press-releases/2018_synack-doppelganging" target="_blank">
+         [106]
         </a>
        </sup>
       </span>
@@ -2230,10 +2705,10 @@
        TINYTYPHON
       </a>
       searches through the drive containing the OS, then all drive letters C through to Z, for documents matching certain extensions.
-      <span class="scite-citeref-number" data-reference="Forcepoint Monsoon" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="Forcepoint Monsoon" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -2251,11 +2726,18 @@
       <a href="https://attack.mitre.org/software/S0266">
        TrickBot
       </a>
-      searches the system for all of the following file extensions: .avi, .mov, .mkv, .mpeg, .mpeg4, .mp4, .mp3, .wav, .ogg, .jpeg, .jpg, .png, .bmp, .gif, .tiff, .ico, .xlsx, and .zip
-      <span class="scite-citeref-number" data-reference="S2 Grupo TrickBot June 2017" id="scite-ref-85-a" onclick="scrollToRef('scite-85')">
+      searches the system for all of the following file extensions: .avi, .mov, .mkv, .mpeg, .mpeg4, .mp4, .mp3, .wav, .ogg, .jpeg, .jpg, .png, .bmp, .gif, .tiff, .ico, .xlsx, and .zip. It can also obtain browsing history, cookies, and plug-in information.
+      <span class="scite-citeref-number" data-reference="S2 Grupo TrickBot June 2017" id="scite-ref-107-a" onclick="scrollToRef('scite-107')">
        <sup>
-        <a aria-describedby="qtip-84" data-hasqtip="84" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" target="_blank">
-         [85]
+        <a aria-describedby="qtip-106" data-hasqtip="106" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" target="_blank">
+         [107]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="Trend Micro Trickbot Nov 2018" id="scite-ref-108-a" onclick="scrollToRef('scite-108')">
+       <sup>
+        <a aria-describedby="qtip-107" data-hasqtip="107" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/" target="_blank">
+         [108]
         </a>
        </sup>
       </span>
@@ -2274,10 +2756,10 @@
        Turla
       </a>
       surveys a system upon check-in to discover files in specific locations on the hard disk %TEMP% directory, the current user's desktop, and in the Program Files directory.
-      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-86-a" onclick="scrollToRef('scite-86')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-44-a" onclick="scrollToRef('scite-44')">
        <sup>
-        <a aria-describedby="qtip-85" data-hasqtip="85" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
-         [86]
+        <a aria-describedby="qtip-43" data-hasqtip="43" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [44]
         </a>
        </sup>
       </span>
@@ -2296,10 +2778,10 @@
        TYPEFRAME
       </a>
       can search directories for files on the victim’s machine.
-      <span class="scite-citeref-number" data-reference="US-CERT TYPEFRAME June 2018" id="scite-ref-87-a" onclick="scrollToRef('scite-87')">
+      <span class="scite-citeref-number" data-reference="US-CERT TYPEFRAME June 2018" id="scite-ref-109-a" onclick="scrollToRef('scite-109')">
        <sup>
-        <a aria-describedby="qtip-86" data-hasqtip="86" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-165A" target="_blank">
-         [87]
+        <a aria-describedby="qtip-108" data-hasqtip="108" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-165A" target="_blank">
+         [109]
         </a>
        </sup>
       </span>
@@ -2318,10 +2800,10 @@
        UPPERCUT
       </a>
       has the capability to gather the victim's current directory.
-      <span class="scite-citeref-number" data-reference="FireEye APT10 Sept 2018" id="scite-ref-88-a" onclick="scrollToRef('scite-88')">
+      <span class="scite-citeref-number" data-reference="FireEye APT10 Sept 2018" id="scite-ref-110-a" onclick="scrollToRef('scite-110')">
        <sup>
-        <a aria-describedby="qtip-87" data-hasqtip="87" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" target="_blank">
-         [88]
+        <a aria-describedby="qtip-109" data-hasqtip="109" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" target="_blank">
+         [110]
         </a>
        </sup>
       </span>
@@ -2340,17 +2822,17 @@
        USBStealer
       </a>
       searches victim drives for files matching certain extensions (".skr",".pkr" or ".key") or names.
-      <span class="scite-citeref-number" data-reference="ESET Sednit USBStealer 2014" id="scite-ref-89-a" onclick="scrollToRef('scite-89')">
+      <span class="scite-citeref-number" data-reference="ESET Sednit USBStealer 2014" id="scite-ref-111-a" onclick="scrollToRef('scite-111')">
        <sup>
-        <a aria-describedby="qtip-88" data-hasqtip="88" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" target="_blank">
-         [89]
+        <a aria-describedby="qtip-110" data-hasqtip="110" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" target="_blank">
+         [111]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Kaspersky Sofacy" id="scite-ref-90-a" onclick="scrollToRef('scite-90')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Sofacy" id="scite-ref-112-a" onclick="scrollToRef('scite-112')">
        <sup>
-        <a aria-describedby="qtip-89" data-hasqtip="89" href="https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/" target="_blank">
-         [90]
+        <a aria-describedby="qtip-111" data-hasqtip="111" href="https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/" target="_blank">
+         [112]
         </a>
        </sup>
       </span>
@@ -2369,10 +2851,39 @@
        Volgmer
       </a>
       can list directories on a victim.
-      <span class="scite-citeref-number" data-reference="US-CERT Volgmer Nov 2017" id="scite-ref-91-a" onclick="scrollToRef('scite-91')">
+      <span class="scite-citeref-number" data-reference="US-CERT Volgmer Nov 2017" id="scite-ref-113-a" onclick="scrollToRef('scite-113')">
        <sup>
-        <a aria-describedby="qtip-90" data-hasqtip="90" href="https://www.us-cert.gov/ncas/alerts/TA17-318B" target="_blank">
-         [91]
+        <a aria-describedby="qtip-112" data-hasqtip="112" href="https://www.us-cert.gov/ncas/alerts/TA17-318B" target="_blank">
+         [113]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      searches for variety of user files by file extension before encrypting them using RSA and AES, including Office, PDF, image, audio, video, source code, archive/compression format, and key and certificate files.
+      <span class="scite-citeref-number" data-reference="LogRhythm WannaCry" id="scite-ref-114-a" onclick="scrollToRef('scite-114')">
+       <sup>
+        <a aria-describedby="qtip-113" data-hasqtip="113" href="https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/" target="_blank">
+         [114]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="FireEye WannaCry 2017" id="scite-ref-115-a" onclick="scrollToRef('scite-115')">
+       <sup>
+        <a aria-describedby="qtip-114" data-hasqtip="114" href="https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html" target="_blank">
+         [115]
         </a>
        </sup>
       </span>
@@ -2391,10 +2902,10 @@
        WINERACK
       </a>
       can enumerate files and directories.
-      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      <span class="scite-citeref-number" data-reference="FireEye APT37 Feb 2018" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
-         [24]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
@@ -2413,13 +2924,6 @@
        WinMM
       </a>
       sets a WH_CBT Windows hook to search for and capture files on the victim.
-      <span class="scite-citeref-number" data-reference="Baumgartner Naikon 2015" id="scite-ref-92-a" onclick="scrollToRef('scite-92')">
-       <sup>
-        <a aria-describedby="qtip-91" data-hasqtip="91" href="https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf" target="_blank">
-         [92]
-        </a>
-       </sup>
-      </span>
      </p>
     </td>
    </tr>
@@ -2435,10 +2939,10 @@
        XAgentOSX
       </a>
       contains the readFiles function to return a detailed listing (sometimes recursive) of a specified directory.
-      <span class="scite-citeref-number" data-reference="XAgentOSX" id="scite-ref-93-a" onclick="scrollToRef('scite-93')">
+      <span class="scite-citeref-number" data-reference="XAgentOSX 2017" id="scite-ref-116-a" onclick="scrollToRef('scite-116')">
        <sup>
-        <a aria-describedby="qtip-92" data-hasqtip="92" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" target="_blank">
-         [93]
+        <a aria-describedby="qtip-115" data-hasqtip="115" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" target="_blank">
+         [116]
         </a>
        </sup>
       </span>
@@ -2457,10 +2961,61 @@
        yty
       </a>
       gathers information on victim’s drives and has a plugin for document listing.
-      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-94-a" onclick="scrollToRef('scite-94')">
+      <span class="scite-citeref-number" data-reference="ASERT Donot March 2018" id="scite-ref-117-a" onclick="scrollToRef('scite-117')">
        <sup>
-        <a aria-describedby="qtip-93" data-hasqtip="93" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
-         [94]
+        <a aria-describedby="qtip-116" data-hasqtip="116" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" target="_blank">
+         [117]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0251">
+      Zebrocy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0251">
+       Zebrocy
+      </a>
+      searches for files that are 60mb and less and contain the following extensions: .doc, .docx, .xls, .xlsx, .ppt, .pptx, .exe, .zip, and .rar.
+      <span class="scite-citeref-number" data-reference="Securelist Sofacy Feb 2018" id="scite-ref-118-a" onclick="scrollToRef('scite-118')">
+       <sup>
+        <a aria-describedby="qtip-117" data-hasqtip="117" href="https://securelist.com/a-slice-of-2017-sofacy-activity/83930/" target="_blank">
+         [118]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="ESET Zebrocy Nov 2018" id="scite-ref-119-a" onclick="scrollToRef('scite-119')">
+       <sup>
+        <a aria-describedby="qtip-118" data-hasqtip="118" href="https://www.welivesecurity.com/2018/11/20/sednit-whats-going-zebrocy/" target="_blank">
+         [119]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0330">
+      Zeus Panda
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0330">
+       Zeus Panda
+      </a>
+      searches for specific directories on the victim’s machine.
+      <span class="scite-citeref-number" data-reference="GDATA Zeus Panda June 2017" id="scite-ref-120-a" onclick="scrollToRef('scite-120')">
+       <sup>
+        <a aria-describedby="qtip-119" data-hasqtip="119" href="https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf" target="_blank">
+         [120]
         </a>
        </sup>
       </span>
@@ -2479,10 +3034,32 @@
        ZLib
       </a>
       has the ability to enumerate files and drives.
-      <span class="scite-citeref-number" data-reference="Cylance Dust Storm" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
+      <span class="scite-citeref-number" data-reference="Cylance Dust Storm" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
        <sup>
-        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" target="_blank">
-         [31]
+        <a aria-describedby="qtip-39" data-hasqtip="39" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" target="_blank">
+         [40]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0350">
+      zwShell
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0350">
+       zwShell
+      </a>
+      can browse the file system.
+      <span class="scite-citeref-number" data-reference="McAfee Night Dragon" id="scite-ref-121-a" onclick="scrollToRef('scite-121')">
+       <sup>
+        <a aria-describedby="qtip-120" data-hasqtip="120" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" target="_blank">
+         [121]
         </a>
        </sup>
       </span>
@@ -2496,10 +3073,10 @@
  </h2>
  <p>
   File system activity is a common part of an operating system, so it is unlikely that mitigation would be appropriate for this technique. It may still be beneficial to identify and block unnecessary system utilities or potentially malicious software by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-95-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-122-a">
    <sup>
-    <a aria-describedby="qtip-94" data-hasqtip="94" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [95]
+    <a aria-describedby="qtip-121" data-hasqtip="121" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [122]
     </a>
    </sup>
   </span>
@@ -2511,26 +3088,26 @@
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-96-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-123-a">
    <sup>
-    <a aria-describedby="qtip-95" data-hasqtip="95" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [96]
+    <a aria-describedby="qtip-122" data-hasqtip="122" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [123]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-97-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-124-a">
    <sup>
-    <a aria-describedby="qtip-96" data-hasqtip="96" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [97]
+    <a aria-describedby="qtip-123" data-hasqtip="123" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [124]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-98-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-125-a">
    <sup>
-    <a aria-describedby="qtip-97" data-hasqtip="97" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [98]
+    <a aria-describedby="qtip-124" data-hasqtip="124" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [125]
     </a>
    </sup>
   </span>
@@ -2606,8 +3183,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/" name="scite-6" rel="nofollow" target="_blank">
-        Guarnieri, C. (2015, June 19). Digital Attack on German Parliament: Investigative Report on the Hack of the Left Party Infrastructure in Bundestag. Retrieved January 22, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/" name="scite-6" rel="nofollow" target="_blank">
+        Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved November 15, 2018.
        </a>
       </span>
      </span>
@@ -2615,8 +3192,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.justice.gov/file/1080281/download" name="scite-7" rel="nofollow" target="_blank">
-        Mueller, R. (2018, July 13). Indictment - United States of America vs. VIKTOR BORISOVICH NETYKSHO, et al. Retrieved September 13, 2018.
+       <a class="external text" href="https://netzpolitik.org/2015/digital-attack-on-german-parliament-investigative-report-on-the-hack-of-the-left-party-infrastructure-in-bundestag/" name="scite-7" rel="nofollow" target="_blank">
+        Guarnieri, C. (2015, June 19). Digital Attack on German Parliament: Investigative Report on the Hack of the Left Party Infrastructure in Bundestag. Retrieved January 22, 2018.
        </a>
       </span>
      </span>
@@ -2624,8 +3201,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html" name="scite-8" rel="nofollow" target="_blank">
-        Chen, X., Scott, M., Caselden, D.. (2014, April 26). New Zero-Day Exploit targeting Internet Explorer Versions 9 through 11 Identified in Targeted Attacks. Retrieved January 14, 2016.
+       <a class="external text" href="https://www.justice.gov/file/1080281/download" name="scite-8" rel="nofollow" target="_blank">
+        Mueller, R. (2018, July 13). Indictment - United States of America vs. VIKTOR BORISOVICH NETYKSHO, et al. Retrieved September 13, 2018.
        </a>
       </span>
      </span>
@@ -2633,8 +3210,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf" name="scite-9" rel="nofollow" target="_blank">
-        Yates, M. (2017, June 18). APT3 Uncovered: The code evolution of Pirpi. Retrieved September 28, 2017.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html" name="scite-9" rel="nofollow" target="_blank">
+        Chen, X., Scott, M., Caselden, D.. (2014, April 26). New Zero-Day Exploit targeting Internet Explorer Versions 9 through 11 Identified in Targeted Attacks. Retrieved January 14, 2016.
        </a>
       </span>
      </span>
@@ -2642,8 +3219,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" name="scite-10" rel="nofollow" target="_blank">
-        Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.
+       <a class="external text" href="https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-evolution_of_pirpi.pdf" name="scite-10" rel="nofollow" target="_blank">
+        Yates, M. (2017, June 18). APT3 Uncovered: The code evolution of Pirpi. Retrieved September 28, 2017.
        </a>
       </span>
      </span>
@@ -2651,8 +3228,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" name="scite-11" rel="nofollow" target="_blank">
-        Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.
+       <a class="external text" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" name="scite-11" rel="nofollow" target="_blank">
+        Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.
        </a>
       </span>
      </span>
@@ -2660,8 +3237,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" name="scite-12" rel="nofollow" target="_blank">
-        FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-continues-heists-mounts-attacks-on-financial-organizations-in-latin-america/" name="scite-12" rel="nofollow" target="_blank">
+        Trend Micro. (2018, November 20). Lazarus Continues Heists, Mounts Attacks on Financial Organizations in Latin America. Retrieved December 3, 2018.
        </a>
       </span>
      </span>
@@ -2669,8 +3246,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-13" rel="nofollow" target="_blank">
-        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
+       <a class="external text" href="https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf" name="scite-13" rel="nofollow" target="_blank">
+        Settle, A., et al. (2016, August 8). MONSOON - Analysis Of An APT Campaign. Retrieved September 22, 2016.
        </a>
       </span>
      </span>
@@ -2678,8 +3255,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" name="scite-14" rel="nofollow" target="_blank">
-        US-CERT. (2017, December 13). Malware Analysis Report (MAR) - 10135536-B. Retrieved July 17, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-new-wine-old-bottle-new-azorult-variant-found-findmyname-campaign-using-fallout-exploit-kit/" name="scite-14" rel="nofollow" target="_blank">
+        Yan, T., et al. (2018, November 21). New Wine in Old Bottle: New Azorult Variant Found in FindMyName Campaign using Fallout Exploit Kit. Retrieved November 29, 2018.
        </a>
       </span>
      </span>
@@ -2687,8 +3264,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" name="scite-15" rel="nofollow" target="_blank">
-        Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf" name="scite-15" rel="nofollow" target="_blank">
+        Symantec Security Response. (2014, July 7). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.
        </a>
       </span>
      </span>
@@ -2696,8 +3273,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf" name="scite-16" rel="nofollow" target="_blank">
-        FireEye Labs/FireEye Threat Intelligence. (2015, May 14). Hiding in Plain Sight: FireEye and Microsoft Expose Obfuscation Tactic. Retrieved January 22, 2016.
+       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" name="scite-16" rel="nofollow" target="_blank">
+        FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.
        </a>
       </span>
      </span>
@@ -2705,8 +3282,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/blackenergy_whitepaper.pdf" name="scite-17" rel="nofollow" target="_blank">
-        F-Secure Labs. (2014). BlackEnergy &amp; Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016.
+       <a class="external text" href="https://documents.trendmicro.com/assets/tech-brief-untangling-the-patchwork-cyberespionage-group.pdf" name="scite-17" rel="nofollow" target="_blank">
+        Lunghi, D., et al. (2017, December). Untangling the Patchwork Cyberespionage Group. Retrieved July 10, 2018.
        </a>
       </span>
      </span>
@@ -2714,8 +3291,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" name="scite-18" rel="nofollow" target="_blank">
-        Baumgartner, K. and Garnaeva, M.. (2014, November 3). BE2 custom plugins, router abuse, and target profiles. Retrieved March 24, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/10/unit42-badpatch/" name="scite-18" rel="nofollow" target="_blank">
+        Bar, T., Conant, S. (2017, October 20). BadPatch. Retrieved November 13, 2018.
        </a>
       </span>
      </span>
@@ -2723,8 +3300,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" name="scite-19" rel="nofollow" target="_blank">
-        Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims’ Systems. Retrieved June 6, 2018.
+       <a class="external text" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" name="scite-19" rel="nofollow" target="_blank">
+        US-CERT. (2017, December 13). Malware Analysis Report (MAR) - 10135536-B. Retrieved July 17, 2018.
        </a>
       </span>
      </span>
@@ -2732,8 +3309,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" name="scite-20" rel="nofollow" target="_blank">
-        Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/12/bbsrat-attacks-targeting-russian-organizations-linked-to-roaming-tiger/" name="scite-20" rel="nofollow" target="_blank">
+        Lee, B. Grunzweig, J. (2015, December 22). BBSRAT Attacks Targeting Russian Organizations Linked to Roaming Tiger. Retrieved August 19, 2016.
        </a>
       </span>
      </span>
@@ -2741,8 +3318,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" name="scite-21" rel="nofollow" target="_blank">
-        FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.
+       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/APT17_Report.pdf" name="scite-21" rel="nofollow" target="_blank">
+        FireEye Labs/FireEye Threat Intelligence. (2015, May 14). Hiding in Plain Sight: FireEye and Microsoft Expose Obfuscation Tactic. Retrieved January 22, 2016.
        </a>
       </span>
      </span>
@@ -2750,8 +3327,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-22" rel="nofollow" target="_blank">
-        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
+       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/blackenergy_whitepaper.pdf" name="scite-22" rel="nofollow" target="_blank">
+        F-Secure Labs. (2014). BlackEnergy &amp; Quedagh: The convergence of crimeware and APT attacks. Retrieved March 24, 2016.
        </a>
       </span>
      </span>
@@ -2759,8 +3336,8 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc755121.aspx" name="scite-23" rel="nofollow" target="_blank">
-        Microsoft. (n.d.). Dir. Retrieved April 18, 2016.
+       <a class="external text" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" name="scite-23" rel="nofollow" target="_blank">
+        Baumgartner, K. and Garnaeva, M.. (2014, November 3). BE2 custom plugins, router abuse, and target profiles. Retrieved March 24, 2016.
        </a>
       </span>
      </span>
@@ -2768,8 +3345,8 @@
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" name="scite-24" rel="nofollow" target="_blank">
-        FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved March 1, 2018.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" name="scite-24" rel="nofollow" target="_blank">
+        Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims’ Systems. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -2777,8 +3354,8 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/cosmicduke_whitepaper.pdf" name="scite-25" rel="nofollow" target="_blank">
-        F-Secure Labs. (2014, July). COSMICDUKE Cosmu with a twist of MiniDuke. Retrieved July 3, 2014.
+       <a class="external text" href="https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses" name="scite-25" rel="nofollow" target="_blank">
+        Counter Threat Unit Research Team. (2017, October 12). BRONZE BUTLER Targets Japanese Enterprises. Retrieved January 4, 2018.
        </a>
       </span>
      </span>
@@ -2786,8 +3363,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf" name="scite-26" rel="nofollow" target="_blank">
-        Huss, D.. (2016, March 1). Operation Transparent Tribe. Retrieved June 8, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/" name="scite-26" rel="nofollow" target="_blank">
+        Falcone, R., Lee, B. (2018, November 20). Sofacy Continues Global Attacks and Wheels Out New ‘Cannon’ Trojan. Retrieved November 26, 2018.
        </a>
       </span>
      </span>
@@ -2795,8 +3372,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-27" rel="nofollow" target="_blank">
-        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/04/unit42-cardinal-rat-active-two-years/" name="scite-27" rel="nofollow" target="_blank">
+        Grunzweig, J.. (2017, April 20). Cardinal RAT Active for Over Two Years. Retrieved December 8, 2018.
        </a>
       </span>
      </span>
@@ -2804,8 +3381,8 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" name="scite-28" rel="nofollow" target="_blank">
-        Ash, B., et al. (2018, June 26). RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families. Retrieved July 2, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html" name="scite-28" rel="nofollow" target="_blank">
+        FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.
        </a>
       </span>
      </span>
@@ -2813,8 +3390,8 @@
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fidelissecurity.com/sites/default/files/TA_Fidelis_Turbo_1602_0.pdf" name="scite-29" rel="nofollow" target="_blank">
-        Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-29" rel="nofollow" target="_blank">
+        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -2822,8 +3399,8 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-30" rel="nofollow" target="_blank">
-        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc755121.aspx" name="scite-30" rel="nofollow" target="_blank">
+        Microsoft. (n.d.). Dir. Retrieved April 18, 2016.
        </a>
       </span>
      </span>
@@ -2831,8 +3408,8 @@
     <li>
      <span class="scite-citation" id="scite-31">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" name="scite-31" rel="nofollow" target="_blank">
-        Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf" name="scite-31" rel="nofollow" target="_blank">
+        FireEye. (2018, February 20). APT37 (Reaper): The Overlooked North Korean Actor. Retrieved March 1, 2018.
        </a>
       </span>
      </span>
@@ -2840,8 +3417,8 @@
     <li>
      <span class="scite-citation" id="scite-32">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf" name="scite-32" rel="nofollow" target="_blank">
-        ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.
+       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/cosmicduke_whitepaper.pdf" name="scite-32" rel="nofollow" target="_blank">
+        F-Secure Labs. (2014, July). COSMICDUKE Cosmu with a twist of MiniDuke. Retrieved July 3, 2014.
        </a>
       </span>
      </span>
@@ -2849,8 +3426,8 @@
     <li>
      <span class="scite-citation" id="scite-33">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.paloaltonetworks.com/resources/research/unit42-operation-lotus-blossom.html" name="scite-33" rel="nofollow" target="_blank">
-        Falcone, R., et al.. (2015, June 16). Operation Lotus Blossom. Retrieved February 15, 2016.
+       <a class="external text" href="https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf" name="scite-33" rel="nofollow" target="_blank">
+        Huss, D.. (2016, March 1). Operation Transparent Tribe. Retrieved June 8, 2016.
        </a>
       </span>
      </span>
@@ -2858,8 +3435,8 @@
     <li>
      <span class="scite-citation" id="scite-34">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html" name="scite-34" rel="nofollow" target="_blank">
-        Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.
+       <a class="external text" href="https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf" name="scite-34" rel="nofollow" target="_blank">
+        Blaich, A., et al. (2018, January 18). Dark Caracal: Cyber-espionage at a Global Scale. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -2867,8 +3444,8 @@
     <li>
      <span class="scite-citation" id="scite-35">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA17-318A" name="scite-35" rel="nofollow" target="_blank">
-        US-CERT. (2017, November 22). Alert (TA17-318A): HIDDEN COBRA – North Korean Remote Administration Tool: FALLCHILL. Retrieved December 7, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/" name="scite-35" rel="nofollow" target="_blank">
+        Ash, B., et al. (2018, June 26). RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families. Retrieved July 2, 2018.
        </a>
       </span>
      </span>
@@ -2876,8 +3453,8 @@
     <li>
      <span class="scite-citation" id="scite-36">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-36" rel="nofollow" target="_blank">
-        FinFisher. (n.d.). Retrieved December 20, 2017.
+       <a class="external text" href="https://www.cybereason.com/blog/operation-cobalt-kitty-apt" name="scite-36" rel="nofollow" target="_blank">
+        Dahan, A. (2017, May 24). OPERATION COBALT KITTY: A LARGE-SCALE APT IN ASIA CARRIED OUT BY THE OCEANLOTUS GROUP. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -2885,8 +3462,8 @@
     <li>
      <span class="scite-citation" id="scite-37">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-37" rel="nofollow" target="_blank">
-        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-37" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -2894,8 +3471,8 @@
     <li>
      <span class="scite-citation" id="scite-38">
       <span class="scite-citation-text">
-       <a class="external text" href="https://objective-see.com/blog/blog_0x25.html" name="scite-38" rel="nofollow" target="_blank">
-        Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.
+       <a class="external text" href="https://www.fidelissecurity.com/sites/default/files/TA_Fidelis_Turbo_1602_0.pdf" name="scite-38" rel="nofollow" target="_blank">
+        Fidelis Cybersecurity. (2016, February 29). The Turbo Campaign, Featuring Derusbi for 64-bit Linux. Retrieved March 2, 2016.
        </a>
       </span>
      </span>
@@ -2903,8 +3480,8 @@
     <li>
      <span class="scite-citation" id="scite-39">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf" name="scite-39" rel="nofollow" target="_blank">
-        F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015.
+       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-39" rel="nofollow" target="_blank">
+        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -2912,8 +3489,8 @@
     <li>
      <span class="scite-citation" id="scite-40">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" name="scite-40" rel="nofollow" target="_blank">
-        Mercer, W., Rascagneres, P. (2018, April 26). GravityRAT - The Two-Year Evolution Of An APT Targeting India. Retrieved May 16, 2018.
+       <a class="external text" href="https://www.cylance.com/content/dam/cylance/pdfs/reports/Op_Dust_Storm_Report.pdf" name="scite-40" rel="nofollow" target="_blank">
+        Gross, J. (2016, February 23). Operation Dust Storm. Retrieved September 19, 2017.
        </a>
       </span>
      </span>
@@ -2921,8 +3498,8 @@
     <li>
      <span class="scite-citation" id="scite-41">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-41" rel="nofollow" target="_blank">
-        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
+       <a class="external text" href="https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf" name="scite-41" rel="nofollow" target="_blank">
+        ClearSky. (2016, January 7). Operation DustySky. Retrieved January 8, 2016.
        </a>
       </span>
      </span>
@@ -2930,8 +3507,8 @@
     <li>
      <span class="scite-citation" id="scite-42">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-42" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html" name="scite-42" rel="nofollow" target="_blank">
+        Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.
        </a>
       </span>
      </span>
@@ -2939,8 +3516,8 @@
     <li>
      <span class="scite-citation" id="scite-43">
       <span class="scite-citation-text">
-       <a class="external text" href="http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html" name="scite-43" rel="nofollow" target="_blank">
-        Desai, D.. (2015, August 14). Chinese cyber espionage APT group leveraging recently leaked Hacking Team exploits to target a Financial Services Firm. Retrieved January 26, 2016.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-43" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -2948,8 +3525,8 @@
     <li>
      <span class="scite-citation" id="scite-44">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" name="scite-44" rel="nofollow" target="_blank">
-        Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.
+       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-44" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
        </a>
       </span>
      </span>
@@ -2957,8 +3534,8 @@
     <li>
      <span class="scite-citation" id="scite-45">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" name="scite-45" rel="nofollow" target="_blank">
-        Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08080105/KL_Epic_Turla_Technical_Appendix_20140806.pdf" name="scite-45" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2014, August 06). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroboros. Retrieved November 7, 2018.
        </a>
       </span>
      </span>
@@ -2966,8 +3543,8 @@
     <li>
      <span class="scite-citation" id="scite-46">
       <span class="scite-citation-text">
-       <a class="external text" href="https://asert.arbornetworks.com/innaput-actors-utilize-remote-access-trojan-since-2016-presumably-targeting-victim-files/" name="scite-46" rel="nofollow" target="_blank">
-        ASERT Team. (2018, April 04). Innaput Actors Utilize Remote Access Trojan Since 2016, Presumably Targeting Victim Files. Retrieved July 9, 2018.
+       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA17-318A" name="scite-46" rel="nofollow" target="_blank">
+        US-CERT. (2017, November 22). Alert (TA17-318A): HIDDEN COBRA – North Korean Remote Administration Tool: FALLCHILL. Retrieved December 7, 2017.
        </a>
       </span>
      </span>
@@ -2975,8 +3552,8 @@
     <li>
      <span class="scite-citation" id="scite-47">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-47" rel="nofollow" target="_blank">
-        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
+       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-47" rel="nofollow" target="_blank">
+        FinFisher. (n.d.). Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -2984,8 +3561,8 @@
     <li>
      <span class="scite-citation" id="scite-48">
       <span class="scite-citation-text">
-       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-48" rel="nofollow" target="_blank">
-        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-48" rel="nofollow" target="_blank">
+        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
        </a>
       </span>
      </span>
@@ -2993,7 +3570,133 @@
     <li>
      <span class="scite-citation" id="scite-49">
       <span class="scite-citation-text">
-       <a class="external text" href="http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html" name="scite-49" rel="nofollow" target="_blank">
+       <a class="external text" href="https://objective-see.com/blog/blog_0x25.html" name="scite-49" rel="nofollow" target="_blank">
+        Patrick Wardle. (n.d.). Mac Malware of 2017. Retrieved September 21, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-50">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.f-secure.com/documents/996508/1030745/dukes_whitepaper.pdf" name="scite-50" rel="nofollow" target="_blank">
+        F-Secure Labs. (2015, September 17). The Dukes: 7 years of Russian cyberespionage. Retrieved December 10, 2015.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-51">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html" name="scite-51" rel="nofollow" target="_blank">
+        Mercer, W., Rascagneres, P. (2018, April 26). GravityRAT - The Two-Year Evolution Of An APT Targeting India. Retrieved May 16, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-52">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/" name="scite-52" rel="nofollow" target="_blank">
+        Sherstobitoff, R. (2018, March 02). McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups. Retrieved May 16, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-53">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.us-cert.gov/ncas/analysis-reports/AR19-100A" name="scite-53" rel="nofollow" target="_blank">
+        US-CERT. (2019, April 10). MAR-10135536-8 – North Korean Trojan: HOPLIGHT. Retrieved April 19, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-54">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-54" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-55">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://research.zscaler.com/2015/08/chinese-cyber-espionage-apt-group.html" name="scite-55" rel="nofollow" target="_blank">
+        Desai, D.. (2015, August 14). Chinese cyber espionage APT group leveraging recently leaked Hacking Team exploits to target a Financial Services Firm. Retrieved January 26, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-56">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" name="scite-56" rel="nofollow" target="_blank">
+        Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-57">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" name="scite-57" rel="nofollow" target="_blank">
+        Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-58">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://asert.arbornetworks.com/innaput-actors-utilize-remote-access-trojan-since-2016-presumably-targeting-victim-files/" name="scite-58" rel="nofollow" target="_blank">
+        ASERT Team. (2018, April 04). Innaput Actors Utilize Remote Access Trojan Since 2016, Presumably Targeting Victim Files. Retrieved July 9, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-59">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-59" rel="nofollow" target="_blank">
+        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-60">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-60" rel="nofollow" target="_blank">
+        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-61">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" name="scite-61" rel="nofollow" target="_blank">
+        Kamluk, V. &amp; Gostev, A. (2016, February). Adwind - A Cross-Platform RAT. Retrieved April 23, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-62">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.symantec.com/connect/blogs/cross-platform-frutas-rat-builder-and-back-door" name="scite-62" rel="nofollow" target="_blank">
+        Bingham, J. (2013, February 11). Cross-Platform Frutas RAT Builder and Back Door. Retrieved April 23, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-63">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://research.zscaler.com/2016/01/malicious-office-files-dropping-kasidet.html" name="scite-63" rel="nofollow" target="_blank">
         Yadav, A., et al. (2016, January 29). Malicious Office files dropping Kasidet and Dridex. Retrieved March 24, 2016.
        </a>
       </span>
@@ -3002,138 +3705,12 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="50.0">
-    <li>
-     <span class="scite-citation" id="scite-50">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-50" rel="nofollow" target="_blank">
-        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-51">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" name="scite-51" rel="nofollow" target="_blank">
-        Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., &amp; Geers, K. (2014). OPERATION “KE3CHANG”: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-52">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-221A" name="scite-52" rel="nofollow" target="_blank">
-        US-CERT. (2018, August 09). MAR-10135536-17 – North Korean Trojan: KEYMARBLE. Retrieved August 16, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-53">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" name="scite-53" rel="nofollow" target="_blank">
-        Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-54">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" name="scite-54" rel="nofollow" target="_blank">
-        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-55">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" name="scite-55" rel="nofollow" target="_blank">
-        Sherstobitoff, R., Malhotra, A. (2018, April 24). Analyzing Operation GhostSecret: Attack Seeks to Steal Data Worldwide. Retrieved May 16, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-56">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-56" rel="nofollow" target="_blank">
-        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-57">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" name="scite-57" rel="nofollow" target="_blank">
-        Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-58">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" name="scite-58" rel="nofollow" target="_blank">
-        Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-59">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/" name="scite-59" rel="nofollow" target="_blank">
-        Falcone, R. and Miller-Osborn, J.. (2016, January 24). Scarlet Mimic: Years-Long Espionage Campaign Targets Minority Activists. Retrieved February 10, 2016.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-60">
-      <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" name="scite-60" rel="nofollow" target="_blank">
-        Miller-Osborn, J. and Grunzweig, J.. (2017, March 30). Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations. Retrieved March 30, 2017.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-61">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" name="scite-61" rel="nofollow" target="_blank">
-        Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-62">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-050412-4128-99" name="scite-62" rel="nofollow" target="_blank">
-        Mullaney, C. &amp; Honda, H. (2012, May 4). Trojan.Pasam. Retrieved February 22, 2018.
-       </a>
-      </span>
-     </span>
-    </li>
-    <li>
-     <span class="scite-citation" id="scite-63">
-      <span class="scite-citation-text">
-       <a class="external text" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" name="scite-63" rel="nofollow" target="_blank">
-        Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.
-       </a>
-      </span>
-     </span>
-    </li>
+   <ol start="64.5">
     <li>
      <span class="scite-citation" id="scite-64">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/" name="scite-64" rel="nofollow" target="_blank">
-        Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved August 17, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/" name="scite-64" rel="nofollow" target="_blank">
+        Levene, B, et al. (2017, May 03). Kazuar: Multiplatform Espionage Backdoor with API Access. Retrieved July 17, 2018.
        </a>
       </span>
      </span>
@@ -3141,8 +3718,8 @@
     <li>
      <span class="scite-citation" id="scite-65">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" name="scite-65" rel="nofollow" target="_blank">
-        Adair, S.. (2016, November 9). PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs. Retrieved January 11, 2017.
+       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-ke3chang.pdf" name="scite-65" rel="nofollow" target="_blank">
+        Villeneuve, N., Bennett, J. T., Moran, N., Haq, T., Scott, M., &amp; Geers, K. (2014). OPERATION “KE3CHANG”: Targeted Attacks Against Ministries of Foreign Affairs. Retrieved November 12, 2014.
        </a>
       </span>
      </span>
@@ -3150,8 +3727,8 @@
     <li>
      <span class="scite-citation" id="scite-66">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" name="scite-66" rel="nofollow" target="_blank">
-        Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.
+       <a class="external text" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-221A" name="scite-66" rel="nofollow" target="_blank">
+        US-CERT. (2018, August 09). MAR-10135536-17 – North Korean Trojan: KEYMARBLE. Retrieved August 16, 2018.
        </a>
       </span>
      </span>
@@ -3159,8 +3736,8 @@
     <li>
      <span class="scite-citation" id="scite-67">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" name="scite-67" rel="nofollow" target="_blank">
-        Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.
+       <a class="external text" href="https://blog.talosintelligence.com/2017/05/konni-malware-under-radar-for-years.html" name="scite-67" rel="nofollow" target="_blank">
+        Rascagneres, P. (2017, May 03). KONNI: A Malware Under The Radar For Years. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -3168,8 +3745,8 @@
     <li>
      <span class="scite-citation" id="scite-68">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/" name="scite-68" rel="nofollow" target="_blank">
-        Kasza, A. and Reichel, D.. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia" name="scite-68" rel="nofollow" target="_blank">
+        Symantec Security Response Attack Investigation Team. (2018, April 23). New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia. Retrieved May 8, 2018.
        </a>
       </span>
      </span>
@@ -3177,8 +3754,8 @@
     <li>
      <span class="scite-citation" id="scite-69">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-69" rel="nofollow" target="_blank">
-        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
+       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" name="scite-69" rel="nofollow" target="_blank">
+        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
        </a>
       </span>
      </span>
@@ -3186,8 +3763,8 @@
     <li>
      <span class="scite-citation" id="scite-70">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/" name="scite-70" rel="nofollow" target="_blank">
-        Camba, A. (2013, February 27). BKDR_RARSTONE: New RAT to Watch Out For. Retrieved January 8, 2016.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" name="scite-70" rel="nofollow" target="_blank">
+        Sherstobitoff, R., Malhotra, A. (2018, April 24). Analyzing Operation GhostSecret: Attack Seeks to Steal Data Worldwide. Retrieved May 16, 2018.
        </a>
       </span>
      </span>
@@ -3195,8 +3772,8 @@
     <li>
      <span class="scite-citation" id="scite-71">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-71" rel="nofollow" target="_blank">
-        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-71" rel="nofollow" target="_blank">
+        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
        </a>
       </span>
      </span>
@@ -3204,8 +3781,8 @@
     <li>
      <span class="scite-citation" id="scite-72">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Symantec_Remsec_IOCs.pdf" name="scite-72" rel="nofollow" target="_blank">
-        Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016.
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-051605-2535-99" name="scite-72" rel="nofollow" target="_blank">
+        Zhou, R. (2012, May 15). Backdoor.Linfo. Retrieved February 23, 2018.
        </a>
       </span>
      </span>
@@ -3213,8 +3790,8 @@
     <li>
      <span class="scite-citation" id="scite-73">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_research_KL.pdf" name="scite-73" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/" name="scite-73" rel="nofollow" target="_blank">
+        Lee, B. and Falcone, R. (2017, February 15). Magic Hound Campaign Attacks Saudi Targets. Retrieved December 27, 2017.
        </a>
       </span>
      </span>
@@ -3222,8 +3799,8 @@
     <li>
      <span class="scite-citation" id="scite-74">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" name="scite-74" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.
+       <a class="external text" href="https://blog.radware.com/security/2018/07/micropsia-malware/" name="scite-74" rel="nofollow" target="_blank">
+        Tsarfaty, Y. (2018, July 25). Micropsia Malware. Retrieved November 13, 2018.
        </a>
       </span>
      </span>
@@ -3231,8 +3808,8 @@
     <li>
      <span class="scite-citation" id="scite-75">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/" name="scite-75" rel="nofollow" target="_blank">
-        Ray, V., Hayashi, K. (2016, February 29). New Malware ‘Rover’ Targets Indian Ambassador to Afghanistan. Retrieved February 29, 2016.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/01/scarlet-mimic-years-long-espionage-targets-minority-activists/" name="scite-75" rel="nofollow" target="_blank">
+        Falcone, R. and Miller-Osborn, J.. (2016, January 24). Scarlet Mimic: Years-Long Espionage Campaign Targets Minority Activists. Retrieved February 10, 2016.
        </a>
       </span>
      </span>
@@ -3240,8 +3817,8 @@
     <li>
      <span class="scite-citation" id="scite-76">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-76" rel="nofollow" target="_blank">
-        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" name="scite-76" rel="nofollow" target="_blank">
+        Miller-Osborn, J. and Grunzweig, J.. (2017, March 30). Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations. Retrieved March 30, 2017.
        </a>
       </span>
      </span>
@@ -3249,8 +3826,8 @@
     <li>
      <span class="scite-citation" id="scite-77">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2016/11/fireeye_respondsto.html" name="scite-77" rel="nofollow" target="_blank">
-        FireEye. (2016, November 30). FireEye Responds to Wave of Destructive Cyber Attacks in Gulf Region. Retrieved January 11, 2017.
+       <a class="external text" href="https://securelist.com/muddywater/88059/" name="scite-77" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, October 10). MuddyWater expands operations. Retrieved November 2, 2018.
        </a>
       </span>
      </span>
@@ -3258,8 +3835,8 @@
     <li>
      <span class="scite-citation" id="scite-78">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" name="scite-78" rel="nofollow" target="_blank">
-        Falcone, R. and Wartell, R.. (2015, July 27). Observations on CVE-2015-3113, Prior Zero-Days and the Pirpi Payload. Retrieved January 22, 2016.
+       <a class="external text" href="https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf" name="scite-78" rel="nofollow" target="_blank">
+        Sherstobitoff, R., Malhotra, A. (2018, October 18). ‘Operation Oceansalt’ Attacks South Korea, U.S., and Canada With Source Code From Chinese Hacker Group. Retrieved November 30, 2018.
        </a>
       </span>
      </span>
@@ -3267,8 +3844,8 @@
     <li>
      <span class="scite-citation" id="scite-79">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" name="scite-79" rel="nofollow" target="_blank">
-        Baker, B., Unterbrink H. (2018, July 03). Smoking Guns - Smoke Loader learned new tricks. Retrieved July 5, 2018.
+       <a class="external text" href="https://securelist.com/octopus-infested-seas-of-central-asia/88200/" name="scite-79" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, October 15). Octopus-infested seas of Central Asia. Retrieved November 14, 2018.
        </a>
       </span>
      </span>
@@ -3276,8 +3853,8 @@
     <li>
      <span class="scite-citation" id="scite-80">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" name="scite-80" rel="nofollow" target="_blank">
-        Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.
+       <a class="external text" href="https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets" name="scite-80" rel="nofollow" target="_blank">
+        Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -3285,8 +3862,8 @@
     <li>
      <span class="scite-citation" id="scite-81">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments" name="scite-81" rel="nofollow" target="_blank">
-        Symantec Security Response. (2017, November 7). Sowbug: Cyber espionage group targets South American and Southeast Asian governments. Retrieved November 16, 2017.
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2012-050412-4128-99" name="scite-81" rel="nofollow" target="_blank">
+        Mullaney, C. &amp; Honda, H. (2012, May 4). Trojan.Pasam. Retrieved February 22, 2018.
        </a>
       </span>
      </span>
@@ -3294,8 +3871,8 @@
     <li>
      <span class="scite-citation" id="scite-82">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar" name="scite-82" rel="nofollow" target="_blank">
-        Cylance SPEAR Team. (2017, February 9). Shell Crew Variants Continue to Fly Under Big AV’s Radar. Retrieved February 15, 2017.
+       <a class="external text" href="https://s3-us-west-2.amazonaws.com/cymmetria-blog/public/Unveiling_Patchwork.pdf" name="scite-82" rel="nofollow" target="_blank">
+        Cymmetria. (2016). Unveiling Patchwork - The Copy-Paste APT. Retrieved August 3, 2016.
        </a>
       </span>
      </span>
@@ -3303,8 +3880,8 @@
     <li>
      <span class="scite-citation" id="scite-83">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" name="scite-83" rel="nofollow" target="_blank">
-        Ivanov, A. et al.. (2018, May 7). SynAck targeted ransomware uses the Doppelgänging technique. Retrieved May 22, 2018.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/" name="scite-83" rel="nofollow" target="_blank">
+        Grunzweig, J., et al. (2016, May 24). New Wekby Attacks Use DNS Requests As Command and Control Mechanism. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -3312,8 +3889,8 @@
     <li>
      <span class="scite-citation" id="scite-84">
       <span class="scite-citation-text">
-       <a class="external text" href="https://usa.kaspersky.com/about/press-releases/2018_synack-doppelganging" name="scite-84" rel="nofollow" target="_blank">
-        Bettencourt, J. (2018, May 7). Kaspersky Lab finds new variant of SynAck ransomware using sophisticated Doppelgänging technique. Retrieved May 24, 2018.
+       <a class="external text" href="http://circl.lu/assets/files/tr-12/tr-12-circl-plugx-analysis-v1.pdf" name="scite-84" rel="nofollow" target="_blank">
+        Computer Incident Response Center Luxembourg. (2013, March 29). Analysis of a PlugX variant. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -3321,8 +3898,8 @@
     <li>
      <span class="scite-citation" id="scite-85">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" name="scite-85" rel="nofollow" target="_blank">
-        Salinas, M., Holguin, J. (2017, June). Evolution of Trickbot. Retrieved July 31, 2018.
+       <a class="external text" href="https://github.com/nettitude/PoshC2" name="scite-85" rel="nofollow" target="_blank">
+        Nettitude. (2016, June 8). PoshC2: Powershell C2 Server and Implants. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -3330,8 +3907,8 @@
     <li>
      <span class="scite-citation" id="scite-86">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-86" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
+       <a class="external text" href="https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/" name="scite-86" rel="nofollow" target="_blank">
+        Adair, S.. (2016, November 9). PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs. Retrieved January 11, 2017.
        </a>
       </span>
      </span>
@@ -3339,8 +3916,8 @@
     <li>
      <span class="scite-citation" id="scite-87">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-165A" name="scite-87" rel="nofollow" target="_blank">
-        US-CERT. (2018, June 14). MAR-10135536-12 – North Korean Trojan: TYPEFRAME. Retrieved July 13, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" name="scite-87" rel="nofollow" target="_blank">
+        Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -3348,8 +3925,8 @@
     <li>
      <span class="scite-citation" id="scite-88">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" name="scite-88" rel="nofollow" target="_blank">
-        Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.
+       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" name="scite-88" rel="nofollow" target="_blank">
+        Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.
        </a>
       </span>
      </span>
@@ -3357,8 +3934,8 @@
     <li>
      <span class="scite-citation" id="scite-89">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" name="scite-89" rel="nofollow" target="_blank">
-        Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit-42-title-gamaredon-group-toolset-evolution/" name="scite-89" rel="nofollow" target="_blank">
+        Kasza, A. and Reichel, D.. (2017, February 27). The Gamaredon Group Toolset Evolution. Retrieved March 1, 2017.
        </a>
       </span>
      </span>
@@ -3366,8 +3943,8 @@
     <li>
      <span class="scite-citation" id="scite-90">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/" name="scite-90" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015.
+       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-90" rel="nofollow" target="_blank">
+        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
        </a>
       </span>
      </span>
@@ -3375,8 +3952,8 @@
     <li>
      <span class="scite-citation" id="scite-91">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA17-318B" name="scite-91" rel="nofollow" target="_blank">
-        US-CERT. (2017, November 22). Alert (TA17-318B): HIDDEN COBRA – North Korean Trojan: Volgmer. Retrieved December 7, 2017.
+       <a class="external text" href="http://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/" name="scite-91" rel="nofollow" target="_blank">
+        Camba, A. (2013, February 27). BKDR_RARSTONE: New RAT to Watch Out For. Retrieved January 8, 2016.
        </a>
       </span>
      </span>
@@ -3384,8 +3961,8 @@
     <li>
      <span class="scite-citation" id="scite-92">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf" name="scite-92" rel="nofollow" target="_blank">
-        Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.
+       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-92" rel="nofollow" target="_blank">
+        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
        </a>
       </span>
      </span>
@@ -3393,8 +3970,8 @@
     <li>
      <span class="scite-citation" id="scite-93">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" name="scite-93" rel="nofollow" target="_blank">
-        Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017.
+       <a class="external text" href="https://www.riskiq.com/blog/labs/spear-phishing-turkish-defense-contractors/" name="scite-93" rel="nofollow" target="_blank">
+        Klijnsma, Y. (2018, January 23). Espionage Campaign Leverages Spear Phishing, RATs Against Turkish Defense Contractors. Retrieved November 6, 2018.
        </a>
       </span>
      </span>
@@ -3402,8 +3979,8 @@
     <li>
      <span class="scite-citation" id="scite-94">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-94" rel="nofollow" target="_blank">
-        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       <a class="external text" href="https://securelist.com/chafer-used-remexi-malware/89538/" name="scite-94" rel="nofollow" target="_blank">
+        Legezo, D. (2019, January 30). Chafer used Remexi malware to spy on Iran-based foreign diplomatic entities. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -3411,8 +3988,8 @@
     <li>
      <span class="scite-citation" id="scite-95">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-95" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Symantec_Remsec_IOCs.pdf" name="scite-95" rel="nofollow" target="_blank">
+        Symantec Security Response. (2016, August 8). Backdoor.Remsec indicators of compromise. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -3420,8 +3997,8 @@
     <li>
      <span class="scite-citation" id="scite-96">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-96" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_research_KL.pdf" name="scite-96" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -3429,8 +4006,8 @@
     <li>
      <span class="scite-citation" id="scite-97">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-97" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" name="scite-97" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -3438,7 +4015,250 @@
     <li>
      <span class="scite-citation" id="scite-98">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-98" rel="nofollow" target="_blank">
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/" name="scite-98" rel="nofollow" target="_blank">
+        Ray, V., Hayashi, K. (2016, February 29). New Malware ‘Rover’ Targets Indian Ambassador to Afghanistan. Retrieved February 29, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-99">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-99" rel="nofollow" target="_blank">
+        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-100">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2015/07/ups-observations-on-cve-2015-3113-prior-zero-days-and-the-pirpi-payload/" name="scite-100" rel="nofollow" target="_blank">
+        Falcone, R. and Wartell, R.. (2015, July 27). Observations on CVE-2015-3113, Prior Zero-Days and the Pirpi Payload. Retrieved January 22, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-101">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html#more" name="scite-101" rel="nofollow" target="_blank">
+        Baker, B., Unterbrink H. (2018, July 03). Smoking Guns - Smoke Loader learned new tricks. Retrieved July 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-102">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" name="scite-102" rel="nofollow" target="_blank">
+        Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-103">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments" name="scite-103" rel="nofollow" target="_blank">
+        Symantec Security Response. (2017, November 7). Sowbug: Cyber espionage group targets South American and Southeast Asian governments. Retrieved November 16, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-104">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.cylance.com/shell-crew-variants-continue-to-fly-under-big-avs-radar" name="scite-104" rel="nofollow" target="_blank">
+        Cylance SPEAR Team. (2017, February 9). Shell Crew Variants Continue to Fly Under Big AV’s Radar. Retrieved February 15, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-105">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" name="scite-105" rel="nofollow" target="_blank">
+        Ivanov, A. et al.. (2018, May 7). SynAck targeted ransomware uses the Doppelgänging technique. Retrieved May 22, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-106">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://usa.kaspersky.com/about/press-releases/2018_synack-doppelganging" name="scite-106" rel="nofollow" target="_blank">
+        Bettencourt, J. (2018, May 7). Kaspersky Lab finds new variant of SynAck ransomware using sophisticated Doppelgänging technique. Retrieved May 24, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-107">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf" name="scite-107" rel="nofollow" target="_blank">
+        Salinas, M., Holguin, J. (2017, June). Evolution of Trickbot. Retrieved July 31, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-108">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/" name="scite-108" rel="nofollow" target="_blank">
+        Anthony, N., Pascual, C.. (2018, November 1). Trickbot Shows Off New Trick: Password Grabber Module. Retrieved November 16, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-109">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.us-cert.gov/ncas/analysis-reports/AR18-165A" name="scite-109" rel="nofollow" target="_blank">
+        US-CERT. (2018, June 14). MAR-10135536-12 – North Korean Trojan: TYPEFRAME. Retrieved July 13, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-110">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html" name="scite-110" rel="nofollow" target="_blank">
+        Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-111">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" name="scite-111" rel="nofollow" target="_blank">
+        Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-112">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/" name="scite-112" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2015, December 4). Sofacy APT hits high profile targets with updated toolset. Retrieved December 10, 2015.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-113">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA17-318B" name="scite-113" rel="nofollow" target="_blank">
+        US-CERT. (2017, November 22). Alert (TA17-318B): HIDDEN COBRA – North Korean Trojan: Volgmer. Retrieved December 7, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-114">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://logrhythm.com/blog/a-technical-analysis-of-wannacry-ransomware/" name="scite-114" rel="nofollow" target="_blank">
+        Noerenberg, E., Costis, A., and Quist, N. (2017, May 16). A Technical Analysis of WannaCry Ransomware. Retrieved March 25, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-115">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html" name="scite-115" rel="nofollow" target="_blank">
+        Berry, A., Homan, J., and Eitzman, R. (2017, May 23). WannaCry Malware Profile. Retrieved March 15, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-116">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" name="scite-116" rel="nofollow" target="_blank">
+        Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-117">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/" name="scite-117" rel="nofollow" target="_blank">
+        Schwarz, D., Sopko J. (2018, March 08). Donot Team Leverages New Modular Malware Framework in South Asia. Retrieved June 11, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-118">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securelist.com/a-slice-of-2017-sofacy-activity/83930/" name="scite-118" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2018, February 20). A Slice of 2017 Sofacy Activity. Retrieved November 27, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-119">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.welivesecurity.com/2018/11/20/sednit-whats-going-zebrocy/" name="scite-119" rel="nofollow" target="_blank">
+        ESET. (2018, November 20). Sednit: What’s going on with Zebrocy?. Retrieved February 12, 2019.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-120">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf" name="scite-120" rel="nofollow" target="_blank">
+        Ebach, L. (2017, June 22). Analysis Results of Zeus.Variant.Panda. Retrieved November 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-121">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://securingtomorrow.mcafee.com/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf" name="scite-121" rel="nofollow" target="_blank">
+        McAfee® Foundstone® Professional Services and McAfee Labs™. (2011, February 10). Global Energy Cyberattacks: “Night Dragon”. Retrieved February 19, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-122">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-122" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-123">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-123" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-124">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-124" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-125">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-125" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
