@@ -41,11 +41,19 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -245,6 +253,28 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/software/S0283">
+      jRAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0283">
+       jRAT
+      </a>
+      can map UPnP ports.
+      <span class="scite-citeref-number" data-reference="Kaspersky Adwind Feb 2016" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0149">
       MoonWind
      </a>
@@ -255,10 +285,10 @@
        MoonWind
       </a>
       obtains the number of removable drives from the victim.
-      <span class="scite-citeref-number" data-reference="Palo Alto MoonWind March 2017" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Palo Alto MoonWind March 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" target="_blank">
-         [8]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -278,10 +308,10 @@
        Prikormka
       </a>
       collects information on available printers and disk drives.
-      <span class="scite-citeref-number" data-reference="ESET Operation Groundbait" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="ESET Operation Groundbait" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" target="_blank">
-         [9]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -300,10 +330,10 @@
        RTM
       </a>
       can obtain a list of smart card readers attached to the victim.
-      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="ESET RTM Feb 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -322,10 +352,10 @@
        T9000
       </a>
       searches through connected drives for removable storage devices.
-      <span class="scite-citeref-number" data-reference="Palo Alto T9000 Feb 2016" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="Palo Alto T9000 Feb 2016" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" target="_blank">
-         [11]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -344,10 +374,32 @@
        USBStealer
       </a>
       monitors victims for insertion of removable drives. When dropped onto a second victim, it also enumerates drives connected to the system.
-      <span class="scite-citeref-number" data-reference="ESET Sednit USBStealer 2014" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="ESET Sednit USBStealer 2014" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" target="_blank">
-         [12]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" target="_blank">
+         [13]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0366">
+      WannaCry
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0366">
+       WannaCry
+      </a>
+      contains a thread that will attempt to scan for new attached drives every few seconds. If one is identified, it will encrypt the files on the attached device.
+      <span class="scite-citeref-number" data-reference="FireEye WannaCry 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+       <sup>
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -370,10 +422,32 @@
        ls -la ~/Library/Application\ Support/MobileSync/Backup/
       </code>
       .
-      <span class="scite-citeref-number" data-reference="XAgentOSX" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="XAgentOSX 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" target="_blank">
-         [13]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" target="_blank">
+         [15]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0251">
+      Zebrocy
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0251">
+       Zebrocy
+      </a>
+      enumerates information about connected storage devices.
+      <span class="scite-citeref-number" data-reference="Unit42 Cannon Nov 2018" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -387,41 +461,41 @@
  </h2>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about peripheral devices, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-14-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-17-a">
    <sup>
-    <a aria-describedby="qtip-13" data-hasqtip="13" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [14]
-    </a>
-   </sup>
-  </span>
-  tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-15-a">
-   <sup>
-    <a aria-describedby="qtip-14" data-hasqtip="14" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [15]
-    </a>
-   </sup>
-  </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-16-a">
-   <sup>
-    <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [16]
-    </a>
-   </sup>
-  </span>
-  or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-17-a">
-   <sup>
-    <a aria-describedby="qtip-16" data-hasqtip="16" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+    <a aria-describedby="qtip-16" data-hasqtip="16" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
      [17]
     </a>
    </sup>
   </span>
-  where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-18-a">
+  tools, like AppLocker,
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-18-a">
    <sup>
-    <a aria-describedby="qtip-17" data-hasqtip="17" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+    <a aria-describedby="qtip-17" data-hasqtip="17" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
      [18]
+    </a>
+   </sup>
+  </span>
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-19-a">
+   <sup>
+    <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [19]
+    </a>
+   </sup>
+  </span>
+  or Software Restriction Policies
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-20-a">
+   <sup>
+    <a aria-describedby="qtip-19" data-hasqtip="19" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [20]
+    </a>
+   </sup>
+  </span>
+  where appropriate.
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-21-a">
+   <sup>
+    <a aria-describedby="qtip-20" data-hasqtip="20" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [21]
     </a>
    </sup>
   </span>
@@ -515,8 +589,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" name="scite-8" rel="nofollow" target="_blank">
-        Miller-Osborn, J. and Grunzweig, J.. (2017, March 30). Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations. Retrieved March 30, 2017.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07195002/KL_AdwindPublicReport_2016.pdf" name="scite-8" rel="nofollow" target="_blank">
+        Kamluk, V. &amp; Gostev, A. (2016, February). Adwind - A Cross-Platform RAT. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -524,21 +598,17 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" name="scite-9" rel="nofollow" target="_blank">
-        Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/" name="scite-9" rel="nofollow" target="_blank">
+        Miller-Osborn, J. and Grunzweig, J.. (2017, March 30). Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations. Retrieved March 30, 2017.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="10.0">
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-10" rel="nofollow" target="_blank">
-        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
+       <a class="external text" href="http://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf" name="scite-10" rel="nofollow" target="_blank">
+        Cherepanov, A.. (2016, May 17). Operation Groundbait: Analysis of a surveillance toolkit. Retrieved May 18, 2016.
        </a>
       </span>
      </span>
@@ -546,17 +616,21 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" name="scite-11" rel="nofollow" target="_blank">
-        Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf" name="scite-11" rel="nofollow" target="_blank">
+        Faou, M. and Boutin, J.. (2017, February). Read The Manual: A Guide to the RTM Banking Trojan. Retrieved March 9, 2017.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="12.5">
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" name="scite-12" rel="nofollow" target="_blank">
-        Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/" name="scite-12" rel="nofollow" target="_blank">
+        Grunzweig, J. and Miller-Osborn, J.. (2016, February 4). T9000: Advanced Modular Backdoor Uses Complex Anti-Analysis Techniques. Retrieved April 15, 2016.
        </a>
       </span>
      </span>
@@ -564,8 +638,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" name="scite-13" rel="nofollow" target="_blank">
-        Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017.
+       <a class="external text" href="http://www.welivesecurity.com/2014/11/11/sednit-espionage-group-attacking-air-gapped-networks/" name="scite-13" rel="nofollow" target="_blank">
+        Calvet, J. (2014, November 11). Sednit Espionage Group Attacking Air-Gapped Networks. Retrieved January 4, 2017.
        </a>
       </span>
      </span>
@@ -573,8 +647,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-14" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html" name="scite-14" rel="nofollow" target="_blank">
+        Berry, A., Homan, J., and Eitzman, R. (2017, May 23). WannaCry Malware Profile. Retrieved March 15, 2019.
        </a>
       </span>
      </span>
@@ -582,8 +656,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-15" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/" name="scite-15" rel="nofollow" target="_blank">
+        Robert Falcone. (2017, February 14). XAgentOSX: Sofacy's Xagent macOS Tool. Retrieved July 12, 2017.
        </a>
       </span>
      </span>
@@ -591,8 +665,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-16" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/" name="scite-16" rel="nofollow" target="_blank">
+        Falcone, R., Lee, B. (2018, November 20). Sofacy Continues Global Attacks and Wheels Out New ‘Cannon’ Trojan. Retrieved November 26, 2018.
        </a>
       </span>
      </span>
@@ -600,8 +674,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-17" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-17" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
        </a>
       </span>
      </span>
@@ -609,7 +683,34 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-18" rel="nofollow" target="_blank">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-18" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-19">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-19" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-20">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-20" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-21">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-21" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
