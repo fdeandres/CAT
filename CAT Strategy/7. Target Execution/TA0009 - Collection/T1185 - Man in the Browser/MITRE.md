@@ -75,6 +75,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM
@@ -92,6 +96,10 @@
       Authentication logs, Packet capture, Process monitoring, API monitoring
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -201,6 +209,13 @@
         </a>
        </sup>
       </span>
+      <span class="scite-citeref-number" data-reference="Trend Micro Trickbot Nov 2018" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+       <sup>
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
      </p>
     </td>
    </tr>
@@ -270,7 +285,7 @@
    </ol>
   </div>
   <div class="col">
-   <ol start="5.5">
+   <ol start="5.0">
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
@@ -294,6 +309,15 @@
       <span class="scite-citation-text">
        <a class="external text" href="https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:Win32/Totbrick" name="scite-7" rel="nofollow" target="_blank">
         Pornasdoro, A. (2017, October 12). Trojan:Win32/Totbrick. Retrieved September 14, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-8">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module/" name="scite-8" rel="nofollow" target="_blank">
+        Anthony, N., Pascual, C.. (2018, November 1). Trickbot Shows Off New Trick: Password Grabber Module. Retrieved November 16, 2018.
        </a>
       </span>
      </span>
