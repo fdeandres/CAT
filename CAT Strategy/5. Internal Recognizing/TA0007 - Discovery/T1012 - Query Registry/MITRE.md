@@ -52,6 +52,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       User, Administrator, SYSTEM
@@ -69,6 +73,10 @@
       Windows Registry, Process monitoring, Process command-line parameters
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -150,6 +158,54 @@
    </tr>
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      's backdoor can query the Windows Registry to gather system information.
+      <span class="scite-citeref-number" data-reference="ESET OceanLotus Mar 2019" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" target="_blank">
+         [4]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0344">
+      Azorult
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0344">
+       Azorult
+      </a>
+      can check for installed software on the system under the Registry key
+      <code>
+       Software\Microsoft\Windows\CurrentVersion\Uninstall
+      </code>
+      .
+      <span class="scite-citeref-number" data-reference="Unit42 Azorult Nov 2018" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+       <sup>
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-new-wine-old-bottle-new-azorult-variant-found-findmyname-campaign-using-fallout-exploit-kit/" target="_blank">
+         [5]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0031">
       BACKSPACE
      </a>
@@ -160,10 +216,10 @@
        BACKSPACE
       </a>
       is capable of enumerating and making modifications to an infected system's Registry.
-      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="FireEye APT30" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
-         [4]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
@@ -182,10 +238,10 @@
        Bankshot
       </a>
       searches for certain Registry keys to be configured before executing the payload.
-      <span class="scite-citeref-number" data-reference="US-CERT Bankshot Dec 2017" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="US-CERT Bankshot Dec 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" target="_blank">
-         [5]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -204,10 +260,10 @@
        Brave Prince
       </a>
       gathers information about the Registry.
-      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
-         [6]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
+         [8]
         </a>
        </sup>
       </span>
@@ -230,10 +286,58 @@
        HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings
       </code>
       for proxy configurations information.
-      <span class="scite-citeref-number" data-reference="FireEye CARBANAK June 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="FireEye CARBANAK June 2017" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" target="_blank">
-         [7]
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" target="_blank">
+         [9]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0335">
+      Carbon
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0335">
+       Carbon
+      </a>
+      enumerates values in the Registry.
+      <span class="scite-citeref-number" data-reference="ESET Carbon Mar 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+       <sup>
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/" target="_blank">
+         [10]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0348">
+      Cardinal RAT
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0348">
+       Cardinal RAT
+      </a>
+      contains watchdog functionality that periodically ensures
+      <code>
+       HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows\Load
+      </code>
+      is set to point to its executable.
+      <span class="scite-citeref-number" data-reference="PaloAlto CardinalRat Apr 2017" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+       <sup>
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://researchcenter.paloaltonetworks.com/2017/04/unit42-cardinal-rat-active-two-years/" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -252,10 +356,32 @@
        CHOPSTICK
       </a>
       provides access to the Windows Registry, which can be used to gather information.
-      <span class="scite-citeref-number" data-reference="FireEye APT28" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="FireEye APT28" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf" target="_blank">
-         [8]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf" target="_blank">
+         [12]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0354">
+      Denis
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0354">
+       Denis
+      </a>
+      queries the Registry for keys and values.
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+       <sup>
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -274,10 +400,10 @@
        Derusbi
       </a>
       is capable of enumerating Registry keys and values.
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [9]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -296,10 +422,10 @@
        DownPaper
       </a>
       searches and reads the value of the Windows Update Registry Run key.
-      <span class="scite-citeref-number" data-reference="ClearSky Charming Kitten Dec 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="ClearSky Charming Kitten Dec 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf" target="_blank">
+         [15]
         </a>
        </sup>
       </span>
@@ -318,10 +444,36 @@
        Dragonfly 2.0
       </a>
       queried the Registry to identify victim information.
-      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="US-CERT TA18-074A" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
-         [11]
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" target="_blank">
+         [16]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0091">
+      Epic
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0091">
+       Epic
+      </a>
+      uses the
+      <code>
+       rem reg query
+      </code>
+      command to obtain values from Registry keys.
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+       <sup>
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -340,10 +492,21 @@
        FELIXROOT
       </a>
       queries the Registry for specific keys for potential privilege escalation and proxy information.
-      <span class="scite-citeref-number" data-reference="FireEye FELIXROOT July 2018" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <a href="https://attack.mitre.org/software/S0267">
+       FELIXROOT
+      </a>
+      has also used WMI to query the Windows Registry.
+      <span class="scite-citeref-number" data-reference="FireEye FELIXROOT July 2018" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" target="_blank">
-         [12]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" target="_blank">
+         [18]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="ESET GreyEnergy Oct 2018" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+       <sup>
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -362,17 +525,17 @@
        FinFisher
       </a>
       queries Registry values as part of its anti-sandbox checks.
-      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="FinFisher Citation" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
-         [13]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="http://www.finfisher.com/FinFisher/index.html" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="Microsoft FinFisher March 2018" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
-         [14]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" target="_blank">
+         [21]
         </a>
        </sup>
       </span>
@@ -399,10 +562,37 @@
        HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
       </code>
       .
-      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="McAfee Gold Dragon" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
-         [6]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0376">
+      HOPLIGHT
+     </a>
+    </td>
+    <td>
+     <p>
+      A variant of
+      <a href="https://attack.mitre.org/software/S0376">
+       HOPLIGHT
+      </a>
+      hooks lsass.exe, and lsass.exe then checks the Registry for the data value 'rdpproto' under the key
+      <code>
+       SYSTEM\CurrentControlSet\Control\Lsa Name
+      </code>
+      .
+      <span class="scite-citeref-number" data-reference="US-CERT HOPLIGHT Apr 2019" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+       <sup>
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://www.us-cert.gov/ncas/analysis-reports/AR19-100A" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
@@ -421,17 +611,17 @@
        Hydraq
       </a>
       creates a backdoor through which remote attackers can retrieve system information, such as CPU speed, from Registry keys.
-      <span class="scite-citeref-number" data-reference="Symantec Trojan.Hydraq Jan 2010" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="Symantec Trojan.Hydraq Jan 2010" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" target="_blank">
-         [15]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Symantec Hydraq Jan 2010" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="Symantec Hydraq Jan 2010" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" target="_blank">
-         [16]
+        <a aria-describedby="qtip-23" data-hasqtip="23" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" target="_blank">
+         [24]
         </a>
        </sup>
       </span>
@@ -450,10 +640,10 @@
        InvisiMole
       </a>
       can enumerate Registry values, keys, and data.
-      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="ESET InvisiMole June 2018" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
-         [17]
+        <a aria-describedby="qtip-24" data-hasqtip="24" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" target="_blank">
+         [25]
         </a>
        </sup>
       </span>
@@ -472,10 +662,10 @@
        JPIN
       </a>
       can enumerate Registry keys.
-      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
+      <span class="scite-citeref-number" data-reference="Microsoft PLATINUM April 2016" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
        <sup>
-        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
-         [18]
+        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" target="_blank">
+         [26]
         </a>
        </sup>
       </span>
@@ -502,24 +692,24 @@
        HKEY_CURRENT_USER\Software\Bitcoin\Bitcoin-Qt
       </code>
       .
-      <span class="scite-citeref-number" data-reference="Novetta Blockbuster" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+      <span class="scite-citeref-number" data-reference="Novetta Blockbuster" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
        <sup>
-        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" target="_blank">
-         [19]
+        <a aria-describedby="qtip-26" data-hasqtip="26" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" target="_blank">
+         [27]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Novetta Blockbuster Loaders" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
+      <span class="scite-citeref-number" data-reference="Novetta Blockbuster Loaders" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
        <sup>
-        <a aria-describedby="qtip-19" data-hasqtip="19" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" target="_blank">
-         [20]
+        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" target="_blank">
+         [28]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="McAfee Lazarus Resurfaces Feb 2018" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
+      <span class="scite-citeref-number" data-reference="McAfee Lazarus Resurfaces Feb 2018" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
        <sup>
-        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" target="_blank">
-         [21]
+        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" target="_blank">
+         [29]
         </a>
        </sup>
       </span>
@@ -542,10 +732,10 @@
        reg query "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default"
       </code>
       on a victim to query the Registry.
-      <span class="scite-citeref-number" data-reference="Palo Alto OilRig May 2016" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+      <span class="scite-citeref-number" data-reference="Palo Alto OilRig May 2016" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
        <sup>
-        <a aria-describedby="qtip-21" data-hasqtip="21" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" target="_blank">
-         [22]
+        <a aria-describedby="qtip-29" data-hasqtip="29" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" target="_blank">
+         [30]
         </a>
        </sup>
       </span>
@@ -564,10 +754,10 @@
        OSInfo
       </a>
       queries the registry to look for information about Terminal Services.
-      <span class="scite-citeref-number" data-reference="Symantec Buckeye" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
+      <span class="scite-citeref-number" data-reference="Symantec Buckeye" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
        <sup>
-        <a aria-describedby="qtip-22" data-hasqtip="22" href="http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong" target="_blank">
-         [23]
+        <a aria-describedby="qtip-30" data-hasqtip="30" href="http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong" target="_blank">
+         [31]
         </a>
        </sup>
       </span>
@@ -585,11 +775,18 @@
       <a href="https://attack.mitre.org/software/S0013">
        PlugX
       </a>
-      can query for information contained within the Windows Registry.
-      <span class="scite-citeref-number" data-reference="Lastline PlugX Analysis" id="scite-ref-24-a" onclick="scrollToRef('scite-24')">
+      can enumerate and query for information contained within the Windows Registry.
+      <span class="scite-citeref-number" data-reference="Lastline PlugX Analysis" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
        <sup>
-        <a aria-describedby="qtip-23" data-hasqtip="23" href="http://labs.lastline.com/an-analysis-of-plugx" target="_blank">
-         [24]
+        <a aria-describedby="qtip-31" data-hasqtip="31" href="http://labs.lastline.com/an-analysis-of-plugx" target="_blank">
+         [32]
+        </a>
+       </sup>
+      </span>
+      <span class="scite-citeref-number" data-reference="CIRCL PlugX March 2013" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
+       <sup>
+        <a aria-describedby="qtip-32" data-hasqtip="32" href="http://circl.lu/assets/files/tr-12/tr-12-circl-plugx-analysis-v1.pdf" target="_blank">
+         [33]
         </a>
        </sup>
       </span>
@@ -608,10 +805,10 @@
        POWERSOURCE
       </a>
       queries Registry keys in preparation for setting Run keys to achieve persistence.
-      <span class="scite-citeref-number" data-reference="Cisco DNSMessenger March 2017" id="scite-ref-25-a" onclick="scrollToRef('scite-25')">
+      <span class="scite-citeref-number" data-reference="Cisco DNSMessenger March 2017" id="scite-ref-34-a" onclick="scrollToRef('scite-34')">
        <sup>
-        <a aria-describedby="qtip-24" data-hasqtip="24" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" target="_blank">
-         [25]
+        <a aria-describedby="qtip-33" data-hasqtip="33" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" target="_blank">
+         [34]
         </a>
        </sup>
       </span>
@@ -630,17 +827,17 @@
        PowerSploit
       </a>
       contains a collection of Privesc-PowerUp modules that can query Registry keys for potential opportunities.
-      <span class="scite-citeref-number" data-reference="GitHub PowerSploit May 2012" id="scite-ref-26-a" onclick="scrollToRef('scite-26')">
+      <span class="scite-citeref-number" data-reference="GitHub PowerSploit May 2012" id="scite-ref-35-a" onclick="scrollToRef('scite-35')">
        <sup>
-        <a aria-describedby="qtip-25" data-hasqtip="25" href="https://github.com/PowerShellMafia/PowerSploit" target="_blank">
-         [26]
+        <a aria-describedby="qtip-34" data-hasqtip="34" href="https://github.com/PowerShellMafia/PowerSploit" target="_blank">
+         [35]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="PowerSploit Documentation" id="scite-ref-27-a" onclick="scrollToRef('scite-27')">
+      <span class="scite-citeref-number" data-reference="PowerSploit Documentation" id="scite-ref-36-a" onclick="scrollToRef('scite-36')">
        <sup>
-        <a aria-describedby="qtip-26" data-hasqtip="26" href="http://powersploit.readthedocs.io" target="_blank">
-         [27]
+        <a aria-describedby="qtip-35" data-hasqtip="35" href="http://powersploit.readthedocs.io" target="_blank">
+         [36]
         </a>
        </sup>
       </span>
@@ -663,10 +860,10 @@
        reg query
       </code>
       on a victim.
-      <span class="scite-citeref-number" data-reference="FireEye APT34 Dec 2017" id="scite-ref-28-a" onclick="scrollToRef('scite-28')">
+      <span class="scite-citeref-number" data-reference="FireEye APT34 Dec 2017" id="scite-ref-37-a" onclick="scrollToRef('scite-37')">
        <sup>
-        <a aria-describedby="qtip-27" data-hasqtip="27" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" target="_blank">
-         [28]
+        <a aria-describedby="qtip-36" data-hasqtip="36" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" target="_blank">
+         [37]
         </a>
        </sup>
       </span>
@@ -693,10 +890,10 @@
        HKLM\HARDWARE\DESCRIPTION\System\CentralProcessor\0 ProcessorNameString
       </code>
       .
-      <span class="scite-citeref-number" data-reference="McAfee GhostSecret" id="scite-ref-29-a" onclick="scrollToRef('scite-29')">
+      <span class="scite-citeref-number" data-reference="McAfee GhostSecret" id="scite-ref-38-a" onclick="scrollToRef('scite-38')">
        <sup>
-        <a aria-describedby="qtip-28" data-hasqtip="28" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" target="_blank">
-         [29]
+        <a aria-describedby="qtip-37" data-hasqtip="37" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" target="_blank">
+         [38]
         </a>
        </sup>
       </span>
@@ -715,10 +912,10 @@
        QUADAGENT
       </a>
       checks if a value exists within a Registry key in the HKCU hive whose name is the same as the scheduled task it has created.
-      <span class="scite-citeref-number" data-reference="Unit 42 QUADAGENT July 2018" id="scite-ref-30-a" onclick="scrollToRef('scite-30')">
+      <span class="scite-citeref-number" data-reference="Unit 42 QUADAGENT July 2018" id="scite-ref-39-a" onclick="scrollToRef('scite-39')">
        <sup>
-        <a aria-describedby="qtip-29" data-hasqtip="29" href="https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/" target="_blank">
-         [30]
+        <a aria-describedby="qtip-38" data-hasqtip="38" href="https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/" target="_blank">
+         [39]
         </a>
        </sup>
       </span>
@@ -741,11 +938,9 @@
        reg query "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\InternetSettings"
       </code>
       .
-      <span class="scite-citeref-number" data-reference="RATANKBA" id="scite-ref-31-a" onclick="scrollToRef('scite-31')">
+      <span class="scite-citeref-number" data-reference="RATANKBA" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
        <sup>
-        <a aria-describedby="qtip-30" data-hasqtip="30" href="https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/" target="_blank">
-         [31]
-        </a>
+        [40]
        </sup>
       </span>
      </p>
@@ -763,10 +958,10 @@
        Reaver
       </a>
       queries the Registry to determine the correct Startup path to use for persistence.
-      <span class="scite-citeref-number" data-reference="Palo Alto Reaver Nov 2017" id="scite-ref-32-a" onclick="scrollToRef('scite-32')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Reaver Nov 2017" id="scite-ref-41-a" onclick="scrollToRef('scite-41')">
        <sup>
-        <a aria-describedby="qtip-31" data-hasqtip="31" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" target="_blank">
-         [32]
+        <a aria-describedby="qtip-40" data-hasqtip="40" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" target="_blank">
+         [41]
         </a>
        </sup>
       </span>
@@ -785,10 +980,10 @@
        Reg
       </a>
       may be used to gather details from the Windows Registry of a local or remote system at the command-line interface.
-      <span class="scite-citeref-number" data-reference="Microsoft Reg" id="scite-ref-33-a" onclick="scrollToRef('scite-33')">
+      <span class="scite-citeref-number" data-reference="Microsoft Reg" id="scite-ref-42-a" onclick="scrollToRef('scite-42')">
        <sup>
-        <a aria-describedby="qtip-32" data-hasqtip="32" href="https://technet.microsoft.com/en-us/library/cc732643.aspx" target="_blank">
-         [33]
+        <a aria-describedby="qtip-41" data-hasqtip="41" href="https://technet.microsoft.com/en-us/library/cc732643.aspx" target="_blank">
+         [42]
         </a>
        </sup>
       </span>
@@ -811,10 +1006,10 @@
        HKLM\System\CurrentControlSet\Services\mssmbios\Data\SMBiosData
       </code>
       Registry key to obtain the System manufacturer value to identify the machine type.
-      <span class="scite-citeref-number" data-reference="Talos Group123" id="scite-ref-34-a" onclick="scrollToRef('scite-34')">
+      <span class="scite-citeref-number" data-reference="Talos Group123" id="scite-ref-43-a" onclick="scrollToRef('scite-43')">
        <sup>
-        <a aria-describedby="qtip-33" data-hasqtip="33" href="https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html" target="_blank">
-         [34]
+        <a aria-describedby="qtip-42" data-hasqtip="42" href="https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html" target="_blank">
+         [43]
         </a>
        </sup>
       </span>
@@ -833,10 +1028,10 @@
        Shamoon
       </a>
       queries several Registry keys to identify hard disk partitions to overwrite.
-      <span class="scite-citeref-number" data-reference="Palo Alto Shamoon Nov 2016" id="scite-ref-35-a" onclick="scrollToRef('scite-35')">
+      <span class="scite-citeref-number" data-reference="Palo Alto Shamoon Nov 2016" id="scite-ref-44-a" onclick="scrollToRef('scite-44')">
        <sup>
-        <a aria-describedby="qtip-34" data-hasqtip="34" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" target="_blank">
-         [35]
+        <a aria-describedby="qtip-43" data-hasqtip="43" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" target="_blank">
+         [44]
         </a>
        </sup>
       </span>
@@ -855,10 +1050,10 @@
        Stealth Falcon
       </a>
       malware attempts to determine the installed version of .NET by querying the Registry.
-      <span class="scite-citeref-number" data-reference="Citizen Lab Stealth Falcon May 2016" id="scite-ref-36-a" onclick="scrollToRef('scite-36')">
+      <span class="scite-citeref-number" data-reference="Citizen Lab Stealth Falcon May 2016" id="scite-ref-45-a" onclick="scrollToRef('scite-45')">
        <sup>
-        <a aria-describedby="qtip-35" data-hasqtip="35" href="https://citizenlab.org/2016/05/stealth-falcon/" target="_blank">
-         [36]
+        <a aria-describedby="qtip-44" data-hasqtip="44" href="https://citizenlab.org/2016/05/stealth-falcon/" target="_blank">
+         [45]
         </a>
        </sup>
       </span>
@@ -877,10 +1072,10 @@
        SynAck
       </a>
       enumerates Registry keys associated with event logs.
-      <span class="scite-citeref-number" data-reference="SecureList SynAck Doppelgänging May 2018" id="scite-ref-37-a" onclick="scrollToRef('scite-37')">
+      <span class="scite-citeref-number" data-reference="SecureList SynAck Doppelgänging May 2018" id="scite-ref-46-a" onclick="scrollToRef('scite-46')">
        <sup>
-        <a aria-describedby="qtip-36" data-hasqtip="36" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" target="_blank">
-         [37]
+        <a aria-describedby="qtip-45" data-hasqtip="45" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" target="_blank">
+         [46]
         </a>
        </sup>
       </span>
@@ -900,10 +1095,10 @@
        Threat Group-3390
       </a>
       tool can read and decrypt stored Registry values.
-      <span class="scite-citeref-number" data-reference="Nccgroup Emissary Panda May 2018" id="scite-ref-38-a" onclick="scrollToRef('scite-38')">
+      <span class="scite-citeref-number" data-reference="Nccgroup Emissary Panda May 2018" id="scite-ref-47-a" onclick="scrollToRef('scite-47')">
        <sup>
-        <a aria-describedby="qtip-37" data-hasqtip="37" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" target="_blank">
-         [38]
+        <a aria-describedby="qtip-46" data-hasqtip="46" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" target="_blank">
+         [47]
         </a>
        </sup>
       </span>
@@ -926,10 +1121,10 @@
        reg query
       </code>
       command.
-      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-39-a" onclick="scrollToRef('scite-39')">
+      <span class="scite-citeref-number" data-reference="Kaspersky Turla" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-38" data-hasqtip="38" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
-         [39]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://securelist.com/the-epic-turla-operation/65545/" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -948,10 +1143,10 @@
        Volgmer
       </a>
       checks the system for certain Registry keys.
-      <span class="scite-citeref-number" data-reference="US-CERT Volgmer 2 Nov 2017" id="scite-ref-40-a" onclick="scrollToRef('scite-40')">
+      <span class="scite-citeref-number" data-reference="US-CERT Volgmer 2 Nov 2017" id="scite-ref-48-a" onclick="scrollToRef('scite-48')">
        <sup>
-        <a aria-describedby="qtip-39" data-hasqtip="39" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-D_WHITE_S508C.PDF" target="_blank">
-         [40]
+        <a aria-describedby="qtip-47" data-hasqtip="47" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-D_WHITE_S508C.PDF" target="_blank">
+         [48]
         </a>
        </sup>
       </span>
@@ -970,10 +1165,32 @@
        WINDSHIELD
       </a>
       can gather Registry values.
-      <span class="scite-citeref-number" data-reference="FireEye APT32 May 2017" id="scite-ref-41-a" onclick="scrollToRef('scite-41')">
+      <span class="scite-citeref-number" data-reference="FireEye APT32 May 2017" id="scite-ref-49-a" onclick="scrollToRef('scite-49')">
        <sup>
-        <a aria-describedby="qtip-40" data-hasqtip="40" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" target="_blank">
-         [41]
+        <a aria-describedby="qtip-48" data-hasqtip="48" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" target="_blank">
+         [49]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0330">
+      Zeus Panda
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0330">
+       Zeus Panda
+      </a>
+      checks for the existence of a Registry key and if it contains certain values.
+      <span class="scite-citeref-number" data-reference="GDATA Zeus Panda June 2017" id="scite-ref-50-a" onclick="scrollToRef('scite-50')">
+       <sup>
+        <a aria-describedby="qtip-49" data-hasqtip="49" href="https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf" target="_blank">
+         [50]
         </a>
        </sup>
       </span>
@@ -987,41 +1204,41 @@
  </h2>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to acquire information within the Registry, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-42-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-51-a">
    <sup>
-    <a aria-describedby="qtip-41" data-hasqtip="41" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [42]
+    <a aria-describedby="qtip-50" data-hasqtip="50" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [51]
     </a>
    </sup>
   </span>
   tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-43-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-52-a">
    <sup>
-    <a aria-describedby="qtip-42" data-hasqtip="42" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [43]
+    <a aria-describedby="qtip-51" data-hasqtip="51" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [52]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-44-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-53-a">
    <sup>
-    <a aria-describedby="qtip-43" data-hasqtip="43" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [44]
+    <a aria-describedby="qtip-52" data-hasqtip="52" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [53]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-45-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-54-a">
    <sup>
-    <a aria-describedby="qtip-44" data-hasqtip="44" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [45]
+    <a aria-describedby="qtip-53" data-hasqtip="53" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [54]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-46-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-55-a">
    <sup>
-    <a aria-describedby="qtip-45" data-hasqtip="45" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [46]
+    <a aria-describedby="qtip-54" data-hasqtip="54" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [55]
     </a>
    </sup>
   </span>
@@ -1083,8 +1300,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" name="scite-4" rel="nofollow" target="_blank">
-        FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.
+       <a class="external text" href="https://www.welivesecurity.com/2019/03/20/fake-or-fake-keeping-up-with-oceanlotus-decoys/" name="scite-4" rel="nofollow" target="_blank">
+        Dumont, R. (2019, March 20). Fake or Fake: Keeping up with OceanLotus decoys. Retrieved April 1, 2019.
        </a>
       </span>
      </span>
@@ -1092,8 +1309,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" name="scite-5" rel="nofollow" target="_blank">
-        US-CERT. (2017, December 13). Malware Analysis Report (MAR) - 10135536-B. Retrieved July 17, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/11/unit42-new-wine-old-bottle-new-azorult-variant-found-findmyname-campaign-using-fallout-exploit-kit/" name="scite-5" rel="nofollow" target="_blank">
+        Yan, T., et al. (2018, November 21). New Wine in Old Bottle: New Azorult Variant Found in FindMyName Campaign using Fallout Exploit Kit. Retrieved November 29, 2018.
        </a>
       </span>
      </span>
@@ -1101,8 +1318,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" name="scite-6" rel="nofollow" target="_blank">
-        Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims’ Systems. Retrieved June 6, 2018.
+       <a class="external text" href="https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf" name="scite-6" rel="nofollow" target="_blank">
+        FireEye Labs. (2015, April). APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION. Retrieved May 1, 2015.
        </a>
       </span>
      </span>
@@ -1110,8 +1327,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" name="scite-7" rel="nofollow" target="_blank">
-        Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.
+       <a class="external text" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF" name="scite-7" rel="nofollow" target="_blank">
+        US-CERT. (2017, December 13). Malware Analysis Report (MAR) - 10135536-B. Retrieved July 17, 2018.
        </a>
       </span>
      </span>
@@ -1119,8 +1336,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf" name="scite-8" rel="nofollow" target="_blank">
-        FireEye. (2015). APT28: A WINDOW INTO RUSSIA’S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/gold-dragon-widens-olympics-malware-attacks-gains-permanent-presence-on-victims-systems/" name="scite-8" rel="nofollow" target="_blank">
+        Sherstobitoff, R., Saavedra-Morales, J. (2018, February 02). Gold Dragon Widens Olympics Malware Attacks, Gains Permanent Presence on Victims’ Systems. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -1128,8 +1345,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-9" rel="nofollow" target="_blank">
-        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html" name="scite-9" rel="nofollow" target="_blank">
+        Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.
        </a>
       </span>
      </span>
@@ -1137,8 +1354,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf" name="scite-10" rel="nofollow" target="_blank">
-        ClearSky Cyber Security. (2017, December). Charming Kitten. Retrieved December 27, 2017.
+       <a class="external text" href="https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/" name="scite-10" rel="nofollow" target="_blank">
+        ESET. (2017, March 30). Carbon Paper: Peering into Turla’s second stage backdoor. Retrieved November 7, 2018.
        </a>
       </span>
      </span>
@@ -1146,8 +1363,8 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-11" rel="nofollow" target="_blank">
-        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/04/unit42-cardinal-rat-active-two-years/" name="scite-11" rel="nofollow" target="_blank">
+        Grunzweig, J.. (2017, April 20). Cardinal RAT Active for Over Two Years. Retrieved December 8, 2018.
        </a>
       </span>
      </span>
@@ -1155,8 +1372,8 @@
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" name="scite-12" rel="nofollow" target="_blank">
-        Patil, S. (2018, June 26). Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign. Retrieved July 31, 2018.
+       <a class="external text" href="https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf" name="scite-12" rel="nofollow" target="_blank">
+        FireEye. (2015). APT28: A WINDOW INTO RUSSIA’S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.
        </a>
       </span>
      </span>
@@ -1164,8 +1381,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-13" rel="nofollow" target="_blank">
-        FinFisher. (n.d.). Retrieved December 20, 2017.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-13" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -1173,8 +1390,8 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-14" rel="nofollow" target="_blank">
-        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-14" rel="nofollow" target="_blank">
+        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -1182,8 +1399,8 @@
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" name="scite-15" rel="nofollow" target="_blank">
-        Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.
+       <a class="external text" href="http://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf" name="scite-15" rel="nofollow" target="_blank">
+        ClearSky Cyber Security. (2017, December). Charming Kitten. Retrieved December 27, 2017.
        </a>
       </span>
      </span>
@@ -1191,8 +1408,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" name="scite-16" rel="nofollow" target="_blank">
-        Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.
+       <a class="external text" href="https://www.us-cert.gov/ncas/alerts/TA18-074A" name="scite-16" rel="nofollow" target="_blank">
+        US-CERT. (2018, March 16). Alert (TA18-074A): Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors. Retrieved June 6, 2018.
        </a>
       </span>
      </span>
@@ -1200,8 +1417,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-17" rel="nofollow" target="_blank">
-        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
+       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-17" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
        </a>
       </span>
      </span>
@@ -1209,8 +1426,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-18" rel="nofollow" target="_blank">
-        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html" name="scite-18" rel="nofollow" target="_blank">
+        Patil, S. (2018, June 26). Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign. Retrieved July 31, 2018.
        </a>
       </span>
      </span>
@@ -1218,8 +1435,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" name="scite-19" rel="nofollow" target="_blank">
-        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
+       <a class="external text" href="https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf" name="scite-19" rel="nofollow" target="_blank">
+        Cherepanov, A. (2018, October). GREYENERGY A successor to BlackEnergy. Retrieved November 15, 2018.
        </a>
       </span>
      </span>
@@ -1227,8 +1444,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" name="scite-20" rel="nofollow" target="_blank">
-        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Loaders, Installers and Uninstallers Report. Retrieved March 2, 2016.
+       <a class="external text" href="http://www.finfisher.com/FinFisher/index.html" name="scite-20" rel="nofollow" target="_blank">
+        FinFisher. (n.d.). Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -1236,8 +1453,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" name="scite-21" rel="nofollow" target="_blank">
-        Sherstobitoff, R. (2018, February 12). Lazarus Resurfaces, Targets Global Banks and Bitcoin Users. Retrieved February 19, 2018.
+       <a class="external text" href="https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/" name="scite-21" rel="nofollow" target="_blank">
+        Allievi, A.,Flori, E. (2018, March 01). FinFisher exposed: A researcher’s tale of defeating traps, tricks, and complex virtual machines. Retrieved July 9, 2018.
        </a>
       </span>
      </span>
@@ -1245,8 +1462,8 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" name="scite-22" rel="nofollow" target="_blank">
-        Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.
+       <a class="external text" href="https://www.us-cert.gov/ncas/analysis-reports/AR19-100A" name="scite-22" rel="nofollow" target="_blank">
+        US-CERT. (2019, April 10). MAR-10135536-8 – North Korean Trojan: HOPLIGHT. Retrieved April 19, 2019.
        </a>
       </span>
      </span>
@@ -1254,21 +1471,17 @@
     <li>
      <span class="scite-citation" id="scite-23">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong" name="scite-23" rel="nofollow" target="_blank">
-        Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.
+       <a class="external text" href="https://www.symantec.com/connect/blogs/trojanhydraq-incident" name="scite-23" rel="nofollow" target="_blank">
+        Symantec Security Response. (2010, January 18). The Trojan.Hydraq Incident. Retrieved February 20, 2018.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="24.0">
     <li>
      <span class="scite-citation" id="scite-24">
       <span class="scite-citation-text">
-       <a class="external text" href="http://labs.lastline.com/an-analysis-of-plugx" name="scite-24" rel="nofollow" target="_blank">
-        Vasilenko, R. (2013, December 17). An Analysis of PlugX Malware. Retrieved November 24, 2015.
+       <a class="external text" href="https://www.symantec.com/security_response/writeup.jsp?docid=2010-011114-1830-99" name="scite-24" rel="nofollow" target="_blank">
+        Lelli, A. (2010, January 11). Trojan.Hydraq. Retrieved February 20, 2018.
        </a>
       </span>
      </span>
@@ -1276,8 +1489,8 @@
     <li>
      <span class="scite-citation" id="scite-25">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" name="scite-25" rel="nofollow" target="_blank">
-        Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017.
+       <a class="external text" href="https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/" name="scite-25" rel="nofollow" target="_blank">
+        Hromcová, Z. (2018, June 07). InvisiMole: Surprisingly equipped spyware, undercover since 2013. Retrieved July 10, 2018.
        </a>
       </span>
      </span>
@@ -1285,8 +1498,8 @@
     <li>
      <span class="scite-citation" id="scite-26">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/PowerShellMafia/PowerSploit" name="scite-26" rel="nofollow" target="_blank">
-        PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018.
+       <a class="external text" href="https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf" name="scite-26" rel="nofollow" target="_blank">
+        Windows Defender Advanced Threat Hunting Team. (2016, April 29). PLATINUM: Targeted attacks in South and Southeast Asia. Retrieved February 15, 2018.
        </a>
       </span>
      </span>
@@ -1294,8 +1507,8 @@
     <li>
      <span class="scite-citation" id="scite-27">
       <span class="scite-citation-text">
-       <a class="external text" href="http://powersploit.readthedocs.io" name="scite-27" rel="nofollow" target="_blank">
-        PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.
+       <a class="external text" href="https://www.operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Report.pdf" name="scite-27" rel="nofollow" target="_blank">
+        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Unraveling the Long Thread of the Sony Attack. Retrieved February 25, 2016.
        </a>
       </span>
      </span>
@@ -1303,17 +1516,21 @@
     <li>
      <span class="scite-citation" id="scite-28">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" name="scite-28" rel="nofollow" target="_blank">
-        Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.
+       <a class="external text" href="https://operationblockbuster.com/wp-content/uploads/2016/02/Operation-Blockbuster-Loaders-Installers-and-Uninstallers-Report.pdf" name="scite-28" rel="nofollow" target="_blank">
+        Novetta Threat Research Group. (2016, February 24). Operation Blockbuster: Loaders, Installers and Uninstallers Report. Retrieved March 2, 2016.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="29.5">
     <li>
      <span class="scite-citation" id="scite-29">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" name="scite-29" rel="nofollow" target="_blank">
-        Sherstobitoff, R., Malhotra, A. (2018, April 24). Analyzing Operation GhostSecret: Attack Seeks to Steal Data Worldwide. Retrieved May 16, 2018.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/lazarus-resurfaces-targets-global-banks-bitcoin-users/" name="scite-29" rel="nofollow" target="_blank">
+        Sherstobitoff, R. (2018, February 12). Lazarus Resurfaces, Targets Global Banks and Bitcoin Users. Retrieved February 19, 2018.
        </a>
       </span>
      </span>
@@ -1321,8 +1538,8 @@
     <li>
      <span class="scite-citation" id="scite-30">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/" name="scite-30" rel="nofollow" target="_blank">
-        Lee, B., Falcone, R. (2018, July 25). OilRig Targets Technology Service Provider and Government Agency with QUADAGENT. Retrieved August 9, 2018.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/" name="scite-30" rel="nofollow" target="_blank">
+        Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.
        </a>
       </span>
      </span>
@@ -1330,8 +1547,8 @@
     <li>
      <span class="scite-citation" id="scite-31">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/" name="scite-31" rel="nofollow" target="_blank">
-        Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.
+       <a class="external text" href="http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong" name="scite-31" rel="nofollow" target="_blank">
+        Symantec Security Response. (2016, September 6). Buckeye cyberespionage group shifts gaze from US to Hong Kong. Retrieved September 26, 2016.
        </a>
       </span>
      </span>
@@ -1339,8 +1556,8 @@
     <li>
      <span class="scite-citation" id="scite-32">
       <span class="scite-citation-text">
-       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" name="scite-32" rel="nofollow" target="_blank">
-        Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017.
+       <a class="external text" href="http://labs.lastline.com/an-analysis-of-plugx" name="scite-32" rel="nofollow" target="_blank">
+        Vasilenko, R. (2013, December 17). An Analysis of PlugX Malware. Retrieved November 24, 2015.
        </a>
       </span>
      </span>
@@ -1348,8 +1565,8 @@
     <li>
      <span class="scite-citation" id="scite-33">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc732643.aspx" name="scite-33" rel="nofollow" target="_blank">
-        Microsoft. (2012, April 17). Reg. Retrieved May 1, 2015.
+       <a class="external text" href="http://circl.lu/assets/files/tr-12/tr-12-circl-plugx-analysis-v1.pdf" name="scite-33" rel="nofollow" target="_blank">
+        Computer Incident Response Center Luxembourg. (2013, March 29). Analysis of a PlugX variant. Retrieved November 5, 2018.
        </a>
       </span>
      </span>
@@ -1357,8 +1574,8 @@
     <li>
      <span class="scite-citation" id="scite-34">
       <span class="scite-citation-text">
-       <a class="external text" href="https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html" name="scite-34" rel="nofollow" target="_blank">
-        Mercer, W., Rascagneres, P. (2018, January 16). Korea In The Crosshairs. Retrieved May 21, 2018.
+       <a class="external text" href="http://blog.talosintelligence.com/2017/03/dnsmessenger.html" name="scite-34" rel="nofollow" target="_blank">
+        Brumaghin, E. and Grady, C.. (2017, March 2). Covert Channels and Poor Decisions: The Tale of DNSMessenger. Retrieved March 8, 2017.
        </a>
       </span>
      </span>
@@ -1366,8 +1583,8 @@
     <li>
      <span class="scite-citation" id="scite-35">
       <span class="scite-citation-text">
-       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" name="scite-35" rel="nofollow" target="_blank">
-        Falcone, R.. (2016, November 30). Shamoon 2: Return of the Disttrack Wiper. Retrieved January 11, 2017.
+       <a class="external text" href="https://github.com/PowerShellMafia/PowerSploit" name="scite-35" rel="nofollow" target="_blank">
+        PowerShellMafia. (2012, May 26). PowerSploit - A PowerShell Post-Exploitation Framework. Retrieved February 6, 2018.
        </a>
       </span>
      </span>
@@ -1375,8 +1592,8 @@
     <li>
      <span class="scite-citation" id="scite-36">
       <span class="scite-citation-text">
-       <a class="external text" href="https://citizenlab.org/2016/05/stealth-falcon/" name="scite-36" rel="nofollow" target="_blank">
-        Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don’t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016.
+       <a class="external text" href="http://powersploit.readthedocs.io" name="scite-36" rel="nofollow" target="_blank">
+        PowerSploit. (n.d.). PowerSploit. Retrieved February 6, 2018.
        </a>
       </span>
      </span>
@@ -1384,8 +1601,8 @@
     <li>
      <span class="scite-citation" id="scite-37">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" name="scite-37" rel="nofollow" target="_blank">
-        Ivanov, A. et al.. (2018, May 7). SynAck targeted ransomware uses the Doppelgänging technique. Retrieved May 22, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html" name="scite-37" rel="nofollow" target="_blank">
+        Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -1393,8 +1610,8 @@
     <li>
      <span class="scite-citation" id="scite-38">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" name="scite-38" rel="nofollow" target="_blank">
-        Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda – A potential new malicious tool. Retrieved June 25, 2018.
+       <a class="external text" href="https://securingtomorrow.mcafee.com/mcafee-labs/analyzing-operation-ghostsecret-attack-seeks-to-steal-data-worldwide/" name="scite-38" rel="nofollow" target="_blank">
+        Sherstobitoff, R., Malhotra, A. (2018, April 24). Analyzing Operation GhostSecret: Attack Seeks to Steal Data Worldwide. Retrieved May 16, 2018.
        </a>
       </span>
      </span>
@@ -1402,8 +1619,8 @@
     <li>
      <span class="scite-citation" id="scite-39">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/the-epic-turla-operation/65545/" name="scite-39" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research and Analysis Team. (2014, August 7). The Epic Turla Operation: Solving some of the mysteries of Snake/Uroburos. Retrieved December 11, 2014.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/" name="scite-39" rel="nofollow" target="_blank">
+        Lee, B., Falcone, R. (2018, July 25). OilRig Targets Technology Service Provider and Government Agency with QUADAGENT. Retrieved August 9, 2018.
        </a>
       </span>
      </span>
@@ -1411,17 +1628,15 @@
     <li>
      <span class="scite-citation" id="scite-40">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-D_WHITE_S508C.PDF" name="scite-40" rel="nofollow" target="_blank">
-        US-CERT. (2017, November 01). Malware Analysis Report (MAR) - 10135536-D. Retrieved July 16, 2018.
-       </a>
+       Trend Micro. (2017, February 27). RATANKBA: Delving into Large-scale Watering Holes against Enterprises. Retrieved May 22, 2018.
       </span>
      </span>
     </li>
     <li>
      <span class="scite-citation" id="scite-41">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" name="scite-41" rel="nofollow" target="_blank">
-        Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/" name="scite-41" rel="nofollow" target="_blank">
+        Grunzweig, J. and Miller-Osborn, J. (2017, November 10). New Malware with Ties to SunOrcal Discovered. Retrieved November 16, 2017.
        </a>
       </span>
      </span>
@@ -1429,8 +1644,8 @@
     <li>
      <span class="scite-citation" id="scite-42">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-42" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/cc732643.aspx" name="scite-42" rel="nofollow" target="_blank">
+        Microsoft. (2012, April 17). Reg. Retrieved May 1, 2015.
        </a>
       </span>
      </span>
@@ -1438,8 +1653,8 @@
     <li>
      <span class="scite-citation" id="scite-43">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-43" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html" name="scite-43" rel="nofollow" target="_blank">
+        Mercer, W., Rascagneres, P. (2018, January 16). Korea In The Crosshairs. Retrieved May 21, 2018.
        </a>
       </span>
      </span>
@@ -1447,8 +1662,8 @@
     <li>
      <span class="scite-citation" id="scite-44">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-44" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/" name="scite-44" rel="nofollow" target="_blank">
+        Falcone, R.. (2016, November 30). Shamoon 2: Return of the Disttrack Wiper. Retrieved January 11, 2017.
        </a>
       </span>
      </span>
@@ -1456,8 +1671,8 @@
     <li>
      <span class="scite-citation" id="scite-45">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-45" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://citizenlab.org/2016/05/stealth-falcon/" name="scite-45" rel="nofollow" target="_blank">
+        Marczak, B. and Scott-Railton, J.. (2016, May 29). Keep Calm and (Don’t) Enable Macros: A New Threat Actor Targets UAE Dissidents. Retrieved June 8, 2016.
        </a>
       </span>
      </span>
@@ -1465,7 +1680,88 @@
     <li>
      <span class="scite-citation" id="scite-46">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-46" rel="nofollow" target="_blank">
+       <a class="external text" href="https://securelist.com/synack-targeted-ransomware-uses-the-doppelganging-technique/85431/" name="scite-46" rel="nofollow" target="_blank">
+        Ivanov, A. et al.. (2018, May 7). SynAck targeted ransomware uses the Doppelgänging technique. Retrieved May 22, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-47">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/may/emissary-panda-a-potential-new-malicious-tool/" name="scite-47" rel="nofollow" target="_blank">
+        Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda – A potential new malicious tool. Retrieved June 25, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-48">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-D_WHITE_S508C.PDF" name="scite-48" rel="nofollow" target="_blank">
+        US-CERT. (2017, November 01). Malware Analysis Report (MAR) - 10135536-D. Retrieved July 16, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-49">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html" name="scite-49" rel="nofollow" target="_blank">
+        Carr, N.. (2017, May 14). Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations. Retrieved June 18, 2017.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-50">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf" name="scite-50" rel="nofollow" target="_blank">
+        Ebach, L. (2017, June 22). Analysis Results of Zeus.Variant.Panda. Retrieved November 5, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-51">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-51" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-52">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-52" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-53">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-53" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-54">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-54" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-55">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-55" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
