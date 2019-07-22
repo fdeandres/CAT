@@ -41,6 +41,10 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+      </span>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
        Permissions Required:
       </span>
       Administrator, SYSTEM, User
@@ -58,6 +62,10 @@
       Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process use of network
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
@@ -110,6 +118,50 @@
   <tbody class="bg-white">
    <tr>
     <td>
+     <a href="https://attack.mitre.org/groups/G0050">
+      APT32
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0050">
+       APT32
+      </a>
+      performed network scanning on the network to search for open ports, services, OS finger-printing, and other vulnerabilities.
+      <span class="scite-citeref-number" data-reference="Cybereason Cobalt Kitty 2017" id="scite-ref-1-a" onclick="scrollToRef('scite-1')">
+       <sup>
+        <a aria-describedby="qtip-0" data-hasqtip="0" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" target="_blank">
+         [1]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/groups/G0087">
+      APT39
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/groups/G0087">
+       APT39
+      </a>
+      used a custom port scanner known as BLUETORCH
+      <span class="scite-citeref-number" data-reference="FireEye APT39 Jan 2019" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+       <sup>
+        <a aria-describedby="qtip-1" data-hasqtip="1" href="https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html" target="_blank">
+         [2]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
      <a href="https://attack.mitre.org/software/S0089">
       BlackEnergy
      </a>
@@ -120,10 +172,32 @@
        BlackEnergy
       </a>
       has conducted port scans on a host.
-      <span class="scite-citeref-number" data-reference="Securelist BlackEnergy Nov 2014" id="scite-ref-1-a" onclick="scrollToRef('scite-1')">
+      <span class="scite-citeref-number" data-reference="Securelist BlackEnergy Nov 2014" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
        <sup>
-        <a aria-describedby="qtip-0" data-hasqtip="0" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" target="_blank">
-         [1]
+        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" target="_blank">
+         [3]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0020">
+      China Chopper
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0020">
+       China Chopper
+      </a>
+      's server component can spider authentication portals.
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+       <sup>
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [4]
         </a>
        </sup>
       </span>
@@ -142,24 +216,24 @@
        Cobalt Group
       </a>
       leveraged an open-source tool called SoftPerfect Network Scanner to perform network scanning.
-      <span class="scite-citeref-number" data-reference="PTSecurity Cobalt Group Aug 2017" id="scite-ref-2-a" onclick="scrollToRef('scite-2')">
+      <span class="scite-citeref-number" data-reference="PTSecurity Cobalt Group Aug 2017" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
        <sup>
-        <a aria-describedby="qtip-1" data-hasqtip="1" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf" target="_blank">
-         [2]
+        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf" target="_blank">
+         [5]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="PTSecurity Cobalt Dec 2016" id="scite-ref-3-a" onclick="scrollToRef('scite-3')">
+      <span class="scite-citeref-number" data-reference="PTSecurity Cobalt Dec 2016" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
        <sup>
-        <a aria-describedby="qtip-2" data-hasqtip="2" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf" target="_blank">
-         [3]
+        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf" target="_blank">
+         [6]
         </a>
        </sup>
       </span>
-      <span class="scite-citeref-number" data-reference="Group IB Cobalt Aug 2017" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
+      <span class="scite-citeref-number" data-reference="Group IB Cobalt Aug 2017" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
        <sup>
-        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.group-ib.com/blog/cobalt" target="_blank">
-         [4]
+        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://www.group-ib.com/blog/cobalt" target="_blank">
+         [7]
         </a>
        </sup>
       </span>
@@ -178,10 +252,32 @@
        Cobalt Strike
       </a>
       can perform port scans from an infected host.
-      <span class="scite-citeref-number" data-reference="cobaltstrike manual" id="scite-ref-5-a" onclick="scrollToRef('scite-5')">
+      <span class="scite-citeref-number" data-reference="cobaltstrike manual" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
        <sup>
-        <a aria-describedby="qtip-4" data-hasqtip="4" href="https://cobaltstrike.com/downloads/csmanual38.pdf" target="_blank">
-         [5]
+        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://cobaltstrike.com/downloads/csmanual38.pdf" target="_blank">
+         [8]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0363">
+      Empire
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0363">
+       Empire
+      </a>
+      can perform port scans from an infected host.
+      <span class="scite-citeref-number" data-reference="Github PowerShell Empire" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+       <sup>
+        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://github.com/PowerShellEmpire/Empire" target="_blank">
+         [9]
         </a>
        </sup>
       </span>
@@ -200,10 +296,10 @@
        FIN6
       </a>
       used publicly available tools (including Microsoft's built-in SQL querying tool, osql.exe) to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers, and NetBIOS.
-      <span class="scite-citeref-number" data-reference="FireEye FIN6 April 2016" id="scite-ref-6-a" onclick="scrollToRef('scite-6')">
+      <span class="scite-citeref-number" data-reference="FireEye FIN6 April 2016" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
        <sup>
-        <a aria-describedby="qtip-5" data-hasqtip="5" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" target="_blank">
-         [6]
+        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" target="_blank">
+         [10]
         </a>
        </sup>
       </span>
@@ -222,10 +318,10 @@
        HDoor
       </a>
       scans to identify open ports on the victim.
-      <span class="scite-citeref-number" data-reference="Baumgartner Naikon 2015" id="scite-ref-7-a" onclick="scrollToRef('scite-7')">
+      <span class="scite-citeref-number" data-reference="Baumgartner Naikon 2015" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
        <sup>
-        <a aria-describedby="qtip-6" data-hasqtip="6" href="https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf" target="_blank">
-         [7]
+        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf" target="_blank">
+         [11]
         </a>
        </sup>
       </span>
@@ -244,10 +340,10 @@
        Koadic
       </a>
       can scan for open TCP ports on the target network.
-      <span class="scite-citeref-number" data-reference="Github Koadic" id="scite-ref-8-a" onclick="scrollToRef('scite-8')">
+      <span class="scite-citeref-number" data-reference="Github Koadic" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
        <sup>
-        <a aria-describedby="qtip-7" data-hasqtip="7" href="https://github.com/zerosum0x0/koadic" target="_blank">
-         [8]
+        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://github.com/zerosum0x0/koadic" target="_blank">
+         [12]
         </a>
        </sup>
       </span>
@@ -266,10 +362,10 @@
        Leafminer
       </a>
       scanned network services to search for vulnerabilities in the victim system.
-      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-9-a" onclick="scrollToRef('scite-9')">
+      <span class="scite-citeref-number" data-reference="Symantec Leafminer July 2018" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
        <sup>
-        <a aria-describedby="qtip-8" data-hasqtip="8" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
-         [9]
+        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" target="_blank">
+         [13]
         </a>
        </sup>
       </span>
@@ -292,10 +388,10 @@
        Ping
       </a>
       , to probe port status on systems of interest.
-      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-10-a" onclick="scrollToRef('scite-10')">
+      <span class="scite-citeref-number" data-reference="PWC Cloud Hopper Technical Annex April 2017" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
        <sup>
-        <a aria-describedby="qtip-9" data-hasqtip="9" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
-         [10]
+        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" target="_blank">
+         [14]
         </a>
        </sup>
       </span>
@@ -310,11 +406,14 @@
     </td>
     <td>
      <p>
+      <a href="https://attack.mitre.org/software/S0233">
+       MURKYTOP
+      </a>
       has the capability to scan for open ports on hosts in a connected network.
-      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-11-a" onclick="scrollToRef('scite-11')">
+      <span class="scite-citeref-number" data-reference="FireEye Periscope March 2018" id="scite-ref-4-a" onclick="scrollToRef('scite-4')">
        <sup>
-        <a aria-describedby="qtip-10" data-hasqtip="10" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
-         [11]
+        <a aria-describedby="qtip-3" data-hasqtip="3" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" target="_blank">
+         [4]
         </a>
        </sup>
       </span>
@@ -333,10 +432,32 @@
        OilRig
       </a>
       has used the publicly available tool SoftPerfect Network Scanner as well as a custom tool called GOLDIRONY to conduct network scanning.
-      <span class="scite-citeref-number" data-reference="FireEye APT34 Webinar Dec 2017" id="scite-ref-12-a" onclick="scrollToRef('scite-12')">
+      <span class="scite-citeref-number" data-reference="FireEye APT34 Webinar Dec 2017" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
        <sup>
-        <a aria-describedby="qtip-11" data-hasqtip="11" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" target="_blank">
-         [12]
+        <a aria-describedby="qtip-14" data-hasqtip="14" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" target="_blank">
+         [15]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0378">
+      PoshC2
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0378">
+       PoshC2
+      </a>
+      can perform port scans from an infected host.
+      <span class="scite-citeref-number" data-reference="GitHub PoshC2" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+       <sup>
+        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://github.com/nettitude/PoshC2" target="_blank">
+         [16]
         </a>
        </sup>
       </span>
@@ -355,10 +476,10 @@
        Pupy
       </a>
       has a built-in module for port scanning.
-      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-13-a" onclick="scrollToRef('scite-13')">
+      <span class="scite-citeref-number" data-reference="GitHub Pupy" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
        <sup>
-        <a aria-describedby="qtip-12" data-hasqtip="12" href="https://github.com/n1nj4sec/pupy" target="_blank">
-         [13]
+        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://github.com/n1nj4sec/pupy" target="_blank">
+         [17]
         </a>
        </sup>
       </span>
@@ -377,10 +498,32 @@
        Remsec
       </a>
       has a plugin that can perform ARP scanning as well as port scanning.
-      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Technical Analysis" id="scite-ref-14-a" onclick="scrollToRef('scite-14')">
+      <span class="scite-citeref-number" data-reference="Kaspersky ProjectSauron Technical Analysis" id="scite-ref-18-a" onclick="scrollToRef('scite-18')">
        <sup>
-        <a aria-describedby="qtip-13" data-hasqtip="13" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" target="_blank">
-         [14]
+        <a aria-describedby="qtip-17" data-hasqtip="17" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" target="_blank">
+         [18]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0374">
+      SpeakUp
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0374">
+       SpeakUp
+      </a>
+      checks for availability of specific ports on servers.
+      <span class="scite-citeref-number" data-reference="CheckPoint SpeakUp Feb 2019" id="scite-ref-19-a" onclick="scrollToRef('scite-19')">
+       <sup>
+        <a aria-describedby="qtip-18" data-hasqtip="18" href="https://research.checkpoint.com/speakup-a-new-undetected-backdoor-linux-trojan/" target="_blank">
+         [19]
         </a>
        </sup>
       </span>
@@ -399,10 +542,10 @@
        Suckfly
       </a>
       the victim's internal network for hosts with ports 8080, 5900, and 40 open.
-      <span class="scite-citeref-number" data-reference="Symantec Suckfly May 2016" id="scite-ref-15-a" onclick="scrollToRef('scite-15')">
+      <span class="scite-citeref-number" data-reference="Symantec Suckfly May 2016" id="scite-ref-20-a" onclick="scrollToRef('scite-20')">
        <sup>
-        <a aria-describedby="qtip-14" data-hasqtip="14" href="http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks" target="_blank">
-         [15]
+        <a aria-describedby="qtip-19" data-hasqtip="19" href="http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks" target="_blank">
+         [20]
         </a>
        </sup>
       </span>
@@ -421,10 +564,32 @@
        Threat Group-3390
       </a>
       actors use the Hunter tool to conduct network service discovery for vulnerable systems.
-      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-16-a" onclick="scrollToRef('scite-16')">
+      <span class="scite-citeref-number" data-reference="Dell TG-3390" id="scite-ref-21-a" onclick="scrollToRef('scite-21')">
        <sup>
-        <a aria-describedby="qtip-15" data-hasqtip="15" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
-         [16]
+        <a aria-describedby="qtip-20" data-hasqtip="20" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" target="_blank">
+         [21]
+        </a>
+       </sup>
+      </span>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <a href="https://attack.mitre.org/software/S0341">
+      Xbash
+     </a>
+    </td>
+    <td>
+     <p>
+      <a href="https://attack.mitre.org/software/S0341">
+       Xbash
+      </a>
+      can perform port scanning of TCP and UDP ports.
+      <span class="scite-citeref-number" data-reference="Unit42 Xbash Sept 2018" id="scite-ref-22-a" onclick="scrollToRef('scite-22')">
+       <sup>
+        <a aria-describedby="qtip-21" data-hasqtip="21" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" target="_blank">
+         [22]
         </a>
        </sup>
       </span>
@@ -443,10 +608,10 @@
        XTunnel
       </a>
       is capable of probing the network for open ports.
-      <span class="scite-citeref-number" data-reference="Invincea XTunnel" id="scite-ref-17-a" onclick="scrollToRef('scite-17')">
+      <span class="scite-citeref-number" data-reference="Invincea XTunnel" id="scite-ref-23-a" onclick="scrollToRef('scite-23')">
        <sup>
-        <a aria-describedby="qtip-16" data-hasqtip="16" href="https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/" target="_blank">
-         [17]
+        <a aria-describedby="qtip-22" data-hasqtip="22" href="https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/" target="_blank">
+         [23]
         </a>
        </sup>
       </span>
@@ -463,41 +628,41 @@
  </p>
  <p>
   Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about services running on remote systems, and audit and/or block them by using whitelisting
-  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-18-a">
+  <span class="scite-citeref-number" data-reference="Beechey 2010" id="scite-ref-24-a">
    <sup>
-    <a aria-describedby="qtip-17" data-hasqtip="17" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
-     [18]
+    <a aria-describedby="qtip-23" data-hasqtip="23" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" target="_blank">
+     [24]
     </a>
    </sup>
   </span>
   tools, like AppLocker,
-  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-19-a">
+  <span class="scite-citeref-number" data-reference="Windows Commands JPCERT" id="scite-ref-25-a">
    <sup>
-    <a aria-describedby="qtip-18" data-hasqtip="18" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
-     [19]
+    <a aria-describedby="qtip-24" data-hasqtip="24" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" target="_blank">
+     [25]
     </a>
    </sup>
   </span>
-  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-20-a">
+  <span class="scite-citeref-number" data-reference="NSA MS AppLocker" id="scite-ref-26-a">
    <sup>
-    <a aria-describedby="qtip-19" data-hasqtip="19" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
-     [20]
+    <a aria-describedby="qtip-25" data-hasqtip="25" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" target="_blank">
+     [26]
     </a>
    </sup>
   </span>
   or Software Restriction Policies
-  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-21-a">
+  <span class="scite-citeref-number" data-reference="Corio 2008" id="scite-ref-27-a">
    <sup>
-    <a aria-describedby="qtip-20" data-hasqtip="20" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
-     [21]
+    <a aria-describedby="qtip-26" data-hasqtip="26" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" target="_blank">
+     [27]
     </a>
    </sup>
   </span>
   where appropriate.
-  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-22-a">
+  <span class="scite-citeref-number" data-reference="TechNet Applocker vs SRP" id="scite-ref-28-a">
    <sup>
-    <a aria-describedby="qtip-21" data-hasqtip="21" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
-     [22]
+    <a aria-describedby="qtip-27" data-hasqtip="27" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" target="_blank">
+     [28]
     </a>
    </sup>
   </span>
@@ -520,8 +685,8 @@
     <li>
      <span class="scite-citation" id="scite-1">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" name="scite-1" rel="nofollow" target="_blank">
-        Baumgartner, K. and Garnaeva, M.. (2014, November 3). BE2 custom plugins, router abuse, and target profiles. Retrieved March 24, 2016.
+       <a class="external text" href="https://cdn2.hubspot.net/hubfs/3354902/Cybereason%20Labs%20Analysis%20Operation%20Cobalt%20Kitty.pdf" name="scite-1" rel="nofollow" target="_blank">
+        Dahan, A. (2017). Operation Cobalt Kitty. Retrieved December 27, 2018.
        </a>
       </span>
      </span>
@@ -529,8 +694,8 @@
     <li>
      <span class="scite-citation" id="scite-2">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf" name="scite-2" rel="nofollow" target="_blank">
-        Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2019/01/apt39-iranian-cyber-espionage-group-focused-on-personal-information.html" name="scite-2" rel="nofollow" target="_blank">
+        Hawley et al. (2019, January 29). APT39: An Iranian Cyber Espionage Group Focused on Personal Information. Retrieved February 19, 2019.
        </a>
       </span>
      </span>
@@ -538,8 +703,8 @@
     <li>
      <span class="scite-citation" id="scite-3">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf" name="scite-3" rel="nofollow" target="_blank">
-        Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.
+       <a class="external text" href="https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/" name="scite-3" rel="nofollow" target="_blank">
+        Baumgartner, K. and Garnaeva, M.. (2014, November 3). BE2 custom plugins, router abuse, and target profiles. Retrieved March 24, 2016.
        </a>
       </span>
      </span>
@@ -547,8 +712,8 @@
     <li>
      <span class="scite-citation" id="scite-4">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.group-ib.com/blog/cobalt" name="scite-4" rel="nofollow" target="_blank">
-        Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.
+       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-4" rel="nofollow" target="_blank">
+        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
        </a>
       </span>
      </span>
@@ -556,8 +721,8 @@
     <li>
      <span class="scite-citation" id="scite-5">
       <span class="scite-citation-text">
-       <a class="external text" href="https://cobaltstrike.com/downloads/csmanual38.pdf" name="scite-5" rel="nofollow" target="_blank">
-        Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.
+       <a class="external text" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-2017-eng.pdf" name="scite-5" rel="nofollow" target="_blank">
+        Positive Technologies. (2017, August 16). Cobalt Strikes Back: An Evolving Multinational Threat to Finance. Retrieved September 5, 2018.
        </a>
       </span>
      </span>
@@ -565,8 +730,8 @@
     <li>
      <span class="scite-citation" id="scite-6">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" name="scite-6" rel="nofollow" target="_blank">
-        FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.
+       <a class="external text" href="https://www.ptsecurity.com/upload/corporate/ww-en/analytics/Cobalt-Snatch-eng.pdf" name="scite-6" rel="nofollow" target="_blank">
+        Positive Technologies. (2016, December 16). Cobalt Snatch. Retrieved October 9, 2018.
        </a>
       </span>
      </span>
@@ -574,8 +739,8 @@
     <li>
      <span class="scite-citation" id="scite-7">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2015/05/TheNaikonAPT-MsnMM1.pdf" name="scite-7" rel="nofollow" target="_blank">
-        Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved December 17, 2015.
+       <a class="external text" href="https://www.group-ib.com/blog/cobalt" name="scite-7" rel="nofollow" target="_blank">
+        Matveeva, V. (2017, August 15). Secrets of Cobalt. Retrieved October 10, 2018.
        </a>
       </span>
      </span>
@@ -583,8 +748,8 @@
     <li>
      <span class="scite-citation" id="scite-8">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/zerosum0x0/koadic" name="scite-8" rel="nofollow" target="_blank">
-        Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.
+       <a class="external text" href="https://cobaltstrike.com/downloads/csmanual38.pdf" name="scite-8" rel="nofollow" target="_blank">
+        Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.
        </a>
       </span>
      </span>
@@ -592,8 +757,8 @@
     <li>
      <span class="scite-citation" id="scite-9">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-9" rel="nofollow" target="_blank">
-        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
+       <a class="external text" href="https://github.com/PowerShellEmpire/Empire" name="scite-9" rel="nofollow" target="_blank">
+        Schroeder, W., Warner, J., Nelson, M. (n.d.). Github PowerShellEmpire. Retrieved April 28, 2016.
        </a>
       </span>
      </span>
@@ -601,8 +766,8 @@
     <li>
      <span class="scite-citation" id="scite-10">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-10" rel="nofollow" target="_blank">
-        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
+       <a class="external text" href="https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf" name="scite-10" rel="nofollow" target="_blank">
+        FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.
        </a>
       </span>
      </span>
@@ -610,21 +775,17 @@
     <li>
      <span class="scite-citation" id="scite-11">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html" name="scite-11" rel="nofollow" target="_blank">
-        FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.
+       <a class="external text" href="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf" name="scite-11" rel="nofollow" target="_blank">
+        Baumgartner, K., Golovkin, M.. (2015, May). The MsnMM Campaigns: The Earliest Naikon APT Campaigns. Retrieved April 10, 2019.
        </a>
       </span>
      </span>
     </li>
-   </ol>
-  </div>
-  <div class="col">
-   <ol start="12.0">
     <li>
      <span class="scite-citation" id="scite-12">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" name="scite-12" rel="nofollow" target="_blank">
-        Davis, S. and Caban, D. (2017, December 19). APT34 - New Targeted Attack in the Middle East. Retrieved December 20, 2017.
+       <a class="external text" href="https://github.com/zerosum0x0/koadic" name="scite-12" rel="nofollow" target="_blank">
+        Magius, J., et al. (2017, July 19). Koadic. Retrieved June 18, 2018.
        </a>
       </span>
      </span>
@@ -632,8 +793,8 @@
     <li>
      <span class="scite-citation" id="scite-13">
       <span class="scite-citation-text">
-       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-13" rel="nofollow" target="_blank">
-        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
+       <a class="external text" href="https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east" name="scite-13" rel="nofollow" target="_blank">
+        Symantec Security Response. (2018, July 25). Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions. Retrieved August 28, 2018.
        </a>
       </span>
      </span>
@@ -641,17 +802,21 @@
     <li>
      <span class="scite-citation" id="scite-14">
       <span class="scite-citation-text">
-       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" name="scite-14" rel="nofollow" target="_blank">
-        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.
+       <a class="external text" href="https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf" name="scite-14" rel="nofollow" target="_blank">
+        PwC and BAE Systems. (2017, April). Operation Cloud Hopper: Technical Annex. Retrieved April 13, 2017.
        </a>
       </span>
      </span>
     </li>
+   </ol>
+  </div>
+  <div class="col">
+   <ol start="15.0">
     <li>
      <span class="scite-citation" id="scite-15">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks" name="scite-15" rel="nofollow" target="_blank">
-        DiMaggio, J.. (2016, May 17). Indian organizations targeted in Suckfly attacks. Retrieved August 3, 2016.
+       <a class="external text" href="https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east" name="scite-15" rel="nofollow" target="_blank">
+        Davis, S. and Caban, D. (2017, December 19). APT34 - New Targeted Attack in the Middle East. Retrieved December 20, 2017.
        </a>
       </span>
      </span>
@@ -659,8 +824,8 @@
     <li>
      <span class="scite-citation" id="scite-16">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-16" rel="nofollow" target="_blank">
-        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
+       <a class="external text" href="https://github.com/nettitude/PoshC2" name="scite-16" rel="nofollow" target="_blank">
+        Nettitude. (2016, June 8). PoshC2: Powershell C2 Server and Implants. Retrieved April 23, 2019.
        </a>
       </span>
      </span>
@@ -668,8 +833,8 @@
     <li>
      <span class="scite-citation" id="scite-17">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/" name="scite-17" rel="nofollow" target="_blank">
-        Belcher, P.. (2016, July 28). Tunnel of Gov: DNC Hack and the Russian XTunnel. Retrieved August 3, 2016.
+       <a class="external text" href="https://github.com/n1nj4sec/pupy" name="scite-17" rel="nofollow" target="_blank">
+        Nicolas Verdier. (n.d.). Retrieved January 29, 2018.
        </a>
       </span>
      </span>
@@ -677,8 +842,8 @@
     <li>
      <span class="scite-citation" id="scite-18">
       <span class="scite-citation-text">
-       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-18" rel="nofollow" target="_blank">
-        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       <a class="external text" href="https://securelist.com/files/2016/07/The-ProjectSauron-APT_Technical_Analysis_KL.pdf" name="scite-18" rel="nofollow" target="_blank">
+        Kaspersky Lab's Global Research &amp; Analysis Team. (2016, August 9). The ProjectSauron APT. Technical Analysis. Retrieved August 17, 2016.
        </a>
       </span>
      </span>
@@ -686,8 +851,8 @@
     <li>
      <span class="scite-citation" id="scite-19">
       <span class="scite-citation-text">
-       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-19" rel="nofollow" target="_blank">
-        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       <a class="external text" href="https://research.checkpoint.com/speakup-a-new-undetected-backdoor-linux-trojan/" name="scite-19" rel="nofollow" target="_blank">
+        Check Point Research. (2019, February 4). SpeakUp: A New Undetected Backdoor Linux Trojan. Retrieved April 17, 2019.
        </a>
       </span>
      </span>
@@ -695,8 +860,8 @@
     <li>
      <span class="scite-citation" id="scite-20">
       <span class="scite-citation-text">
-       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-20" rel="nofollow" target="_blank">
-        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       <a class="external text" href="http://www.symantec.com/connect/blogs/indian-organizations-targeted-suckfly-attacks" name="scite-20" rel="nofollow" target="_blank">
+        DiMaggio, J.. (2016, May 17). Indian organizations targeted in Suckfly attacks. Retrieved August 3, 2016.
        </a>
       </span>
      </span>
@@ -704,8 +869,8 @@
     <li>
      <span class="scite-citation" id="scite-21">
       <span class="scite-citation-text">
-       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-21" rel="nofollow" target="_blank">
-        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       <a class="external text" href="https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage" name="scite-21" rel="nofollow" target="_blank">
+        Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.
        </a>
       </span>
      </span>
@@ -713,7 +878,61 @@
     <li>
      <span class="scite-citation" id="scite-22">
       <span class="scite-citation-text">
-       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-22" rel="nofollow" target="_blank">
+       <a class="external text" href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/" name="scite-22" rel="nofollow" target="_blank">
+        Xiao, C. (2018, September 17). Xbash Combines Botnet, Ransomware, Coinmining in Worm that Targets Linux and Windows. Retrieved November 14, 2018.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-23">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.invincea.com/2016/07/tunnel-of-gov-dnc-hack-and-the-russian-xtunnel/" name="scite-23" rel="nofollow" target="_blank">
+        Belcher, P.. (2016, July 28). Tunnel of Gov: DNC Hack and the Russian XTunnel. Retrieved August 3, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-24">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://www.sans.org/reading-room/whitepapers/application/application-whitelisting-panacea-propaganda-33599" name="scite-24" rel="nofollow" target="_blank">
+        Beechey, J. (2010, December). Application Whitelisting: Panacea or Propaganda?. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-25">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html" name="scite-25" rel="nofollow" target="_blank">
+        Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-26">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://www.iad.gov/iad/library/ia-guidance/tech-briefs/application-whitelisting-using-microsoft-applocker.cfm" name="scite-26" rel="nofollow" target="_blank">
+        NSA Information Assurance Directorate. (2014, August). Application Whitelisting Using Microsoft AppLocker. Retrieved March 31, 2016.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-27">
+      <span class="scite-citation-text">
+       <a class="external text" href="http://technet.microsoft.com/en-us/magazine/2008.06.srp.aspx" name="scite-27" rel="nofollow" target="_blank">
+        Corio, C., &amp; Sayana, D. P. (2008, June). Application Lockdown with Software Restriction Policies. Retrieved November 18, 2014.
+       </a>
+      </span>
+     </span>
+    </li>
+    <li>
+     <span class="scite-citation" id="scite-28">
+      <span class="scite-citation-text">
+       <a class="external text" href="https://technet.microsoft.com/en-us/library/ee791851.aspx" name="scite-28" rel="nofollow" target="_blank">
         Microsoft. (2012, June 27). Using Software Restriction Policies and AppLocker Policies. Retrieved April 7, 2016.
        </a>
       </span>
