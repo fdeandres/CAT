@@ -1,1 +1,0 @@
-Building capabilities consists of developing and/or acquiring the software, data and techniques used at different phases of an operation. This is the process of identifying development requirements and implementing solutions such as malware, delivery mechanisms, obfuscation/cryptographic protections, and call back and O&M functions.
