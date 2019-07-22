@@ -48,6 +48,14 @@
      </div>
      <div class="card-data">
       <span class="h5 card-title">
+       System Requirements:
+      </span>
+      Privileges to access network shared drive
+      <br/>
+      <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
       </span>
      </div>
      <div class="card-data">
@@ -61,6 +69,10 @@
       File monitoring, Process monitoring, Process command-line parameters
       <br/>
       <br/>
+     </div>
+     <div class="card-data">
+      <span class="h5 card-title">
+      </span>
      </div>
      <div class="card-data">
       <span class="h5 card-title">
