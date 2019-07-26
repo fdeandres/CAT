@@ -1,4 +1,4 @@
-# CAT---Itelligence-Led CyberAttack Methodology
+# CAT---Intelligence-Led CyberAttack Methodology
 
 #Team:
 
